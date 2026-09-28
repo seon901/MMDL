@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Sociology_1",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The scenario described — a person being arrested for refusing to sit in the blacks-only section of a cinema in Nova Scotia in 1946 — reflects an act of defiance against racial segregation. This is not a crime defined by societal consensus (A), nor is it a “social diversion” (D), which typically refers to activities that are not illegal but are considered socially undesirable or distracting. It also does not fit the definition of a “conflict crime” (B), which generally refers to crimes that arise from social conflict, often involving power struggles or class tensions — though this case does involve social conflict.\n\nMore accurately, this behavior represents a form of **social deviation** — an individual deviating from established social norms, particularly those related to race and civil rights. The person’s refusal to comply with discriminatory seating rules violates the social norm of racial segregation, thus constituting a social deviation.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_2",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The theory that focuses on the labels acquired through the educational process is **symbolic interactionism**. This theory emphasizes how individuals construct meaning through social interaction and how labels (such as “smart,” “lazy,” “gifted,” or “delinquent”) assigned by educators, peers, or society can shape a person’s self-identity and behavior. These labels are socially constructed and play a crucial role in how students perceive themselves and are treated within educational settings.\n\nWhile other theories like critical sociology or feminist theory may examine power structures or gender roles in education, they do not primarily focus on the process of label acquisition and its social consequences as directly as symbolic interactionism does.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_3",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Sociology, as a social science, examines how societies function, including the roles and interactions of institutions such as government. One key focus is on how power is exercised, how social order is maintained, and how individuals and groups relate to state institutions. Among the given options:\n\nA. “The exercise of power by the state” — This captures a central theme in sociology, particularly in political sociology, where power dynamics between state and society are analyzed.\n\nB. “The strategies some use to direct the behaviour and actions of others” — While this may describe some forms of social control, it’s too vague and doesn’t specifically address governmental relationships or institutional structures.\n\nC. “The institutionalization of legislative, executive, and judicial branches of the state” — This is more specific to political science than sociology, which takes a broader, more interdisciplinary approach.\n\nD. “The means by which permanent hierarchies are established and enforced” — Again, this is too narrow and focuses on hierarchy rather than the broader sociological study of government and its relationships.\n\nThus, the most accurate and comprehensive answer is A, as it reflects the sociological study of how states operate and exert power over society.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Sociology_4",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The shift from mechanical to organic solidarity, as described in the image and referenced in sociology (particularly by Emile Durkheim), is primarily caused by the **division of labor**. In mechanical solidarity, people perform similar roles and share common values; in organic solidarity, individuals perform specialized, interdependent roles, creating a complex system of mutual dependence — which is what the image illustrates with interconnected figures representing different professions or identities.\n\nThus, the correct answer is C. Division of labor.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_5",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The provided image is a cartoon depicting two contrasting educational paths: one leading to “Success” via enrichment programs, tutors, best books, and latest tools (symbolizing high achievement), and another leading to basic education with little upward mobility. The cartoon uses IQ scores (Jim: 150, Seng: 150) to imply that both are equally intelligent but end up on different tracks — one achieving success, the other not. It humorously suggests that success is not just about intelligence but about access to resources and opportunities.\n\nHowever, the question asks about evidence regarding the Canadian workforce. None of the options directly relate to data or trends in the Canadian workforce. But if we interpret the cartoon metaphorically — that highly skilled individuals (like Jim) achieve success while those with basic education (like Seng) do not — it implies that the Canadian workforce values and rewards highly skilled workers more, which would support option C: “Highly skilled jobs pay better than low-skill jobs.”\n\nOptions A, B, and D are not supported by the cartoon’s message or the context of the image.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_6",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks “What is a ?” — but the question is incomplete. However, given the context of the image, which defines “Folkways,” and the options provided, we can infer that the question is asking: “What are folkways?”\n\nLooking at the definition in the image:\n- Folkways are culturally-defined norms of etiquette.\n- They are not very serious if broken.\n- They are mostly customary and polite.\n- They differ from taboos, mores, and laws because they are less serious, not illegal, and not moral norms.\n\nOption B: “Norms for routine or casual interaction. 'Everyday behaviors.'” matches this description perfectly. Folkways govern everyday social behavior — like tucking in your shirt, dressing appropriately, saying please and thank you — things that are customary but not strictly enforced.\n\nOption A describes laws.\nOption C is about beliefs or statements.\nOption D describes taboos.\n\nTherefore, the correct answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_7",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram illustrates Dependency Theory as developed by Raul Prebisch, which explains global inequality and global stratification through the lens of economic exploitation. It depicts a “Center” (core nations) that holds 80% of global wealth and power, while the “Periphery” (peripheral nations) holds only 20% and is depicted as dependent, underdeveloped, and controlled by the center. The arrows show trade flows from the periphery to the center, with scissors symbolizing extraction or exploitation, and the phrase “Total Control of Periphery” reinforcing the imbalance.\n\nThis model argues that core nations benefit economically at the expense of peripheral nations, which are often forced into positions of dependency due to unequal trade terms and historical colonial legacies. Semi-peripheral nations are not explicitly shown in this diagram but are implied as intermediaries in the dependency structure — however, the core argument of the diagram centers on the exploitation by core nations of peripheral nations.\n\nTherefore, the correct explanation according to the diagram is that core nations exploit peripheral nations.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_8",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question is misleading or incomplete because it refers to “they” without specifying who, and the context of Sri Lanka’s governance is not clearly tied to a minority group in the way the question implies. In fact, Sri Lanka’s majority ethnic group is Sinhalese, and the country has been governed by Sinhalese-majority parties for most of its history. While Tamil people (who are a minority) have had political representation and even held leadership roles at times, they do not govern the country as a minority group — rather, the Sinhalese majority holds dominant political power.\n\nMoreover, the statement “Despite the fact that they are in the minority in Sri Lanka, they govern the country” is factually incorrect if referring to Tamils, who are a minority. It could be true for other groups, but without specification, it’s inaccurate.\n\nGiven the ambiguity and the lack of clarity in the question, the best answer is **C. Not sure** — because we cannot definitively say “they” refers to a specific minority group, and the claim is not universally accurate.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_9",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks which theoretical approach a sociologist would most likely use when examining the interactions between members at Occupy camps, given that the movement is rooted in critiques of economic disparity and class struggle.\n\nLet’s briefly evaluate each option:\n\nA. **Symbolic interactionism** focuses on how individuals interpret symbols and meanings in their daily interactions. While relevant to understanding interpersonal dynamics within camps, it doesn’t directly address the core issue of economic inequality or class conflict.\n\nB. **Functionalism** views society as a system of interdependent parts working together for stability and order. This is less aligned with the Occupy movement’s focus on critiquing systemic injustice and power imbalances.\n\nC. **Conflict theory** emphasizes the role of power, inequality, and competition over resources — particularly between social classes. The Occupy Wall Street movement explicitly challenges economic disparity and corporate power, making conflict theory the most fitting theoretical lens for analyzing interactions among its members who are united in opposition to structural inequality.\n\nD. **Ethnocentrism** refers to judging other cultures by one’s own cultural standards — not relevant to the analysis of internal group dynamics in an Occupy camp.\n\nTherefore, the sociologist would most likely use **conflict theory**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_10",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a woman in a casual uniform (blue shirt and brown pants) interacting with customers at an outdoor café. She is leaning over a table, appearing to take an order or serve food — actions typical of a waitress. The setting is a busy, everyday café environment, and there are no visual cues (like research equipment, notebooks, or academic attire) suggesting she is conducting sociological research. While participant observation can occur in such settings, the context and her posture suggest she is performing a service role.\n\nTherefore, based on the visual evidence, she is most likely a working waitress.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Sociology_11",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Chronic Fatigue Syndrome (CFS) is often categorized as a contested illness because its diagnosis and underlying causes are debated among medical professionals, and it has been subject to skepticism or dismissal by some in the medical community. While it may be considered a disability in terms of functional impairment, the key characteristic that distinguishes it from other options here is the ongoing controversy surrounding its validity and etiology.\n\nIt is not primarily a stigmatized disease (though stigma exists), nor is it a classic example of demedicalization (which refers to the process of removing a condition from medical discourse). It also doesn't neatly fit under “disability” alone, since disability is a social construct based on functional limitations, whereas CFS is more about a contested medical diagnosis.\n\nTherefore, the best answer is:\n\nB. A contested illness\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_12",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a portrait of Theodore Roosevelt, the 26th President of the United States. He is historically associated with progressive reform, conservation, and assertive leadership — not directly with any specific theoretical framework in sociology or social science.\n\nNone of the options — Conflict Theorist, Structural Functionalist, or Symbolic Interactionist — are frameworks that describe or explain an individual person’s identity or political stance. These are sociological perspectives used to analyze social structures, power relations, or human interactions within society.\n\nTherefore, this portrait does not fall under any of these theoretical frameworks as applied to the subject's ideology or behavior.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_13",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows an empty office with cubicles, and the caption references “field research” and asks what a sociologist would discover after “blending in.” This implies immersive, participant-style observation — not merely watching from a distance, but entering and experiencing the environment as part of it. This is characteristic of full observation, where the researcher becomes part of the setting to understand behavior and social dynamics deeply.\n\nPartial observation typically involves observing from a distance or through limited access, without direct participation. Since the question suggests blending in — which implies becoming immersed — this aligns with full observation.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Sociology_14",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram presents the “Family life cycle” as a circular sequence of stages: Leaving home → Marriage → Families with young children → Families with adolescents → Launching children → Families in later life → back to Leaving home. This model is often criticized for being overly simplistic and linear, focusing only on a sequence of stages without accounting for individual variation, cultural differences, or non-linear family trajectories.\n\nOption B directly addresses this criticism: “It is too narrowly focused on a sequence of stages.” This is a well-known critique of the family life cycle model in sociology and family studies — it assumes a universal, predictable progression that doesn’t reflect the diversity and complexity of real family experiences.\n\nOther options are not accurate:\n- A: It’s not too broad; it’s intentionally simplified.\n- C: It does serve a practical purpose (e.g., in social work, education, policy).\n- D: It is based on research, though often critiqued for its limitations.\n\nTherefore, the correct answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_15",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The definition provided in the image states: “A minority group is a distinct group of people in society who lack the collective numbers to sufficiently be protected from discrimination from society’s dominant groups.”\n\nThis directly points to the defining feature being the lack of sufficient numbers — i.e., a numerical minority.\n\nWhile other factors like cultural identity, self-definition, or lack of power may be associated with minority groups, the text explicitly identifies numerical size as the key criterion.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_16",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image depicts two figures: one is clearly Karl Marx, the German philosopher and economist who developed Marxist theory. The other figure, with a smile and formal attire, is likely a caricature of a capitalist or bourgeois representative. The text “CLASS STRUGGLE” and “GAME of life in Capitalist America!” reinforces the Marxist theme.\n\nKarl Marx believed that the history of society was fundamentally one of class struggle — the conflict between different social classes, particularly between the bourgeoisie (capitalist class) and the proletariat (working class). This is central to his works, such as “The Communist Manifesto” and “Das Kapital.”\n\nEmile Durkheim focused on social cohesion and functionalism; Erving Goffman on social interaction and dramaturgy; George Herbert Mead on symbolic interactionism and the self. None of these are associated with the specific claim that history is one of class struggle.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_17",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image depicts a diverse group of people from various ethnicities, cultures, and backgrounds standing together. The word “SOCIETY” is prominently displayed at the bottom, suggesting the illustration is meant to represent the concept of society.\n\nLet’s evaluate the options:\n\nA. “Refers to people who interact in a defined territory and share a culture” — This is a standard definition of society. It matches the visual representation: a group of people interacting within a shared space (the image) and sharing a cultural context (diverse but united).\n\nB. “Is the values, beliefs, behavior, and material objects that, together, form a people's way of life” — This describes culture, not society itself. While related, it’s not the best fit for the image’s focus on collective human beings.\n\nC. “Social cohesion (unity) results from the various parts of society functioning as parts of society functioning as an integrated whole.” — This describes social cohesion, which is a characteristic of society, but not the definition of society itself.\n\nD. “Culturally defined standards by which people assess desirability, goodness, and beauty and that serve as broad guidelines for social living” — This refers to norms or values, which are part of culture, not the definition of society.\n\nTherefore, Option A best defines society as depicted in the image.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Sociology_18",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks about W.E.B. Du Bois, and the options provided are descriptions of various sociological or economic theories.\n\nOption A describes conflict theory, associated with Karl Marx.\nOption B describes capitalism.\nOption C describes functionalism.\nOption D refers to “double-consciousness,” a concept developed by W.E.B. Du Bois in his 1903 work *The Souls of Black Folk*. He used this term to describe the psychological experience of African Americans — the constant awareness of being seen through the eyes of a white society, which forces them to see themselves as both American citizens and as people defined by their race, particularly the color of their skin.\n\nThus, option D is correct.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_19",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question is cut off mid-sentence: “is not just limited to political decisions.” — it lacks a complete thought or context. Without knowing what the full statement is, we cannot determine whether it’s true or false. The image shows a magnifying glass focusing on one person in a crowd, with the text “What is Majoritarianism?”, suggesting the topic is about majority rule in general (not just politics). But without the full sentence, we can’t evaluate the claim.\n\nThus, the correct answer is that we are not sure.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Sociology_20",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "A visitor from a rural Canadian town might feel overwhelmed or uncomfortable in the crowded Tokyo train, as such environments are often unfamiliar and can be disorienting. They might also act differently — perhaps by trying to find space, adjusting their posture, or even feeling anxious — due to cultural differences in public behavior and space norms. While “understandable” is a bit vague, it captures the idea that their reaction is logical given their background.\n\nOption A (happy) is unlikely — crowding is typically not associated with happiness in such contexts.\n\nOption C (sad) is too emotional and not necessarily tied to the situation.\n\nOption D (feel it is being rude) implies they might perceive others’ behavior as rude, which may not be accurate — they’re likely just reacting to discomfort, not judging others.\n\n“Understandable” best reflects how someone from a rural Canadian town would react — their behavior and feelings would be rooted in personal experience and cultural context, making their response understandable, even if different from urban Japanese norms.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_21",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks which concept can be directly attributed to the digital divide, because differential ability to access the internet leads to a differential ability to use the knowledge found on the internet.\n\nThis describes the “knowledge gap” — the phenomenon where those with better access to technology also have better access to and utilization of information, leading to disparities in knowledge and skills over time. The digital divide is the *cause* (access to technology), while the knowledge gap is the *consequence* (differential ability to use that access).\n\nThus, the correct answer is B. Knowledge gap.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_22",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a “Cultural Universal Pyramid,” which is a conceptual model often used in anthropology to illustrate the hierarchy of cultural elements that are considered universal across societies. The pyramid typically has several levels, with the base representing foundational, universally shared aspects of human culture (like family, kinship, and basic social organization), and the top representing more specialized or culturally variable elements (like art, religion, or media).\n\nHowever, it's important to note that **prohibition against incest** is a cultural universal — meaning nearly all human societies have some form of prohibition against incestuous relationships — making it one of the most fundamental norms.\n\nOn the other hand, **media** — while pervasive in modern society — is not a cultural universal in the same sense. Media is a relatively recent development (especially in its modern, mass-formatted sense) and varies greatly across cultures in terms of form, access, and function. Many traditional societies may not have media as we understand it today (e.g., television, internet, mass print media). Therefore, media does not fit the category of a cultural universal.\n\nThus, among the options, **Media** is the one that is not a cultural universal.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_23",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which of the following is a type of crime that plagues society. Let’s evaluate each option:\n\nA. Corporate crime — This refers to illegal activities committed by businesses or corporations, such as fraud, environmental violations, or tax evasion. These affect society through economic harm and public trust.\n\nB. Violent crime — This includes crimes like assault, robbery, and murder. These directly impact community safety and are widely recognized as societal problems.\n\nC. Victimless crime — Examples include drug use, prostitution, or gambling. While these may not have an obvious victim, they still affect society through social costs, public health issues, and criminal justice system strain.\n\nAll three types — corporate crime, violent crime, and victimless crime — are recognized forms of crime that plague society in different ways.\n\nTherefore, the correct answer is D. All of the above.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_24",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for Weber’s reason(s) for society’s inability to escape bureaucracy. While the image provided is a diagram of a bureaucratic organizational hierarchy, it does not contain Weber’s theoretical statements or quotes.\n\nHowever, based on Max Weber’s sociological theory:\n\n- Weber argued that bureaucracies are highly efficient and rational systems that become deeply embedded in modern society.\n- He noted that bureaucracies are “inescapable” because they are the most effective way to organize large-scale social and economic activities.\n- Weber also stated that bureaucracies operate without moral or value-based constraints — they are impersonal and rule-based — and can thus be used for any purpose, making them inherently powerful and pervasive.\n- Additionally, Weber believed bureaucracies are based on expert knowledge and meritocratic recruitment, which makes them self-reinforcing and difficult to dismantle.\n\nTherefore, all three options (A, B, and C) reflect aspects of Weber’s reasoning for why bureaucracy is inescapable.\n\nThus, option D — “All of the above are reasons why bureaucracy is inescapable” — is correct.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_25",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image displays the term “value-neutrality” and three cartoon figures: a journalist (PRESS), a researcher or data collector (with a clipboard), and a concerned official or policymaker (looking thoughtful or worried). This setup suggests a discussion about objective, non-value-laden analysis — that is, examining a topic without imposing personal values or biases.\n\nNow, evaluating the options:\n\nA. “Obesity in children is obviously a result of parental neglect and, therefore, schools should take a greater role to prevent it.” — This is a value-laden statement. It attributes obesity to parental neglect (a value judgment) and prescribes action for schools (another value-laden conclusion). Not value-neutral.\n\nB. “In 2003, states like Arkansas adopted laws requiring elementary schools to remove soft drink vending machines from schools.” — This is a factual statement about policy implementation. It does not express a value judgment; it simply reports what happened. This aligns with value-neutrality.\n\nC. “Merely restricting children's access to junk food at school is not enough to prevent obesity.” — This is a evaluative statement suggesting an incomplete solution. It implies a value judgment about what constitutes sufficient intervention. Not value-neutral.\n\nD. “Physical activity and healthy eating are a fundamental part of a child's education.” — This is a value-laden statement. It asserts that physical activity and healthy eating are “fundamental,” which is a normative claim based on values (e.g., health, education standards).\n\nTherefore, only option B presents a purely descriptive, factual account without value judgments — fitting the concept of value-neutrality.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_26",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The scenario described — a cell phone using outdated technology within a year or two of purchase — is a classic example of planned obsolescence. This term refers to the deliberate design of products with a limited useful life, so that they become obsolete or unusable after a certain period, encouraging consumers to replace them with newer models.\n\nThis is not about conflict (A), conspicuous consumption (B — which relates to displaying wealth through purchases), or media (C). It’s specifically about product design and lifecycle management by manufacturers.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Sociology_27",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image displays six Canadian figures, each associated with a month and their birthdate. The individuals are:\n\n- Viola Desmond (July 6, 1914) — a Black Canadian civil rights activist.\n- Oscar Peterson (August 15, 1925) — a Black Canadian jazz pianist.\n- Jean Augustine (September 9, 1937) — a Black Canadian politician and former Minister of Justice.\n- Nathaniel Dett (October 11, 1882) — a Black Canadian composer and musician.\n- Kadeisha Buchanan (November 5, 1995) — a Black Canadian soccer player.\n- Angela James (December 22, 1964) — a Black Canadian actress and activist.\n\nAll of these individuals are Black Canadians, meaning they are Black people living in Canada. While some may have ancestral ties to the slave trade (e.g., Viola Desmond’s family was enslaved in the Caribbean and later moved to Canada), the term “Black” is used here to describe race or ethnicity, not necessarily origin through slavery.\n\nOption A: “A black person living in Canada” — This is accurate for all six individuals shown.\n\nOption B: “People whose ancestors came to Canada through the slave trade” — While some (like Desmond) may have such ancestry, this is not universally true for all six, and it’s an overly specific and restrictive definition.\n\nOption C: “A white person who originated in Africa and now lives in Canada” — This is incorrect; none of these individuals are white.\n\nOption D: “Any of the above” — Since only A is correct, D is invalid.\n\nThus, the best and most accurate answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Sociology_28",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image depicts a group of people dressed in white robes, gathered in a circle around a central figure who appears to be speaking or leading. This is characteristic of the Hare Krishna (or International Society for Krishna Consciousness, ISKCON) movement, which is known for its distinctive attire and spiritual teachings. However, the question asks about “some controversial groups that may be mislabelled as [something]” — implying it’s looking for groups that are often misunderstood or mischaracterized.\n\nLet’s evaluate the options:\n\nA. Scientology and the Hare Krishna — While both are religious groups, they are not typically considered “controversial” in the same way as some others. Also, Hare Krishna is not usually mislabeled — it’s fairly well-known.\n\nB. the Peoples Temple and Heven's Gate — These are both infamous for their tragic ends: the Peoples Temple (linked to Jim Jones and the Jonestown massacre), and Heven’s Gate (a cult that vanished in 1987). They are often labeled as cults, but they are not commonly mislabeled as something else.\n\nC. the Branch Davidians and the Manson Family — These are classic examples of cults that were widely recognized as dangerous and controversial. The Branch Davidians (led by David Koresh) and the Manson Family (led by Charles Manson) were both associated with violent acts and have been frequently misrepresented or sensationalized in media. However, they are not typically “mislabelled as” other groups — they are known by their names.\n\nD. Quakers and Pentecostals — These are generally mainstream religious groups. Quakers are known for their pacifism and simplicity; Pentecostals are a branch of Christianity known for spiritual gifts. Neither is typically mislabeled as anything else.\n\nWait — there’s an issue here. The question says “may be mislabelled as include,” which suggests we’re looking for groups that are sometimes incorrectly labeled as something else — perhaps a different religion or sect. But none of the options fit perfectly.\n\nActually, let’s reconsider: the most accurate answer is likely **C**, because the Branch Davidians and the Manson Family are frequently misrepresented in media as “cults” or “extremist groups,” and while they are not mislabeled as *other* groups, they are often associated with the term “cult” — which is a label that can be inaccurate or misleading. In fact, many people mislabel these groups as “cults” without understanding"
+  },
+  {
+    "id": "validation_Sociology_29",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which statement represents stratification from the perspective of symbolic interactionism.\n\nSymbolic interactionism focuses on how individuals interpret and assign meaning to symbols in social interactions, and how these meanings shape behavior and social structures. It emphasizes everyday interactions, shared meanings, and how people construct social reality through communication.\n\nLet’s evaluate each option:\n\nA. “Men often earn more than women, even working the same job.” — This reflects a structural or economic perspective (e.g., gender inequality), not primarily symbolic interactionism.\n\nB. “After work, Pat, a janitor, feels more comfortable eating in a truck stop than a French restaurant.” — This reflects how individuals negotiate social status and self-identity through everyday choices based on their perceived social position. The feeling of comfort is tied to symbolic meanings attached to different environments — this aligns with symbolic interactionism’s focus on how people interpret and navigate social symbols and meanings in daily life.\n\nC. “Doctors earn more money because their job is more highly valued.” — This is a macro-level, structural explanation (perhaps from functionalism or capitalism) rather than symbolic interactionism.\n\nD. “Teachers continue to struggle to keep benefits such as good retirement plans.” — This is about institutional or systemic issues (e.g., labor conditions), not individual interpretation of symbols.\n\nTherefore, Option B best captures the symbolic interactionist perspective — it shows how individuals use symbols (like restaurants) to express and negotiate their social identity and position.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Sociology_30",
+    "subject": "Sociology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question refers to “evidence that has been normalised,” but no context, passage, or source is provided to determine who found such evidence. The image shows two wedding rings on a torn document with the word “Divorce” visible — suggesting a symbolic representation of divorce, not an academic or investigative finding.\n\nWithout additional information or a source text referencing “Postman,” “Oakley,” “Philips,” “Aries,” or “Mithchel and Woodey” in relation to this evidence, it is impossible to logically deduce the correct answer from the given options.\n\nHowever, if we consider common knowledge or cultural references, “Mithchel and Woodey” may be a misspelling or misremembering of “Mitchell and Woddy,” which could refer to scholars or researchers in social sciences — but even then, there’s no known association between them and “normalised evidence” regarding divorce or similar topics.\n\nGiven the lack of supporting context, and since none of the options are clearly supported by the image or general knowledge, the question appears to be incomplete or based on an external reference not provided.\n\nBut if forced to choose — perhaps due to a misremembered citation — some sources associate “divorce as normalized” with sociological studies. One well-known scholar who studied divorce trends and societal normalization is **Oakley** (Mary Oakley), though she is more associated with feminist sociology and gender studies, not necessarily “evidence that has been normalised.”\n\nAlternatively, “Postman” (Neil Postman) wrote about media and society, including marriage and divorce, but again, not typically tied to “evidence that has been normalised.”\n\nIn absence of clear data, and assuming this might be referencing a specific academic paper or textbook, the most plausible candidate among the listed names — particularly if “Mithchel and Woodey” is meant to be “Mitchell and Woddy” — is not established.\n\nGiven all this, and since the question is likely referencing a specific source or test, and if we assume the intended answer is **E. Mithchel and Woodey**, perhaps due to a typo or misremembering of “Mitchell and Woddy” — who may have written something on divorce normalization — we might go with E.\n\nBut strictly speaking, this is speculative.\n\nAnswer: E"
+  }
+]

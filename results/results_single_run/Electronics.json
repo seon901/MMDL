@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Electronics_1",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe circuit is a common-emitter amplifier with a base resistor and collector resistor. To determine if it's in saturation, we need to check if the transistor is conducting fully (i.e., V_CE is very small, typically less than 0.2V). However, since there's no load or feedback network specified that would cause the collector current to be limited by the base current, and given that the base is biased through R_B = 22kΩ from +4V to ground, the base current I_B = (4V - 0V)/22kΩ ≈ 182 µA. The collector current I_C = h_FE * I_B = 100 * 182 µA = 18.2 mA. The collector resistor R_C = 1kΩ, so V_C = V_CC - I_C * R_C = 4V - 18.2mA * 1kΩ = 4V - 18.2V = -14.2V — which is impossible because the supply is only +4V. This indicates an error in the circuit diagram or assumption. But more realistically, for a standard common-emitter amplifier, unless the load is shorted or the collector resistor is very small, the transistor will not be in saturation. In fact, without a load or feedback, the output voltage at the collector would be near 0V (if the base current were sufficient), but the calculation above shows a contradiction due to the assumed supply voltage being applied to both base and collector. Assuming the intended circuit has the base connected to +4V via R_B and the collector to +4V via R_C, then V_CE = 0V, which is the condition for saturation. But wait — if the base is at +4V and the emitter is grounded, then V_BE = 4V — which is way above the typical 0.7V needed for forward bias — so the transistor should be ON, but this is not realistic as it would mean the base is at 4V and emitter at 0V, so V_BE = 4V, which is too high — the transistor would likely be damaged or not function properly. But even if we assume the base is biased correctly, the collector voltage would be determined by the load. Since no load is shown, we must assume the output is open-circuit or connected to ground — which doesn't make sense. Given"
+  },
+  {
+    "id": "validation_Electronics_2",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": "2√2",
+    "answer": "2.83",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The graph shows a periodic current waveform with a period of 4 ms. The waveform is symmetric and resembles a sine wave, with peak values of ±4 A.\n\nFor a sinusoidal current waveform, the RMS (root mean square) value is given by:\n\n\\[\nI_{\\text{rms}} = \\frac{I_{\\text{peak}}}{\\sqrt{2}}\n\\]\n\nHere, \\( I_{\\text{peak}} = 4 \\) A.\n\nSo,\n\n\\[\nI_{\\text{rms}} = \\frac{4}{\\sqrt{2}} = 2\\sqrt{2} \\, \\text{A}\n\\]\n\nSince the question asks for the effective (rms) value in terms of A, and no other waveforms are shown (only one is labeled as \"(a)\"), we assume this is the waveform to consider.\n\nAnswer: 2√2"
+  },
+  {
+    "id": "validation_Electronics_3",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a series RL circuit with a unit ramp voltage source $ v(t) = u_1(t) \\cdot v $, which means the input voltage is a ramp starting at t=0 with slope 1 V/s. The resistor is R = 1 Ω, and inductance L = 0.1 H.\n\nWe are to compute the voltage across the resistor, $ v_R(t) $, with zero initial condition.\n\n---\n\n### Step 1: Write the differential equation\n\nIn a series RL circuit, the current $ i(t) $ satisfies:\n\n$$\nv(t) = v_R(t) + v_L(t)\n$$\n\nBut also, by Kirchhoff’s voltage law:\n\n$$\nv(t) = R i(t) + L \\frac{di}{dt}\n$$\n\nGiven $ v(t) = t \\cdot u_1(t) $ (since it's a unit ramp starting at t=0), and R = 1 Ω, L = 0.1 H, we have:\n\n$$\nt \\cdot u_1(t) = 1 \\cdot i(t) + 0.1 \\frac{di}{dt}\n$$\n\nSo,\n\n$$\n\\frac{di}{dt} + 10 i = 10 t \\quad \\text{for } t > 0\n$$\n\n(Note: multiplied both sides by 10 to simplify)\n\nThis is a first-order linear ODE.\n\n---\n\n### Step 2: Solve the ODE\n\nThe homogeneous solution:\n\n$$\ni_h(t) = C e^{-10t}\n$$\n\nParticular solution: Since the RHS is $ 10t $, assume a particular solution of the form $ i_p(t) = At + B $\n\nThen,\n\n$$\n\\frac{di_p}{dt} = A\n$$\n\nPlug into ODE:\n\n$$\nA + 10(At + B) = 10t\n\\Rightarrow A + 10At + 10B = 10t\n$$\n\nEquating coefficients:\n\n- Coefficient of t: $ 10A = 10 \\Rightarrow A = 1 $\n- Constant term: $ A + 10B = 0 \\Rightarrow 1 + 10B = 0 \\Rightarrow B = -0.1 $\n\nSo,\n\n$$\ni_p(t) = t - 0.1\n$$\n\nGeneral solution:\n\n$$\ni(t"
+  },
+  {
+    "id": "validation_Electronics_4",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "8.4",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a common-emitter amplifier circuit with a silicon NPN transistor and asked to find the Q-point (operating point) $ V_{CEQ} $.\n\nGiven:\n- $ R_1 = 33 \\, \\text{k}\\Omega $\n- $ R_2 = 10 \\, \\text{k}\\Omega $\n- $ R_C = 2.2 \\, \\text{k}\\Omega $\n- $ R_E = 1 \\, \\text{k}\\Omega $\n- $ V_{CC} = 18 \\, \\text{V} $\n- $ \\beta = 50 $\n- Silicon transistor → $ V_{BE(on)} \\approx 0.7 \\, \\text{V} $\n\n---\n\n### Step 1: Find base current $ I_B $\n\nThe base is connected via a voltage divider formed by $ R_1 $ and $ R_2 $. The voltage at the base $ V_B $ is:\n\n$$\nV_B = V_{CC} \\cdot \\frac{R_2}{R_1 + R_2} = 18 \\cdot \\frac{10}{33 + 10} = 18 \\cdot \\frac{10}{43} \\approx 4.186 \\, \\text{V}\n$$\n\nThen, the base-emitter voltage for silicon is 0.7 V, so:\n\n$$\nV_E = V_B - V_{BE} = 4.186 - 0.7 = 3.486 \\, \\text{V}\n$$\n\nNow, emitter current $ I_E $ can be found from $ R_E $ and $ V_E $:\n\n$$\nI_E = \\frac{V_E}{R_E} = \\frac{3.486}{1000} = 3.486 \\, \\text{mA}\n$$\n\nSince $ I_E = I_C + I_B $ and $ I_C = \\beta I_B $, we have:\n\n$$\nI_E = \\beta I_B + I_B = I_B(\\beta + 1)\n$$\n\nSo,\n\n$$\nI_B = \\frac{I_E}{\\beta + 1} = \\frac{3.486 \\, \\text{mA}}{51} \\approx 0.06835 \\, \\text{mA} = 68.35"
+  },
+  {
+    "id": "validation_Electronics_5",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "62.6",
+    "correct": false,
+    "retried": false,
+    "raw_output": "For a common-collector (emitter follower) amplifier, the output resistance $ r_{\\text{out}} $ is approximately equal to the parallel combination of the transistor's internal output resistance $ r_e' $ and the collector resistor $ R_C $, but since $ R_C $ is not directly in the output path (it’s connected to the collector, which is at AC ground via $ C_c $), we must consider the small-signal model.\n\nIn the common-collector configuration, the output is taken from the emitter. The small-signal output resistance $ r_{\\text{out}} $ is given by:\n\n$$\nr_{\\text{out}} = \\frac{r_e'}{1 + \\beta} \\parallel R_C\n$$\n\nWait — actually, for common-collector, the output resistance is often approximated as:\n\n$$\nr_{\\text{out}} \\approx \\frac{r_e'}{1 + \\beta}\n$$\n\nbecause the base is biased through $ R_B $, and the emitter is grounded at AC, so the effective output resistance is dominated by the emitter resistance scaled by the current gain.\n\nBut let’s be precise: In the common-collector amplifier, the output resistance is:\n\n$$\nr_{\\text{out}} = \\frac{r_e'}{1 + \\beta} \\quad \\text{(approximately)}\n$$\n\nGiven:\n- $ \\beta = 50 $\n- $ r_e' = 50 \\, \\Omega $\n\nSo,\n\n$$\nr_{\\text{out}} = \\frac{50}{1 + 50} = \\frac{50}{51} \\approx 0.98 \\, \\Omega\n$$\n\nHowever, note that in some textbooks, the output resistance of a common-collector amplifier is also expressed as:\n\n$$\nr_{\\text{out}} = \\frac{r_e'}{1 + \\beta} \\parallel R_E\n$$\n\nWait — in this circuit, there is an emitter resistor $ R_E = 5.6 \\, \\text{k}\\Omega $. So the output resistance is the parallel combination of $ \\frac{r_e'}{1 + \\beta} $ and $ R_E $.\n\nLet’s check the circuit again: The emitter is connected to ground through $ R_E $, and the output is taken across the emitter (from emitter to ground). So yes, the output resistance should include $ R_E $ in parallel with"
+  },
+  {
+    "id": "validation_Electronics_6",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "71.6",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a circuit with two voltage sources and three impedances. The goal is to find the amplitude (in volts) of the phasor voltage $ \\vec{V}_C $, which is across the impedance $ \\vec{Z}_3 $.\n\nThe circuit has:\n\n- Left source: $ 100 \\angle 0^\\circ $ V\n- Right source: $ 50 \\angle 90^\\circ $ V\n- Impedance $ \\vec{Z}_1 = 5 \\angle 0^\\circ \\, \\Omega $\n- Impedance $ \\vec{Z}_2 = 10 \\angle 36.9^\\circ \\, \\Omega $\n- Impedance $ \\vec{Z}_3 = 20 \\angle 53.1^\\circ \\, \\Omega $\n\nNote: The diagram shows $ \\vec{V}_C $ connected between the node where $ \\vec{Z}_1 $ and $ \\vec{Z}_2 $ meet and the bottom node (ground). So $ \\vec{V}_C $ is the voltage across $ \\vec{Z}_3 $, which is in parallel with the combination of $ \\vec{Z}_1 $ and $ \\vec{Z}_2 $ in series? Actually, looking at the diagram, it appears that $ \\vec{Z}_1 $, $ \\vec{Z}_2 $, and $ \\vec{Z}_3 $ are all connected in series from the left source through $ \\vec{Z}_1 $, then to the top node, then through $ \\vec{Z}_2 $ to the right source, and $ \\vec{Z}_3 $ is connected between the top node and ground. So actually, the configuration is:\n\n- The left source is in series with $ \\vec{Z}_1 $, then to a node, then $ \\vec{Z}_3 $ is connected from that node to ground.\n- From that same node, $ \\vec{Z}_2 $ is connected to the right source.\n- So the circuit is: Left source → $ \\vec{Z}_1 $ → node → $ \\vec{Z}_3 $ → ground; and from the node → $ \\vec{Z}_2 $ → right source → ground.\n\nThus, $ \\vec{Z}_3 $ is in parallel with the series combination of $ \\vec{Z}_1 $ and $ \\vec"
+  },
+  {
+    "id": "validation_Electronics_7",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a circuit with a current source and two parallel branches: one with a 2Ω resistor, and the other with a 1Ω resistor in series with a capacitor. The current source is:\n\n\\[\ni(t) = \\cos\\left(\\frac{2}{3}t + \\frac{\\pi}{4}\\right) \\text{ A}\n\\]\n\nWe are to find the steady-state voltage across the capacitor, \\( v_c(t) \\).\n\n---\n\n### Step 1: Analyze the Circuit\n\nThe current source is in parallel with the 2Ω resistor and the 1Ω + C branch.\n\nSince the current source is ideal, the total current splits between the two parallel branches. But note: **the capacitor is not a pure resistor** — it has reactive impedance.\n\nIn steady state (for sinusoidal excitation), we can use phasor analysis.\n\nLet’s convert the current source into a phasor:\n\n\\[\nI = \\angle 0^\\circ \\text{ (reference)} \\Rightarrow I = \\cos\\left(\\frac{2}{3}t + \\frac{\\pi}{4}\\right) \\Rightarrow \\mathbf{I} = \\sqrt{2} \\angle \\frac{\\pi}{4} \\text{ A (rms? Wait — let's check)}\n\\]\n\nActually, the expression is written as \\( \\cos(\\cdot) \\), which is typically the **peak value** in engineering contexts unless specified otherwise. So we’ll treat this as peak value.\n\nSo,\n\n\\[\n\\mathbf{I} = \\sqrt{2} \\angle \\frac{\\pi}{4} \\text{ A (phasor, peak value)}\n\\]\n\nWait — actually, no. The function is written as \\( \\cos\\left( \\frac{2}{3}t + \\frac{\\pi}{4} \\right) \\). This is already a cosine with peak value 1 (since it’s cos(...), not 1.414cos(...)). So **the amplitude is 1 A**, not √2.\n\nSo:\n\n\\[\n\\mathbf{I} = 1 \\angle \\frac{\\pi}{4} \\text{ A (phasor, peak value)}\n\\]\n\nBut in phasor analysis, sometimes we use RMS values. However, since the answer choices have √2, and the input is cos(...), we must be consistent.\n\nLet me check: if the input is \\( i(t)"
+  },
+  {
+    "id": "validation_Electronics_8",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given three waveforms (a), (b), and (c) in Fig. 1, and we are to find the Fourier series for waveform (a).\n\nFirst, let’s analyze waveform (a):\n\n- It is a square wave with amplitude ±1.\n- The period T = 2 seconds (from t=0 to t=2, then repeats).\n- The waveform is symmetric about the time axis (odd function), so only sine terms will be present.\n- The fundamental frequency is ω₀ = 2π/T = π rad/s.\n\nThe Fourier series for a square wave of period T, amplitude A, and odd symmetry is:\n\nv(t) = (4A / π) * Σ [sin(nω₀t) / n] for n = 1, 3, 5, ...\n\nHere, A = 1, ω₀ = π, so:\n\nv(t) = (4/π) * [sin(πt) + (1/3) sin(3πt) + (1/5) sin(5πt) + ...]\n\nThis matches option **B**.\n\nNow, let’s briefly check the other options to ensure correctness:\n\nOption A: has coefficients 1/2, 1/4, etc., which would correspond to even harmonics — but square waves have only odd harmonics.\n\nOption C: includes sin(2πt), sin(4πt), etc. — even harmonics — again, not correct for a square wave.\n\nOption D: includes sin(2πt), sin(4πt), etc., and coefficient 1/3 — this is mixing harmonic numbers and coefficients incorrectly. Also, it has even harmonics.\n\nSo, only Option B is correct.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Electronics_9",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Electronics_10",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a series-parallel AC circuit with the following components:\n\n- Source: $100\\cos(377t)$ V → this is a cosine function, so angular frequency $\\omega = 377$ rad/s.\n- The circuit has two parallel branches:\n  - Branch 1: 100Ω resistor in series with a 10μF capacitor.\n  - Branch 2: 100Ω resistor in series with a 1H inductor.\n\nWe are to find the current $I_1$, which is the current through the branch containing the capacitor and resistor (i.e., the left branch).\n\n---\n\n### Step 1: Convert to phasor domain\n\nThe source voltage is $V = 100\\cos(377t)$. In phasor form, this becomes:\n\n$$\n\\tilde{V} = 100 \\angle 0^\\circ \\text{ V}\n$$\n\n---\n\n### Step 2: Compute impedances\n\n#### For the capacitor:\n\nCapacitive reactance: $X_C = \\frac{1}{\\omega C}$\n\nGiven $C = 10\\mu F = 10 \\times 10^{-6} F$, $\\omega = 377$\n\n$$\nX_C = \\frac{1}{377 \\times 10 \\times 10^{-6}} = \\frac{1}{0.00377} \\approx 265.306 \\Omega\n$$\n\nSo, impedance of capacitor: $Z_C = -j265.306 \\Omega$\n\n#### For the inductor:\n\nInductive reactance: $X_L = \\omega L$\n\nGiven $L = 1$ H,\n\n$$\nX_L = 377 \\times 1 = 377 \\Omega\n$$\n\nSo, impedance of inductor: $Z_L = j377 \\Omega$\n\n---\n\n### Step 3: Impedance of each branch\n\n**Branch 1 (resistor + capacitor):**\n\n$Z_1 = R + Z_C = 100 - j265.306 \\Omega$\n\n**Branch 2 (resistor + inductor):**\n\n$Z_2 = R + Z_L = 100 + j377 \\Omega$\n\n---\n\n### Step 4: Total impedance of parallel combination\n\n"
+  },
+  {
+    "id": "validation_Electronics_11",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "0.3",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To find the nodal equation at node $n_3$, we note that the reference node is the lower node (ground), so all voltages are measured with respect to it.\n\nWe are given:\n\n- A 2V source with a dependent voltage source $2v_x$ in parallel with a 5Ω resistor connected between $n_3$ and ground.\n- A 10Ω resistor from $n_1$ to $n_3$.\n- A 0.2V voltage source between $n_3$ and $n_2$ (with + at $n_3$, - at $n_2$).\n- A 0.5V voltage source between $n_2$ and $n_1$ (with + at $n_2$, - at $n_1$).\n- A 10Ω resistor from $n_1$ to $n_2$.\n- A 20Ω resistor from $n_1$ to ground, with current 14A flowing *upward* through it (so from ground to $n_1$), meaning $n_1$ is at positive voltage relative to ground.\n- A 4A current source pointing upward from ground to $n_3$, so it’s injecting 4A into $n_3$.\n\nLet’s write the nodal equation at $n_3$. The currents leaving $n_3$ (or entering if we use KCL convention) are:\n\n1. Through the 10Ω resistor to $n_1$: $\\frac{n_3 - n_1}{10}$\n2. Through the 5Ω resistor to ground: $\\frac{n_3 - 0}{5} = \\frac{n_3}{5}$ — but wait, there's also a dependent source: the 2V source is connected between $n_3$ and ground, and the 2v_x source is also connected between $n_3$ and ground? Actually, looking at the diagram, the 2v_x source is connected in series with the 5Ω resistor, and both are between $n_3$ and ground. So the 2v_x source is actually in parallel with the 5Ω resistor? No — the 2v_x source is shown as a diamond with + on top and - on bottom, connected between $n_3$ and ground. And the 5Ω resistor is also connected between $"
+  },
+  {
+    "id": "validation_Electronics_12",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "10",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a common-emitter BJT circuit with:\n\n- $V_{CC} = 24\\ \\text{V}$\n- $R_B = 960\\ \\text{k}\\Omega$\n- $R_C = 7\\ \\text{k}\\Omega$\n- $\\beta = 80$\n- Leakage negligible\n\nWe need to find $V_{CE}$.\n\n---\n\n### Step 1: Find base current $I_B$\n\nAssuming the base is biased by a voltage divider or directly connected to a supply (here, it's connected to $V_{CC}$ via $R_B$ and grounded at the other end), we can assume the base is at a voltage determined by the resistor network. But in this diagram, the base is connected to $V_{CC}$ through $R_B$, and the emitter is grounded (since there’s no emitter resistor shown and the arrow on the transistor indicates emitter grounded).\n\nWait — looking at the diagram: The base is connected to $V_{CC}$ via $R_B$, and the emitter is connected to ground (as indicated by the downward arrow). So this is a **common-emitter amplifier** with emitter grounded, base biased through $R_B$, and collector connected to $V_{CC}$ via $R_C$.\n\nIn such a circuit, the base current $I_B$ is found from the base bias equation:\n\n$$\nI_B = \\frac{V_{CC}}{R_B}\n$$\n\nBut wait — that would be if the base were directly connected to $V_{CC}$ with no other resistors. However, in reality, for a common-emitter amplifier with emitter grounded, the base is usually biased by a voltage divider or a resistor to ground. But here, the base is connected to $V_{CC}$ through $R_B$, and the emitter is grounded — so the base is at approximately $V_{CC}$ minus a small drop across $R_B$? No — actually, since the emitter is grounded, and the base is connected to $V_{CC}$ via $R_B$, then the base voltage is approximately $V_{CC}$, but that would mean the base is at 24 V, which is not possible because the base-emitter junction must be forward-biased (about 0.7 V) for active mode.\n\nThis suggests that the base is not directly connected to $V_{CC}$ — perhaps there’s a mistake in interpretation.\n\nLooking again: In Fig. "
+  },
+  {
+    "id": "validation_Electronics_13",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a periodic waveform with period $ T $, and the function $ f(t) $ is 1 during intervals of length $ T/2 $, and 0 otherwise. Specifically, from the figure:\n\n- From $ t = 0 $ to $ t = T/2 $, $ f(t) = 1 $\n- From $ t = T/2 $ to $ t = T $, $ f(t) = 0 $\n- Then it repeats: from $ t = T $ to $ t = 3T/2 $, $ f(t) = 1 $, and so on.\n\nThis is a **periodic signal** with period $ T $. The Laplace transform of a periodic function with period $ T $ is given by:\n\n$$\nF(s) = \\frac{1}{1 - e^{-sT}} \\int_0^T f(t) e^{-st} dt\n$$\n\nWe need to compute the integral over one period $ [0, T] $:\n\n$$\n\\int_0^T f(t) e^{-st} dt = \\int_0^{T/2} 1 \\cdot e^{-st} dt + \\int_{T/2}^T 0 \\cdot e^{-st} dt = \\int_0^{T/2} e^{-st} dt\n$$\n\nCompute the integral:\n\n$$\n\\int_0^{T/2} e^{-st} dt = \\left[ \\frac{-e^{-st}}{s} \\right]_0^{T/2} = \\frac{-e^{-s(T/2)} + 1}{s} = \\frac{1 - e^{-s(T/2)}}{s}\n$$\n\nTherefore,\n\n$$\nF(s) = \\frac{1}{1 - e^{-sT}} \\cdot \\frac{1 - e^{-s(T/2)}}{s} = \\frac{1 - e^{-s(T/2)}}{s(1 - e^{-sT})}\n$$\n\nThis matches option **C**.\n\n---\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Electronics_14",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Electronics_15",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a nonlinear inductor with flux linkage defined by:\n\n$$\n\\phi = i + \\tanh(i)\n$$\n\nand the current through it is:\n\n$$\ni(t) = \\sin t\n$$\n\nWe are to find the voltage across the inductor, $ v(t) $.\n\n---\n\n### Step 1: Recall the basic relationship for an inductor\n\nIn general, for any inductor (linear or nonlinear), the voltage is related to the rate of change of flux linkage:\n\n$$\nv(t) = \\frac{d\\phi}{dt}\n$$\n\nThis holds regardless of linearity.\n\n---\n\n### Step 2: Differentiate $\\phi$ with respect to time\n\nGiven:\n\n$$\n\\phi = i + \\tanh(i)\n$$\n\nDifferentiate both sides with respect to time $t$:\n\n$$\n\\frac{d\\phi}{dt} = \\frac{di}{dt} + \\frac{d}{dt}[\\tanh(i)]\n$$\n\nRecall that:\n\n$$\n\\frac{d}{dt}[\\tanh(i)] = \\text{sech}^2(i) \\cdot \\frac{di}{dt}\n$$\n\nSo,\n\n$$\n\\frac{d\\phi}{dt} = \\frac{di}{dt} + \\text{sech}^2(i) \\cdot \\frac{di}{dt}\n= \\left(1 + \\text{sech}^2(i)\\right) \\frac{di}{dt}\n$$\n\nTherefore,\n\n$$\nv(t) = \\left(1 + \\text{sech}^2(i(t))\\right) \\cdot \\frac{di}{dt}\n$$\n\n---\n\n### Step 3: Compute $\\frac{di}{dt}$\n\nGiven $ i(t) = \\sin t $, then:\n\n$$\n\\frac{di}{dt} = \\cos t\n$$\n\n---\n\n### Step 4: Substitute into the expression for $v(t)$\n\n$$\nv(t) = \\left(1 + \\text{sech}^2(\\sin t)\\right) \\cdot \\cos t\n$$\n\n---\n\n### Step 5: Match with options\n\nLooking at the options:\n\nA. $[1 + sech^2 (sin t)] cos t$ ✅  \nB. $[1 + sech^2 (sin t)] sin t$  \nC. $[1 - sech^2 (sin t)] sin"
+  },
+  {
+    "id": "validation_Electronics_16",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "20",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In circuit (c), at t=0+, the inductor acts as an open circuit because it resists sudden changes in current. The 8H inductor will initially have no current flowing through it, so we can ignore it for initial conditions.\n\nThe 5A current source is in parallel with the 20Ω and 10Ω resistors. Since the inductor is open-circuited, the current from the 5A source will split between the two resistors.\n\nThe two resistors (20Ω and 10Ω) are in parallel, so their equivalent resistance is:\n\nR_eq = (20 * 10) / (20 + 10) = 200 / 30 ≈ 6.67Ω\n\nBut since the inductor is open, the current from the 5A source will flow entirely through the parallel combination of 20Ω and 10Ω.\n\nNow, to find v, we need to know which voltage we’re referring to. The question asks for \"v\" in (c). Looking at the diagram, there is a voltage v across the 10Ω resistor (as indicated by the label v next to the 10Ω resistor).\n\nSince the current through the 10Ω resistor is part of the 5A source, we need to find how much current flows through the 10Ω resistor.\n\nThe current splits between the 20Ω and 10Ω resistors. The ratio is inversely proportional to resistance: I_10 = I_total * (R_20 / (R_20 + R_10)) = 5 * (20 / (20 + 10)) = 5 * (20/30) = 5 * (2/3) = 10/3 A.\n\nWait — that’s not right. For parallel resistors, the current divides inversely with resistance. So:\n\nI_10 = I_total * (R_20 / (R_20 + R_10)) = 5 * (20 / 30) = 5 * (2/3) = 10/3 A? That would be if the current were going through the 20Ω first, but actually, the current splits based on conductance.\n\nStandard formula: I_R = I_total * (R_parallel / R) — no, better to use"
+  },
+  {
+    "id": "validation_Electronics_17",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given three circuits (a), (b), and (c) — but the question specifically asks for **Figure (b)**, and notes that after t = 0, each circuit is **source-free**. So we focus on **Figure (b)**.\n\n---\n\n### Circuit (b):\n\nAt t = 0, the switch is closed (or opened? Let’s check). The diagram shows a switch symbol with “t=0” next to it, and the switch is open at t < 0, and closed at t = 0. But note: in Figure (b), there's a 100V source, and the switch is connected across the 30Ω resistor and the inductor branch. Actually, looking closely:\n\nThe circuit has:\n\n- A 100V voltage source.\n- A 30Ω resistor.\n- A switch that, at t=0, closes to connect the inductor (8H) and the 4Ω resistor in series with the 20Ω resistor? Wait, no — let’s redraw mentally.\n\nActually, from the diagram:\n\nAt t < 0, the switch is open, so the 30Ω resistor is disconnected from the 100V source? Or is it connected?\n\nWait — the switch is shown between the 30Ω resistor and the rest of the circuit. Looking again:\n\nIt appears that before t=0, the switch is open, so the 30Ω resistor is not part of the circuit? Or is it connected in parallel? No — the switch is in series with the 30Ω resistor.\n\nActually, standard interpretation: the switch is in series with the 30Ω resistor, and at t=0, it closes, connecting the 30Ω resistor into the circuit.\n\nBut then the problem says: **“After t = 0, each of the circuits in Figure (b) is source-free.”**\n\nThat implies that the 100V source is **turned off** at t=0. So we must consider the circuit **after** t=0, when the source is removed, and we are to find v(t) for t > 0.\n\nSo, at t=0-, the switch is open, and the circuit has the 100V source. At t=0+, the switch closes, but the source is removed? That doesn’t make sense.\n\nWait — perhaps the switch is used to **disconnect** the source?"
+  },
+  {
+    "id": "validation_Electronics_18",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a series R-L circuit with:\n\n- Resistor: $ R = 2\\ \\Omega $\n- Inductor: $ L = 1\\ \\text{H} $\n- Voltage source: $ v_s(t) = 3t\\ u(t) $\n\nWe are to find the current $ i(t) $.\n\n---\n\n### Step 1: Write the differential equation\n\nIn a series RL circuit, the voltage across the inductor is $ L \\frac{di}{dt} $, and the voltage across the resistor is $ R i $. The total voltage is the sum of these (by KVL):\n\n$$\nv_s(t) = R i(t) + L \\frac{di}{dt}\n$$\n\nSubstitute values:\n\n$$\n3t\\ u(t) = 2 i(t) + 1 \\cdot \\frac{di}{dt}\n$$\n\nSo,\n\n$$\n\\frac{di}{dt} + 2i(t) = 3t\\ u(t)\n$$\n\nThis is a first-order linear ODE.\n\n---\n\n### Step 2: Solve the ODE\n\nThe homogeneous solution:\n\n$$\n\\frac{di_h}{dt} + 2i_h = 0 \\Rightarrow i_h(t) = A e^{-2t}\n$$\n\nParticular solution: Since the RHS is $ 3t u(t) $, we assume a particular solution of the form:\n\n$$\ni_p(t) = (At + B) u(t)\n$$\n\nPlug into the ODE:\n\n$$\n\\frac{d}{dt}[(At + B)u(t)] + 2(At + B)u(t) = 3t u(t)\n$$\n\nNote: For $ t > 0 $, $ u(t) = 1 $, so we can ignore the unit step for differentiation in this region.\n\nDifferentiate:\n\n$$\nA + 2(At + B) = 3t\n$$\n\nSimplify:\n\n$$\nA + 2At + 2B = 3t\n$$\n\nGroup terms:\n\n$$\n(2A)t + (A + 2B) = 3t\n$$\n\nEquate coefficients:\n\n- Coefficient of $ t $: $ 2A = 3 \\Rightarrow A = \\frac{3}{2} $\n- Constant term: $ A + 2B = 0 \\Rightarrow \\frac{3}{2} + 2B = 0 \\Rightarrow"
+  },
+  {
+    "id": "validation_Electronics_19",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a coupled inductor circuit with:\n\n- Primary inductor: $ L_1 = 10 \\, \\text{H} $\n- Secondary inductor: $ L_2 = 10 \\, \\text{H} $\n- Mutual inductance: $ M = 9 \\, \\text{H} $\n- Current in primary: $ i_1 = 10 \\sin t \\, \\text{A} $\n- Current in secondary: $ i_2 = 0 $\n\nWe are to find the voltage $ v_2 $ across the secondary winding.\n\n---\n\n### Step 1: Use the formula for voltage across a coupled inductor\n\nThe voltage across the secondary winding is given by:\n\n$$\nv_2 = L_2 \\frac{di_2}{dt} + M \\frac{di_1}{dt}\n$$\n\nNote: The mutual term arises because the primary current $ i_1 $ induces a voltage in the secondary due to mutual inductance. Since $ i_2 = 0 $, its derivative is zero, so we only get the mutual term.\n\nGiven $ i_2 = 0 $, then $ \\frac{di_2}{dt} = 0 $, so:\n\n$$\nv_2 = M \\frac{di_1}{dt}\n$$\n\n---\n\n### Step 2: Compute $ \\frac{di_1}{dt} $\n\nGiven $ i_1 = 10 \\sin t $, then:\n\n$$\n\\frac{di_1}{dt} = 10 \\cos t\n$$\n\n---\n\n### Step 3: Plug into the equation\n\n$$\nv_2 = M \\cdot \\frac{di_1}{dt} = 9 \\cdot 10 \\cos t = 90 \\cos t\n$$\n\nBut wait — **is the sign correct?**\n\nLet’s check the polarity.\n\nIn the diagram, the dot convention is shown:\n\n- The dots are placed on the same side of both coils.\n- The current $ i_1 $ flows into the dotted terminal of the primary coil.\n- The voltage $ v_1 $ is shown with positive at the top (where the current enters), and negative at the bottom.\n\nFor the secondary, the voltage $ v_2 $ is labeled with positive at the top (same as the primary's dotted terminal).\n\nAccording to the standard dot convention, if currents enter the dotted terminals, the induced volt"
+  },
+  {
+    "id": "validation_Electronics_20",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a circuit with a capacitor of capacitance $ C = 10^{-5} \\, \\text{F} $ and a voltage source $ v_C = \\sin(2\\pi t) $ (note: the problem says “$ v_c = sin 2 \\pi T $”, which we interpret as $ \\sin(2\\pi t) $, assuming $ T $ is a typo for $ t $).\n\nThe current through a capacitor is given by:\n\n$$\ni(t) = C \\frac{dv_C}{dt}\n$$\n\nGiven:\n\n$$\nv_C(t) = \\sin(2\\pi t)\n$$\n\nCompute the derivative:\n\n$$\n\\frac{dv_C}{dt} = \\frac{d}{dt} [\\sin(2\\pi t)] = 2\\pi \\cos(2\\pi t)\n$$\n\nTherefore,\n\n$$\ni(t) = C \\cdot 2\\pi \\cos(2\\pi t) = (10^{-5}) \\cdot 2\\pi \\cos(2\\pi t) = 2\\pi \\times 10^{-5} \\cos(2\\pi t) \\, \\text{A}\n$$\n\nNow, evaluate at $ t = 0 $:\n\n$$\ni(0) = 2\\pi \\times 10^{-5} \\cos(0) = 2\\pi \\times 10^{-5} \\cdot 1 = 2\\pi \\times 10^{-5} \\, \\text{A}\n$$\n\nThis matches option **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Electronics_21",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "0.9965",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To find the Fourier series of the given periodic waveform and then compute the sum of the first four terms at t = 2, we proceed as follows:\n\n---\n\n**Step 1: Determine the period and symmetry**\n\nThe waveform repeats every 8 units (from t = -4 to t = 4, or from t = 0 to t = 8). So, T = 8.\n\nCheck for symmetry:\n- The function is **odd**, because f(-t) = -f(t). This can be seen from the graph: it's symmetric about the origin. For example, f(1) = 1, f(-1) = -1; f(2) = 1, f(-2) = -1; etc.\n\nTherefore, the Fourier series will contain only **sine terms** (no cosine terms, since cosine is even and odd function would have zero cosine coefficients).\n\n---\n\n**Step 2: Fourier sine series form**\n\nFor an odd function with period T = 8, the Fourier sine series is:\n\nf(t) = Σ [bₙ sin(nπt / T)] for n = 1, 2, 3, ...\n\nHere, T = 8, so:\n\nf(t) = Σ [bₙ sin(nπt / 8)] , n = 1, 2, 3, ...\n\n---\n\n**Step 3: Compute bₙ**\n\nThe formula for bₙ is:\n\nbₙ = (2/T) ∫[₀ᵀ] f(t) sin(nπt / T) dt\n\nSince the function is odd and periodic, and we’re integrating over a full period, we can integrate from 0 to 8. But due to symmetry, we can also integrate from 0 to 4 and double it? Actually, since it’s odd, and we’re using sin which is odd, we can integrate from 0 to 8 directly.\n\nBut let’s use the standard approach. We’ll integrate over one period, say from 0 to 8.\n\nHowever, the graph shows that the function is piecewise linear and defined in segments. Let’s break the integral into intervals where the function is linear.\n\nLooking at the graph:\n\nFrom t = 0 to t = 1: f(t) = t (since it goes from 0 to 1 linearly)\n\nFrom t = 1 to t = 3: f(t) = 1 (constant)\n\nFrom t = "
+  },
+  {
+    "id": "validation_Electronics_22",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two circuits, Fig. 1 and Fig. 2, but the question asks to find $v_C(t)$ for $t > 0$ in **Fig. 1** (as per the phrasing \"In the circuit of . Find $v_C(t)$ for t > 0.\" — likely a typo or omission — but since Fig. 1 is labeled with initial conditions and components, we proceed with Fig. 1).\n\nHowever, note that **Fig. 2** shows an equivalent circuit with a current source $5A u(t)$ and a voltage source $50V u(t)$, both connected to an inductor and capacitor. This suggests that **Fig. 2 is the equivalent circuit of Fig. 1**, as both have identical components: 1H inductor, 0.005F capacitor, and same initial conditions: $i_L(0) = 5A$, $v_C(0) = 50V$. So, we can analyze Fig. 2 to find $v_C(t)$ for $t > 0$.\n\n---\n\n## Step 1: Analyze Fig. 2\n\nThe circuit consists of:\n\n- A **current source**: $5A u(t)$ in parallel with the inductor.\n- A **voltage source**: $50V u(t)$ in series with the capacitor.\n- The inductor and capacitor are connected in **parallel** across the same nodes? Let's look at the diagram carefully.\n\nActually, from the diagram:\n\n- The 5A current source is connected in **parallel** with the inductor.\n- The 50V voltage source is connected in **series** with the capacitor.\n- The inductor and capacitor are connected in **parallel**? No — wait, let’s interpret the topology.\n\nLooking at Fig. 2:\n\n```\n        +----[5A u(t)]----+\n        |                 |\n        |                 |\n       [L]               [C]\n        |                 |\n        +----[50V u(t)]---+\n```\n\nWait — this is ambiguous. Actually, based on standard notation and the labeling:\n\n- The 5A current source is connected in **parallel** with the inductor.\n- The 50V voltage source is connected **in series** with the capacitor.\n- But how are they connected together?\n\nLet me re-express based on the diagram description:\n\nThere is a **current source (5A)**"
+  },
+  {
+    "id": "validation_Electronics_23",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- The voltage across the capacitor:  \n  $ v(t) = 2 \\sin(\\omega t) $\n\n- The capacitance as a function of time:  \n  $ C(t) = C_0 (1 + 0.5 \\sin t) $\n\nWe need to find the current through the capacitor.\n\n---\n\nThe fundamental relationship for a capacitor is:\n\n$$\ni(t) = C(t) \\frac{dv(t)}{dt} + v(t) \\frac{dC(t)}{dt}\n$$\n\nThis is derived from the general formula for current in a capacitor with time-varying capacitance:\n\n$$\ni(t) = C(t) \\frac{dv}{dt} + v(t) \\frac{dC}{dt}\n$$\n\nSo we must compute both derivatives.\n\n---\n\n**Step 1: Compute $ \\frac{dv(t)}{dt} $**\n\nGiven:  \n$ v(t) = 2 \\sin(\\omega t) $\n\nThen:  \n$ \\frac{dv}{dt} = 2 \\omega \\cos(\\omega t) $\n\n---\n\n**Step 2: Compute $ \\frac{dC(t)}{dt} $**\n\nGiven:  \n$ C(t) = C_0 (1 + 0.5 \\sin t) $\n\nThen:  \n$ \\frac{dC}{dt} = C_0 \\cdot 0.5 \\cos t = \\frac{C_0}{2} \\cos t $\n\n---\n\n**Step 3: Plug into the formula**\n\n$$\ni(t) = C(t) \\cdot \\frac{dv}{dt} + v(t) \\cdot \\frac{dC}{dt}\n$$\n\nSubstitute:\n\n$$\ni(t) = [C_0 (1 + 0.5 \\sin t)] \\cdot [2 \\omega \\cos(\\omega t)] + [2 \\sin(\\omega t)] \\cdot \\left[\\frac{C_0}{2} \\cos t\\right]\n$$\n\nSimplify term by term:\n\nFirst term:\n$$\nC_0 (1 + 0.5 \\sin t) \\cdot 2 \\omega \\cos(\\omega t) = 2 \\omega C_0 (1 + 0.5 \\sin t) \\cos(\\omega t)\n$$\n\nSecond term:\n$$\n2 \\sin(\\omega t) \\cdot \\frac{C_0}{2} \\cos t ="
+  },
+  {
+    "id": "validation_Electronics_24",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "551",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a common-emitter amplifier circuit with a germanium transistor. We need to find the value of $ R_B $ such that $ V_{CE} = 8 \\, \\text{V} $.\n\nGiven:\n- $ V_{BB} = +15 \\, \\text{V} $\n- $ V_{CC} = +15 \\, \\text{V} $\n- $ V_{BE} = 0.3 \\, \\text{V} $\n- $ R_C = 4 \\, \\text{k}\\Omega $\n- $ R_E = 600 \\, \\Omega $\n- $ \\beta = 60 $\n\n---\n\n### Step 1: Use the desired $ V_{CE} $ to find $ I_C $ and $ I_E $\n\nIn the common-emitter configuration, the collector-emitter voltage is:\n\n$$\nV_{CE} = V_{CC} - I_C R_C - V_{BE} \\quad \\text{(Wait — let's think carefully)}\n$$\n\nActually, the correct expression for $ V_{CE} $ in terms of currents is:\n\n$$\nV_{CE} = V_{CC} - I_C R_C - I_E R_E\n$$\n\nBut since $ I_E \\approx I_C $ (for large β), we can approximate:\n\n$$\nV_{CE} \\approx V_{CC} - I_C R_C - I_C R_E = V_{CC} - I_C (R_C + R_E)\n$$\n\nWait — this is not accurate because the emitter resistor $ R_E $ is connected to ground, so the voltage at the emitter is $ I_E R_E $, and the base-emitter junction has a drop of $ V_{BE} $. The collector current flows through $ R_C $, so the voltage at the collector is $ V_{CC} - I_C R_C $. Then,\n\n$$\nV_{CE} = V_{C} - V_{E} = (V_{CC} - I_C R_C) - I_E R_E\n$$\n\nBut again, $ I_E \\approx I_C $, so:\n\n$$\nV_{CE} \\approx V_{CC} - I_C (R_C + R_E)\n$$\n\nHowever, this approximation ignores the base-emitter voltage drop, which is important here.\n\nLet’s derive it properly.\n\n---\n\n### Step 2: Express $ V_{CE} $ correctly\n\nThe collector voltage is:\n\n$$"
+  },
+  {
+    "id": "validation_Electronics_25",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "50",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine a safe PRV (Peak Reverse Voltage) rating for the silicon diode in the rectifier circuit, we must consider the maximum reverse voltage that the diode will experience during operation.\n\nIn this circuit, the input voltage source \\( E_s \\) is a square wave with peak values of +50 V and -50 V. The diode is connected in series with a 1 kΩ load, and it’s a silicon diode, which implies a forward voltage drop of approximately 0.7 V when conducting.\n\nWhen the input voltage is negative (i.e., -50 V), the diode is reverse-biased. In this case, the diode will block current, and the reverse voltage across it will be equal to the magnitude of the input voltage minus any small forward voltage drop (which doesn’t apply here since it’s reverse biased).\n\nHowever, the key point is: **the reverse voltage across the diode during the negative half-cycle will be 50 V**, because the diode is reverse-biased and the input voltage is -50 V, so the diode sees a reverse voltage of 50 V.\n\nBut note: In a typical full-wave rectifier configuration (which this appears to be, given the square wave input and single diode), the diode experiences a reverse voltage equal to the peak of the input waveform. Since the input is ±50 V, the maximum reverse voltage across the diode is 50 V.\n\nHowever, for silicon diodes, manufacturers often specify a PRV rating that is typically rated for at least 1.5 times the peak reverse voltage to provide a safety margin. But if we are to determine a “safe” PRV rating based on the maximum expected reverse voltage, we should consider the peak value.\n\nBut wait — in many textbooks and practical applications, the PRV rating for a diode in such a circuit is specified as being greater than or equal to the peak input voltage (in absolute value). For example, if the input is ±50 V, then the reverse voltage across the diode can reach 50 V. However, due to the nature of the circuit and the diode’s behavior, the reverse voltage experienced by the diode during the negative half-cycle is indeed 50 V.\n\nBut let’s double-check: When the input is positive (+50 V), the diode conducts, and the reverse voltage across it is 0 V (since it's forward biased). When the"
+  },
+  {
+    "id": "validation_Electronics_26",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "6.333",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a circuit with resistors and capacitors, and we are to find the equivalent capacitor C.\n\nLooking at the diagram:\n\n- The capacitors are connected in parallel: 2μF and 4μF.\n- These two are in series with each other? Wait — no. Let's look carefully.\n\nActually, from the diagram:\n\n- The 2μF and 4μF capacitors are connected **in parallel** between the same two nodes (the junction after the resistor network and before the final R-C branch).\n\nWait — let’s re-express the structure:\n\nThe left part has resistors: 2Ω and 6Ω in series, then that combination is in parallel with a 4Ω resistor.\n\nThen, from that parallel combination, we have a 5μF capacitor connected in parallel with the junction point.\n\nThen, from that junction, we have two capacitors: 2μF and 4μF — these are connected **in parallel** to each other, and this parallel combination is connected in **series** with the 5μF capacitor? No.\n\nActually, looking again:\n\nThe 5μF capacitor is connected directly across the node between the resistor network and the next junction.\n\nThen, from that node, we have two capacitors: 2μF and 4μF — they are connected in **parallel** to each other, and together they are connected between the same two points as the 5μF capacitor? That would mean all three capacitors are in parallel.\n\nBut wait — the diagram shows:\n\nAfter the resistor network (which includes 2Ω, 6Ω in series, then in parallel with 4Ω), there is a 5μF capacitor connected between the top and bottom lines.\n\nThen, from the top line (after the 5μF capacitor), we go to a node where two capacitors are connected: 2μF and 4μF — but how?\n\nActually, the diagram shows:\n\n- The 5μF capacitor is connected between the top line and the bottom line.\n\n- Then, from the top line, we have a node that connects to both the 2μF and 4μF capacitors? But that would be if they were in parallel.\n\nWait — perhaps the 2μF and 4μF capacitors are connected in **series**? But the symbol for series is usually shown with a break or different connection.\n\nLooking at the diagram: it shows the 2"
+  },
+  {
+    "id": "validation_Electronics_27",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "-120",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a balanced three-phase system with a Y-connected load and a balanced source. The source phase voltage is:\n\n\\[\n\\tilde{V}_{an} = 390 \\angle 30^\\circ \\text{ V rms}\n\\]\n\nThe load is Y-connected with impedance per phase:  \nEach phase has \\( L = 0.56 \\, \\text{H} \\) and \\( C = 5 \\, \\mu\\text{F} \\), so the impedance is complex.\n\nFirst, compute the angular frequency:\n\n\\[\n\\omega = 2\\pi f = 2\\pi \\cdot 60 = 120\\pi \\, \\text{rad/s}\n\\]\n\nCompute reactances:\n\nInductive reactance:\n\n\\[\nX_L = \\omega L = 120\\pi \\cdot 0.56 \\approx 211.1 \\, \\Omega\n\\]\n\nCapacitive reactance:\n\n\\[\nX_C = \\frac{1}{\\omega C} = \\frac{1}{120\\pi \\cdot 5 \\times 10^{-6}} = \\frac{1}{6\\pi \\times 10^{-4}} \\approx \\frac{1}{0.001884} \\approx 530.9 \\, \\Omega\n\\]\n\nSo, the impedance per phase is:\n\n\\[\nZ = jX_L + \\frac{1}{jX_C} = jX_L - \\frac{j}{X_C} = j(X_L - \\frac{1}{X_C})\n\\]\n\nWait — correction: in series, it’s \\( Z = R + j(X_L - X_C) \\). But here, we have a series combination of an inductor and a capacitor? Actually, looking at the diagram: each phase has **L** and **C** in series? Let me check the diagram description.\n\nThe diagram shows for each phase (a-A, b-B, c-C) a series connection of L and C. So yes, each phase has L and C in series.\n\nSo,\n\n\\[\nZ = j\\omega L - \\frac{j}{\\omega C} = j\\left( \\omega L - \\frac{1}{\\omega C} \\right)\n\\]\n\nCompute the imaginary part:\n\n\\[\n\\omega L = 120\\pi \\cdot 0.56 \\approx "
+  },
+  {
+    "id": "validation_Electronics_28",
+    "subject": "Electronics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a circuit with a sinusoidal voltage source, resistors, capacitors, inductors, and a current source. We are to find the voltage $ v_2 $ across the 15Ω resistor.\n\nThe source is $ 25\\cos(250t) $ V, which is a cosine wave with angular frequency $ \\omega = 250 $ rad/s.\n\nWe will use phasor analysis. Convert all components to their impedance values at $ \\omega = 250 $ rad/s.\n\n---\n\n**Step 1: Convert components to impedances**\n\n- Resistor $ 5\\Omega $: impedance = $ 5\\Omega $\n- Resistor $ 15\\Omega $: impedance = $ 15\\Omega $\n- Capacitor $ 200\\mu F $: \n  $$\n  X_C = \\frac{1}{\\omega C} = \\frac{1}{250 \\times 200 \\times 10^{-6}} = \\frac{1}{0.05} = 20\\Omega\n  $$\n  So impedance = $ -j20\\Omega $\n\n- Inductor $ 80mH $:\n  $$\n  X_L = \\omega L = 250 \\times 0.08 = 20\\Omega\n  $$\n  So impedance = $ j20\\Omega $\n\n- Current source: $ 8A $ (assumed to be DC or AC? The source is $ 25\\cos(250t) $, so it’s AC. But the current source is labeled 8A — likely meaning 8A RMS or peak? In phasor analysis, we must assume it's a phasor. Since no phase is given, we assume it’s in phase with the source or as given. But wait — the source is $ 25\\cos(250t) $, so its phasor is $ 25\\angle 0^\\circ $. The current source is labeled “8A” — without phase. In many contexts, if not specified, we assume it’s in phase with the voltage source unless otherwise stated. But let’s check the diagram: the current arrow is pointing into the node after the 60V battery? Wait — there is a 60V battery shown, but that’s probably a mistake? Or is"
+  },
+  {
+    "id": "validation_Electronics_29",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "30",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To find the power supplied by the 6-V source, we analyze the circuit with X = 2 Ω.\n\nThe circuit has:\n- A 6V source on the left.\n- A 12V source on the right.\n- Resistors: 4Ω (top branch), 2Ω, 1Ω, and 3Ω, and X = 2Ω.\n\nFirst, simplify the circuit:\n\nThe 2Ω and 1Ω resistors are in parallel? Let's check connections.\n\nActually, looking at the diagram:\n\nFrom the 6V source, current splits: one path goes through 2Ω and then to a node that connects to 1Ω and 3Ω. The 4Ω is in parallel with the combination of 2Ω and 1Ω? Not exactly.\n\nLet me redraw mentally:\n\nLeft side: 6V source connected to 2Ω resistor, which is connected to a node. From that node, there’s a 1Ω resistor going down to ground, and a 3Ω resistor going to the right to the box X, which is connected to the 12V source.\n\nAlso, a 4Ω resistor is connected across the 2Ω resistor? That is, from the top of the 2Ω to the same node as the 1Ω resistor? Actually, no — the 4Ω is in parallel with the 2Ω resistor? Let's see:\n\nThe 4Ω resistor is connected between the 6V source terminal and the node where the 2Ω and 1Ω meet? No — the 4Ω is connected from the 6V source terminal to the node after the 2Ω resistor? Actually, the 4Ω is in series with the 2Ω? Or in parallel?\n\nLooking at the diagram description:\n\n“a 4Ω resistor is connected in parallel with the 2Ω resistor?” — not quite.\n\nActually, the 4Ω resistor is connected between the 6V source terminal and the node that the 2Ω resistor connects to? No — the 4Ω is connected from the 6V source terminal to the node where the 2Ω and 1Ω meet? But that would make it in parallel with the 2Ω? Not necessarily.\n\nWait — let me interpret the diagram:\n\nThe 6V source is connected to two nodes: one through a 2Ω resistor, and another through a 4Ω resistor? Actually, the 4Ω resistor is connected"
+  },
+  {
+    "id": "validation_Electronics_30",
+    "subject": "Electronics",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "-141",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a ladder network with four identical sections, each consisting of a 0.5 µF capacitor in series with a 10 kΩ resistor. The input voltage is $ V_{in} = 100 \\angle 0^\\circ $ mV, and the angular frequency is $ \\omega = 100 $ rad/s.\n\nWe need to find the phase of the output voltage $ V_{out} $.\n\n---\n\n### Step 1: Impedance of each section\n\nEach section has a capacitor and a resistor in series:\n\n$$\nZ_{\\text{section}} = R + \\frac{1}{j\\omega C}\n$$\n\nGiven:\n- $ R = 10 \\, \\text{k}\\Omega = 10^4 \\, \\Omega $\n- $ C = 0.5 \\, \\mu\\text{F} = 0.5 \\times 10^{-6} \\, \\text{F} $\n- $ \\omega = 100 \\, \\text{rad/s} $\n\nCompute capacitive reactance:\n\n$$\nX_C = \\frac{1}{\\omega C} = \\frac{1}{100 \\times 0.5 \\times 10^{-6}} = \\frac{1}{5 \\times 10^{-4}} = 2000 \\, \\Omega = 2 \\, \\text{k}\\Omega\n$$\n\nSo,\n\n$$\nZ_{\\text{section}} = 10^4 + (-j2000) = 10^4 - j2000 \\, \\Omega\n$$\n\nMagnitude:\n\n$$\n|Z_{\\text{section}}| = \\sqrt{10^4^2 + 2000^2} = \\sqrt{100000000 + 4000000} = \\sqrt{104000000} = 10200 \\, \\Omega\n$$\n\nPhase angle of each section:\n\n$$\n\\theta_{\\text{section}} = \\tan^{-1}\\left( \\frac{-2000}{10000} \\right) = \\tan^{-1}(-0.2) \\approx -11.46^\\circ\n$$\n\n---\n\n### Step 2: Network structure\n\nThe network is a **ladder**"
+  }
+]

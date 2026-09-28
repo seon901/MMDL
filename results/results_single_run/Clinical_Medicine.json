@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Clinical_Medicine_1",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a gross appearance of the brain with prominent, deep sulci and gyri, and a somewhat swollen or enlarged appearance. This is characteristic of **encephalitis** or **meningitis**, particularly when there is associated **papilledema** (which indicates increased intracranial pressure). The most common cause of such an acute presentation in an adult, especially with fever and papilledema, is **meningococcal meningitis** or **viral encephalitis**.\n\nHowever, among the options provided, we must select the one that is **most likely to be elevated** in this context.\n\nLet’s evaluate each option:\n\nA. **Erythrocyte sedimentation rate (ESR) of 50 mm/hr** — This is moderately elevated. ESR is a nonspecific marker of inflammation and can be elevated in bacterial meningitis, viral encephalitis, and other inflammatory conditions. It is commonly used in the workup of suspected CNS infections.\n\nB. **Serum lipase of 449 U/L** — This is highly elevated and suggests **pancreatitis**. Not related to CNS infection or encephalitis.\n\nC. **Total serum complement of 45 mg/dL** — This is very low. Normal total complement is typically 80–120 mg/dL. A value of 45 mg/dL is abnormal and may suggest **complement deficiency**, which could predispose to recurrent infections, but it is not typical in acute bacterial meningitis or encephalitis unless there's a specific immunodeficiency.\n\nD. **Serum carcinoembryonic antigen (CEA) of 10 ng/mL** — CEA is a tumor marker, and 10 ng/mL is within normal range (typically < 5 ng/mL for non-smokers, < 10 for smokers). Not relevant here.\n\nE. **Serum alanine aminotransferase (ALT) of 123 U/L** — Elevated ALT suggests liver injury. While mild elevation can occur in systemic illness, it is not specific to CNS disease.\n\nF. **Proteinuria** — May occur in some systemic illnesses or nephrotic syndrome, but not specifically indicative of encephalitis or meningitis unless there’s a concurrent renal issue.\n\nAmong these, **option A (ESR of 50 mm/hr)** is the most plausible laboratory finding in a patient with **acute fe"
+  },
+  {
+    "id": "validation_Clinical_Medicine_2",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The electrocardiogram (ECG) shows a regular rhythm with a consistent P wave preceding each QRS complex, but there is a noticeable delay between the P wave and the QRS complex — this is indicative of a first-degree atrioventricular (AV) block.\n\nIn first-degree AV block, the PR interval is prolonged (>200 ms or >0.20 seconds), but every P wave is followed by a QRS complex. The ECG in the image shows a consistent, albeit prolonged, PR interval across all complexes — this fits the classic pattern of first-degree AV block.\n\nLet’s evaluate the other options:\n\n- **B. Third-degree AV block (complete heart block)**: In this condition, no P waves are conducted to the ventricles; the P waves are unrelated to the QRS complexes. There is no such relationship here — every P wave is followed by a QRS complex, so this is not third-degree.\n\n- **C. Second-degree type II AV block**: This involves intermittent non-conduction of P waves, often with a fixed PR interval before the dropped beat. But in this ECG, there are no dropped beats — every P wave is followed by a QRS complex. So it's not type II.\n\n- **D. Atrial flutter**: This typically presents with sawtooth flutter waves and a regular atrial rhythm, not a progressive PR prolongation as seen here.\n\nThus, the most likely diagnosis is first-degree AV block.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Clinical_Medicine_3",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nThe gallbladder appears as a small, fluid-filled sac located beneath the liver on the right side of the abdomen. In this radiograph, it is visible as a rounded, air-filled structure (or sometimes gas-filled in some imaging modalities) that is typically located just below the liver and adjacent to the duodenum. The key feature here is its location and shape — if it appears enlarged, irregularly shaped, or contains calcifications or stones, it would be considered abnormal. Since the question implies an abnormal organ and given the context of abdominal radiographs, the gallbladder is often the focus for abnormalities like gallstones or cholecystitis. Other organs like the stomach or liver may appear normal or are not specifically highlighted as abnormal in standard radiographs unless there’s a specific clinical indication. Therefore, among the options, the gallbladder is most likely the one appearing abnormal.\n\nNote: This answer assumes that the radiograph shows a gallbladder with pathology — which is common in such questions. If the image were showing a dilated duodenum or gastric bubble, those might be indicated, but without further context or visual cues, gallbladder abnormalities are most commonly implied in such multiple-choice scenarios."
+  },
+  {
+    "id": "validation_Clinical_Medicine_4",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The x-ray shows a dense, linear object located in the midline at the level of the pubic symphysis. This is consistent with a foreign body, such as a needle or other metallic object, that has been inserted into the pelvic region. The surrounding bone structures appear normal, and there is no evidence of fracture, dislocation, or air within the bladder (which would appear as radiolucent gas bubbles).\n\nThus, the most accurate finding depicted is a foreign body in the midline at the level of the pubic symphysis.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_5",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a radiographic view (likely an abdominal X-ray or CT) with multiple small, dense calcifications located in the region of the liver and adjacent structures. These calcifications are clustered and appear to be within the hepatic parenchyma or near the porta hepatis, which is consistent with **calcified hematoma of the liver** — often resulting from old hemorrhagic events such as those following trauma or ischemia.\n\nGallstones typically appear as well-defined, discrete densities in the gallbladder or biliary tree, not in the liver parenchyma.\n\nPancreatic calcifications would be more likely to be seen in the pancreatic body or tail, often associated with chronic pancreatitis, and usually appear as focal, irregular densities — not the clustered pattern shown here.\n\nHepatic artery aneurysms are rare and typically appear as dilated vessels on imaging, not as calcifications.\n\nTherefore, the most appropriate answer is:\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_6",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The patient experienced cardiac arrest and was resuscitated after 40 minutes, with a thrombolytic agent administered on admission. This suggests that the myocardium has suffered ischemic injury due to prolonged lack of blood flow, and thrombolysis is being used to restore perfusion.\n\nIn the context of myocardial ischemia and reperfusion (which occurs after thrombolysis), a key cellular response is **free radical injury**. Reperfusion after ischemia leads to a burst of reactive oxygen species (ROS) — free radicals — which cause oxidative damage to lipids, proteins, and DNA in cardiomyocytes. This is a major contributor to reperfusion injury and can exacerbate cell death.\n\nLet’s briefly evaluate the options:\n\n- **A. Apoptosis** – While apoptosis does occur in ischemic myocardium, it is typically a later event and not the *most immediate* or *dominant* change following reperfusion. It’s more associated with prolonged ischemia or chronic stress.\n\n- **B. Free radical injury** – This is a hallmark of reperfusion injury. The sudden reintroduction of oxygen after ischemia generates free radicals, causing significant cellular damage. This is highly relevant here, as thrombolysis restores blood flow, triggering this cascade.\n\n- **C. Heterophagocytosis** – This refers to phagocytosis by macrophages or other heterophils, which may occur later in the inflammatory phase, but not the primary early cellular change after reperfusion.\n\n- **D. Squamous metaplasia** – This is a change seen in epithelial tissues (e.g., airways, esophagus) where one epithelium transforms into another, not relevant to myocardial tissue.\n\nTherefore, the most likely cellular change occurring now — immediately after thrombolysis and reperfusion — is **free radical injury**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_7",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "F",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The clinical scenario describes a 29-year-old pregnant woman at 37 weeks who presents with sudden pelvic pain and vaginal bleeding, without rupture of membranes or contractions. Fetal distress is present, and an emergent cesarean section is performed. The gross appearance of the placenta shown in the image reveals an abnormal attachment — thick, adherent, and possibly invading the myometrium, with a large, irregularly shaped mass that appears to be fused to the uterine wall.\n\nLet’s evaluate the options:\n\nA. **Ectopic pregnancy** — This typically presents with abdominal pain and vaginal bleeding *before* 12 weeks, not at 37 weeks. Also, it does not involve placental pathology as described. Incorrect.\n\nB. **Placenta previa** — This is characterized by painless vaginal bleeding in the second or third trimester, often without fetal distress. The placenta covers the cervix. The image shows a placenta that appears attached to the uterine wall, not covering the cervix, and the bleeding is associated with pain and fetal distress — inconsistent with placenta previa. Incorrect.\n\nC. **Placenta accreta** — This is a condition where the placenta attaches too deeply into the uterine wall, sometimes invading the myometrium. It is often associated with severe hemorrhage during delivery (especially cesarean section), fetal distress, and can be diagnosed postpartum. The gross appearance shown — a thick, adherent placenta with possible invasion — is consistent with placenta accreta. This is a likely diagnosis given the clinical presentation and imaging.\n\nD. **Molar pregnancy** — Presents with excessive vaginal bleeding, hyperemesis, and hormonal symptoms. No fetal distress or placental invasion pattern described. Incorrect.\n\nE. **Abruptio placenta** — Involves placental separation from the uterine wall before delivery, causing pain and bleeding, but usually with signs of fetal compromise. However, the placenta in abruptio placenta typically shows a “bruised” or “spotted” appearance, not the thick, adherent, invasive look shown here. Also, abruptio is usually associated with uterine tenderness and contractions, which are absent here. Less likely.\n\nF. **Pregnancy-induced hypertension** — Would cause preeclampsia, not acute pelvic pain or bleeding. Incorrect.\n\nGiven the clinical context — sudden pain, bleeding, fetal distress, and the gross appearance of"
+  },
+  {
+    "id": "validation_Clinical_Medicine_8",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The clinical scenario describes a 23-year-old woman with her second pregnancy, in which fetal movement decreased and ultrasound at 19 weeks revealed hydrops fetalis. The infant is born at 32 weeks, markedly icteric, with a low hematocrit (Hct of 18%), and requires an exchange transfusion. The mother’s first pregnancy was uncomplicated, suggesting that this is not a recurrent or inherited condition but rather a new immune-mediated event.\n\nThe key clue is the presence of **hydrops fetalis** and **severe neonatal jaundice**, which together strongly suggest **Rh disease** (Rh hemolytic disease of the fetus and newborn), typically caused by maternal anti-Rh(D) antibodies. This occurs when the mother is Rh-negative and has been sensitized to Rh-positive fetal red blood cells during a previous pregnancy or exposure — but in this case, the first pregnancy was uncomplicated, so the sensitization likely occurred during the current pregnancy due to fetal Rh positivity.\n\nIn Rh disease, the maternal immune system produces **anti-Rh antibodies**, which cross the placenta and attack fetal red blood cells. The mechanism involves **complement-mediated lysis** of the fetal RBCs, leading to hemolysis, fetal anemia, hydrops, and severe neonatal jaundice requiring exchange transfusion.\n\nLet’s evaluate the options:\n\nA. **Anti-receptor antibody** — This is incorrect. Anti-receptor antibodies are more associated with autoimmune diseases (e.g., Graves’ disease or autoimmune hemolytic anemia), not Rh disease.\n\nB. **Immune complex formation** — Immune complexes are seen in conditions like lupus nephritis or serum sickness, not classic Rh disease.\n\nC. **Complement mediated cell destruction** — Correct. In Rh disease, maternal IgG anti-Rh antibodies bind to Rh antigens on fetal RBCs, activating the complement cascade (via the classical pathway) and causing direct destruction of RBCs — this is the hallmark mechanism.\n\nD. **Delayed type hypersensitivity** — This refers to T-cell mediated reactions (like contact dermatitis or tuberculin skin test), not antibody-mediated hemolysis.\n\nE. **Loss of self tolerance** — While autoimmunity can involve loss of self-tolerance, this is not the primary mechanism in Rh disease; Rh disease is a classic example of **alloimmunization** (not autoimmunity).\n\nThus, the most likely immunologic mechanism is **complement-mediated cell destruction"
+  },
+  {
+    "id": "validation_Clinical_Medicine_9",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The microscopy image shows a gastric tumour with glandular structures, some of which are irregular and show signs of invasion into the surrounding stroma. The architecture is consistent with adenocarcinoma, and the glands appear to have a pattern resembling the intestinal mucosa — a hallmark of **intestinal type adenocarcinoma**.\n\nLet’s evaluate the options:\n\n- **A. Adenoma**: This is a benign tumor. The image shows invasive growth with disrupted architecture and stromal invasion — not typical of an adenoma.\n\n- **B. Squamous cell carcinoma**: This would show squamous epithelial cells, often with keratinization or intercellular bridges. The image does not show these features; it’s dominated by glandular structures.\n\n- **C. Intestinal type adenocarcinoma**: This is correct. The glandular architecture, with villous or tubular patterns resembling intestinal mucosa, is classic for this subtype. It is the most common histological type of gastric cancer.\n\n- **D. Diffuse signet ring cell adenocarcinoma**: This typically lacks distinct glandular structures and instead shows cells with intracellular mucin pushing the nucleus to the periphery (signet ring appearance). The image shows organized glandular structures — inconsistent with diffuse type.\n\nTherefore, the correct answer is **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_10",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The patient is a 49-year-old man with marked chest pain lasting 4 hours, ST-segment elevation on EKG, and elevated cardiac troponin (10 ng/mL). These findings are classic for an acute myocardial infarction (AMI), specifically an acute anterior wall MI, given the ST-elevation pattern.\n\nThe gross appearance shown in the image depicts a heart with areas of necrosis — consistent with myocardial infarction. In myocardial infarction, the tissue undergoes **coagulative necrosis**. This is because the myocardium is rich in proteins and has a high concentration of myoglobin and other enzymes that can withstand ischemia for a period of time. After ischemic injury, the cells die but the structure remains largely intact — the tissue appears firm and “coagulated,” rather than liquefied or sloughed off.\n\nLet’s evaluate the options:\n\n- **A. Liquefactive necrosis** – This occurs in the brain or liver after bacterial infection or abscess formation; it involves enzymatic digestion leading to a gelatinous, liquid-like appearance. Not typical of myocardial infarction.\n  \n- **B. Caseous necrosis** – Seen in tuberculosis or fungal infections; it's a granulomatous necrosis with a cheesy, pale appearance. Not applicable here.\n  \n- **C. Coagulative necrosis** – Correct. This is the hallmark of myocardial infarction. The tissue undergoes coagulation due to ischemia, preserving the basic architecture for days to weeks before resolution.\n  \n- **D. Wet gangrene** – A type of gangrene involving ischemic tissue with bacterial infection and exudate; usually seen in extremities. Not relevant to myocardial infarction.\n\nThus, the most likely finding in this patient is **coagulative necrosis**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_11",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows the tongue divided into four regions by two horizontal and two vertical lines, labeled 1, 2, 3, and 4. The tongue's taste buds are distributed across its surface, but they are concentrated in specific areas:\n\n- Region 1 (bottom-left): This is the anterior part of the tongue, which contains fewer taste buds compared to the posterior regions.\n- Regions 2 and 3: These are the middle and posterior parts of the tongue, which have a higher density of taste buds.\n- Region 4: This is the tip of the tongue, which primarily detects sweet and salty tastes and has fewer taste buds than the posterior regions.\n\nLoss of taste is typically associated with damage or dysfunction in the regions that contain the most taste buds — specifically the posterior two-thirds of the tongue (regions 2, 3, and 4). The anterior part (region 1) has fewer taste buds, so loss of taste there would be less likely or less pronounced.\n\nTherefore, a loss of taste would be expected in regions 2, 3, and 4.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Clinical_Medicine_12",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The clinical presentation — indurated, roughened, reddish-orange skin with nipple retraction — is classic for **inflammatory breast cancer (IBC)**. IBC is a subtype of invasive ductal carcinoma that presents with these dermatologic changes due to tumor invasion of the lymphatic vessels and skin, leading to a “peau d’orange” appearance.\n\nThe gross appearance shown — a large, irregularly shaped, firm, yellowish-orange mass with a somewhat necrotic or ulcerated surface — is consistent with IBC. While the options include infiltrating ductal carcinoma (A), intraductal carcinoma (B), phyllodes tumor (C), and lobular carcinoma in situ (D), only **infiltrating ductal carcinoma** can present with this aggressive, inflammatory dermatologic pattern. Phyllodes tumors are typically well-circumscribed, fibrous masses; lobular carcinoma in situ does not cause skin changes; and intraductal carcinoma (ductal carcinoma in situ) is non-invasive and does not cause skin invasion or retraction.\n\nThus, although the question mentions “cut surface,” the clinical context and gross appearance point strongly toward **infiltrating ductal carcinoma**, which is the most likely diagnosis given the inflammatory signs and histopathological features implied by the image.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Clinical_Medicine_13",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The images show a breast MRI with subtraction, T2-weighted, and T1-weighted sequences. The key finding is a well-circumscribed, round, hyperintense (bright) lesion on T2-weighted imaging, which is also seen on the subtraction image as a bright area. On T1-weighted imaging, this lesion appears hypointense (dark), which is typical for fat-containing lesions.\n\nThis pattern — bright on T2 and dark on T1 — is classic for fat necrosis. Fat necrosis in the breast often presents as a well-defined, rounded mass that enhances on T1-weighted imaging after contrast administration (though not shown here) and typically has a characteristic appearance on T2-weighted imaging due to the presence of fluid and inflammatory changes. The subtraction image highlights the lesion by subtracting background tissue, making it more conspicuous.\n\nLet’s evaluate the options:\n\nA. Susceptibility artifact — These are typically caused by metal or iron deposits and appear as areas of signal void (dark) or distortion, not a distinct bright lesion with specific T2/T1 characteristics.\n\nB. Hematoma — Hematomas can be hyperintense on T2-weighted imaging, but they usually have a more irregular shape and may show associated edema or enhancement. They do not typically present as uniformly round and dark on T1.\n\nC. Fat necrosis — This matches perfectly: it is a common benign finding, often presenting as a round, well-defined lesion that is hyperintense on T2-weighted imaging and hypointense on T1-weighted imaging. It is frequently seen in the context of trauma or inflammation, and its appearance is consistent with what is shown.\n\nD. Silicone granuloma — These are typically seen after silicone implant rupture and appear as small, round, hyperintense lesions on T2-weighted imaging, but they are usually smaller and more numerous, and their appearance on T1-weighted imaging is variable, often showing low signal intensity. They are less likely to be as large and well-circumscribed as shown.\n\nThus, the most likely etiology is fat necrosis.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_14",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows an abdominal x-ray with the patient in a standing or upright position, as indicated by the visible gravitational effects on the bowel loops and the presence of air-fluid levels. This is commonly used to evaluate for bowel obstruction or other pathologies.\n\nLet’s evaluate the options:\n\nA. KUB — This is a plain radiograph of the kidneys, ureters, and bladder, typically done in a supine position. It does not show the detailed intestinal loops seen here.\n\nB. Lateral Decubitus — This is a lateral position with the patient lying on their side, often used to detect free air or fluid levels. The image shown is not in this position.\n\nC. Upright Abdominal x-ray — This is correct. The image shows the abdomen in an upright position, which is typical for evaluating bowel obstruction or gas patterns. The bowel loops are clearly visible and appear to be in a dependent position, consistent with upright imaging.\n\nD. IVP — This is a contrast study involving intravenous injection of contrast to visualize the urinary tract. It is not a plain x-ray and would not look like this.\n\nTherefore, the correct answer is C. Upright Abdominal x-ray.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Clinical_Medicine_15",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a radiograph of a knee joint with visible narrowing of the joint space, subchondral sclerosis, and possible osteophyte formation — classic radiographic features of osteoarthritis. Osteoarthritis typically presents with degenerative changes in weight-bearing joints like the knee, often seen as joint space narrowing and bone spurs.\n\nRheumatoid arthritis (B) usually presents with symmetric joint involvement, erosions, and soft tissue swelling — not typically shown in this image without additional context.\n\nSeptic arthritis (C) would show acute joint effusion, bone destruction, and possibly abscess formation — not consistent with the slow-progressing, degenerative appearance here.\n\nAvascular necrosis (D) affects bone due to blood supply issues, typically showing focal bone collapse or fragmentation — not typical of this image.\n\nTherefore, the most likely diagnosis is osteoarthritis.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Clinical_Medicine_16",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The gross pathologic appearance shown is that of a **cerebral abscess** — characterized by a central necrotic area surrounded by a thick, fibrous wall, with a distinct “walled-off” appearance. The presence of papilledema and obtundation suggests increased intracranial pressure (ICP), which is commonly associated with cerebral abscesses.\n\nLet’s evaluate the options:\n\n- **A. Parkinson disease** — This is a neurodegenerative disorder affecting motor function; it does not cause abscesses or papilledema.\n  \n- **B. Berry aneurysm rupture** — This typically causes subarachnoid hemorrhage, presenting with sudden severe headache, often “thunderclap,” and potentially herniation if large. It does not produce a grossly visible abscess like this.\n\n- **C. Glioblastoma** — A high-grade brain tumor that can cause mass effect and papilledema, but its gross appearance is usually irregular, infiltrative, and lacks the classic walled-off abscess structure. It may cause hydrocephalus or obstructive symptoms, but not typically a discrete abscess with central necrosis and surrounding wall.\n\n- **D. Multiple sclerosis** — An autoimmune demyelinating disease affecting the CNS, causing lesions on MRI, but not producing abscesses or acute neurological deterioration with papilledema in this manner.\n\n- **E. Meningococcemia** — This is a systemic infection caused by *Neisseria meningitidis*, which can lead to **meningitis and cerebral abscesses** as complications. In severe cases, it can cause septic emboli, purulent meningitis, and subsequently, cerebral abscess formation with characteristic gross pathology. The patient’s presentation — headache, papilledema, obtundation — fits with sepsis and meningeal inflammation leading to abscess formation.\n\nThus, **meningococcemia** is most consistent with the gross finding of a cerebral abscess and the clinical picture of acute neurological deterioration with increased ICP.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Clinical_Medicine_17",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The clinical scenario describes a 32-year-old woman with recurrent episodes of fever, cough, and dyspnea that resolve spontaneously, with no physical exam abnormalities. The key point is the **recurrence over multiple episodes** and the **transbronchial biopsy** showing a microscopic appearance consistent with a specific pattern.\n\nLooking at the histology: the image shows **inflammatory infiltrates** in the lung parenchyma, with **lymphocytes and plasma cells**, and **some areas of alveolar wall thickening or edema**. Importantly, there is **no evidence of necrosis, fungal elements, or caseating granulomas**, which would be seen in tuberculosis or other infections.\n\nThis pattern — recurrent, non-specific inflammation without systemic signs, and resolving spontaneously — is classic for **hypersensitivity pneumonitis** (also called extrinsic allergic alveolitis). It is often triggered by repeated exposure to inhaled antigens (e.g., mold spores, bird droppings, agricultural dust), leading to an immune-mediated inflammatory response in the lungs.\n\nLet’s evaluate the options:\n\nA. **Influenza viral pneumonia** — Typically presents with acute onset, may have more pronounced alveolar damage, and is not associated with recurrent episodes unless chronic or immunocompromised. Also, histology usually shows viral inclusion bodies or syncytial cells, not the lymphocytic infiltration seen here.\n\nB. **Hypersensitivity pneumonitis** — Matches perfectly: recurrent episodes, immune-mediated inflammation, transbronchial biopsy showing lymphocytic infiltrate, and resolution between attacks. This is the most likely diagnosis.\n\nC. **Diffuse alveolar damage** — Seen in acute respiratory distress syndrome (ARDS), typically following trauma, sepsis, or aspiration. Presents with acute, severe symptoms and does not recur in this fashion.\n\nD. **Miliary tuberculosis** — Presents with systemic symptoms, weight loss, fever, and often has granulomatous inflammation with caseation necrosis on biopsy. Not recurrent in this manner, and usually involves systemic disease.\n\nThus, the histology and clinical course strongly support **hypersensitivity pneumonitis**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_18",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The electrocardiogram (ECG) shows a regular rhythm with P waves preceding each QRS complex, indicating sinus origin. The P waves are consistent in morphology and timing, suggesting normal sinus rhythm. However, there are occasional premature, wide, and bizarre QRS complexes that do not have associated P waves — these are characteristic of premature ventricular contractions (PVCs). The presence of PVCs is evident as they appear earlier than expected, have a different morphology, and are followed by a compensatory pause.\n\nThus, the rhythm is Normal Sinus Rhythm with Premature Ventricular Contractions (PVCs).\n\nOption E: “NSR with PVC's” correctly describes this finding.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Clinical_Medicine_19",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a gross specimen of the liver with multiple small, yellowish-brown nodules — consistent with **hepatic adenomas** or **hepatocellular adenomas**, but more likely in this context, **hepatic cysts** or **cholelithiasis-related lesions**. However, given the presence of numerous small, rounded, yellowish structures on the surface of a liver specimen, and the clinical presentation of right upper quadrant pain and tenderness, this is most suggestive of **hepatic cholesterolosis** or **biliary tract disease** — but the most classic and common association with such a lesion is **chronic liver disease** or **obesity-related fatty liver disease**.\n\nHowever, let’s analyze the options:\n\nA. Gilbert disease — a benign genetic disorder causing mild unconjugated hyperbilirubinemia; does not typically cause stones or nodules.\n\nB. Cytomegalovirus infection — can cause hepatitis or liver disease, but not typically presenting with such gross hepatic nodules.\n\nC. Hemolytic anemia — leads to increased bilirubin and possible gallstones (due to bilirubin precipitation), but the gross appearance here is not typical of gallstones or hemolysis.\n\nD. Ulcerative colitis — primarily affects the colon, not the liver.\n\nE. Obesity — is a well-known risk factor for **non-alcoholic fatty liver disease (NAFLD)**, which can progress to **steatohepatitis**, and in some cases, to **hepatic adenomas** or **cysts**. More importantly, obesity is strongly associated with **cholelithiasis** and **gallstone disease**, which often present with right upper quadrant pain and may be associated with biliary sludge or gallstones that appear as nodular formations on the liver surface — though not exactly matching the image.\n\nWait — re-examining the image: The structure appears to be **a liver with multiple small, yellowish, round nodules** — these are characteristic of **hepatic adenomas**, which are often associated with **estrogen exposure** (e.g., oral contraceptives, hormone replacement therapy) — but not directly with obesity.\n\nActually, the most likely diagnosis here is **hepatic adenoma** — which is more commonly associated with **hormonal factors**, **obesity**, and **metabolic syndrome**. But the most direct risk factor among the choices is **obesity"
+  },
+  {
+    "id": "validation_Clinical_Medicine_20",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "This ECG shows a regular rhythm with P waves that are absent or not clearly identifiable before each QRS complex. The QRS complexes are wide and bizarre in shape, and there is no discernible relationship between the P wave and the QRS complex — which is inconsistent with normal sinus rhythm or even 1st-degree AV block (which would show P waves preceding QRS complexes).\n\nThe presence of wide, bizarre QRS complexes without preceding P waves suggests that the impulse is originating from the ventricles, which is characteristic of an **idioventricular rhythm**.\n\n- Normal Sinus Rhythm: Would have upright P waves before each QRS.\n- Sinus Bradycardia: Still has normal P waves, just slow HR.\n- Accelerated Junctional Rhythm: Has P waves that are inverted or absent, but QRS complexes are narrow and usually regular.\n- NSR with 1st Degree AV Block: P waves precede QRS, with PR interval prolonged but still consistent.\n- Paced with Failure to Capture: Would show a paced beat with no capture, often with a fixed pattern and sometimes with a \"ghost\" P wave or irregularity.\n- Idioventricular Rhythm: Wide QRS, no P wave, variable rate, often seen in acute MI or post-cardiac arrest.\n\nGiven these features, the most appropriate diagnosis is **Idioventricular Rhythm**.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Clinical_Medicine_21",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image is a CT scan of the abdomen, showing a large, round, high-density structure in the central region — likely the abdominal aorta — with a noticeable dilation or abnormality. The presence of a dilated aorta, especially if it appears to be an aneurysm, and given the patient’s presentation of severe abdominal pain, raises concern for a ruptured abdominal aortic aneurysm (AAA).\n\nA ruptured AAA is a surgical emergency. It causes sudden, severe abdominal or back pain, hypotension, tachycardia, and can lead to rapid exsanguination and death if not treated immediately. The CT scan may show extravasation of contrast, hematoma, or other signs of rupture.\n\nLet’s evaluate the options:\n\nA. A ruptured gastric ulcer — typically presents with epigastric pain, vomiting, and may cause peritonitis, but not usually as dramatic or life-threatening as a ruptured AAA, and the imaging would not show a massive aortic dilation.\n\nB. A ruptured abdominal aortic aneurysm — matches the clinical scenario and imaging findings: severe pain, CT shows a dilated aorta, and rupture is a medical emergency requiring immediate intervention.\n\nC. Acute appendicitis — typically presents with right lower quadrant pain, fever, and often a palpable mass or free air on imaging. While serious, it is not as immediately life-threatening as a ruptured AAA unless perforation occurs, which is less common than rupture of an aneurysm.\n\nD. Acute renal failure — usually presents with oliguria, edema, electrolyte imbalances, etc., not necessarily acute severe abdominal pain, and doesn’t explain the imaging findings.\n\nTherefore, based on the CT scan and the clinical context, the most likely and urgent diagnosis is a ruptured abdominal aortic aneurysm.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_22",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows multiple small, well-circumscribed, darkly pigmented skin lesions on the chest of a 33-year-old man. The lesions have remained stable in size since childhood — a key clinical feature. They are not associated with rapid growth or ulceration.\n\nLet’s evaluate the options:\n\nA. **Keratoacanthomas** – These are rapidly growing, often central keratin-filled lesions that can appear suddenly and may ulcerate. They are typically seen in older adults and are not associated with longstanding stability since childhood. → Incorrect.\n\nB. **Seborrheic keratoses** – These are common benign skin lesions in adults, often described as “stuck-on” or “waxy” plaques. They are typically brown to black, can be flat or raised, and often remain unchanged for years. They are very common in middle-aged and older individuals, and while they can appear in younger people, their long-standing nature matches this case. → Plausible.\n\nC. **Fibroepithelial polyps** – These are usually found in the oral cavity or genital area, not typically on the chest. Also, they are not commonly described as persistent since childhood. → Incorrect.\n\nD. **Nevocellular nevi** – These are melanocytic nevi (moles) that can appear at any age, including childhood. While some nevi can remain stable, they often change in number or appearance over time, especially if there is a family history or sun exposure. However, nevi are typically darker and more irregular than the lesions shown here. The lesions look more like seborrheic keratoses. → Less likely.\n\nE. **Epidermal inclusion cysts** – These are typically round, soft, movable, and often located on the trunk or limbs. They contain keratinous material and are not pigmented or stable since childhood. → Incorrect.\n\nGiven the description — multiple, pigmented, stable lesions since childhood — the most likely diagnosis is **seborrheic keratoses**, which are classic benign, long-standing lesions that do not increase in size and are common in adults.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_23",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In this abdominal radiograph, the kidneys appear enlarged and more prominent than normal. The renal outlines are visible and occupy a larger portion of the retroperitoneal space compared to typical imaging. This is consistent with conditions such as hydronephrosis or renal enlargement due to obstruction or other pathology.\n\nThe spine (D) is normal in appearance — it’s just a bony structure that’s not an organ.\n\nThe liver (C) is not clearly visible or enlarged in this image; its position is obscured by the overlying bowel gas and the spine.\n\nThe small intestines (B) are not abnormally large — they appear as air-filled loops, which is normal.\n\nThus, the only organ visibly abnormally large is the kidney.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Clinical_Medicine_24",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The radiograph shows a classic appearance of small bowel obstruction. Key features include:\n\n- Dilated loops of bowel, particularly in the mid to distal small intestine.\n- Air-fluid levels are present, which are hallmark signs of obstruction.\n- The dilatation is not uniform or generalized, suggesting localized obstruction rather than ileus.\n- There is no evidence of colonic dilation (which would suggest large bowel obstruction).\n- The presence of multiple air-fluid levels and proximal dilatation with distal cutoff is typical of small bowel obstruction.\n\nWhile generalized ileus can cause widespread dilatation, it usually lacks the characteristic “step-like” pattern or localized segmental involvement seen here. Localized ileus may also present with focal dilatation but typically does not show the extensive air-fluid levels as seen.\n\nSmall bowel obstruction is more common in this age group and presentation, and the radiographic findings align well with it.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_25",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The microscopic image shows a thyroid lesion with well-formed glandular structures, but with **atypical cells** — notably, the presence of **large, pleomorphic nuclei**, **increased nuclear-to-cytoplasmic ratio**, and **loss of normal follicular architecture**. These features are characteristic of **thyroid carcinoma**, specifically **papillary thyroid carcinoma**, which is the most common type of thyroid cancer and often presents as a solitary, firm, non-tender nodule.\n\nLet’s evaluate each option:\n\nA. **The serum TSH is probably increased**  \n→ In **thyroid carcinoma**, especially papillary, there is often **elevated TSH** due to suppression of thyroid hormone production by the tumor (or due to the tumor's ability to secrete thyroid hormones). However, this is not always true — some tumors may be autonomous. But in many cases, especially early-stage or benign-appearing tumors, TSH can be elevated. However, in thyroid cancer, TSH levels are often **low or suppressed** because of hyperfunctioning tumors. But in many cases, **TSH is elevated** in patients with thyroid cancer, particularly if they have no prior treatment. Actually, **in papillary thyroid carcinoma, TSH is often low due to the tumor’s autonomous function**, so this statement is **not accurate**.\n\nB. **She will probably survive for at least 10 years**  \n→ Papillary thyroid carcinoma has an **excellent prognosis**, especially when diagnosed early and treated appropriately. The 10-year survival rate is **>95%** for localized disease. So this is **likely correct**.\n\nC. **Anti-microsomal and anti-thyroglobulin antibodies are detectable**  \n→ These are **autoantibodies associated with autoimmune thyroid disease** (like Hashimoto’s thyroiditis or Graves’ disease), **not with thyroid cancer**. They are typically absent in thyroid cancer. So this is **incorrect**.\n\nD. **A dietary iodine deficiency probably preceded its appearance**  \n→ Iodine deficiency is associated with **goiter** and **thyroid enlargement**, but **not directly with thyroid cancer**. While iodine deficiency can predispose to certain types of thyroid pathology, it is not a known cause of thyroid cancer. So this is **incorrect**.\n\nE. **The patient has relatives with a similar condition**  \n→ While **familial thyroid cancer** exists (e.g., in MEN2, familial adenomat"
+  },
+  {
+    "id": "validation_Clinical_Medicine_26",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The fracture shown in the image is a **Colles' fracture**, which is a fracture of the distal radius, typically occurring just proximal to the wrist joint. It is named after **Sir Arthur Colles**, a British surgeon who first described this injury in the 19th century.\n\nLet’s briefly review the other options:\n- **Monteggia** – Refers to Monteggia fracture-dislocation, involving the elbow and radius/ulna.\n- **Bennett** – Bennett’s fracture involves the base of the thumb metacarpal.\n- **Jones** – Jones fracture is a break in the fifth metatarsal bone.\n\nTherefore, the correct answer is D. Colle.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Clinical_Medicine_27",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a uterus with a large, adherent placental tissue mass that appears to be fused or embedded into the myometrium, with visible areas of the uterine wall being invaded. This is characteristic of **placenta accreta**, a condition in which the placenta grows too deeply into the uterine wall, often leading to severe hemorrhage during delivery and necessitating emergency hysterectomy.\n\nLet’s briefly evaluate the options:\n\n- **A. Abruptio placenta** – This involves premature separation of the placenta from the uterine wall, typically causing bleeding and pain, but does not present with deep invasion or adherence of the placenta to the myometrium.\n- **B. Placenta accreta** – Correct. This is characterized by abnormal attachment of the placenta to the uterine wall, often involving invasion into the myometrium. The gross appearance shown — with the placenta appearing attached or fused to the uterine wall — is classic for this diagnosis. It’s a leading cause of hemorrhage requiring hysterectomy.\n- **C. Chorioamnionitis** – This is an infection of the membranes and amniotic fluid, typically presenting with fever, tachycardia, and fetal distress, not with gross uterine invasion or hemorrhage from placental embedding.\n- **D. Twin placenta** – Refers to twins having two placentas; it does not cause the described invasive pathology.\n- **E. Partial mole** – A type of molar pregnancy, usually presenting with abnormal growth of trophoblasts, not associated with uterine invasion or hemorrhage requiring hysterectomy.\n\nThus, based on the gross appearance and clinical context (hemorrhage after birth, emergency hysterectomy), the most likely diagnosis is **placenta accreta**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Clinical_Medicine_28",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The microscopic image shows a characteristic appearance of **focal segmental glomerulosclerosis (FSGS)**, with concentric layers of fibrous tissue and sclerosis around the glomeruli. This is often seen in conditions leading to nephrotic syndrome or acute kidney injury.\n\nHowever, the clinical presentation — severe headache, nausea, vomiting, hypertension (290/160 mm Hg), and elevated serum creatinine (3.7 mg/dL) — strongly suggests **acute kidney injury** due to **hypertensive encephalopathy or hypertensive crisis**, which can be secondary to **systemic disease**.\n\nLet’s evaluate the options:\n\n- **A. Hepatitis C** — Typically causes chronic liver disease, cirrhosis, and hepatocellular carcinoma. It can lead to renal involvement (e.g., membranoproliferative GN), but not typically presenting with such severe hypertension and acute renal failure in this context.\n\n- **B. Breast carcinoma** — Can metastasize to the kidneys, causing renal masses or obstruction, but not typically associated with focal glomerular sclerosis or acute renal failure from systemic hypertension.\n\n- **C. Diabetes mellitus** — Can cause diabetic nephropathy, which includes FSGS and nodular sclerosis. However, diabetes usually presents with gradual onset of proteinuria and renal dysfunction over years, not an acute presentation with severe hypertension and acute renal failure.\n\n- **D. Diffuse scleroderma** — A systemic autoimmune disease that can involve the kidneys (e.g., sclerosing nephritis). While it can cause renal impairment, it does not typically present with such severe acute hypertension and focal glomerular changes as shown.\n\nBut wait — the image is actually **not** showing FSGS. The spiral pattern is classic for **renal arteriole hyalinosis or intimal thickening** — more consistent with **chronic hypertension-induced renal damage** — but the question says “microscopic appearance of her kidneys” and the image is showing **a spiral structure**, which is **not typical of FSGS**.\n\nActually, looking again — the image is **not** of FSGS. The spiral structure is **characteristic of renal infarct or vascular changes**, possibly **intra-arterial thrombosis or arteriolar hyalinosis** — but the spiral arrangement is more suggestive of **a central necrotic core surrounded by inflammatory infiltrate**, which may indicate **acute pyelonephritis or abscess"
+  },
+  {
+    "id": "validation_Clinical_Medicine_29",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The histological feature highlighted in part A of the image is a collection of inflammatory cells and cellular debris, which is characteristic of Crohn’s disease. In Crohn’s disease, non-caseating granulomas are a hallmark histological finding, although they are not always present in every case. However, when granulomas are seen, they are typically non-caseating and often associated with chronic inflammation.\n\nLooking at the image, part A shows a dense infiltrate of inflammatory cells, including lymphocytes and plasma cells, arranged in a pattern consistent with granulomatous inflammation. While the image does not clearly show the classic “epithelioid cell” or “Langhans-type” granuloma structure, the presence of such an infiltrate in the context of Crohn’s disease suggests a granulomatous reaction.\n\nAmong the options:\n- A. Fissuring ulcer — This is more typical of ulcerative colitis.\n- B. Sinus tract — These are structural features seen on imaging or gross pathology, not histological features.\n- C. Fistula formation — Again, a structural feature, not a histological one.\n- D. Non-caseating granuloma — This is the correct histological hallmark of Crohn’s disease.\n\nTherefore, even though the image may not perfectly depict a granuloma, the context and pattern of inflammation in part A aligns with non-caseating granulomatous inflammation, which is diagnostic for Crohn’s disease.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Clinical_Medicine_30",
+    "subject": "Clinical_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a gross pathologic finding consistent with **pulmonary embolism**, specifically a large thrombus (clot) lodged in the pulmonary artery, causing acute obstruction. This is a common cause of sudden death in elderly patients, especially those with risk factors such as prolonged immobility, which can lead to venous stasis and clot formation.\n\nLet’s evaluate the options:\n\nA. Blunt chest trauma — While this can cause pulmonary embolism indirectly (e.g., via rupture of veins or dislodgement of clots), it is not the most common cause of sudden death from PE in this context.\n\nB. Inhalation of inorganic dusts — This is associated with occupational lung disease (e.g., silicosis, coal workers’ pneumoconiosis), not acute pulmonary embolism.\n\nC. Prolonged immobilization — This is a well-known risk factor for deep vein thrombosis (DVT), which can subsequently embolize to the lungs, causing sudden death. This patient collapsed after ambulating to the bathroom — suggesting she may have been bedridden or immobile for a period, making this the most likely risk factor.\n\nD. Bronchopneumonia — This is an infection that typically causes chronic or subacute symptoms, not sudden collapse unless severe, but it does not produce the characteristic gross pathology shown (large pulmonary thrombus).\n\nTherefore, the most likely risk factor for the immediate cause of death (pulmonary embolism) is prolonged immobilization.\n\nAnswer: C"
+  }
+]

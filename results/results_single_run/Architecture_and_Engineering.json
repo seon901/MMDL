@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Architecture_and_Engineering_1",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a truss with a uniform live load of 0.32 kip/ft over the entire span (90 ft), and a concentrated live load of 24 kips that can be placed anywhere to maximize the force in member CG.\n\nThe truss is symmetric, with joints at A, B, C, D, E, F, G, and the span is 90 ft with 6 segments of 15 ft each. The height is 20 ft. Member CG is a diagonal member in the middle of the truss.\n\n---\n\n**Step 1: Understand the truss geometry**\n\nSince it’s a symmetric truss with vertical members and diagonals, we can analyze the forces using method of sections or method of joints. But since we’re interested in maximizing force in CG, we should consider the critical position for the 24 kip load.\n\nIn trusses, the force in a diagonal member like CG is maximized when the load is placed such that it creates maximum shear or moment in the region around CG.\n\nHowever, note that CG is a diagonal member connecting joint C to joint G. Since the truss is symmetric, and the uniform load is distributed, we can find the maximum force in CG by considering:\n\n- The effect of the uniform load\n- The effect of the 24 kip concentrated load placed optimally\n\n---\n\n**Step 2: Uniform Live Load Effect**\n\nUniform load = 0.32 kip/ft over 90 ft → total load = 0.32 × 90 = 28.8 kips.\n\nThis load will create reactions at A and F. Since the truss is symmetric, reactions at A and F are each 14.4 kips upward.\n\nNow, to find force in CG, we can use method of sections.\n\nCut the truss through members CG, DG, and FG (or through CG, BG, etc.). Let’s cut through CG, DG, and FG — but actually, since CG is a diagonal, perhaps better to cut through CG and horizontal members.\n\nActually, let’s cut through CG and the vertical members at C and G. But since CG is diagonal, we need to consider the section that includes CG.\n\nAlternatively, use method of joints — but that would be tedious for all members.\n\nBetter: Use **method of sections**.\n\nCut through CG, DG, and FG. But note: points C, D, G are connected. Actually,"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_2",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two cameras, A and B, with different formats and focal lengths. We are asked to find how many photographs Camera A would take to cover a strip 16 km long at a flying height of 1350 m, with 60% longitudinal overlap.\n\n---\n\n### Step 1: Understand the concept\n\nIn photogrammetry, the **strip width** (also called the **ground coverage per photograph**) is determined by the **focal length**, **flying height**, and **format size**.\n\nThe formula for ground coverage per photograph (width) is:\n\n\\[\n\\text{Ground coverage} = \\frac{\\text{Format width} \\times \\text{Flying height}}{\\text{Focal length}}\n\\]\n\nThis gives the width on the ground that one photograph can cover, assuming no overlap.\n\nBut since we have **longitudinal overlap of 60%**, we need to account for that.\n\n---\n\n### Step 2: Calculate ground coverage per photograph for Camera A\n\nGiven:\n\n- Format width = 180 mm\n- Focal length = 210 mm\n- Flying height = 1350 m\n\n\\[\n\\text{Ground coverage} = \\frac{180 \\times 1350}{210} \\text{ meters}\n\\]\n\nCalculate:\n\nFirst, 180 / 210 = 18/21 = 6/7 ≈ 0.85714\n\nThen, 0.85714 × 1350 ≈ ?\n\nLet’s compute exactly:\n\n\\[\n\\frac{180 \\times 1350}{210} = \\frac{243000}{210} = 1157.142857... \\text{ meters}\n\\]\n\nSo, each photograph covers approximately **1157.14 meters** of ground.\n\n---\n\n### Step 3: Account for 60% longitudinal overlap\n\nLongitudinal overlap means that the next photograph overlaps the previous one by 60% of the ground coverage.\n\nTherefore, the **effective strip width covered by each photograph** (i.e., the distance between the edges of consecutive photos) is:\n\n\\[\n\\text{Effective coverage per photo} = \\text{Ground coverage} \\times (1 - 0.60) = 1157.1"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_3",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_4",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given two setups of a level instrument at points M and N, with readings on staffs at A and B.\n\nThe goal is to compute the correct height difference $ h_{AB} = \\text{elevation of } B - \\text{elevation of } A $.\n\nIn leveling, the correct height difference between two points is obtained by averaging the two measurements (from both setups) if the instrument is properly leveled and the setup is symmetric. However, in this case, since the instrument is moved to different positions (M and N), we can use the principle that the difference in elevation should be consistent regardless of position, provided the instrument is correctly leveled.\n\nLet’s denote:\n\n- At point M:\n  - Reading on A staff: $ a'_M = 1.355 \\, \\text{m} $\n  - Reading on B staff: $ b'_M = 1.455 \\, \\text{m} $\n\n- At point N:\n  - Reading on A staff: $ a'_N = 1.585 \\, \\text{m} $\n  - Reading on B staff: $ b'_N = 1.485 \\, \\text{m} $\n\nThe height difference $ h_{AB} $ can be calculated using the formula for leveling:\n\n$$\nh_{AB} = \\frac{(a'_M + a'_N)}{2} - \\frac{(b'_M + b'_N)}{2}\n$$\n\nThis is because the average of the staff readings at A gives the approximate elevation of A relative to the instrument's line of sight, and similarly for B. The difference between these averages gives the height difference.\n\nLet’s compute:\n\nFirst, sum of A readings: $ a'_M + a'_N = 1.355 + 1.585 = 2.940 \\, \\text{m} $\n\nAverage of A readings: $ \\frac{2.940}{2} = 1.470 \\, \\text{m} $\n\nSum of B readings: $ b'_M + b'_N = 1.455 + 1.485 = 2.940 \\, \\text{m} $\n\nAverage of B readings: $ \\frac{2.940}{2} = 1.470 \\, \\text{m} $\n\nThen,\n\n$$\nh_{AB"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_5",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a pentagon with internal angles and the coordinate bearing angle of side L₁₂ = α₁₂ = 30°. We need to find the coordinate bearing angles for sides L₂₃, L₃₄, L₄₅, and L₅₁.\n\nRecall: In coordinate bearings (also called “true bearing”), we measure angles clockwise from North. The internal angle at a vertex is the angle inside the polygon between two adjacent sides.\n\nTo find the external angle at each vertex, we use:\n\n> External angle = 180° - internal angle\n\nBut note: in polygon traversal, when going around the polygon, the turning angle (external angle) is the supplement of the internal angle, and the direction change (bearing change) is equal to this external angle (in magnitude), but we must consider the direction of turn (left or right).\n\nHowever, in coordinate bearings, when traversing a polygon, the bearing of the next side is obtained by turning left (or right) by the external angle from the previous side’s bearing.\n\nBut wait — there’s a better approach using the fact that the **sum of exterior angles** of any polygon is always 360°. However, since we are dealing with coordinate bearings, and we know one bearing, we can compute the others by considering the direction changes at each vertex.\n\nLet’s denote the bearing of side L₁₂ as α₁₂ = 30°.\n\nNow, when moving along a side, the bearing of the next side is determined by turning by the external angle at the vertex.\n\nThe key idea: At each vertex, the turning angle (the angle you turn to go from one side to the next) is equal to 180° minus the internal angle, and the direction of turn (left or right) depends on the orientation of the polygon.\n\nAssuming the polygon is traversed in counter-clockwise order (which is standard unless otherwise specified), then at each vertex, we turn **left** by the external angle.\n\nSo:\n\n> Bearing of next side = current bearing + external angle\n\nBut wait — if we are turning left, then yes, we add the external angle.\n\nHowever, let’s verify with an example.\n\nSuppose we are at vertex 2, coming from side 1-2 with bearing 30°, and the internal angle at vertex 2 is 145°.\n\nThen the external angle = 180° - 145"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_6",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_7",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_8",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given three observations:\n\n- α = 20°10'10\" with weight 6\n- β = 30°20'30\" with weight 4\n- α + β = 50°30'50\" with weight 2\n\nWe are to adjust α and β using the method of least squares (weighted average), since weights are provided.\n\nThe total weight is W = 6 + 4 + 2 = 12.\n\nIn weighted least squares for angles, we adjust each observation such that the sum of the adjusted values matches the observed sum, and the adjustments are proportional to the inverse of the weights.\n\nLet’s denote:\n\n- Adjusted α: α'\n- Adjusted β: β'\n\nWe know:\n\nα' + β' = 50°30'50\"   (observed sum)\n\nAlso, the adjustment for each angle should be proportional to the inverse of its weight. The adjustment is applied to make the sum correct, so we compute the \"error\" in the sum and distribute it according to weights.\n\nFirst, compute the observed sum of α and β:\n\nα + β = 20°10'10\" + 30°20'30\" = 50°30'40\"\n\nBut the required sum is 50°30'50\", so the error is:\n\nError = 50°30'50\" - 50°30'40\" = 10\"\n\nThis error must be distributed between α and β based on their weights.\n\nThe total weight is 12. The weight of α is 6, and β is 4.\n\nThe adjustment to α should be: (weight of β / total weight) × error? No — actually, the adjustment is proportional to the inverse of the weight, but since we are adjusting to satisfy the constraint, we use the formula:\n\nThe adjustment δα = [ (weight_β - weight_α) / (weight_α + weight_β) ] × error? Not quite.\n\nStandard method: In weighted least squares for a constraint like α + β = S, the adjustment is:\n\nδα = (w_β / (w_α + w_β)) × (S - (α + β))\n\nWait — no, that's not right either.\n\nActually, the correct approach is:\n\nThe adjustment to α should be proportional to the inverse of"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_9",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a table of distances (in meters) and corresponding R.L. (Reduced Levels) at intervals of 100 m from 0 to 400 m.\n\nWe are to calculate the volume of earthwork using the **prismoidal rule** for an embankment with a rising gradient of 1 in 100, side slope 2:1, and formation level at zero chainage = 107.00 m.\n\nBut note: the table gives R.L. values starting at 0 m as 104.8 m — which is *below* the formation level of 107.00 m. This means we are dealing with excavation or fill? Actually, since it's an embankment, and the ground is level across the centerline, and we're building up to a higher level, the R.L. values should be increasing along the length. However, here at 0 m, R.L. = 104.8, and at 400 m, R.L. = 108.3 — so the ground is sloping upward? But the problem says \"the ground is level across the c/l\", meaning the ground surface is flat. So the R.L. values given must represent the **ground level**, and the embankment is being constructed on this ground, so the formation level is above the ground.\n\nWait — the formation level at zero chainage is given as 107.00 m, but the table shows R.L. at 0 m as 104.8 m. That suggests that at 0 m, the ground is at 104.8 m, and we need to build up to 107.00 m — so we have a cut or fill? But the embankment is 400 m long, and the R.L. at 400 m is 108.3 m, which is higher than 107.00 — so the ground is sloping upward. The problem says “the ground is level across the c/l” — this likely means the ground is flat in the direction of the embankment (i.e., no slope along the centerline), but the R.L. values vary — which contradicts unless the embankment is built on uneven ground? But the problem says “the ground is level across the c/l”, meaning the ground surface"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_10",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the area of a closed traverse using the **Double Meridian Distance (D.M.D.) method**, we follow these steps:\n\n---\n\n### Step 1: Understand the D.M.D. Method\n\nThe Double Meridian Distance (D.M.D.) for a line is calculated as:\n\n> **D.M.D. = D.M.D. of previous line + Departure of current line**\n\nFor the first line, D.M.D. = Departure of that line.\n\nThen, the area is computed as:\n\n> **Area = Σ (Latitude × D.M.D.)**\n\nNote: The sign convention matters — if latitude is negative, the product will be negative, and vice versa.\n\n---\n\n### Step 2: Compute D.M.D. for each line\n\nWe are given:\n\n| Line | Latitude (m) | Departure (m) |\n|------|--------------|---------------|\n| AB   | -116.1       | -44.4         |\n| BC   | +6.8         | +58.2         |\n| CD   | +80.5        | +17.2         |\n| DA   | +28.8        | -31.0         |\n\n**Start with AB:**\n\n- D.M.D. of AB = Departure of AB = **-44.4**\n\n**BC:**\n\n- D.M.D. of BC = D.M.D. of AB + Departure of BC\n- = -44.4 + 58.2 = **+13.8**\n\n**CD:**\n\n- D.M.D. of CD = D.M.D. of BC + Departure of CD\n- = 13.8 + 17.2 = **+31.0**\n\n**DA:**\n\n- D.M.D. of DA = D.M.D. of CD + Departure of DA\n- = 31.0 + (-31.0) = **0.0**\n\n---\n\n### Step 3: Compute Area = Σ (Latitude × D.M.D.)\n\nNow multiply each latitude by its corresponding D.M.D.:\n\n- AB: (-116.1) × (-44.4) = **+5156.04**\n- BC: (+6.8) × (+13.8) = **+93.84**\n- CD: (+80.5) × (+31.0) = **+"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_11",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the optimum moisture content, we need to identify the moisture content at which the soil achieves its maximum bulk density. This is a standard practice in compaction testing for soil used in embankments — the optimum moisture content (OMC) is the moisture content that corresponds to the peak of the compaction curve.\n\nFrom the given data:\n\n- Sample 1: Moisture Content = 4.8%, Bulk Density = 2.164 g/cc\n- Sample 2: Moisture Content = 7.5%, Bulk Density = 2.322 g/cc\n- Sample 3: Moisture Content = 7.8%, Bulk Density = 2.351 g/cc ← Highest bulk density so far\n- Sample 4: Moisture Content = 8.9%, Bulk Density = 2.345 g/cc\n- Sample 5: Moisture Content = 9.7%, Bulk Density = 2.327 g/cc\n\nThe highest bulk density is **2.351 g/cc**, which occurs at **7.8% moisture content**.\n\nTherefore, the optimum moisture content is **7.8%**.\n\nLooking at the options:\n\nA. 10%  \nB. 8%  \nC. 9%\n\nNone of these exactly match 7.8%. However, among the given choices, **8%** is the closest to 7.8% and is the only option that is near the peak. But strictly speaking, 7.8% is the correct OMC based on the data.\n\nWait — let’s double-check: Is there any chance the question expects us to pick the *nearest* value? The options are 10%, 8%, 9%. 7.8% is closer to 8% than to 9% (difference of 0.2 vs 1.7). So if forced to choose from the given options, **8%** is the best available answer.\n\nAlternatively, perhaps the question expects us to recognize that 7.8% is not listed and we should pick the closest — which is 8%.\n\nBut note: in standard engineering practice, the OMC is determined by the peak of the compaction curve, and here it is clearly 7.8%. Since none of the options match, but 8% is the closest, we go with that.\n\nHowever, looking again — sample 4 has 8.9% and 2"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_12",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Satellite station S is 12 m from triangulation station A.\n- Bearings from S to points A, B, C, D:\n  - S to A: 0°00'00\" (due north)\n  - S to B: 143°36'20\"\n  - S to C: 238°24'48\"\n  - S to D: 307°18'54\"\n- Distances from A:\n  - AB = 3190.32 m\n  - AC = 4085.15 m\n  - AD = 3108.60 m\n\nWe are to find the **directions of B, C, and D from A**, i.e., the bearings from A to B, A to C, A to D.\n\nSince S is a satellite station, we can use the concept of **angular measurement from S** and apply **trigonometric principles** or **coordinate geometry** to compute the directions from A.\n\n---\n\n### Step 1: Understand the Geometry\n\nThe bearing from S to A is 0°00'00\", meaning SA is along the North direction. So, if we set up a coordinate system with S as origin, then:\n\n- Point A is located at (0, 12) meters (since SA = 12 m, and it’s due north).\n\nNow, we have bearings from S to B, C, D. These are angles measured clockwise from North.\n\nSo, we can compute the coordinates of B, C, D relative to S, then transform them to be relative to A, since we know the position of A relative to S.\n\n---\n\n### Step 2: Compute Coordinates of B, C, D Relative to S\n\nLet’s define the coordinate system with S at origin (0,0), and North as positive y-axis, East as positive x-axis.\n\n#### For point B:\n\nBearing from S to B: 143°36'20\"\n\nThis is 143° + 36' + 20'' = 143.605555... degrees\n\nSo, angle from North is 143.605555° → this is in the second quadrant.\n\nCoordinates of B relative to S:\n\nx_B = 3190.32 * sin("
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_13",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a pin-connected structure with three members: AB, AC, and AD. The structure is symmetric, with loads applied at A (200 kN downward) and supports at B, C, D. The geometry is such that BC and CD are 4 m apart horizontally, and the vertical distance from A to B, C, D is 4 m.\n\nFirst, we need to find the forces in each member due to the 200 kN load at A.\n\n### Step 1: Analyze the structure\n\nThe structure is symmetric about the vertical line through C. Therefore, the horizontal reactions at B and D will be equal in magnitude and opposite in direction, and the vertical reaction at C will be zero because there’s no vertical load at C.\n\nLet’s compute the force in each member using statics.\n\n#### Free Body Diagram of Joint A:\n\nAt joint A, we have:\n- Downward force: 200 kN\n- Forces from members AB, AC, AD.\n\nDue to symmetry:\n- Member AB and AD are identical in length and angle.\n- Member AC is vertical.\n\nLet’s compute the angles.\n\nFrom geometry:\n- Horizontal distance from A to B is 4 m (since B is 4 m left of C, and C is directly below A? Wait — let's check the figure.\n\nActually, looking at the diagram:\n\n- Points B, C, D are on the same horizontal line, 4 m apart.\n- Point A is directly below C, 4 m down.\n- So, triangle ABC: AB connects A to B, which is 4 m left and 4 m down from A → so AB forms a right triangle with legs 4 m each → angle at A is 45°.\n\nSimilarly for AD.\n\nSo, the angle between AB and the vertical is 45°, and similarly for AD.\n\nTherefore, the force in AB and AD will be at 45° to the vertical.\n\nLet’s denote:\n\n- F_AB = force in AB (tension or compression)\n- F_AC = force in AC\n- F_AD = force in AD\n\nBy symmetry, F_AB = F_AD.\n\nNow, consider equilibrium at joint A.\n\nVertical equilibrium:\n\nF_AB * cos(45°) + F_AD * cos(45°) + F_AC = -200 kN\n\nBut since F_AB = F_AD, and cos(45°) = √2/2 ≈"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_14",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "1.06",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To compute the initial deflection at midspan using finite summation with 3-ft segments, we must discretize the beam into segments of 3 ft (36 in) and apply the method of virtual work or direct integration for each segment. However, since the problem involves a spring at the end and a point load, and asks for “initial deflection,” we interpret this as the deflection due to the 30 kip load before any spring reaction is considered — i.e., the deflection if the spring were not present.\n\nBut note: the spring is attached at the free end, so its presence will affect equilibrium. The question says “initial deflection at midspan” — which may imply the deflection *before* the spring reacts, but that would be inconsistent with static equilibrium. Alternatively, it might mean the deflection caused by the 30 kip load alone, ignoring the spring’s effect (i.e., assuming the spring is not there). But the spring is part of the structure.\n\nGiven the ambiguity, and since the problem asks for “initial deflection” and gives E and I, and specifies to use finite summation with 3-ft segments, we proceed to compute the deflection due to the 30 kip load at B, assuming the spring is not yet reacting (i.e., we are computing the deflection as if the spring were absent — perhaps for the “initial” state before the spring settles).\n\nHowever, the spring is attached to the end of the beam, so its presence will cause a reaction force. But the question says “initial deflection,” which likely means the deflection due to the applied load without considering the spring’s reaction — i.e., we treat the spring as not existing for the purpose of computing deflection.\n\nAlternatively, the term “initial deflection” might refer to the deflection *at the moment the load is applied*, before the spring has time to react — meaning we ignore the spring entirely.\n\nWe will proceed under the assumption that we are to compute the deflection at midspan due to the 30 kip load only, ignoring the spring. This is consistent with “initial deflection” in many contexts.\n\nThe beam has two parts:\n- Segment AB: horizontal, 8 ft long.\n- Segment BC: inclined, 12 ft long (horizontal projection = 12 ft, vertical = 9 ft, so actual length = sqrt(12^2 + 9^2) = 15 ft).\n\n"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_15",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a three-hinged parabolic arch ABC with span L = 175', height h = 150'. The equation of the arch is:\n\n**y = (4h x²) / L²**\n\nWe are to construct influence lines for:\n- Reaction at C\n- Shear, axial load, and moment at point D\n\nThen, apply a point load P = 3 kips at B and compute the shear at D.\n\n---\n\n## Step 1: Understand the geometry\n\nThe arch is symmetric about the vertical line through B (midpoint). Since it's a three-hinged arch, hinges are at A, B, and C. Point D is located at horizontal distance 100' from C (since total span is 175', so from A to C is 175', and D is 100' from C → 75' from A).\n\nBut wait — the diagram shows:\n\n- From A to C: 175'\n- From C to D: 100' upward? Actually, the diagram says “D” is located such that the vertical distance from the base to D is 100', and since the arch rises to 150' at B, D is somewhere along the curve.\n\nActually, looking at the diagram: the horizontal distance from C to D is labeled as 100', meaning D is located 100' horizontally from C toward A. So, since total span is 175', then from A to D is 75'.\n\nSo, coordinates:\n\nLet’s set coordinate system: origin at A, x-axis horizontal, y-axis vertical.\n\nThen:\n\n- A: (0, 0)\n- C: (175, 0)\n- B: (87.5, 150) — midpoint of span, since symmetric\n- D: located 100' from C → x_D = 175 - 100 = 75'\n\nNow, find y-coordinate of D using the parabola equation:\n\ny = (4 * h * x²) / L²\n\nh = 150', L = 175'\n\nSo,\n\ny_D = (4 * 150 * (75)²) / (175)²\n\nCompute:\n\n75² = 5625\n\n175² = 306"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_16",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_17",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given contour areas for various elevations and asked to compute the volume of water impounded when the water level reaches 700 m, with the 660 m contour representing the floor of the reservoir. We are to use the **prismoidal formula**.\n\nThe prismoidal formula for volume between two contours is:\n\n\\[\nV = \\frac{d}{6} (A_1 + 4A_m + A_2)\n\\]\n\nwhere:\n- \\( d \\) is the distance between the two contours (in meters),\n- \\( A_1 \\) is the area at the lower contour,\n- \\( A_2 \\) is the area at the upper contour,\n- \\( A_m \\) is the area at the midpoint contour (if there is one).\n\nHowever, since we are going from 660 m to 700 m, and we have contour data at 660, 665, 670, 675, 680, 685, 690, 695, 700 m — but note that 700 m is not in the table! The table ends at 670 m, and then 670 appears again? Wait — let’s check the table carefully.\n\nLooking at the table:\n\nContour (m): 660, 665, 670, 675, 680, 685, 690, 695, 670\n\nWait — the last contour is 670 m, but we need to go up to 700 m. So we must interpolate or assume that the area at 700 m is not given — but that can’t be right. Let me re-read the question.\n\nActually, looking again: the table gives areas for contours from 660 to 695, and then repeats 670 at the end. But 700 is not listed. However, the problem says “when the water level reaches 700 m”, so we must assume that the contour at 700 m is not provided — perhaps it's a mistake? Or maybe we are to assume that the last contour (670 m) is the highest we have, and we need to extrapolate?\n\nWait — no, the table has 9 contours: 6"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_18",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a traverse ABCDEFG with BA as the reference meridian (i.e., the initial bearing is 0° or 360°). We are to find the length and bearing of GA, given that the bearing of FG is 284°13' and its length is 896.0 m.\n\nTo solve this, we need to compute the coordinates of all points from A, using the given ΔN (change in northing) and ΔE (change in easting) for each line segment.\n\n---\n\n### Step 1: Understand the coordinate system\n\nIn traverse calculations:\n\n- ΔN = Northing change (positive north, negative south)\n- ΔE = Easting change (positive east, negative west)\n\nThe reference meridian is BA, meaning the starting direction (from B to A) is taken as 0° (or 360°). So, the bearing of AB is 0°, since BA is the reference, and AB is opposite.\n\nBut note: in traverses, we usually compute coordinates starting from a known point. Since BA is the reference, let’s assume point A is the origin (0,0), and we will compute coordinates relative to A.\n\nActually, it's more standard to start from point A and go through the traverse. But the problem says “line BA is taken as the reference meridian”, which implies that the bearing of AB is 0°.\n\nSo, if BA is the reference meridian, then the bearing of AB is 0° (since BA is the reference, and AB is the opposite direction — but in surveying, bearings are measured from North clockwise).\n\nWait — let’s clarify:\n\nIf BA is the reference meridian, then the bearing of BA is 0° (North). Therefore, the bearing of AB is 180° (since AB is opposite to BA).\n\nBut in many contexts, the reference meridian is the starting line, and the bearing of the first line is set. The problem says \"line BA is taken as the reference meridian\", so likely, the bearing of BA is 0°.\n\nThen, the bearing of AB would be 180°, because AB is opposite to BA.\n\nHowever, in the table, we have ΔN and ΔE for AB, BC, etc., which are computed from the traverse. The signs indicate direction.\n\nLet’s proceed by assuming that the traverse starts at point A, and goes to B, C, D"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_19",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a three-hinged trussed arch with 6 panels, each 24 ft long, so total span = 144 ft. The arch is symmetric, and joint E is a hinge. Loads are applied via the upper chord at panel points (B, C, D, E, F, G, H) — but since it's a floor beam system, we assume the live load is applied to the upper chord at these points, and we need to find the maximum force in member CM due to a uniformly distributed load (UDL) of 0.8 kip/ft and a concentrated load of 20 kips.\n\nThe problem asks for the **maximum force in bar CM** — considering both tension and compression — produced by the live load. Since the structure is symmetric and the loads are applied symmetrically (as per typical interpretation of such problems), we can analyze the structure under the worst-case loading scenario.\n\n---\n\n### Step 1: Understand the Truss Configuration\n\nThe truss is symmetric about the vertical centerline through joint E. The arch is composed of:\n\n- Upper chord: B–C–D–E–F–G–H\n- Lower chord: A–I (with A and I being pinned supports)\n- Vertical members: AB, CD, EF, GH, and also the diagonals forming triangles.\n- Diagonal members: BM, CL, DK, EL, FK, GJ, HI, etc. — but we care about CM.\n\nMember CM connects point C to point M. Point M is a joint located below point C, likely forming a triangle with B and C. Since the truss is symmetric, and joint E is a hinge, the arch will deflect under load, but for force analysis, we treat it as a statically determinate structure.\n\n---\n\n### Step 2: Load Application\n\nThe live load consists of:\n\n- UDL: 0.8 kip/ft — variable length — meaning we can apply it over any portion of the span, but typically for maximum force in a member, we consider the load placement that maximizes the force in that member.\n- Concentrated load: 20 kips — also variable position.\n\nSince the truss is symmetric, and the member CM is located on the left side, we should consider placing the UDL and concentrated load to maximize the force in CM.\n\nIn trusses, the maximum force in a member often occurs when the load is placed such that it creates the largest bending"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_20",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a cross-section of an embankment with the following:\n\n- Road width (AB) = 20 m\n- Existing ground slope = 1 in 10 → meaning for every 10 m horizontal, the ground rises 1 m. So, the slope is 10%.\n- Side slopes = 1 in 2 → meaning for every 2 m horizontal, the embankment rises 1 m → slope = 50%.\n- Centre height (from ground level to top of embankment) = 10 m.\n\nWe need to find:\n- Side width $w_1$ (width on the left side, from F to E)\n- Side width $w_2$ (width on the right side, from D to C)\n- Total cross-sectional area\n\n---\n\n### Step 1: Understand the geometry\n\nThe figure shows:\n\n- The road is at the top, AB = 20 m.\n- The embankment slopes outward on both sides.\n- The existing ground slope is 1 in 10 (i.e., vertical rise per horizontal run = 1/10).\n- The side slopes of the embankment are 1 in 2 (vertical rise per horizontal run = 1/2).\n\nThe centre height is 10 m above the ground level at point G (which is the lowest point of the cross-section, directly under the center of the road).\n\nFrom point G to point A and B, we have vertical distances to the road level. Since the road is 10 m above ground, and the embankment is built symmetrically, the vertical distance from G to A and B is 10 m.\n\nBut note: the existing ground is sloped. So the horizontal distance from G to A (or G to B) is not zero — it’s determined by the existing ground slope.\n\nActually, looking at the diagram:\n\n- Point G is at the bottom center.\n- Points A and B are at the top of the road, 10 m above G vertically.\n- The existing ground slope is 1 in 10 → so to rise 10 m, the horizontal distance from G to A (along the ground) would be 10 × 10 = 100 m? Wait — no.\n\nWait, let's clarify: The existing ground slope is 1 in 10. That means if you go horizontally 10 m, you rise "
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_21",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a survey setup to find the width of the river, which is the distance BC.\n\nThe key steps and construction:\n\n- Survey line ABC crosses the river at right angles, so AB ⊥ BC.\n- Point B is on one bank, C is on the other bank, so BC is the width we want.\n- A 60 m line BE is laid out roughly parallel to the river (so BE || river banks → BE || AC? Wait — let’s think: since the river banks are horizontal in the diagram, and BE is drawn as 60 m, and parallel to the river, then BE is horizontal. Since ABC is perpendicular to the river banks, then ABC is vertical, so BE is horizontal, meaning BE is parallel to the river banks. So BE is horizontal.\n\nActually, looking at the diagram: The river banks are shown as horizontal lines. So BE is drawn horizontally, 60 m long, from B to E. Then CE is extended to D. F is the midpoint of DB. Then EF is extended to G such that FG = EF (so F is midpoint of EG). Then DG is extended to cut ABC at H. We’re told GH = 40 m, HB = 80 m.\n\nSo we have points:\n\n- A, H, B are colinear along the survey line (vertical line).\n- H is between A and B? Actually, from the diagram, it looks like A is below H, then H, then B, then C? Wait — no. The diagram shows:\n\nFrom bottom: A, then upward to H, then to B, then to C.\n\nAnd AB is 80 m? Wait — the label says “80 m” next to BH? And “40 m” next to GH.\n\nActually, the diagram labels:\n\n- From A to H: 40 m (downward arrow)\n- From H to B: 80 m (upward)\n- So AB = AH + HB = 40 + 80 = 120 m? But AB is not necessarily the width — the width is BC.\n\nWait — actually, the survey line ABC crosses the river at right angles, so AB is part of the survey line, and BC is perpendicular to AB. So if AB is vertical, then BC is horizontal.\n\nBut in the diagram, point C is above B, and BE is drawn to the right, 60 m, then CE extended to D, etc.\n\nWe"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_22",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given the bearings (F.B. = Forward Bearing, B.B. = Back Bearing) for a closed compass traverse with 5 lines: AB, BC, CD, DE, EA.\n\nTo compute the interior angles, we need to convert the forward and back bearings into azimuths (angles measured clockwise from North), then compute the interior angles at each vertex.\n\n---\n\n### Step 1: Convert Bearings to Azimuths\n\nWe use standard conversion rules:\n\n- **Forward bearing (F.B.)** → **Azimuth**:\n  - If F.B. is N or S, then azimuth = F.B. (if N) or 180° - F.B. (if S)\n  - But more systematically, we can convert all bearings to azimuths by adding 180° if necessary, adjusting for quadrant.\n\nActually, let’s convert each F.B. to azimuth (clockwise from North):\n\nRecall:\n- N θ E → azimuth = θ\n- S θ E → azimuth = 180° - θ\n- S θ W → azimuth = 180° + θ\n- N θ W → azimuth = 360° - θ\n\nBut note: in surveying, bearings are usually given as:\n\n- N 142°30' E → that’s not standard; actually, bearings are written like:\n\nGiven F.B. values are:\n\nAB: 142°30' — this is likely **S 142°30' E?** Wait — no, 142°30' is between 90° and 180°, so it must be **S 142°30' E?** But that doesn’t make sense because 142°30' from North would be S 142°30' E? Actually, 142°30' is measured clockwise from North, so it's **S 142°30' E?** No — wait, 142°30' is already an azimuth. So perhaps the given \"F.B.\" is already the azimuth?\n\nWait — look at the table:\n\nLines | F.B. | B.B.\n---|---|---\nAB | 142°30' | 322°30'\nBC | 223°15' | 44"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_23",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the bearing A to E and the grade of the tunnel connecting A to E, we need to:\n\n1. **Determine the total horizontal distance (run) and vertical difference (rise/fall) between A and E.**\n2. **Calculate the bearing using the horizontal components from the WCB (Whole Circle Bearing) values.**\n3. **Calculate the grade (slope) as rise or fall per unit run.**\n\n---\n\n### Step 1: Extract data\n\nFrom the table:\n\n- Line AB: WCB = 70°30'00\", measured distance = 150.00 m, rising 1 in 10 → so for every 10 m, elevation rises 1 m.\n- Line BC: WCB = 0°00'00\", distance = 200.50 m, level → no change in elevation.\n- Line CD: WCB = 154°12'00\", distance = 250.00 m, level → no change in elevation.\n- Line DE: WCB = 90°00'00\", distance = 400.56 m, falling 1 in 30 → for every 30 m, elevation falls 1 m.\n\nNote: The WCBs are given for each segment, but we are to find the bearing from A to E — so we must compute the resultant displacement vector from A to E by summing the components.\n\n---\n\n### Step 2: Compute horizontal components (ΔE, ΔN) for each segment\n\nWe’ll use trigonometry:  \nFor a segment with WCB θ and length L:  \n→ Easting component (ΔE) = L × sin(θ)  \n→ Northing component (ΔN) = L × cos(θ)\n\nBut note: In surveying, WCB is measured clockwise from North. So:\n\n- For AB: θ = 70°30'00\" = 70 + 30/60 = 70.5°\n  - ΔE_AB = 150 × sin(70.5°)\n  - ΔN_AB = 150 × cos(70.5°)\n\n- For BC: θ = 0° → ΔE_BC = 200.50 × sin(0°) = 0  \n  - ΔN"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_24",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the area between line AB and the meandering stream using offsets taken at regular intervals of 20 m, we apply both the trapezoidal rule and Simpson's rule.\n\n---\n\n**Step 1: Understand the data**\n\nThe offsets (y-values) are given at distances (x-values) from point A:\n\n- x = 0 m, y = 23 m\n- x = 20 m, y = 40 m\n- x = 40 m, y = 42 m\n- x = 60 m, y = 30 m\n- x = 80 m, y = 32 m\n- x = 100 m, y = 60 m\n- x = 120 m, y = 10 m\n- x = 140 m, y = 14 m\n- x = 160 m, y = 22 m\n\nThe interval (h) is 20 m.\n\nTotal length = 160 m.\n\n---\n\n**Step 2: Apply Trapezoidal Rule**\n\nTrapezoidal Rule formula for n intervals:\n\nArea = (h/2) * [y₀ + 2(y₁ + y₂ + ... + y_{n-1}) + yₙ]\n\nHere, n = 8 intervals (from 0 to 160 m in steps of 20 m).\n\nSo,\n\nArea = (20/2) * [23 + 2*(40 + 42 + 30 + 32 + 60 + 10 + 14) + 22]\n\nFirst, compute the sum inside:\n\nSum of middle terms (y₁ to y₇) = 40 + 42 + 30 + 32 + 60 + 10 + 14 = 228\n\nThen, multiply by 2: 2 * 228 = 456\n\nNow add endpoints: 23 + 456 + 22 = 501\n\nMultiply by (20/2) = 10:\n\nArea = 10 * 501 = 5010 m²\n\nConvert to hectares: 1 hectare = 10,000 m² → 5010 / 10000"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_25",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the preferred alternative using **Equivalent Uniform Annual Worth (EUAW)** analysis, we need to calculate the EUAW for each alternative. The EUAW includes:\n\n- First cost (capital investment) → converted to annual cost using capital recovery factor\n- Annual maintenance costs → already annual\n- Salvage value → converted to equivalent annual savings using present worth and then annualized\n- Annual wetland and lighting costs → already annual\n\nThe formula for EUAW is:\n\n**EUAW = (First Cost × A/P, i%, n) - (Salvage Value × A/F, i%, n) + Annual Maintenance Costs + Annual Wetland Costs + Annual Lighting Costs**\n\nWhere:\n- A/P = Capital Recovery Factor = [i(1+i)^n] / [(1+i)^n - 1]\n- A/F = Sinking Fund Factor = [i] / [(1+i)^n - 1]\n\nGiven:  \nInterest rate i = 7% = 0.07  \nService life n = 15 years\n\n---\n\n### Step 1: Calculate A/P and A/F factors for 7% over 15 years\n\nA/P(7%, 15) = [0.07(1.07)^15] / [(1.07)^15 - 1]  \n(1.07)^15 ≈ 2.7590  \n→ Numerator = 0.07 × 2.7590 = 0.19313  \n→ Denominator = 2.7590 - 1 = 1.7590  \n→ A/P = 0.19313 / 1.7590 ≈ **0.1098**\n\nA/F(7%, 15) = 0.07 / 1.7590 ≈ **0.0400**\n\n---\n\n### Alternative I:\n\nFirst Cost = $75,000  \nAnnual Maintenance = $3,000  \nWetland = $7,500  \nLighting = $1,500  \nSalvage Value = $45,000\n\nEUAW_I = (75,000 × 0.1098) - (45,000 × 0.0400) + 3,000 + 7"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_26",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given triangle ABC with sides:\n\n- AB = 1200 m\n- BC = 1442 m\n- CA = 1960 m\n\nA point O is outside the triangle, and we are told that angles ∠AOB = 45°30' and ∠BOC = 52°15', and that O and B are on opposite sides of line AC.\n\nWe are to find distances OA and OC.\n\n---\n\nLet’s denote:\n\n- OA = x (this is what we need to find)\n- OC = y (this is what we need to find)\n\nAlso, note that angle AOB = 45°30' = 45.5°, and angle BOC = 52°15' = 52.25°.\n\nSince O and B are on opposite sides of AC, the total angle at O between points A and C via B is:\n\n∠AOC = ∠AOB + ∠BOC = 45.5° + 52.25° = 97.75°\n\nSo in triangle AOC, we know side AC = 1960 m, and angle AOC = 97.75°, and we want to find OA and OC.\n\nBut we don’t yet know any other angles or sides in triangle AOC. However, we can use the Law of Cosines in triangle AOC if we knew two sides and the included angle — but we don’t.\n\nAlternatively, we can use the Law of Sines in triangles AOB and BOC, and then combine them.\n\nBut a better approach is to consider triangle AOB and triangle COB, and use Law of Sines in each, then relate them using triangle AOC.\n\nWait — let’s try Law of Sines in triangles AOB and BOC.\n\nIn triangle AOB:\n\n- AB = 1200 m\n- ∠AOB = 45.5°\n- Let ∠OAB = α (as labeled in diagram)\n- Then ∠OBA = 180° - 45.5° - α = 134.5° - α\n\nBy Law of Sines in triangle AOB:\n\nOA / sin(∠OBA) = AB / sin(∠AOB)\n\n=> OA / sin(134.5° - α) = 12"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_27",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a triangle ABC, with:\n\n- AB = c = 566.81'\n- AC = b = 591.13'\n- Angle at A = 80°30' = 80 + 30/60 = 80.5°\n\nWe are to find the distance CB = a.\n\nThis is a classic case for the **Law of Cosines**:\n\n> a² = b² + c² - 2bc·cos(A)\n\nLet’s plug in the values.\n\nFirst, convert angle A to decimal degrees:\n\nA = 80°30' = 80 + 30/60 = 80.5°\n\nNow compute:\n\nb² = (591.13)² = 349,438.7769  \nc² = (566.81)² = 321,240.4761  \n2bc = 2 × 591.13 × 566.81 = 2 × 335,582.5933 = 671,165.1866  \ncos(80.5°) ≈ cos(80.5 × π/180) ≈ cos(1.404 radians) ≈ 0.1653 (using calculator)\n\nSo,\n\na² = 349,438.7769 + 321,240.4761 - 671,165.1866 × 0.1653\n\nCompute the product:\n\n671,165.1866 × 0.1653 ≈ 110,857.72 (let me calculate precisely)\n\nActually, let’s do it step by step with more precision.\n\nFirst, compute 2bc·cos(A):\n\n2 × 591.13 × 566.81 = 2 × 591.13 × 566.81\n\nCalculate 591.13 × 566.81:\n\n591.13 × 566.81 = ?\n\nBreak it down:\n\n= (590 + 1."
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_28",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The symbol in the image depicts a structure with a rectangular base, a central doorway, and three semi-circular domes on top — a classic architectural representation of a **mosque**.\n\n- Temples (A) typically have crosses or other religious symbols, not domes.\n- Churches (D) may have domes, but they are usually more ornate and often include crosses.\n- Huts (C) are simple, small shelters — this is too elaborate.\n- Mosques (B) frequently feature domes and an arched entrance, especially in Islamic architecture.\n\nTherefore, the correct answer is B. Mosque.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_29",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given observations from a tacheometer with an anallactic lens, and we need to determine the gradient (slope) from point P to point Q.\n\n### Given:\n- Instrument station: R\n- Staff stations: P and Q\n- Bearings: P at 130°, Q at 220°\n- Vertical angles: +10°32' for P, +5°06' for Q\n- Staff readings (m): for P: 1.255, 1.810, 2.365; for Q: 1.300, 2.120, 2.940\n- Instrument constants: K = 100, α = 0 (anallactic lens)\n\nSince it's an anallactic lens, the staff reading formula is:\n\n**Horizontal distance (D) = K × s × cos²(θ)**  \nWait — actually, for an anallactic lens, the formula for horizontal distance is:\n\n> **D = K × s × cos²(θ)** — NO! That’s not correct.\n\nActually, for an anallactic lens, the formula for horizontal distance is:\n\n> **D = K × s × cos²(θ)** — still wrong.\n\nLet me recall the correct formula.\n\nFor a tacheometer with an anallactic lens, the horizontal distance is:\n\n> **D = K × s × cos²(θ)** — No, that’s not right.\n\nActually, the general formula for horizontal distance in tacheometry is:\n\n> **D = K × s × cos²(θ)** — still incorrect.\n\nWait — let’s be precise.\n\nThe standard formula for horizontal distance (D) when using a tacheometer is:\n\n> **D = K × s × cos²(θ)** — no.\n\nActually, the correct formula is:\n\n> **D = K × s × cos²(θ)** — I think I’m confusing myself.\n\nLet me derive it properly.\n\nIn tacheometry, the horizontal distance is:\n\n> **D = K × s × cos²(θ)** — no.\n\nStandard formula for horizontal distance is:\n\n> **D = K × s × cos²(θ)** — again, no.\n\nActually, for a tacheometer, the horizontal distance is:\n\n> **D = K × s × cos²(θ)** — this is wrong.\n\nCorrect formula for horizontal distance (D) is"
+  },
+  {
+    "id": "validation_Architecture_and_Engineering_30",
+    "subject": "Architecture_and_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a composite shape: a rectangle with a triangular extension on the right, and a circular hole in the rectangle. We need to compute:\n\n1. The area of the figure.\n2. The error in the area (total uncertainty).\n3. The standard error of the area.\n\n---\n\n### Step 1: Understand the Geometry\n\nThe figure consists of:\n\n- A **rectangle** of height `a` and width `b`.\n- A **right triangle** attached to the right end of the rectangle, with base `a` and height `a` (since it’s a right triangle extending from the rectangle’s right edge, and the total length from left to right is `b + a`, so the triangle has base `a` and height `a` — assuming it’s an isosceles right triangle or just a right triangle with legs `a` and `a`? Wait — looking at the diagram: the triangle is attached to the rectangle, and the horizontal dimension from the rectangle's end to the tip is `a`, and the vertical dimension is also `a`? Actually, from the diagram, the triangle appears to be a right triangle with base `a` and height `a`, since the vertical side is labeled `a` and the horizontal side from the rectangle to the triangle’s base is `a`.\n\nWait — let’s re-express:\n\nThe entire figure has:\n\n- Rectangle: width = `b`, height = `a`\n- Triangle: base = `a`, height = `a` (attached to the right end of the rectangle)\n\nBut note: the triangle is attached to the *right end* of the rectangle, so its base is along the same line as the rectangle’s top and bottom edges? Actually, the triangle extends outward from the rectangle, and the horizontal distance from the end of the rectangle to the tip of the triangle is `a`, and the vertical height is also `a`. So it’s a right triangle with legs `a` and `a`.\n\nSo area of the figure = area of rectangle + area of triangle - area of hole.\n\nArea of rectangle = `a * b`\n\nArea of triangle = `(1/2) * base * height = (1/2) * a * a = (1/2)a²`\n\nArea of hole = `πr²`\n\nSo total area = `ab + (1/2)a² - πr²`\n\n---\n\n### Step 2: Plug in the values\n\nGiven:\n- `a = 5"
+  }
+]

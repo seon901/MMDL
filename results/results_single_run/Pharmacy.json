@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Pharmacy_1",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe balanced equation is 4NH₃(g) + 3O₂(g) → 2N₂(g) + 6H₂O(l). If we start with 3.0 mol of O₂, according to the stoichiometry, it requires exactly 4.0 mol of NH₃ (since 3 mol O₂ : 4 mol NH₃). The products formed are 2 mol N₂ and 6 mol H₂O (since 3 mol O₂ produces 2 mol N₂ and 6 mol H₂O). Therefore, all reactants are consumed, and the products are 4.0 mol NH₃ (not correct — wait, no! Let’s re-read: “determine the number of moles of all remaining reactants and products” — but if we’re starting with only O₂ given (3.0 mol), then NH₃ must be provided in stoichiometric amount. But the question says: “as well as the number of moles of the reactant or product indicated below, determine the number of moles of all remaining reactants and products”. It doesn’t specify initial amounts of NH₃. However, since it gives only O₂, and asks for remaining reactants and products, it implies that O₂ is the limiting reactant and we need to calculate based on it.\n\nBut looking at the options, they all have 4.0 mol NH₃ as a reactant, which suggests that NH₃ is being supplied in excess? Or perhaps the question means: given 3.0 mol O₂, what is the amount of products and remaining reactants? But if O₂ is limiting, then NH₃ will be in excess.\n\nWait — let’s read carefully: “determine the number of moles of all remaining reactants and products” — so we need to know how much NH₃ is present initially. The problem does not state initial moles of NH₃. That’s ambiguous.\n\nBut looking at the options, they all list 4.0 mol NH₃ as a reactant — implying that we are assuming 4.0 mol NH₃ is present along with 3.0 mol O₂. In that case, O₂ is limiting because 3 mol O₂ requires 4 mol NH₃ (stoichiometric ratio 4:3). So 3.0 mol O₂ will react with 4.0 mol NH"
+  },
+  {
+    "id": "validation_Pharmacy_2",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The patient is an 82-year-old woman with a 1-year history of worsening cough and shortness of breath, a 45 pack-year smoking history (quit 15 years ago), and a FEV1/FVC ratio of 65% of predicted. This indicates a diagnosis of **chronic obstructive pulmonary disease (COPD)**, as the FEV1/FVC ratio is less than 70%, which is consistent with airflow obstruction.\n\nShe has normal ECG findings, which rules out acute cardiac causes of her symptoms. The key clinical feature is that her oxygen saturation drops from 92% at rest to 84% while walking — this suggests **impaired gas exchange** and possibly **airflow limitation** contributing to hypoxemia during exertion.\n\nIn COPD, the most appropriate inhaled medications are typically **long-acting beta-agonists (LABAs)** or **long-acting muscarinic antagonists (LAMAs)**, depending on the severity and comorbidities.\n\nHowever, the question asks: “The most appropriate inhaled medication for this patient works by blocking which of the following receptors?”\n\nLet’s evaluate the options:\n\nA. β1-adrenergic receptors — These are primarily found in the heart. While β2-agonists are used in COPD, β1-blockers are not used for COPD and can be harmful in patients with chronic lung disease.\n\nB. glucocorticoid receptors — Glucocorticoids (inhaled corticosteroids) are used in COPD to reduce inflammation, but they do not directly relax airways; they are anti-inflammatory agents. They are often used in combination with bronchodilators, especially in moderate-to-severe COPD, but are not the *most appropriate* for *acute* symptom control.\n\nC. histamine H1 receptors — Antihistamines are used for allergic rhinitis or urticaria, not for COPD.\n\nD. leukotriene receptors — Leukotriene receptor antagonists (e.g., montelukast) are used in asthma and some forms of COPD, particularly if there is eosinophilic inflammation. However, they are not first-line for all COPD patients.\n\nE. muscarinic receptors — **This is correct.** Long-acting muscarinic antagonists (LAMAs) block muscarinic receptors in the airways, leading to bronchodilation. LAMAs are considered first"
+  },
+  {
+    "id": "validation_Pharmacy_3",
+    "subject": "Pharmacy",
+    "is_mcq": false,
+    "predicted": "2",
+    "answer": "2",
+    "correct": true,
+    "retried": false,
+    "raw_output": "NSAIDs like aspirin inhibit cyclooxygenase (COX) enzymes, which are involved in the conversion of arachidonic acid to prostaglandins. Since prostaglandins are part of the pathway shown as step 2, blocking this step can lead to an allergic response in some patients due to altered inflammatory mediators or compensatory pathways.\n\nStep 2 is the conversion of arachidonic acid to prostaglandins, which is inhibited by NSAIDs.\n\nAnswer: 2"
+  },
+  {
+    "id": "validation_Pharmacy_4",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nThe graph shows a linear relationship between the mass of iron and the mass of oxygen in the samples, indicating that the ratio of iron to oxygen is constant across all samples. This constant ratio is a key characteristic of a compound, meaning all four samples are composed of the same elements in the same proportion, which supports the conclusion that they are the same compound."
+  },
+  {
+    "id": "validation_Pharmacy_5",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given the reaction:\n\n**NaBH₄(s) + 2H₂O(l) → 4H₂(g) + NaBO₂(aq)**\n\nWe need to identify which atoms of the **reactants** are oxidized and which are reduced.\n\n---\n\n### Step 1: Assign oxidation states in reactants.\n\n#### In NaBH₄ (solid):\n- Sodium (Na) is always +1.\n- Hydrogen in borohydride is typically -1 (since B is +3, and H must be -1 to make BH₄⁻ total charge -1).\n- Let’s verify: B is bonded to 4 H atoms. Total charge of ion is -1. Let oxidation state of B = x, H = -1 each.\n\nSo: x + 4(-1) = -1 → x - 4 = -1 → x = +3. So B is +3, H is -1.\n\n#### In H₂O:\n- Oxygen is usually -2.\n- So each H is +1 (since 2(+1) + (-2) = 0).\n\n---\n\n### Step 2: Assign oxidation states in products.\n\n#### In H₂ (gas):\n- Hydrogen is 0 (elemental form).\n\n#### In NaBO₂ (aqueous):\n- Sodium is +1.\n- Oxygen is -2 (each).\n- So for BO₂⁻ ion: let oxidation state of B = y.\n\nThen: y + 2(-2) = -1 → y - 4 = -1 → y = +3.\n\nSo B is +3, O is -2.\n\nHydrogen in NaBO₂? Wait — this compound is sodium metaborate, NaBO₂. It does not contain hydrogen. The hydrogen in the product is all in H₂(g), which is elemental hydrogen (oxidation state 0).\n\n---\n\n### Step 3: Track changes in oxidation states.\n\nLet’s look at the atoms that change oxidation state.\n\n#### Hydrogen:\n- In NaBH₄: H is -1\n- In H₂O: H is +1\n- In H₂: H is 0\n\nSo some H goes from -1 to 0 → oxidation (loss of electrons)\nSome H goes from +1 to 0 → reduction (gain of electrons)\n\nThus, hydrogen is both oxidized and reduced — a **disproportionation** or **redox reaction** involving H.\n\nBut the question asks"
+  },
+  {
+    "id": "validation_Pharmacy_6",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The given reaction is:\n\nCO₂ + 8H⁺ + 8e⁻ → CH₄ + 2H₂O\n\nThis is a **reduction** reaction where carbon dioxide (CO₂) is reduced to methane (CH₄), and it involves the gain of electrons (8e⁻). This process is known as **methanogenesis**, which occurs in **anaerobic environments** (without oxygen) and is typically carried out by certain bacteria called **methanogens**.\n\nLet’s evaluate the options:\n\nA. Aerobic respiration — This involves oxygen as the final electron acceptor. The reaction above does not involve O₂, so this is incorrect.\n\nB. Anaerobic respiration — While anaerobic respiration can sometimes involve other electron acceptors (like sulfate or nitrate), methanogenesis specifically uses CO₂ as a carbon source and H⁺/e⁻ as reducing agents, and it occurs without oxygen. Methanogens are often classified under anaerobic respiration, though technically they are more accurately described as **anaerobic fermenters** or **methanogens** — but among the choices, “anaerobic respiration” is the closest match since the reaction consumes electrons in an anaerobic setting.\n\nC. Anoxygenic photoautotroph — These organisms use light energy but do not produce oxygen. However, the reaction given is not photosynthetic; it doesn’t involve light or photosynthesis, and it’s an electron reduction reaction driven by electrons (likely from organic matter or hydrogen), not sunlight. So this is incorrect.\n\nD. Oxygenic photoautotroph — These are organisms like plants and algae that use water as an electron donor and release oxygen during photosynthesis. The reaction here is the opposite — it’s reduction of CO₂ to CH₄, which is not photosynthesis. Also, no O₂ is involved. Incorrect.\n\nTherefore, the best fit is **B. anaerobic respiration**, even though strictly speaking methanogenesis is a special type of anaerobic metabolism. In many biological contexts, especially in microbiology, methanogenesis is grouped under anaerobic respiration.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Pharmacy_7",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which graph has a constant slope, we need to understand what a constant slope means. A constant slope implies a linear relationship — the graph is a straight line.\n\n- Graph (A) is a straight line passing through the origin with a consistent rise over run. This indicates a constant positive slope.\n- Graph (B) is a horizontal line. A horizontal line has a slope of zero, which is constant.\n- Graph (C) is a curve (specifically, a hyperbola), which shows a changing slope — it is not linear.\n\nTherefore, both graphs (A) and (B) have constant slopes.\n\nLooking at the options:\nA. a,b → This matches our analysis.\nB. a,c → Incorrect, because C does not have constant slope.\nC. b,c → Incorrect, because C does not have constant slope.\n\nSo the correct answer is option A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Pharmacy_8",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows a linear increase in the y-axis quantity as [HCl] (the concentration of hydrochloric acid) increases. HCl is a strong acid, so it dissociates completely in water:\n\nHCl → H⁺ + Cl⁻\n\nTherefore, as [HCl] increases, [H⁺] increases proportionally.\n\npH is defined as pH = -log[H⁺], so as [H⁺] increases, pH decreases — meaning pH would show a downward curve, not an upward one.\n\n[OH⁻] is related to [H⁺] via the ion product of water: [H⁺][OH⁻] = 10⁻¹⁴. As [H⁺] increases, [OH⁻] decreases — again, not matching the upward trend.\n\nOnly [H⁺] increases linearly with [HCl] concentration (assuming no other reactions or dilution effects).\n\nThus, the y-axis represents [H⁺].\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Pharmacy_9",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows two scenes:\n\n- In picture (a), the jar is upright and contains all the colored balls neatly inside, suggesting organization and containment.\n- In picture (b), the jar is overturned, and the balls are scattered across the table and on the floor, indicating disorder.\n\nOrder typically refers to arrangement, structure, or lack of chaos. Picture (a) clearly depicts a more ordered state, while picture (b) shows disarray.\n\nTherefore, picture (a) appears to have more order.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Pharmacy_10",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The red dashed line labeled \"ii\" connects the positively charged ammonium group (+NH₃) of the blue molecule to a negatively charged carboxylate group (⁻O₂C) in the binding site. This interaction is characterized by electrostatic attraction between opposite charges — a classic example of an ionic bond.\n\nHydrogen bonding involves hydrogen bonded to a highly electronegative atom (like O or N) and another electronegative atom, which is not the case here. Van der Waals interactions are weak, non-specific attractions between atoms or molecules due to temporary dipoles — also not applicable here.\n\nThus, the interaction at ii is an ionic bond.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Pharmacy_11",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which wave has the highest amplitude, we need to look at the vertical distance from the centerline (equilibrium position) to the peak (or trough) of each wave.\n\n- Wave (A) has a moderate amplitude — the peaks are not too high.\n- Wave (B) has a larger amplitude than (A), as its peaks extend farther from the centerline.\n- Wave (C) has the largest amplitude — its peaks are the highest and its troughs the lowest among the three.\n\nTherefore, wave (C) has the highest amplitude.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Pharmacy_12",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe given equation is unbalanced and incorrect. The correct balanced chemical equation for the thermal decomposition of ammonium carbonate is (NH₄)₂CO₃ → H₂O + CO₂ + 2NH₃, but it must be balanced properly. Actually, the equation as written is already balanced in terms of atoms: left side has 2N, 8H, 1C, 3O; right side has 2H from H₂O, 2H from 2NH₃ (total 4H), 1C, 2O from CO₂, and 1O from H₂O (total 3O) — wait, this shows a mistake. Let's count again: (NH₄)₂CO₃ has 2N, 8H, 1C, 3O. Right side: H₂O (2H, 1O) + CO₂ (1C, 2O) + 2NH₃ (2N, 6H). Total right: 2N, 8H, 1C, 3O. So yes, it IS balanced! But the problem is that the reaction should produce ammonia gas, which is correctly shown, but the equation is written without showing the state symbols or the heat condition. However, the equation itself is chemically correct and balanced.\n\nWait — I made an error in my reasoning above. Let me double-check:\n\nLeft: (NH₄)₂CO₃ → 2N, 8H, 1C, 3O\nRight: H₂O (2H, 1O) + CO₂ (1C, 2O) + 2NH₃ (2N, 6H) → total 2N, 8H, 1C, 3O — YES, balanced!\n\nSo why is the answer \"False\"? Because the image shows a setup where ammonium carbonate is heated, and the products are being collected in limewater to test for CO₂ (which turns milky), and also likely tested for NH₃ (ammonia gas). The equation as written is correct. But let me re-read the question: “Determine if the following content is correct based on the image and text”\n\nThe text says: “The balanced equation for the reaction is (NH4)2CO3->$\\Delta $ H2O + CO2 + 2NH"
+  },
+  {
+    "id": "validation_Pharmacy_13",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The figure shows a single, continuous protein structure divided into regions A, B, and C by a dashed line. The dashed line does not represent subunits or separate polypeptide chains; rather, it is an arbitrary division of the protein’s tertiary structure. Quaternary structure refers to the arrangement of multiple independent polypeptide chains (subunits) that associate to form a functional protein complex. In this image, there is only one protein structure shown — no distinct subunits are visible or implied.\n\nTherefore, this protein does not have quaternary structure because it is not composed of multiple polypeptide chains assembling together.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Pharmacy_14",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a spiral-shaped microbe, which is characteristic of spirochetes. Among the options:\n\n- A. *Neisseria gonorrhoeae* — cocci, paired or in chains (diplococci)\n- B. *Chlamydia trachomatis* — intracellular, elementary bodies and reticulate bodies, not spiral\n- C. *Treponema pallidum* — classic spirochete, spiral shape, associated with syphilis\n- D. *Haemophilus ducreyi* — coccobacilli, not spiral\n\nThe spiral morphology matches *Treponema pallidum*, the causative agent of syphilis.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Pharmacy_15",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the electrolysis of water, hydrogen gas is produced at the cathode (negative electrode), and oxygen gas is produced at the anode (positive electrode).\n\nLooking at the diagram:\n\n- Electrode A is connected to the negative terminal (as implied by the conventional setup where the tube connected to the negative terminal collects hydrogen).\n- Electrode B is connected to the positive terminal.\n\nHydrogen gas is lighter and occupies a larger volume than oxygen. In such setups, the tube connected to the negative electrode (A) will collect more gas — hydrogen.\n\nTherefore, hydrogen is produced at electrode A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Pharmacy_16",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a graduated cylinder with markings at 30 and 40 mL. The liquid level is between 30 and 40, and the image shows a red dashed line indicating the meniscus is at approximately 31.8 mL.\n\nLet’s analyze:\n\n(a) How many significant figures are there in the measurement?\n\nThe measurement is reported as **31.8 mL**.\n\n- The digit '3' is the tens place — it is certain.\n- The digit '1' is the units place — also certain.\n- The digit '8' is in the tenths place — this is estimated (since we read to the nearest 0.1 mL).\n\nIn measurements, all digits except the last one (the estimated one) are known with certainty. So, 31.8 has **three significant figures**: 3, 1, and 8.\n\n(b) In which digit is there uncertainty?\n\nUncertainty comes from the estimated digit — the one you read beyond the smallest division on the scale. Here, the measurement is reported to the nearest 0.1 mL, so the **tenths place** (the '8') is the estimated digit — thus, the **uncertainty is in the 8**.\n\nSo:\n(a) 3 significant figures\n(b) Uncertainty in the 8\n\nLooking at the options:\n\nA. 1,2 → No\nB. 2,6 → No\nC. 3,8 → Yes! 3 significant figures, uncertainty in the 8\nD. 4,1 → No\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Pharmacy_17",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The structure shown in the image contains:\n\n- Two cyclic peptides (each composed of N-Me-Gly, L-Pro, and D-Val residues) linked to a tricyclic system.\n- The tricyclic system is a **diketopiperazine** derivative with two anthraquinone-like rings fused via an oxygen atom — specifically, it has a **1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2,3,5,6-tetramethyl-1H- or 1,4-dihydroxy-2"
+  },
+  {
+    "id": "validation_Pharmacy_18",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Transdermal absorption by active transport typically exhibits a dose-dependent relationship where the AUC (Area Under the Curve, representing drug exposure) increases proportionally with the dose. This is because active transport mechanisms, such as pumps or carriers, operate in a saturable manner but are generally linear at low to moderate doses.\n\nLooking at the graphs:\n- Graph 1 shows a decreasing curve (AUC/Dose decreases with increasing dose), which is characteristic of saturation kinetics (e.g., competitive inhibition or receptor saturation).\n- Graph 2 shows a constant curve (AUC/Dose remains unchanged with dose), indicating linear pharmacokinetics, which is typical for passive diffusion.\n- Graph 3 shows an increasing curve (AUC/Dose increases with dose), suggesting that the rate of absorption increases with dose, which aligns with active transport mechanisms that can be saturated but still show proportional increase over the range of doses tested.\n\nHowever, it's important to note that active transport is typically saturable, meaning that at higher doses, the rate of absorption may plateau or even decrease. The graph showing a steady increase (Graph 3) is more indicative of a system that is not yet saturated and responds proportionally to dose, which is often observed in transdermal delivery systems using active transport mechanisms under conditions where saturation has not occurred.\n\nTherefore, Graph 3 is the most appropriate representation for transdermal absorption by active transport.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Pharmacy_19",
+    "subject": "Pharmacy",
+    "is_mcq": false,
+    "predicted": "Step C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Step C\n\nAnswer: Step C"
+  },
+  {
+    "id": "validation_Pharmacy_20",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two sets of data:\n\n1. **Human body (by mass)**:  \n   - Oxygen: 61%  \n   - Carbon: 23%  \n   - Hydrogen: 10.0%  \n   - Nitrogen: 2.6%  \n   - Calcium: 1.4%  \n\n2. **Earth’s crust, oceans, and atmosphere (from pie chart)**:  \n   - Oxygen: 49.8%  \n   - Silicon: 27.3%  \n   - Aluminum: 7.6%  \n   - Iron: 4.8%  \n   - Calcium: 3.4%  \n   - Other elements: 7.9%  \n\nWe are to find which five elements are abundant in **both** the human body and Earth’s crust/oceans/atmosphere.\n\nLet’s compare:\n\n- **Oxygen**: Present in both — 61% in human body, 49.8% in Earth’s crust → ✅\n- **Carbon**: 23% in human body — not listed in crust/ocean/atmosphere pie chart as a top element (silicon is 27.3%, aluminum 7.6%, etc.) → ❌ Not common in crust.\n- **Hydrogen**: 10.0% in human body — not among top 5 in crust (pie chart shows silicon, oxygen, aluminum, iron, calcium) → ❌\n- **Nitrogen**: 2.6% in human body — not in top 5 in crust → ❌\n- **Calcium**: 1.4% in human body, 3.4% in crust → ✅\n\nSo far, we have **oxygen and calcium**.\n\nNow check for others that might overlap.\n\nThe question says “five elements make up 98% of the human body”, and asks for elements that are abundant **in both** human body and Earth’s crust/ocean/atmosphere.\n\nBut looking at the pie chart, it only lists 5 elements (oxygen, silicon, aluminum, iron, calcium) — and “other elements” is 7.9%, so total is 98%+.\n\nIn human body, the top 5 are: O, C, H, N, Ca.\n\nIn crust, top 5 are: O, Si, Al, Fe, Ca.\n\nSo the intersection of these two sets is: **Oxygen"
+  },
+  {
+    "id": "validation_Pharmacy_21",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The structure shown is [Pt(NH₃)₂Cl₂], which is cisplatin, a well-known platinum-based chemotherapy drug.\n\nLet’s evaluate each option:\n\nA. “The chlorine groups are displaced before the drug becomes active.”  \n→ This is true. Cisplatin is inactive in its chloro form. It must undergo hydrolysis in aqueous environments to release the chloride ligands and form coordinatively unsaturated complexes that can bind to DNA. The displacement of Cl⁻ ligands (often via water or hydrolysis) is essential for DNA binding and thus for the drug’s activity. So this statement is **true**.\n\nB. “Intrastrand cross linking of DNA results from the action of the agent.”  \n→ This is also true. Cisplatin binds to DNA by forming covalent bonds with guanine bases, typically causing intrastrand cross-linking (especially between adjacent guanines). This distorts the DNA helix and inhibits replication/transcription. So this statement is **true**.\n\nC. “Base pairing between adenine and thymine is disrupted by the agent.”  \n→ This is **not necessarily true**. Cisplatin primarily targets guanine residues. While it does cause DNA distortion, it does not directly disrupt A-T base pairing — that is, the hydrogen bonding between adenine and thymine. Instead, it forms cross-links between guanines, which may indirectly affect base pairing, but the primary mechanism is not disruption of A-T pairs. The disruption is more related to G-G cross-linking, which affects overall DNA structure and function. Therefore, this statement is **untrue**.\n\nD. “The compound acts as a metallating agent”  \n→ This is misleading. A metallating agent typically refers to a compound that transfers metal ions to another molecule. Cisplatin does not act as a metallating agent; rather, it functions as a DNA-binding agent via coordination chemistry. However, some might argue that it “metallates” DNA by coordinating to nitrogen atoms of guanine — but that’s not the standard definition of a metallating agent. Still, in many contexts, “metallating agent” is used loosely to describe metal-containing drugs that coordinate to biomolecules. But even then, this term is imprecise. However, compared to C, which is clearly wrong, D is debatable but not outright untrue. But let's reconsider: if we take “metallating agent” literally — transferring"
+  },
+  {
+    "id": "validation_Pharmacy_22",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given experimental data for the reaction A + B → C, and we need to determine the order with respect to reactants A and B.\n\nLet the rate law be:\n\n**Rate = k [A]^m [B]^n**\n\nWhere:\n- m is the order with respect to A\n- n is the order with respect to B\n\nWe have three experiments:\n\n**Experiment 1:**\n[A] = 0.08 M, [B] = 0.06 M, Rate = 0.012 M/s\n\n**Experiment 2:**\n[A] = 0.08 M, [B] = 0.03 M, Rate = 0.006 M/s\n\n**Experiment 3:**\n[A] = 0.04 M, [B] = 0.06 M, Rate = 0.003 M/s\n\n---\n\n**Step 1: Find order with respect to B (n)**\n\nCompare Experiments 1 and 2, where [A] is constant (0.08 M), but [B] changes.\n\nIn Exp 1: [B] = 0.06, Rate = 0.012  \nIn Exp 2: [B] = 0.03, Rate = 0.006\n\nNotice that [B] is halved (0.06 → 0.03), and the rate is also halved (0.012 → 0.006).\n\nSo, when [B] is halved, rate is halved → this suggests **n = 1** (first order in B).\n\nCheck with ratio:\n\nRate2 / Rate1 = (0.006) / (0.012) = 0.5  \n[B]2 / [B]1 = (0.03) / (0.06) = 0.5\n\nSo, ( [B]2 / [B]1 )^n = 0.5 → 0.5^n = 0.5 → n = 1 ✅\n\n---\n\n**Step 2: Find order with respect to A (m)**\n\nCompare Experiments 1 and 3, where [B] is constant (0.06 M), but [A] changes.\n\nIn Exp 1: [A] = 0.08, Rate = "
+  },
+  {
+    "id": "validation_Pharmacy_23",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the correct classification of the cyclization, we must analyze the reaction shown in the diagram.\n\nThe reaction involves an intramolecular cyclization where a carbonyl group (CO₂tBu) on one end of the molecule attacks a nitrogen atom (bearing an amine group, NH), forming a new ring. The structure shows that the carbonyl carbon is attached to a chain that includes a bridge to the nitrogen, and the distance between the carbonyl carbon and the nitrogen is such that they are connected via 6 atoms in the ring system — including the two carbons of the bridge and the atoms in between.\n\nLet’s break down the terminology:\n\n- “Exo” vs “endo”: This refers to the stereochemistry of the ring closure. In this case, since the nucleophile (the nitrogen) attacks from the side opposite to the substituent on the carbonyl (which is not shown, but typically in such systems, the carbonyl is planar and the attack occurs from the less hindered side), we can infer it’s an *exo* approach. However, for Baldwin’s rules, we classify based on the number of atoms involved in the ring formation, not the stereochemistry directly.\n\nWait — let's clarify: **Baldwin’s rules** classify ring-forming reactions based on the **number of atoms involved in the ring** and whether the reaction is **exo** or **endo**, but more importantly, they classify by the **type of reaction**: 3-exo-trig, 4-exo-trig, etc., based on the number of atoms in the ring being formed and the geometry of the transition state.\n\nIn this case, the ring being formed is a **six-membered ring**. Why? Let’s count the atoms involved in the new ring:\n\n- The carbonyl carbon (C=O) becomes part of the ring.\n- The nitrogen (N) becomes part of the ring.\n- The atoms connecting them: there are 4 atoms in between (the chain from the carbonyl to the nitrogen). But wait — in the product, the new ring is formed between the carbonyl carbon and the nitrogen, with the chain connecting them consisting of 4 atoms (including the two carbons of the bridge and the atoms in between).\n\nActually, let’s look at the structure:\n\nThe reactant has a chain: from the carbonyl carbon, going through a double bond, then to a carbon, then to the nitrogen. But in the"
+  },
+  {
+    "id": "validation_Pharmacy_24",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The structure shown is **difluoromethyl-2,4-dioxo-1H-pyrido[3,4-b]pyrazine** with a pyrrolidine ring and a cyclopropyl group attached to the nitrogen of the pyridine ring — this is actually **a known compound in medicinal chemistry**, specifically **a derivative of 5-fluorouracil or related nucleoside analogs?** Wait — no.\n\nActually, looking at the structure: it has a fused bicyclic system (pyrido[3,4-b]pyrazine), a carboxylic acid group, a fluorine substituent, and a pyrrolidine and cyclopropyl group attached to the nitrogen. This matches **the structure of **(S)-(-)-1-(2-fluorophenyl)-6-(cyclopropylmethyl)pyrido[3,4-b]pyrazine-2-carboxylic acid**, which is **not** a direct nucleotide analog.\n\nWait — let me reconsider.\n\nActually, this compound is **very similar to the structure of ** **Temozolomide**, but no — Temozolomide is a different molecule.\n\nHold on — perhaps this is **a pyrimidine derivative**, but the core is pyrido[3,4-b]pyrazine — that’s not a standard pyrimidine.\n\nWait — I think I recognize this. The structure resembles **a compound called “diazepam” or something else? No — that’s too vague.\n\nActually, upon closer inspection — this structure is **that of a compound called “N-[2-(fluorophenyl)-6-(cyclopropylmethyl)pyrido[3,4-b]pyrazin-2-yl]pyrrolidine-1-carboxamide”? No — wait.\n\nLet me look at the functional groups:\n\n- A benzene ring with a fluorine atom.\n- Fused to a pyrido[3,4-b]pyrazine ring.\n- The pyrido[3,4-b]pyrazine has a carbonyl (C=O) and a CO₂H group — so it’s a **carboxylic acid**.\n- Attached to the pyridine nitrogen is a **cyclopropyl group**.\n- And attached to the phenyl ring is a **pyrrolidine ring** via the nitrogen.\n\nThis"
+  },
+  {
+    "id": "validation_Pharmacy_25",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D\nThe Gram stain procedure involves four key steps: crystal violet (primary stain), iodine (mordant), alcohol-acetone (decolorizer), and safranin (counterstain). For Gram-positive cells, the primary stain (crystal violet) gives a blueish-purple or violet appearance (a). The mordant (iodine) enhances the stain retention and also results in blueish-purple or violet (b). The decolorizer (alcohol-acetone) does not remove the stain from Gram-positive cells, so they remain blueish-purple or violet (c). Finally, the counterstain (safranin) is applied but has no effect on Gram-positive cells since their thick peptidoglycan layer retains the crystal violet, so they remain blueish-purple or violet (d). This matches option D."
+  },
+  {
+    "id": "validation_Pharmacy_26",
+    "subject": "Pharmacy",
+    "is_mcq": false,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Region B\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Pharmacy_27",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a multi-step synthesis from Compound A to Compound F, with percent yields and mole quantities provided at some steps. We need to find the missing values: the percent yield from B to C, the moles of D needed, the moles of E produced, and the percent yield from E to F.\n\n---\n\n**Step 1: A → B**\n\nGiven:\n- 10.0 mol A → 4.00 mol B with 40.0% yield.\n\nThis means that if the reaction had 100% yield, we would expect 10.0 mol B (since 1:1 ratio). But we only get 4.00 mol, which is 40.0% of 10.0 mol → consistent.\n\nSo, **the actual amount of B produced is 4.00 mol**, as given.\n\n---\n\n**Step 2: B → C**\n\nWe are told:\n- 25.0% yield → produces 2.00 mol C.\n\nSince this is a 1:1 mole ratio, the theoretical yield (if 100% efficient) would be:\n\n> Theoretical yield = Actual yield / Percent yield = 2.00 mol / 0.250 = **8.00 mol**\n\nBut wait — where does this 8.00 mol come from? It must come from the amount of B available.\n\nFrom Step 1, we have 4.00 mol B.\n\nSo, to produce 8.00 mol C at 100% yield, we would need 8.00 mol B.\n\nBut we only have 4.00 mol B.\n\nTherefore, the reaction from B to C cannot possibly produce 8.00 mol C — it’s limited by B.\n\nSo, let’s think differently.\n\nThe 25.0% yield means that for every 100 mol of B reacted, we get 25 mol of C.\n\nBut we don’t know how much B was used in this step — we’re told that 2.00 mol C is produced at 25% yield.\n\nSo, the theoretical amount of B required to produce 2.00 mol C at 100% yield is 2.00 mol (1:1 ratio).\n\nBut since the yield is 25%, that means the actual amount of B consumed to produce 2.00 mol"
+  },
+  {
+    "id": "validation_Pharmacy_28",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a molecule with two red atoms (oxygen) and three black atoms (carbon), with the central carbon bonded to one oxygen and to two other carbon atoms. The structure appears to be:\n\n- A central carbon atom bonded to:\n  - One red oxygen atom (double bond, as implied by the typical representation in such diagrams — though not explicitly shown, it's common for carbonyl groups to be depicted with double bonds)\n  - Two other carbon atoms (which are also bonded to other atoms, suggesting alkyl chains)\n\nWait — let’s re-analyze.\n\nLooking at the diagram: there is a central black atom (carbon) bonded to:\n- One red atom (oxygen) — likely via a double bond (as it’s connected directly and no lone pairs are shown on the oxygen — but typically in such models, if it’s a carbonyl, it’s double-bonded).\n- Another black atom (carbon) — which is also bonded to two more black atoms (so it’s a methyl group? or ethyl?).\n- And another red atom (oxygen) — which is single-bonded and has two gray “wings” — which are often used to represent hydrogens or substituents.\n\nActually, looking again — the structure seems to be:\n\nCentral carbon (black) bonded to:\n- One red oxygen (likely via double bond — so carbonyl group)\n- One other black carbon (which is bonded to two more black atoms — so that’s a CH₃ group)\n- And another red atom (oxygen) — which is bonded to two gray wings — those are likely hydrogen atoms — so that’s an OH group.\n\nWait — that would make it a **carboxylic acid** — because you have a carbonyl (C=O) and an OH group attached to the same carbon.\n\nBut let’s check: in carboxylic acids, the structure is R-COOH, meaning the carbon is double-bonded to O and single-bonded to OH.\n\nIn the diagram, we see:\n\n- One black carbon (let’s call it C1) bonded to:\n  - One red atom (O) — double bond? (likely yes)\n  - One red atom (O) — single bond, and then two gray “wings” — those are probably H atoms — so that’s OH.\n  - And one other black carbon — which is bonded to two more black atoms (so CH₃).\n\nSo this"
+  },
+  {
+    "id": "validation_Pharmacy_29",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The given structure is a straight-chain organic molecule with five carbon atoms. The functional group is a ketone, indicated by the double-bonded oxygen (C=O) attached to a carbon atom in the middle of the chain.\n\nLet’s analyze:\n\n- The parent chain has 5 carbons → “pentane”.\n- The carbonyl (C=O) is on carbon #3 (counting from the left or right; numbering should give the carbonyl the lowest number). If we number from the left: C1–C2–C3(=O)–C4–C5 → carbonyl is at position 3. If we number from the right: C5–C4–C3(=O)–C2–C1 → still position 3. So it's 3-pentanone.\n\nNow check the options:\n\nA. cyclopentane — that’s a ring, not applicable here.\n\nB. 2-methylpropan-2-ol — that’s a branched alcohol with 4 carbons, not matching.\n\nC. 3-pentanone — matches our analysis.\n\nTherefore, the correct IUPAC name is **3-pentanone**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Pharmacy_30",
+    "subject": "Pharmacy",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  }
+]

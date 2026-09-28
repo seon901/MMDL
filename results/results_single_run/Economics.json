@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Economics_1",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe minimum amount by which the money supply will increase is equal to the deposit amount, $700, because the bank must hold a reserve requirement (which we are not given) — but since the question asks for the *minimum* increase, and no reserve requirement is specified, we assume the bank can lend out the full amount of the new deposit after holding the required reserves. However, in standard monetary theory, when a new deposit is made, the bank must hold a fraction of it as reserves (the reserve requirement), and the rest can be lent out, which then gets redeposited and lent out again, creating a multiplier effect.\n\nBut note: the question asks for the *minimum* increase. The minimum occurs when the bank holds 100% of the deposit as reserves (i.e., reserve requirement = 100%). In that case, the bank cannot lend anything out, so the money supply increases by only $700.\n\nIf the reserve requirement were less than 100%, the bank could lend out more, increasing the money supply by more than $700. But since the question asks for the *minimum*, we take the case where the bank holds all reserves — i.e., the deposit is fully held as reserves, so no lending occurs.\n\nTherefore, the minimum increase in the money supply is $700.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_2",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows the supply (S) and demand (D) curves for gasoline, with equilibrium at point E, where price is $1.40 per gallon and quantity is 600 million gallons.\n\nIf the government caps the price at $1.30 per gallon, this is below the equilibrium price of $1.40. According to the law of demand, at a lower price, quantity demanded increases. According to the law of supply, at a lower price, quantity supplied decreases.\n\nLooking at the graph:\n- At $1.30, the quantity demanded is greater than the quantity supplied (as shown by the dashed lines: demand curve intersects at 700 million gallons, supply curve at around 500 million gallons).\n- This results in excess demand — also called a shortage — because consumers want to buy more than producers are willing to sell at that price.\n\nTherefore, the outcome would be a shortage (excess demand) at the capped price of $1.30.\n\nNow, evaluating the options:\n\nA. A price below that of $1.30 would cause a situation of excess demand and hence a surplus.  \n→ Incorrect. A price *below* $1.30 would be even lower, leading to even more excess demand (shortage), not surplus. Also, “surplus” is incorrect here — it’s a shortage.\n\nB. A price below that of $1.30 would cause a situation of excess demand and hence a shortage.  \n→ Correct. Even if we consider a price *below* $1.30 (e.g., $1.20), as shown on the graph, there is still excess demand (shortage). The question is asking about what happens when the price is capped at $1.30 — but option B refers to prices *below* $1.30, which is consistent with the logic: any price below equilibrium causes excess demand/shortage.\n\nC. Not certain.  \n→ Incorrect. The graph clearly shows the relationship between price and quantity demanded/supplied, so we can predict the outcome.\n\nThus, the correct answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_3",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the **trade balance** and the **net inflow of foreign saving**, we need to use the following macroeconomic identities:\n\n---\n\n### 1. **Trade Balance (TB)**\n\nThe trade balance is defined as:\n\n> **Trade Balance = Exports - Imports**\n\nBut in the context of national income accounting, we can also derive it from the **national savings identity**:\n\n> **Savings + Investment = National Income - Government Spending - Taxes + Net Exports**\n\nAlternatively, more directly, using the **closed economy vs. open economy** framework:\n\nIn an open economy, the **national saving** (which includes private saving and public saving) equals **investment plus net exports**:\n\n> **National Saving = Investment + Net Exports**\n\nWhere:\n\n- **National Saving = Private Saving + Public Saving**\n- **Public Saving = T - G**\n- **Private Saving = SH** (given)\n- **Investment = I** (given)\n- **Net Exports = Trade Balance = X - M**\n\nSo,\n\n> **SH + (T - G) = I + (Exports - Imports)**  \n> → **Trade Balance = SH + T - G - I**\n\nThis is a standard identity derived from the national income accounting identity.\n\nLet’s compute this for each country.\n\n---\n\n### Country A:\n\nSH = 700  \nT = 0  \nG = 600  \nI = 800  \n\n→ Trade Balance = 700 + 0 - 600 - 800 = **-700**\n\n---\n\n### Country B:\n\nSH = 500  \nT = 500  \nG = 350  \nI = 400  \n\n→ Trade Balance = 500 + 500 - 350 - 400 = **250**\n\n---\n\n### Country C:\n\nSH = 600  \nT = 500  \nG = 650  \nI = 450  \n\n→ Trade Balance = 600 + 500 - 650 - 450 = **0**\n\n---\n\n### 2. **Net Inflow of Foreign Saving**\n\nThis is the **difference between domestic saving and domestic investment**:\n\n> **Net Inflow of Foreign Saving = Domestic Saving - Domestic Investment**\n\nWhich is:\n\n> **(SH + T - G) - I**\n\nWait — that’s exactly the same as the trade balance!\n\nActually"
+  },
+  {
+    "id": "validation_Economics_4",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a downward-sloping curve with \"Inflation Rate (%)\" on the vertical axis and \"Unemployment Rate (%)\" on the horizontal axis. This is the classic representation of the Phillips Curve, which illustrates the inverse relationship between inflation and unemployment in the short run.\n\n- Option A (demand curve) typically shows quantity demanded vs. price, not inflation vs. unemployment.\n- Option C (production possibilities frontier) shows combinations of two goods that can be produced with available resources.\n- Option D (aggregate supply curve) relates price levels to real GDP output, not unemployment.\n- Option E (Lorenz curve) measures income or wealth inequality.\n\nThus, the correct answer is B. Phillips curve.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_5",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the given graph, point A represents the short-run equilibrium where aggregate demand (AD) intersects short-run aggregate supply (SRAS). If the economy is in a boom — meaning output is above the long-run equilibrium level (which is at the intersection of AD, SRAS, and LRAS) — then there is upward pressure on wages due to higher employment and labor demand.\n\nHowever, the question specifies that wages are flexible. In a boom, firms are competing for workers, which pushes wages up. Higher wages increase production costs, shifting the SRAS curve leftward over time. This process continues until the economy returns to the long-run equilibrium at the intersection of AD, SRAS, and LRAS — which occurs at the vertical LRAS line.\n\nTherefore, to return to long-run equilibrium after a boom with flexible wages, wages must rise.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_6",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **price elasticity of demand**, we use the **midpoint formula**:\n\n\\[\n\\text{Price Elasticity of Demand} = \\frac{\\frac{Q_2 - Q_1}{(Q_2 + Q_1)/2}}{\\frac{P_2 - P_1}{(P_2 + P_1)/2}}\n\\]\n\nWe are given:\n\n- Income = $12,000\n- At price $8, quantity demanded = 50 DVDs\n- At price $10, quantity demanded = 45 DVDs\n\nSo,\n\n- \\( Q_1 = 50 \\)\n- \\( Q_2 = 45 \\)\n- \\( P_1 = 8 \\)\n- \\( P_2 = 10 \\)\n\n**Step 1: Calculate percentage change in quantity demanded**\n\n\\[\n\\frac{45 - 50}{(45 + 50)/2} = \\frac{-5}{47.5} \\approx -0.1053\n\\]\n\n**Step 2: Calculate percentage change in price**\n\n\\[\n\\frac{10 - 8}{(10 + 8)/2} = \\frac{2}{9} \\approx 0.2222\n\\]\n\n**Step 3: Divide to get elasticity**\n\n\\[\n\\text{Elasticity} = \\frac{-0.1053}{0.2222} \\approx -0.474\n\\]\n\nWe usually report **absolute value** for elasticity (though sometimes sign is kept), and since the question asks for \"elasticity\", it’s common to report the absolute value unless specified otherwise.\n\nSo, approximately **0.47**.\n\nLooking at the options:\n\nA. 0.17  \nB. 0.27  \nC. 0.37  \nD. 0.47  \n\n→ Correct answer is **D. 0.47**\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Economics_7",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the AD-AS diagram, the short-run equilibrium occurs at the point where the Aggregate Demand (AD) curve intersects the Short-Run Aggregate Supply (SRAS) curve.\n\nLooking at the graph:\n\n- The AD curve is blue and downward sloping.\n- The SRAS curve is red and upward sloping.\n- The LRAS curve is vertical at 500 (as indicated by the label “LRAS” on the vertical axis).\n\nThe intersection of AD and SRAS occurs at a real GDP level of **450** billion (on the horizontal axis) and a price level of around 600 (on the vertical axis).\n\nTherefore, the size of real GDP in the short-run equilibrium is **450**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_8",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate GDP using the **expenditure approach**, we use the formula:\n\n**GDP = Consumption + Investment + Government Expenditure + (Exports - Imports)**\n\nFrom the table:\n\n- Consumption = 1700\n- Investment = 700\n- Government Expenditure = 100\n- Exports = 50\n- Imports = 40\n\nSo,\n\nGDP = 1700 + 700 + 100 + (50 - 40)  \nGDP = 2500 + 10  \nGDP = **2510**\n\nThus, the correct answer is **A. 2510**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_9",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the long run, an increase in the money supply growth rate leads to a higher inflation rate, assuming the economy is at its natural rate of unemployment. The graph shows Curve 2, which is the Phillips Curve — it depicts the short-run trade-off between inflation and unemployment.\n\nPoint B is at an unemployment rate of 6% and an inflation rate of 3%. If the money supply grows, this will cause inflation to rise in the long run. In the long run, the economy returns to the natural rate of unemployment (which is typically where the curve intersects the vertical line representing the natural rate). However, if we are moving from point B, and inflation rises due to increased money supply, we would move upward along the curve — but only if we’re still in the short run.\n\nBut note: the question says “in the long run.” In the long run, the Phillips Curve is vertical at the natural rate of unemployment. So if the economy starts at B (which is not necessarily on the long-run equilibrium), and money supply increases, in the long run, the inflation rate will rise, but unemployment will return to the natural rate. Since the vertical line labeled “Curve 1” represents the natural rate of unemployment (at 6%), and point B is already on that vertical line, then any increase in money supply will lead to higher inflation, but unemployment remains unchanged at 6%.\n\nLooking at the graph, point D is at unemployment rate 6% and inflation rate 6%, which is directly above point B. Point E is at unemployment 6% and inflation 2%, which is below B. Point C is at unemployment 8% and inflation 1%, which is far to the right.\n\nSince Curve 1 is the vertical line at unemployment = 6%, and point B is on it, increasing money supply will raise inflation without changing unemployment in the long run — so we move up along the vertical line to point D.\n\nTherefore, the correct answer is B. moves to D.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_10",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine what drives the market toward equilibrium when the actual price is above the equilibrium price, we first need to find the equilibrium price.\n\nEquilibrium occurs where quantity demanded equals quantity supplied.\n\nLooking at the table:\n\n- At $6: Quantity demanded = 81, Quantity supplied = 81 → Equilibrium price is $6.\n\nNow, if the actual price is **above** equilibrium (i.e., above $6), say at $7 or $8 or $9, then:\n\n- At $7: Demand = 68, Supply = 98 → Supply > Demand → **excess supply**\n- At $8: Demand = 53, Supply = 110 → Excess supply\n- At $9: Demand = 39, Supply = 121 → Excess supply\n\nIn all cases above equilibrium, there is **excess supply** (surplus). When there is excess supply, sellers will lower prices to sell their unsold goods, which pushes the market back toward equilibrium.\n\nTherefore, **excess supply** is what drives the market toward equilibrium when the price is above equilibrium.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_11",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows the average cost (AC) decreasing as quantity (Q) increases, up to a point marked “Size of the market.” This suggests that the firm is experiencing economies of scale — that is, as output increases, average costs fall. If this trend continues beyond the size of the market, it implies that even if the market were larger, the firm could still reduce its average costs by producing more.\n\nIn a monopoly, such economies of scale can lead to a single firm dominating the market because it can produce at a lower average cost than any potential competitors. This is especially likely if the firm can take advantage of **increasing returns to scale** — meaning that as output expands, average costs continue to fall — well beyond the current market size. In such cases, the monopolist can supply the entire market at a lower cost than would be possible with multiple firms, giving it a natural barrier to entry.\n\nOption A (“decreasing returns to scale”) would imply that average costs rise with output — which contradicts the graph. Option C (“constant returns to scale”) would mean average costs remain unchanged — again, not consistent with the downward slope of AC. Only option B (“increasing returns to scale”) aligns with the graph and explains why a monopoly might exist: the firm can benefit from lower average costs as it grows, making it difficult for others to compete.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_12",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate **net exports**, we use the formula:\n\n> **Net Exports = Exports - Imports**\n\nFrom the table:\n\n- Exports = 50\n- Imports = 40\n\nSo,\n\n> Net Exports = 50 - 40 = **10**\n\nTherefore, the correct answer is **A. 10**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_13",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the price of the basket in 2014, we need to use the prices from 2014 and multiply them by the quantities in the basket (200 apples and 290 textbooks), then sum them up.\n\nGiven:\n- Price of Apples in 2014 = $1.40\n- Price of Textbooks in 2014 = $200 (note: this is likely in Japanese Yen, since the context is Japan, but the question uses dollars — we’ll proceed with the given numbers as is)\n\nBasket composition:\n- 200 Apples\n- 290 Textbooks\n\nSo, total cost in 2014:\n\nCost from Apples = 200 × $1.40 = $280  \nCost from Textbooks = 290 × $200 = $58,000  \n\nTotal basket price in 2014 = $280 + $58,000 = **$58,280**\n\nThe base year is 2015, but that only affects the calculation of the CPI or real prices — for the nominal price of the basket in a given year, we just use the prices in that year and the quantities in the basket.\n\nThus, the correct answer is **A. $58,280**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_14",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo find the new equilibrium price, we must first add the two demand schedules. The original demand schedule is:\n\nPrice | Quantity Demanded (Original)\n$4    | 10000\n8     | 8000\n12    | 6000\n16    | 4000\n20    | 2000\n\nThe new students' demand schedule is:\n\nPrice | Quantity Demanded (New Students)\n$4    | 4000\n8     | 3000\n12    | 2000\n16    | 1000\n20    | 0\n\nAdding these together for the total demand:\n\nPrice | Total Quantity Demanded (Original + New)\n$4    | 10000 + 4000 = 14000\n8     | 8000 + 3000 = 11000\n12    | 6000 + 2000 = 8000\n16    | 4000 + 1000 = 5000\n20    | 2000 + 0 = 2000\n\nThe supply schedule remains unchanged at 8000 tickets at every price level.\n\nNow, we find the equilibrium where quantity demanded equals quantity supplied. At a price of $12, total quantity demanded is 8000 and quantity supplied is 8000. This is the point of equilibrium.\n\nTherefore, the new equilibrium price is $12.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Economics_15",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the AD-AS diagram, a positive aggregate supply shock (from SRAS1 to SRAS2) shifts the short-run aggregate supply curve to the right. This means that at any given price level, firms can produce more output. \n\nStructural unemployment is caused by a mismatch between the skills of workers and the requirements of available jobs, or by changes in the structure of the economy (e.g., technological change, industry shifts). It is not directly affected by short-run supply shocks like those shown here — which affect overall production capacity and prices in the short run.\n\nHowever, note that when SRAS shifts right (due to a positive supply shock), the economy moves to a new equilibrium with higher output and lower prices. In the long run, this may lead to a reallocation of resources and potentially reduce structural unemployment if the supply shock improves productivity or efficiency (e.g., better technology or improved labor market matching). But strictly speaking, **structural unemployment is not directly caused or changed by a supply shock** — it’s more related to institutional, skill, and structural factors.\n\nBut wait — let's reconsider: The question asks what happened to *structural unemployment* after the supply shock. Since the supply shock increases the economy’s productive capacity, it may allow for more efficient use of labor and capital, potentially reducing structural unemployment by making more jobs available or improving job-matching efficiency. However, this is indirect.\n\nBut in standard macroeconomic analysis, a positive supply shock typically leads to:\n\n- Lower inflation\n- Higher real GDP\n- Possibly lower unemployment (including structural unemployment) in the long run, as the economy can produce more goods and services, and firms may be able to hire more workers efficiently.\n\nMoreover, since SRAS2 is to the right of SRAS1, the new equilibrium is at a higher output level. If the economy is moving toward full employment (as suggested by the LRAS vertical line), then the increase in output could mean that more people are employed, including those previously unemployed due to structural mismatches — so structural unemployment might decrease.\n\nTherefore, the most reasonable answer based on standard macroeconomic reasoning is that structural unemployment decreased.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_16",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To solve this, we first need to find the equilibrium price and quantity.\n\nEquilibrium occurs where **Quantity Demanded = Quantity Supplied**.\n\nLooking at the table:\n\n- At $10: Demand = 2 million, Supply = 12 million → Not equal\n- At $9: Demand = 4 million, Supply = 9 million → Not equal\n- At $8: Demand = 6 million, Supply = 6 million → **Equal!**\n\nSo, equilibrium price is **$8**, and equilibrium quantity is **6 million Frisbees**.\n\nNow, the government imposes a **price floor $2 above the equilibrium price**.\n\nEquilibrium price = $8  \nPrice floor = $8 + $2 = **$10**\n\nThe question asks: **What is the new market price?**\n\nA price floor is binding only if it is set **above** the equilibrium price. Since $10 > $8, it is binding.\n\nIn a binding price floor, the market price is set at the floor level — **$10** — even though supply and demand may not be in balance at that price.\n\nThus, the new market price is **$10**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Economics_17",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate **M1**, we need to sum the components that are considered part of M1. According to standard definitions, M1 includes:\n\n- **Coins and Currency in Circulation**\n- **Checkable Deposits** (also known as demand deposits)\n- **Traveler’s Checks**\n\nNote: Savings accounts, money market mutual funds, and time deposits are not included in M1; they are part of broader measures like M2 or M3.\n\nFrom the table:\n\n- Coins and Currency in Circulation = 1100\n- Checkable Deposits = 1\n- Traveler’s Checks = 1500\n\nSo, M1 = 1100 + 1 + 1500 = **2601**\n\nTherefore, the correct answer is **A. 2601**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_18",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows two Long-Run Aggregate Supply (LRAS) curves: LRAS1 (black) and LRAS2 (red). The shift from LRAS1 to LRAS2 is a rightward shift, meaning Brazil’s potential output (real GDP in the long run) has increased.\n\nLong-run aggregate supply is determined by factors that affect the economy’s productive capacity — such as the quantity and quality of labor, capital stock, technology, and natural resources. A rightward shift of LRAS implies an increase in the economy’s productive capacity.\n\nLet’s evaluate the options:\n\nA. Increase in capital — This would increase the economy’s ability to produce goods and services, leading to a rightward shift in LRAS. This matches the movement from LRAS1 to LRAS2.\n\nB. Decrease in labor — This would reduce productive capacity, shifting LRAS leftward, not rightward.\n\nC. Decrease in human capital — Human capital refers to skills and knowledge of the workforce; a decrease would reduce productivity and shift LRAS leftward.\n\nTherefore, only option A leads to a rightward shift of LRAS.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_19",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the dominant strategy for each firm, we need to compare the payoffs for each firm when it chooses \"Low output\" versus \"High output\", regardless of what the other firm does.\n\nLet’s analyze Firm 1:\n\n- If Firm 2 chooses **Low output**:\n  - Firm 1 gets 3 (if it chooses Low output) vs. 5 (if it chooses High output) → **High output is better**\n- If Firm 2 chooses **High output**:\n  - Firm 1 gets 0 (if it chooses Low output) vs. 2 (if it chooses High output) → **High output is better**\n\nSo, for Firm 1, **High output** yields a higher payoff in both cases → **High output is the dominant strategy for Firm 1**.\n\nNow, analyze Firm 2:\n\n- If Firm 1 chooses **Low output**:\n  - Firm 2 gets 3 (if it chooses Low output) vs. 5 (if it chooses High output) → **High output is better**\n- If Firm 1 chooses **High output**:\n  - Firm 2 gets 0 (if it chooses Low output) vs. 2 (if it chooses High output) → **High output is better**\n\nSo, for Firm 2, **High output** also yields a higher payoff in both cases → **High output is the dominant strategy for Firm 2**.\n\nTherefore, the dominant strategy for both firms is **High output** (which leads to low price, as per the note: “High output → Low price”).\n\nThis matches option A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_20",
+    "subject": "Economics",
+    "is_mcq": false,
+    "predicted": "8",
+    "answer": "8",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The equilibrium price occurs where the supply and demand curves intersect. From the graph, this intersection is at a price of $8.\n\nAnswer: 8"
+  },
+  {
+    "id": "validation_Economics_21",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine whether unemployment is high or low in Santher’s economy, we need to identify the equilibrium price level and output where Aggregate Demand (AD) equals Aggregate Supply (AS).\n\nLooking at the table:\n\n- At price level 50: AD = 1,000, AS = 250 → AD > AS\n- At price level 60: AD = 950, AS = 580 → AD > AS\n- At price level 70: AD = 900, AS = 750 → AD > AS\n- At price level 80: AD = 850, AS = 850 → AD = AS → equilibrium\n- At price level 90: AD = 800, AS = 900 → AD < AS\n\nThe equilibrium occurs at price level 80, with output = 850.\n\nIn macroeconomic terms, when AD = AS, the economy is producing at its potential output (full employment level). Therefore, unemployment should be at the natural rate — which is typically considered “low” in the context of full employment.\n\nThus, we would expect unemployment to be relatively low.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_22",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram shows two graphs: the left one is the money market, and the right one is the aggregate demand-aggregate supply (AD-AS) model.\n\nIn the money market graph:\n- The central bank increases the money supply, which shifts the money supply curve to the right.\n- This leads to a lower equilibrium interest rate (r), assuming demand for money remains constant.\n\nIn the AD-AS graph:\n- Lower interest rates reduce the cost of borrowing, which stimulates investment and consumption.\n- This increases aggregate demand (AD).\n- An increase in AD shifts the AD curve to the right.\n- In the short run, this leads to an increase in both GDP (real output) and the price level (PL).\n\nTherefore, when the central bank increases the money supply, GDP and the price level both rise.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Economics_23",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B\nThe bank initially holds reserves of $493 and deposits of $2900. Since it keeps only required reserves, the required reserve ratio (RRR) can be calculated as:\n\nRRR = Reserves / Deposits = 493 / 2900 ≈ 0.17 or 17%.\n\nWhen a new deposit of $700 is made, the bank must hold required reserves equal to 17% of $700 = $119.\n\nThe rest of the deposit ($700 - $119 = $581) can be loaned out.\n\nThis loaned amount will eventually be deposited into other banks, which will then hold some reserves and lend out the remainder, creating a multiplier effect on the money supply.\n\nThe total change in M1 due to this deposit is determined by the money multiplier: 1 / RRR = 1 / 0.17 ≈ 5.88.\n\nSo, the total increase in M1 = $700 × (1 / 0.17) ≈ $4118? Wait — that’s option A.\n\nBut let’s double-check: The question asks for “total change in the M1 Money Supply” after the deposit. However, note that the initial balance sheet has reserves of $493 and deposits of $2900. When a new deposit of $700 is made, the bank’s deposits increase to $3600, and its reserves increase to $493 + $119 = $612 (required reserves).\n\nThe bank can then lend out $581, which becomes part of the money supply. But the full money supply increase is not just from the initial deposit — it’s the entire expansionary process.\n\nHowever, the key point is: **the total change in M1 is equal to the initial deposit multiplied by the money multiplier**, because the bank is lending out the excess reserves, and those loans get redeposited, etc.\n\nMoney multiplier = 1 / RRR = 1 / (493/2900) = 2900/493 ≈ 5.88\n\nSo, total M1 increase = 700 × (2900/493)\n\nCalculate that: 700 × 2900 = 2,030,00"
+  },
+  {
+    "id": "validation_Economics_24",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe null hypothesis is that the coefficient for C3 equals that of C4. To test this, we would compute the difference in coefficients (0.0831 - 0.0929 = -0.0098) and its standard error (which would be sqrt(0.0442² + 0.0568²) ≈ 0.0713). The t-statistic would then be -0.0098 / 0.0713 ≈ -0.137. The p-value for a two-tailed test would be approximately 0.89 (since |t| < 2), which is much greater than 0.05. Therefore, we cannot reject the null at the 5% level. The given probability Prob[t(545) ≤ -2] = 0.025 is not directly applicable here because our computed t-statistic is far smaller in magnitude than -2, and the p-value for our actual test is much larger than 0.025. Hence, option B is correct."
+  },
+  {
+    "id": "validation_Economics_25",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C. 8000\n\nTo find the new equilibrium, we must first combine the original demand schedule with the new students’ demand schedule.\n\nOriginal demand schedule (from first table):\n- $4: 10,000\n- $8: 8,000\n- $12: 6,000\n- $16: 4,000\n- $20: 2,000\n\nNew students’ demand schedule (from second table):\n- $4: 4,000\n- $8: 3,000\n- $12: 2,000\n- $16: 1,000\n- $20: 0\n\nNow, add the quantities demanded at each price:\n- At $4: 10,000 + 4,000 = 14,000\n- At $8: 8,000 + 3,000 = 11,000\n- At $12: 6,000 + 2,000 = 8,000\n- At $16: 4,000 + 1,000 = 5,000\n- At $20: 2,000 + 0 = 2,000\n\nSo the new combined demand schedule is:\n- $4: 14,000\n- $8: 11,000\n- $12: 8,000\n- $16: 5,000\n- $20: 2,000\n\nSupply remains unchanged at 8,000 tickets at every price level (as per the first table).\n\nEquilibrium occurs where quantity demanded equals quantity supplied.\nAt $12, quantity demanded is 8,000 and quantity supplied is 8,000 — this is the equilibrium point.\n\nTherefore, the new equilibrium quantity is 8,000 tickets.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Economics_26",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the context of a consumption function, typically expressed as:\n\n**C = a + bY**\n\n- **a** is autonomous consumption (the level of consumption when income Y = 0).\n- **b** is the marginal propensity to consume (MPC), representing the slope of the consumption line.\n\nNow, consider the graph: it shows aggregate demand (consumption) on the vertical axis and output/income (Y) on the horizontal axis. The line starts at (0,10), meaning when income is zero, consumption is 10 — this is the intercept, which corresponds to **a**.\n\n---\n\n**(1) If ‘a’ rises**:  \nThis means autonomous consumption increases. In the graph, this would shift the entire consumption line **upwards**, because at every level of income, people are consuming more. So, the line moves up, parallel to its original slope.\n\n→ This is **A. C shifts upwards.**\n\n---\n\n**(2) If ‘b’ rises**:  \nThis means the slope of the consumption line becomes steeper. Since the slope represents how much consumption increases for each additional unit of income, a higher MPC means consumption increases more rapidly as income rises. So, the line gets steeper.\n\n→ This is **(1)C shifts upwards. (2) C gets steeper.**\n\nWait — let’s check the options again.\n\nOption A: “C shifts upwards.” — only covers (1), not (2).\n\nOption B: “(1)C shifts downwards. (2) C gets gentler.” — incorrect for both.\n\nOption C: “(1)C gets steeper. (2) C gets gentler.” — wrong direction for (1) and (2).\n\nOption D: “(1)C shifts downwards. (2) C gets steeper.” — wrong for (1).\n\nBut none of the options perfectly match both parts? Wait — Option A only says “C shifts upwards” — which is correct for (1) alone. But the question asks what happens in BOTH cases.\n\nLooking back — perhaps I misread the options.\n\nActually, re-examining the options:\n\n> A. C shifts upwards.  \n> B. (1)C shifts downwards. (2) C gets gentler.  \n> C. (1)C gets steeper. (2) C gets gentler.  \n> D. (1)C shifts downwards. (2) C gets steeper.\n\nNone of these seem to correctly state both ("
+  },
+  {
+    "id": "validation_Economics_27",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the Consumer Price Index (CPI) in 2015, with 2015 as the base year, we use the formula:\n\n> **CPI = (Cost of market basket in current year / Cost of market basket in base year) × 100**\n\nSince 2015 is the base year, the CPI in 2015 is **100** by definition.\n\n---\n\nLet’s verify this with the data to be thorough.\n\n### Step 1: Determine the cost of the market basket in 2015 (base year)\n\n- Price of Apples in 2015 = $1.10\n- Quantity of Apples = 200\n→ Cost of Apples = 200 × $1.10 = $220\n\n- Price of Textbooks in 2015 = $140\n- Quantity of Textbooks = 290\n→ Cost of Textbooks = 290 × $140 = $40,600\n\n→ Total cost of basket in 2015 = $220 + $40,600 = **$40,820**\n\n### Step 2: Determine the cost of the market basket in 2015 (same as above, since it's the base year)\n\nSo, the cost in 2015 is $40,820.\n\n### Step 3: Apply CPI formula\n\n> CPI in 2015 = (Cost in 2015 / Cost in 2015) × 100 = 1 × 100 = **100**\n\n---\n\n✅ Therefore, the correct answer is **A. 100**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Economics_28",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the given diagram, Case 1 is labeled “Low (work) income,” and we are shown indifference curves (IC 1 and IC 2) with a budget constraint. The worker’s choice is determined by the point where the budget constraint is tangent to the highest possible indifference curve — this is the utility-maximizing point.\n\nLooking at the diagram:\n\n- The horizontal axis represents leisure time (from 0 to 24 hours).\n- The vertical axis represents income.\n- The budget constraint is a downward-sloping line, indicating trade-off between work (and thus income) and leisure.\n- Point ‘a’ is on the budget constraint and on IC 2, while point ‘b’ is also on the budget constraint but higher up (on IC 1).\n\nHowever, in this case, since it's labeled “Low (work) income,” it implies that the worker earns less when working more hours — so the budget constraint is relatively flat or has a steep slope, and the worker is likely to choose the point of maximum utility, which would be the point where they are willing to work more for higher income — but in this diagram, point ‘a’ is lower on the income axis than point ‘b’, meaning point ‘b’ is higher income.\n\nWait — actually, looking at the axes: as you move right along the horizontal axis (leisure), you are reducing work — so income decreases. But the budget constraint is drawn such that as leisure increases, income decreases. The point ‘a’ is at 24 hours of leisure (so no work) and low income, while point ‘b’ is at some leisure less than 24 hours, and higher income — so point ‘b’ is better (higher utility) because it’s on a higher indifference curve (IC 1).\n\nBut wait — the question is asking: “would the worker choose to work or enjoy leisure time?” — implying which option corresponds to the optimal choice.\n\nPoint ‘b’ is the point of tangency between the budget constraint and IC 1 — which is the highest attainable indifference curve. So the worker will choose point ‘b’. At point ‘b’, leisure time is less than 24 hours — meaning the worker is working (since leisure < 24 hours). Therefore, the worker chooses to work.\n\nNow, the options are:\n\nA. Leisure time is 24 hours. → This would be point ‘a’ — no work, low income, not optimal.\n\nB. Leisure time is"
+  },
+  {
+    "id": "validation_Economics_29",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nTo find the amount spent each year, multiply the quantity (Qty) by the price for that year and sum across all items.\n\n2001:\nApples: 10 × $0.50 = $5.00\nBananas: 12 × $0.20 = $2.40\nGrapes: 2 × $0.65 = $1.30\nRaspberries: 1 × $2.00 = $2.00\nTotal = $5.00 + $2.40 + $1.30 + $2.00 = $10.70 → Wait, this doesn't match any option. Let me recalculate.\n\nWait — I think I made a mistake in reading the table or calculation. Let me recalculate carefully:\n\nActually, looking at the options, they all start with $10.80 for 2001. That suggests there might be an error in my initial calculation or perhaps I misread the quantities or prices.\n\nLet me check again:\n\nApples: 10 × $0.50 = $5.00\nBananas: 12 × $0.20 = $2.40\nGrapes: 2 × $0.65 = $1.30\nRaspberries: 1 × $2.00 = $2.00\nSum = 5.00 + 2.40 = 7.40; 7.40 + 1.30 = 8.70; 8.70 + 2.00 = 10.70\n\nBut 10.70 is not in any option as the first value. Option A, B, C, D all start with 10.70, 10.80, 10.80, 10.70 respectively. So maybe the question is asking for something else? Or perhaps I misread the table?\n\nWait — let me look at the table again. The “(2001) Amount Spent” column is empty — we need to calculate it. But 10.70 is correct mathematically. However, option C starts with 10.80, which is close but not exact. Is there a typo?\n\nWait — let me double"
+  },
+  {
+    "id": "validation_Economics_30",
+    "subject": "Economics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  }
+]

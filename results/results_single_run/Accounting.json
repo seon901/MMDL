@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Accounting_1",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B. $7\n\nManufacturing overhead includes both fixed and variable components. From the table:\n\n- Fixed manufacturing overhead = $6 per unit (this is fixed, so it does not change with volume)\n- Variable manufacturing overhead = $2 per unit (also fixed per unit, but total cost varies with volume)\n\nTotal manufacturing overhead per unit = Fixed + Variable = $6 + $2 = $8 per unit.\n\nHowever, note that the question asks for **per unit manufacturing overhead costs incurred** when 30,000 units are produced. Since fixed manufacturing overhead is spread over more units (30,000 vs. 25,000), the **per unit fixed portion** decreases.\n\nAt 25,000 units, fixed manufacturing overhead per unit = $6.\nAt 30,000 units, fixed manufacturing overhead per unit = $6 (still fixed in total, but now divided by 30,000 units → $6 × 25,000 / 30,000 = $5).\n\nVariable manufacturing overhead remains at $2 per unit (since it’s variable).\n\nTherefore, total manufacturing overhead per unit at 30,000 units = $5 (fixed) + $2 (variable) = $7.\n\nHence, the correct answer is B. $7."
+  },
+  {
+    "id": "validation_Accounting_2",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo solve for Dividends, we use the accounting equation: Assets = Liabilities + Equity.\n\nAssets:\n- Accounts receivable: $16,032\n- Cash: $20,450\n- Equipment: $29,000\n- Land: $34,000\n- Prepaid insurance: $9,444\n- Supplies: $9,700\nTotal Assets = 16,032 + 20,450 + 29,000 + 34,000 + 9,444 + 9,700 = $118,626\n\nLiabilities:\n- Accounts payable: $9,000\n- Notes payable: $48,000\nTotal Liabilities = $57,000\n\nEquity:\n- Common stock: $24,000\n- Retained earnings: $31,315\n- Add: Service revenue: $82,500\n- Subtract: Insurance expense: $12,689\n- Subtract: Salaries expense: $51,500\n- Subtract: Dividends: ? (this is what we’re solving for)\n\nSo, Equity = 24,000 + 31,315 + 82,500 - 12,689 - 51,500 - Dividends\n= (24,000 + 31,315 + 82,500) - (12,689 + 51,500) - Dividends\n= 137,815 - 64,189 - Dividends\n= 73,626 - Dividends\n\nNow plug into the equation:\nAssets = Liabilities + Equity\n118,626 = 57,000 + (73,626 - Dividends)\n118,626 = 130,626 - Dividends\nDividends = 130,626 - 118,626 = $12,000\n\nThus, Dividends = $12,00"
+  },
+  {
+    "id": "validation_Accounting_3",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which project Maxwell Software, Inc. should choose using the NPV rule at a 15% discount rate, we need to calculate the Net Present Value (NPV) for both Project A and Project B.\n\nThe formula for NPV is:\n\n**NPV = Σ [Cash Flow_t / (1 + r)^t] for t = 0 to n**\n\nWhere:\n- r = discount rate = 15% = 0.15\n- t = year\n\n---\n\n### **Project A:**\n\nInitial investment (Year 0): -$20,000  \nYear 1: $13,200  \nYear 2: $8,300  \nYear 3: $3,200\n\nNPV_A = -20,000 + 13,200 / (1.15)^1 + 8,300 / (1.15)^2 + 3,200 / (1.15)^3\n\nCalculate each term:\n\n- Year 1: 13,200 / 1.15 ≈ 11,478.26\n- Year 2: 8,300 / (1.15)^2 = 8,300 / 1.3225 ≈ 6,275.69\n- Year 3: 3,200 / (1.15)^3 = 3,200 / 1.520875 ≈ 2,103.95\n\nSumming up:\n\nNPV_A ≈ -20,000 + 11,478.26 + 6,275.69 + 2,103.95  \n= -20,000 + 19,857.90  \n≈ **-$142.10**\n\n---\n\n### **Project B:**\n\nInitial investment (Year 0): -$24,000  \nYear 1: $14,100  \nYear 2: $9,800  \nYear 3: $7,600\n\nNPV_B = -24,000 + 14,100 / (1.15)^1 + 9,80"
+  },
+  {
+    "id": "validation_Accounting_4",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a table for three companies (Co.1, Co.2, Co.3) showing the components of Owners’ Equity:\n\nThe formula is:\n**Ending Balance = Beginning Balance + Net Income - Net Loss + Investments - Distributions**\n\nFor **Co.2**, we are given:\n- Beginning Balance = $63,180\n- Net Income = $0\n- Net Loss = $12,000\n- Investments = $0 (so this is missing? Wait — actually, in the table, “Investments” for Co.2 is shown as “$0”, which is correct per the table.)\n- Distributions = $51,180\n- Ending Balance = ? (this is what we need to find)\n\nWait — let’s re-read the question:  \n> Calculate the missing values of company 2.\n\nLooking at the table, the only missing value for Co.2 is the **Ending Balance**.\n\nLet’s plug into the formula:\n\nEnding Balance = Beginning Balance + Net Income - Net Loss + Investments - Distributions\n\n= $63,180 + $0 - $12,000 + $0 - $51,180\n\nCalculate step by step:\n\n= $63,180 - $12,000 = $51,180  \nThen, $51,180 - $51,180 = $0\n\nSo, Ending Balance = $0\n\nBut wait — let’s double-check the arithmetic:\n\n$63,180  \n- $12,000 → $51,180  \n- $51,180 → $0\n\nYes.\n\nNow, looking at the options:\n\nA. $1,620  \nB. $12,000  \nC. $51,180  \nD. $0\n\nOur answer is $0 → Option D.\n\nNote: The question says “Calculate the missing values of company 2.” and in the table, the only missing value for Co.2 is the Ending Balance. The “Investments” column for Co.2 is shown as “0”, so that’s not missing — it’s given. The “Net Loss” is given as $12,000. So yes, Ending Balance is missing.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Accounting_5",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "To compute equivalent units for conversion costs using the **weighted-average method**, we use the formula:\n\n> **Equivalent Units = Units Transferred Out + (Ending WIP × Percentage Complete for Conversion)**\n\nBut — **we are not given ending WIP units** directly. However, we can compute them using the basic accounting equation:\n\n> **Beginning WIP + Started = Units to Account For**  \n> **Units Transferred Out + Ending WIP = Units to Account For**\n\nSo, for each quarter:\n\n### Quarter 1:\n- Beginning WIP: 0\n- Started: 255,000\n- Transferred Out: 235,000\n→ Ending WIP = 0 + 255,000 - 235,000 = **20,000**\n- Conversion % complete: 50%\n→ Equivalent Units for Conversion = 235,000 + (20,000 × 50%) = 235,000 + 10,000 = **245,000**\n\nWait — but that’s not among the options. Let me check if I misread.\n\nActually, looking at the options, they are all around 132,000–135,000 — so perhaps I need to reconsider.\n\nWait — maybe I made a mistake in interpreting the problem. The question asks for **equivalent units for conversion costs using weighted-average method** — and it says “assume quarters are independent” — meaning we should calculate for each quarter separately.\n\nBut 245,000 is not an option — so perhaps the question is asking for the **total** equivalent units across all quarters? But that doesn’t make sense because the options are single numbers, and the question says “for each quarter”.\n\nWait — perhaps I need to compute **equivalent units for conversion costs per quarter**, and then add them up? But the options are single numbers, and none of them match what I got.\n\nAlternatively — maybe I’m missing something.\n\nWait — let me double-check the data. The table shows:\n\nQuarter 1:\n- Beginning WIP: — (0)\n- Started: 255,000\n- Transferred Out: 235,000\n- Conversion: 50%\n\nSo ending WIP = 255,000 -"
+  },
+  {
+    "id": "validation_Accounting_6",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nIn January, Job AA2 was started and incurred $2,500. Since it was not completed until February, it remains in Work in Process (WIP) inventory at the end of January. Job AA4 incurred $4,838 in January and was completed in January, so it moves to Finished Goods Inventory. Job AA5 had no cost in January (only February cost shown), so no balance in WIP or FG for January. Job AA3 had no cost in January (costs start in February), so no balance in WIP or FG for January. Therefore, WIP = $2,500, Finished Goods = $4,838, and Cost of Goods Sold = $0 (no job sold in January). This matches option A."
+  },
+  {
+    "id": "validation_Accounting_7",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given:\n\n- Initial investment (Year 0): -$40 million\n- Annual after-tax cash inflows (Years 1–10): $15 million each year\n- Beta of the project: 1.8 (but we need to find the highest beta before NPV becomes negative)\n- Risk-free rate (rf): 8%\n- Expected market return (E(rM)): 16%\n\nWe are to find the **highest possible beta** such that the **NPV is still non-negative**.\n\n---\n\n### Step 1: Calculate the discount rate using CAPM\n\nThe discount rate r = rf + β × (E(rM) - rf)\n\n= 8% + β × (16% - 8%)\n\n= 8% + β × 8%\n\nSo, r = 0.08 + 0.08β\n\n---\n\n### Step 2: Compute NPV as a function of β\n\nNPV = -40 + Σ [15 / (1 + r)^t] for t = 1 to 10\n\nWe can compute the present value of an annuity:\n\nPV = C × [1 - (1 + r)^(-n)] / r\n\nWhere:\n- C = 15\n- n = 10\n- r = 0.08 + 0.08β\n\nSo,\n\nNPV = -40 + 15 × [1 - (1 + r)^(-10)] / r\n\nSet NPV ≥ 0 to find the threshold beta.\n\n---\n\n### Step 3: Solve for β when NPV = 0\n\nWe need to solve:\n\n15 × [1 - (1 + r)^(-10)] / r = 40\n\nLet’s denote r = 0.08(1 + β)\n\nWe’ll use trial and error or numerical methods.\n\nTry β = 3.31 → r = 0.08 + 0.08×3.31 = 0.08 + 0.2648 = 0.3448\n\nCompute PV of annuity:\n\nPV = 15 × [1 - (1.3448)^(-10)] / 0.3448\n\nFirst, compute (1.3448)^(-10):\n\n1.3448^10 ≈ let's calculate:\n\n"
+  },
+  {
+    "id": "validation_Accounting_8",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **sales price per composite unit**, we need to consider the product mix and the sales price per unit for each model.\n\nThe product mix is given as **5:4:1** for Junior : Adult : Expert.\n\nThis means that for every **composite unit**, we have:\n- 5 Junior models\n- 4 Adult models\n- 1 Expert model\n\nNow, compute the total sales price for one composite unit:\n\n- Junior: 5 units × $50 = $250\n- Adult: 4 units × $75 = $300\n- Expert: 1 unit × $110 = $110\n\nTotal sales price per composite unit = $250 + $300 + $110 = **$660**\n\nThus, the correct answer is **A. $660**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Accounting_9",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo find the December 31 cash balance, we start with the December 1 cash balance and add all cash inflows, then subtract all cash outflows.\n\nCash inflows:\n- Cash sales: $3,250\n- Investments by owners: $3,000\n- Inventory received: $2,500\nTotal inflows = $3,250 + $3,000 + $2,500 = $8,750\n\nCash outflows:\n- Payments for inventory: $1,760\n- Wages paid: $2,390\n- Cash withdrawals: $260\nTotal outflows = $1,760 + $2,390 + $260 = $4,410\n\nNet change in cash = $8,750 - $4,410 = $4,340\n\nDecember 31 cash balance = Beginning balance + Net change = $4,250 + $4,340 = $8,590\n\nWait — that doesn’t match any options. Let me re-examine.\n\nActually, I think I made a mistake: “Inventory received” is not a cash inflow — it’s an asset received, which may be recorded as a credit to cash if it’s paid for, but here it’s listed as “Inventory received,” and since no payment is shown, it might be assumed to be a non-cash transaction? But the question asks for cash balance, so perhaps “inventory received” is not a cash transaction?\n\nBut wait — looking again at the list, “Inventory received” is likely a **cash inflow** if it’s received in cash (e.g., from a customer or owner), but the problem says “Inventory received,” which usually implies receiving inventory — which could be on account or paid for. However, in many accounting contexts, “inventory received” is treated as a **debit to inventory** and possibly a **credit to accounts payable or cash**, depending on payment terms.\n\nBut in this list, there is no “Accounts Payable” or “Accounts Receivable” — only “Payments for inventory” (which is a cash outflow) and “Inventory received.” Since “Inventory received” is not paired with any payment, and since we are calculating cash balance, we must assume that “Inventory received” does **not** involve cash — unless specified otherwise"
+  },
+  {
+    "id": "validation_Accounting_10",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nInvesting activities include purchase and sale of long-term assets. So:\n- Purchase of bus = -$33,000 (outflow)\n- Sales of old equipment = +$72,000 (inflow)\nNet cash from investing activities = -33,000 + 72,000 = $39,000? Wait — that doesn’t match option B’s (1) $36,000.\n\nWait — let me recheck: Is “purchase of bus” an investing activity? Yes. “Sales of old equipment” is also investing. But what about “repurchase of stock”? That’s a financing activity, not investing.\n\nSo why is option B showing (1) $36,000?\n\nPerhaps I made a mistake. Let’s recalculate:\n\nInvesting activities:\n- Purchase of bus: -$33,000\n- Sales of old equipment: +$72,000\n\nThat’s $39,000. But option B says $36,000 — so maybe there’s something else? Or perhaps the question includes only certain items?\n\nWait — looking again at the list: “Repurchase of stock” is financing, “cash dividend” is financing, “interest paid on debt” is operating, “cash payments to suppliers” is operating, “cash collections from customers” is operating.\n\nSo only two items are investing: purchase of bus and sales of old equipment.\n\nBut $72,000 - $33,000 = $39,000.\n\nOption A says (1) $39,000 — which matches.\n\nThen (2) net increase in cash would be:\n\nOperating: Cash collections from customers ($300,000) minus cash payments to suppliers ($95,000) = $205,000\n\nBut we also have interest paid on debt ($25,000) — that’s operating.\n\nCash dividend ($80,000) — financing.\n\nRepurchase of stock ($55,000) — financing.\n\nSo total cash flow:\n\nOperating: $300,000 - $95,000 - $25,000 = $180,000\n\nFinancing: -$80,000 (dividend) - $5"
+  },
+  {
+    "id": "validation_Accounting_11",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **maximum possible loss per share** for a **long strangle** strategy, we need to understand what a long strangle entails.\n\nA **long strangle** consists of:\n- A **call option** with a **higher strike price** (in this case, $60)\n- A **put option** with a **lower strike price** (in this case, $55)\n\nThe client owns **no shares**, so the maximum loss occurs if the stock price remains **between the two strike prices** at expiration — i.e., between $55 and $60 — because the options will expire worthless.\n\nThe cost of the strangle is the sum of the premiums paid for both options:\n\n- Call option premium = $5\n- Put option premium = $4\n\nTotal cost per share = $5 + $4 = **$9**\n\nThis $9 is the **maximum loss per share** at expiration if the stock price stays between $55 and $60 — because the options are not exercised, and the client has lost the total premium paid.\n\nIf the stock price moves **above $60**, the call option will be exercised, and the client profits (after accounting for the premium paid).\n\nIf the stock price moves **below $55**, the put option will be exercised, and the client profits (after accounting for the premium paid).\n\nThus, the **maximum possible loss** is **$9.00 per share** — the total premium paid.\n\nOption C (\"unlimited\") is incorrect because in a long strangle, the loss is capped at the total premium paid — it does not go to infinity.\n\n---\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Accounting_12",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for **total revenue**.\n\nLooking at the provided data:\n\n- **Sales revenue** is listed as **$3,100,000**.\n- All other items (depreciation, advertising, salaries, COGS, rent) are **expenses**, not revenue.\n\nIn accounting, **revenue** is the inflow of economic benefits from the sale of goods or services. Here, sales revenue is the only item that represents total revenue.\n\nTherefore, total revenue = $3,100,000.\n\n---\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Accounting_13",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nConversion cost includes direct labor and factory overhead (indirect manufacturing costs). From the given data:\n\n- Direct labor = $25,000  \n- Factory depreciation expense = $45,000  \n- Factory utilities expense = $2,000  \n- Payroll staff’s salary = $15,000 → This is an administrative or general overhead, not part of manufacturing overhead. It should be excluded from conversion cost.\n\nSo, factory overhead = $45,000 + $2,000 = $47,000\n\nConversion cost = Direct labor + Factory overhead = $25,000 + $47,000 = $72,000\n\nTherefore, the correct answer is B. $72,000."
+  },
+  {
+    "id": "validation_Accounting_14",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Job 1 was completed, so it is in finished goods inventory. Job 2 remains in production, so it is in work-in-process inventory and not part of finished goods.\n\nThe total cost for Job 1 is $10,308 (as shown in the table).\n\nTherefore, the balance in finished goods inventory is $10,308.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Accounting_15",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nThe data shows a clear linear relationship between invoices processed and overtime wages. We can calculate the slope (change in overtime wages per invoice) by taking two points, for example January (12,000 invoices, $7,760) and December (11,000 invoices, $7,450). The change in overtime wages is $7,760 - $7,450 = $310 over a decrease of 1,000 invoices, so the slope is $0.31 per invoice. Using the point-slope form with January: Overtime = 7760 + 0.31*(invoices - 12000). For 6,500 invoices: Overtime = 7760 + 0.31*(6500 - 12000) = 7760 + 0.31*(-5500) = 7760 - 1705 = $6055 — wait, that’s not matching any options. Let’s try another pair: March (1,000, $6,000) and June (10,000, $7,300). Change in wages: $1,300 over 9,000 invoices → slope = 1300/9000 ≈ $0.1444 per invoice. Then using March: Overtime = 6000 + 0.1444*(invoices - 1000). For 6500: 6000 + 0.1444*5500 ≈ 6000 + 794.2 = $6794.2 — still not matching.\n\nActually, let’s look at the trend more carefully. From January to February: 12,000→8,000 (down 4,000), wages down $1,760 → $1,760 / 4,000 = $0.44 per invoice. But from February to March: 8,000→1,000 (down 7,000), wages up $1,000? No — $6,000 is"
+  },
+  {
+    "id": "validation_Accounting_16",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the required rate of return for SmileWhite using the **Capital Asset Pricing Model (CAPM)**, we use the formula:\n\n> **Required Return = Risk-free Rate + Beta × (Expected Market Return - Risk-free Rate)**\n\nFrom the table:\n- Risk-free rate = 4.50%\n- Beta for SmileWhite = 1.15\n- Expected market return = 14.50%\n\nPlug in the values:\n\n> Required Return = 4.50% + 1.15 × (14.50% - 4.50%)  \n> = 4.50% + 1.15 × 10.00%  \n> = 4.50% + 11.50%  \n> = **16.00%**\n\nThus, the required rate of return for SmileWhite is **16%**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Accounting_17",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo find the correct balance, we must adjust the given accounts for the adjustments:\n\n1. Supplies: Original balance = $5,000; physical count = $2,150 → adjustment needed = $5,000 - $2,150 = $2,850 decrease (supplies used). So, new supplies balance = $5,000 - $2,850 = $2,150.\n\n2. Taxes payable: Not originally listed, so we add $3,850 to liabilities.\n\n3. Accounts payable: Originally $10,075; now we add $3,850 (taxes payable) → new accounts payable = $10,075 + $3,850 = $13,925.\n\nNow, let’s compute total assets and liabilities (and equity) with adjustments:\n\nAssets:\n- Cash: $64,575 (unchanged)\n- Accounts receivable: $15,500 (unchanged)\n- Supplies: $2,150 (adjusted)\n→ Total Assets = 64,575 + 15,500 + 2,150 = $82,225\n\nLiabilities:\n- Accounts payable: $13,925 (adjusted)\n- Taxes payable: $3,850 (new)\n→ Total Liabilities = 13,925 + 3,850 = $17,775\n\nEquity:\n- Common stock: $31,000 (unchanged)\n- Fees earned revenue: $82,000\n- Operating expense: $38,000\n→ Net income = 82,000 - 38,000 = $44,000\n→ Equity = 31,000 + 44,000 = $75,000\n\nCheck: Assets = Liabilities + Equity → 82,225 = 17,775 + 75,000 → 82,225 = 92,775? Wait — that doesn’t match. There’s a mistake.\n\nActually, the question is asking for “the balance of the account” — but which account? The options are large"
+  },
+  {
+    "id": "validation_Accounting_18",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To compute the **cost of materials used in production**, we use the formula:\n\n> **Cost of materials used = Beginning raw materials inventory + Purchases of raw materials - Ending raw materials inventory**\n\nWe are given:\n\n- Beginning raw materials inventory = $15,394  \n- Purchases of raw materials = $77,321  \n- Ending raw materials inventory = $17,432  \n\nNow plug in the numbers:\n\n> Cost of materials used = $15,394 + $77,321 - $17,432  \n> = $92,715 - $17,432  \n> = **$75,283**\n\nSo, the correct answer is **D. $75,283**\n\n(Note: The direct labor and overhead rates are not needed for computing the cost of materials used — they are relevant for calculating total manufacturing costs, but not for this specific question.)\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Accounting_19",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the per unit manufacturing overhead costs when 15,000 units are produced, we must distinguish between **variable** and **fixed** manufacturing overhead.\n\nFrom the given data:\n\n- **Indirect materials**: $3 (variable)\n- **Fixed manufacturing overhead**: $6 (fixed — does not change with volume within relevant range)\n- **Variable manufacturing overhead**: $2 (variable)\n\nNote: The question asks for **manufacturing overhead costs per unit**, which includes both variable and fixed manufacturing overhead.\n\nSo, total manufacturing overhead per unit = Indirect materials + Fixed manufacturing overhead + Variable manufacturing overhead  \n= $3 + $6 + $2 = **$11**\n\nThis is important: **Fixed manufacturing overhead per unit remains constant only if we are looking at total fixed cost divided by number of units. But since the relevant range is 15,000 to 30,000 units, and 15,000 is within that range, the fixed manufacturing overhead per unit will still be $6 per unit** — because fixed costs are spread over the number of units.\n\nTherefore, even though we are producing fewer units (15,000 vs. 25,000), the **per unit fixed manufacturing overhead** is still $6, as long as we are within the relevant range.\n\nThus, total manufacturing overhead per unit at 15,000 units = $3 (indirect materials) + $6 (fixed MOH) + $2 (variable MOH) = **$11**\n\nThe other costs (selling & admin, sales commissions) are not part of manufacturing overhead.\n\n---\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Accounting_20",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a multifactor (APT) model with two factors, F₁ and F₂. The expected return on a stock in the APT model is given by:\n\n**E(R) = R_f + β₁ × E(F₁) + β₂ × E(F₂)**\n\nHowever, note that **we are told the stock is fairly priced**, which implies that its expected return should equal the risk-free rate plus the risk premium from each factor, weighted by the stock’s beta on that factor.\n\nBut here's the catch: **we are not given the risk premiums for F₁ and F₂**. Instead, we are given the expected returns of two portfolios (A and B) that have different betas on these factors.\n\nThis suggests we can use **portfolio data to solve for the risk premiums** on the factors.\n\n---\n\nLet’s denote:\n\n- R_f = 6% (risk-free rate)\n- E(F₁) = r₁ (risk premium on factor F₁)\n- E(F₂) = r₂ (risk premium on factor F₂)\n\nThen, for portfolio A:\n\n**E(R_A) = R_f + β₁,A × r₁ + β₂,A × r₂**\n\n→ 31% = 6% + 1.5 × r₁ + 2.0 × r₂  \n→ 25% = 1.5 r₁ + 2.0 r₂  → Equation (1)\n\nFor portfolio B:\n\n**E(R_B) = R_f + β₁,B × r₁ + β₂,B × r₂**\n\n→ 27% = 6% + 2.2 × r₁ + (-0.2) × r₂  \n→ 21% = 2.2 r₁ - 0.2 r₂  → Equation (2)\n\nNow solve the system of equations:\n\nEquation (1): 1.5 r₁ + 2.0 r₂ = 25  \nEquation (2): 2.2 r₁ - 0.2 r₂ = 21\n\nLet’s multiply Equation (2) by 10 to eliminate decimals:\n\n→ 22 r₁ - 2 r₂ = 210 → Equation (2a)\n\nNow add Equation (1) and Equation (2a):\n\n(1.5 r₁ + 2.0 r₂) + (22 r₁ - 2 r₂) = 25 + 2"
+  },
+  {
+    "id": "validation_Accounting_21",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Accounting_22",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the Z-score for Seether, LLC, we use the **Altman Z-score formula**:\n\n> **Z = 1.2A + 1.4B + 3.3C + 0.6D + 1.0E**\n\nWhere:\n\n- **A** = Net Working Capital / Total Assets  \n- **B** = Retained Earnings / Total Assets  \n- **C** = EBIT / Total Assets  \n- **D** = Market Value of Equity / Total Liabilities (but in this case, we are given book value of equity — and since no market value is provided, we assume it’s not applicable or we use book value? Actually, wait — Altman Z-score uses *book value of equity* for D if market value is not available. But actually, let me double-check the standard formula.)\n\nWait — correction: The standard Altman Z-score formula (for manufacturing firms) is:\n\n> **Z = 1.2 × (Net Working Capital / Total Assets) + 1.4 × (Retained Earnings / Total Assets) + 3.3 × (EBIT / Total Assets) + 0.6 × (Market Value of Equity / Total Liabilities) + 1.0 × (Sales / Total Assets)**\n\nBut in this case, **Sales is not provided**, so we cannot compute that term.\n\nAlso, **Market Value of Equity is not provided** — only Book Value of Equity is given.\n\nHowever, in many simplified versions (especially for exams or when market value is unavailable), **Book Value of Equity** is used in place of Market Value of Equity for the D term.\n\nSo, let’s proceed with the standard formula using the available data, assuming **Book Value of Equity** is used for D (since market value is not provided).\n\nLet’s plug in the numbers:\n\nGiven:\n\n- Total assets = $73,000\n- EBIT = $7,900\n- Net working capital = $4,200\n- Book value of equity = $18,000\n- Total liabilities = $64,000\n\nNote: We are not given sales, so we skip the “Sales / Total Assets” term.\n\nWe need to compute:\n\n- A = Net Working Capital / Total Assets = 4200 / 73000 ≈ 0.057534\n- B = Retained Earnings"
+  },
+  {
+    "id": "validation_Accounting_23",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two put options, A and B, with identical parameters except for their prices:\n\n- Both have the same time to expiration (T = 0.5 years), strike price (X = 50), and volatility (σ = 0.2).\n- Option A costs $10.\n- Option B costs $12.\n\nWe are to determine which put option must be written on the stock with the lower price.\n\n---\n\nRecall the **put-call parity** for European options (assuming no dividends):\n\n> **C - P = S₀ - K × e^(-rT)**\n\nWhere:\n- C = call price\n- P = put price\n- S₀ = current stock price\n- K = strike price\n- r = risk-free rate\n- T = time to maturity\n\nBut in our case, we are only given **put prices**, not call prices. However, we can rearrange the formula to solve for S₀ if we knew the call price. Since we don’t have call prices, we cannot directly use this formula.\n\nBut note: we are asked to compare **which put is written on the stock with the lower price** — meaning, which of the two puts corresponds to a lower underlying stock price.\n\nLet’s think about the relationship between put price and stock price.\n\nIn general, for a given strike and time to maturity, **as the stock price decreases, the put price increases** — because the put gives the right to sell at a fixed strike, so if the stock is cheaper, the put becomes more valuable.\n\nThis is intuitive: if the stock price is low, you’re more likely to exercise the put to buy the stock at the higher strike (since you can’t sell it for more than the strike, but you’re buying it at the strike? Wait — no).\n\nActually, for a **put option**, the holder has the right to **sell** the stock at the strike price. So if the stock price is low, then selling it at the strike price (which is higher) is more valuable — so the put becomes more valuable as the stock price falls.\n\nThus, **a higher put price implies a lower stock price**, assuming all else equal.\n\nIn our case, Option B has a higher put price ($12) than Option A ($10). Therefore, Option B must be written on the stock with the lower price.\n\nWait — let me double-check that logic.\n\nSuppose the stock price is very low — say $30. Then the"
+  },
+  {
+    "id": "validation_Accounting_24",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the **information ratio**, we use the formula:\n\n> **Information Ratio = (Average Excess Return of the Stock - Risk-Free Rate) / Residual Standard Deviation**\n\nBut note: In index model regression, the **excess return** is already calculated as the model’s predicted return minus the risk-free rate. The model given is:\n\n- Stock A: 1% + 1.2(Rₘ - rₖ)\n- Stock B: 2% + 0.8(Rₘ - rₖ)\n\nThe **intercept term** (1% and 2%) represents the **alpha** — the excess return over the market index model. Since the model is on **excess returns**, the intercept is the **alpha** (i.e., the abnormal return).\n\nSo:\n\n- Alpha_A = 1%\n- Alpha_B = 2%\n\nResidual standard deviation (σ(e)) is given as:\n- σ(e)_A = 10.3%\n- σ(e)_B = 19.1%\n\nThe information ratio is:\n\n> **IR = α / σ(e)**\n\nSo for Stock A:\n\n> IR_A = 1% / 10.3% ≈ 0.0971\n\nFor Stock B:\n\n> IR_B = 2% / 19.1% ≈ 0.1047\n\nWait — that gives us 0.0971 and 0.1047.\n\nLooking at the options:\n\nA. (1) 0.0971 (2)0.01047 → second value is too small (should be ~0.1047)\n\nB. (1) 0.1134 (2)0.01722 → both seem off\n\nC. (1) 0.1149 (2)0.01322 → also off\n\nHmm — maybe I made a mistake.\n\nWait — let’s double-check the definition.\n\nIn some contexts, especially in finance, the **information ratio** is defined as:\n\n> **Information Ratio = (Alpha) / (Standard Deviation of Residuals)**\n\nThat’s what I used.\n\nBut let me check if the question is asking for something else.\n\nAlternatively, perhaps they are using **excess return relative to the market**? But no — the model is on excess returns, so the intercept is alpha.\n\nWait —"
+  },
+  {
+    "id": "validation_Accounting_25",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B\nUsing the Capital Asset Pricing Model (CAPM), we can calculate the expected return for each portfolio based on its beta and the risk-free rate.\n\nCAPM formula: E(R) = Rf + β × (E(Rm) - Rf)\n\nWe don’t have the market return, but we can use the given data to check if the portfolios are priced correctly. Alternatively, we can compare their actual returns to what CAPM would predict given the risk-free rate and their betas — but since we don’t have the market risk premium, we must infer whether they are in equilibrium by comparing their returns to what CAPM would imply if they were fairly priced.\n\nHowever, a more direct approach is to assume that if the portfolios are well-diversified and we know the risk-free rate, then any deviation from the CAPM-predicted return indicates mispricing.\n\nBut here’s the key: we can compute the required return using CAPM only if we know the market risk premium. Since it’s not given, we cannot directly compute the CAPM return for each portfolio.\n\nWait — let’s reconsider: perhaps we can use the fact that if both portfolios are well-diversified, then their expected returns should satisfy CAPM with the same market risk premium. But since we don’t know the market risk premium, we need to look at the relative returns.\n\nActually, let’s try this: suppose the market risk premium is such that for a beta of 1.00, the expected return is 16% (portfolio X). Then:\n\nE(R) = 8% + 1.00 × (E(Rm) - 8%) = 16%\n\n→ E(Rm) - 8% = 8% → E(Rm) = 16%\n\nThen for portfolio Y, which has beta 0.25, the CAPM-predicted return would be:\n\nE(RY) = 8% + 0.25 × (16% - 8%) = 8% + 0.25 × 8% = 8% + 2% = 10%\n\nBut portfolio Y’s actual expected return is 12%, which is higher than 10%. That means portfolio Y is offering a higher return than its required return according to CAPM — so it’s underpriced (or overvalued? Wait — if actual return > required return, that implies the asset is undervalued, or offers"
+  },
+  {
+    "id": "validation_Accounting_26",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given the current CVP data for Baghdad Company:\n\n- Current sales price per unit = $90\n- Variable cost per unit = $40\n- Contribution margin per unit = $50\n- Fixed costs = $20,650\n- Break-even (in units) = 413\n- Break-even (in dollars) = $37,170\n\nNow, they plan to increase the retail price by 10%.\n\nNew sales price per unit = $90 × 1.10 = **$99**\n\nVariable cost per unit remains unchanged at **$40**\n\nSo, new contribution margin per unit = $99 - $40 = **$59**\n\nFixed costs remain unchanged at **$20,650**\n\n---\n\n**Break-even point in units** = Fixed costs / Contribution margin per unit  \n= $20,650 / $59 ≈ **350 units**\n\nLet’s verify:  \n350 × $59 = $20,650 → Correct.\n\n---\n\n**Break-even point in dollars** = Break-even units × New sales price per unit  \n= 350 × $99 = **$34,650**\n\nWait — let me double-check that multiplication:  \n350 × 99 = 350 × (100 - 1) = 35,000 - 350 = **$34,650**\n\nBut none of the options show $34,650 exactly. Let me check the options again:\n\nA. 350 units and $34,647.65  \nB. 355 units and $35,647.65  \nC. 350 units and $35,647.65  \nD. 355 units and $34,647.65\n\nOur calculation gives **350 units and $34,650**, but option A says **$34,647.65** — very close, but not exact.\n\nWait — perhaps I made a rounding error? Let’s recalculate more precisely.\n\nFixed costs = $20,650  \nContribution margin per unit = $59  \nBreak-even units = 20,650 ÷ 59\n\nLet"
+  },
+  {
+    "id": "validation_Accounting_27",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **debt-equity ratio based on book values**, we use the formula:\n\n> **Debt-Equity Ratio = Total Debt / Total Shareholders’ Equity**\n\nFrom the balance sheet:\n\n- **Total Debt** = $220,000,000  \n- **Total Shareholders’ Equity** = $280,000,000  \n\nSo,\n\n> Debt-Equity Ratio = 220,000,000 / 280,000,000 = 0.7857...\n\nRounded to three decimal places: **0.786**\n\nThis matches option **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Accounting_28",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- For **500 clients**:\n  - Total fixed costs = $265,000\n  - Total variable costs = $180,000\n\nWe need to find the **total cost per 800 clients**.\n\n---\n\n### Step 1: Understand cost behavior\n\nFixed costs do not change with the number of clients (assuming within relevant range).\n\nVariable costs change proportionally with the number of clients.\n\n---\n\n### Step 2: Calculate variable cost per client\n\nVariable costs for 500 clients = $180,000  \n→ Variable cost per client = $180,000 / 500 = **$360 per client**\n\n---\n\n### Step 3: Calculate total variable costs for 800 clients\n\nTotal variable costs for 800 clients = 800 × $360 = **$288,000**\n\n---\n\n### Step 4: Fixed costs remain the same\n\nFixed costs = **$265,000** (unchanged regardless of number of clients)\n\n---\n\n### Step 5: Total cost for 800 clients\n\nTotal cost = Fixed costs + Variable costs  \n= $265,000 + $288,000 = **$553,000**\n\nWait — but this is not among the options. Let me double-check.\n\nHold on — perhaps I misread the question.\n\nThe question asks: **“what is the total cost per 800 clients?”**\n\nThat could be interpreted as **total cost for 800 clients**, which is what I calculated: **$553,000**\n\nBut that’s not in the options.\n\nOptions are:\n\nA. $712,000  \nB. $632,000  \nC. $288,000  \nD. $424,000\n\nNone of them is $553,000.\n\nWait — maybe the question is asking for **total cost per client**? But it says “total cost per 800 clients” — that’s ambiguous.\n\nLet me re-read: “what is the total cost per 800 clients?”\n\nThis phrasing is odd. Usually, we say “total cost for 800 clients” or “cost per client for 800"
+  },
+  {
+    "id": "validation_Accounting_29",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which call option is written on the stock with higher volatility, we can use the **Black-Scholes model** or its intuition. However, since we are not given the risk-free rate explicitly in the table (though it's stated as 6%), and no other parameters like implied volatility or time to maturity (which is the same for both), we must rely on **option pricing theory**.\n\nIn the Black-Scholes model, for a given strike price and time to maturity, the **price of a call option increases with the volatility of the underlying stock**. This is because higher volatility implies a greater chance that the stock price will move favorably (above the strike) before expiration, increasing the option’s value.\n\nHere, both options have:\n\n- Same time to maturity (T = 0.5 years)\n- Same strike price (X = 50)\n- Same current stock price (S = 55)\n\nTherefore, the only difference is the **price of the option**: Option B costs $12, while Option A costs $10.\n\nSince Option B is more expensive, and all other parameters are equal, it must be written on a stock with **higher volatility**.\n\nThus, the correct answer is **B**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Accounting_30",
+    "subject": "Accounting",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe present value of the future cash outflows discounted at 10% is:\nPV = -4,500 / (1.10)^1 - 3,100 / (1.10)^2 - 2,400 / (1.10)^3 - 1,800 / (1.10)^4\n= -4,500 / 1.10 - 3,100 / 1.21 - 2,400 / 1.331 - 1,800 / 1.4641\n= -4,090.91 - 2,561.98 - 1,802.47 - 1,229.63\n= -$9,684.99\n\nSince the present value of the future payments (-$9,684.99) is less than the initial offer ($9,400), you would actually lose money if you accept the offer. Therefore, you should not accept it.\nAnswer: B"
+  }
+]

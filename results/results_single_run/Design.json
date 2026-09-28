@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Design_1",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The object shown is a traditional African artifact known as a “bead loom” or “bead panel,” often used in ceremonial or ritual contexts. However, upon closer inspection, the object appears to be an abstract, sculptural piece with beads embedded into a carved wooden or clay base — likely a modern or contemporary art piece rather than a functional tool.\n\nNone of the options A–D describe it as a functional instrument for music, math, or historical narrative in the literal sense. But if we consider its appearance and context, it is most likely intended as a symbolic or artistic expression — not a relic or a functional tool.\n\nOption D — “It contains sacred relics” — is plausible only if we interpret the beads or materials as having religious significance. However, without explicit context (e.g., it being from a specific religious tradition), this is speculative.\n\nBut given the nature of the object — dense with beads, possibly representing patterns or spiritual motifs — and common in African art where such objects are used in ritualistic or symbolic contexts, **D** remains the most plausible among the choices.\n\nHowever, let’s reconsider: many such bead-embedded plaques are not strictly “sacred relics” but rather symbolic objects used in ceremonies or as decorative items with spiritual meaning.\n\nStill, among the options, **D** is the best fit if we assume the object is meant to convey spiritual or sacred meaning — which is common in African art traditions.\n\nAlternatively, some might argue that the object resembles a musical instrument (A) — but it lacks strings, keys, or other musical components.\n\nGiven the ambiguity, and since the object is clearly not a mathematical tool or a historical narrative medium, and while “sacred relics” may not be precise, it’s still the most defensible answer.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Design_2",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "George Seurat, a French post-Impressionist painter, developed the technique known as Pointillism — a form of Divisionism — in which he applied small, distinct dots of pure color to the canvas. His goal was to enliven paintings through the use of scientific theories about color and optic function, specifically based on the principle of simultaneous contrast and how the human eye blends colors when viewed from a distance. This method was rooted in the scientific study of color theory, particularly influenced by the work of scientists like Michel Eugène Chevreul and Ogden Rood.\n\nWhile his style is indeed characterized by small dots (making option D partially accurate), the deeper artistic and theoretical motivation was rooted in scientific color theory, not merely stylistic idiosyncrasy or emotional expression. Seurat’s approach aimed to achieve luminous, vibrant effects through the optical mixing of colors — a deliberate application of science to art.\n\nTherefore, the best answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_3",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks about a principle involving the distribution of visual weight and how details are grouped. This refers to **proximity**, which is a design principle that groups elements together based on their spatial relationship — making them appear as a unit or cluster, thus influencing how visual weight is distributed.\n\nWhile alignment, contrast, and unity are also important principles in design, proximity specifically addresses how elements are grouped and how their closeness affects perceived balance and visual weight.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_4",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question is asking about an individual who:\n\n- Was an alumnus of a school (likely RIT, given context),\n- Served as a tea server in 1925,\n- Had three paintings at the George Eastman Hall of RIT,\n- Also did the wall in Gosnell.\n\nLet’s analyze the options:\n\nA. **Josef Albers** — He was an influential artist and educator, taught at Black Mountain College and later at RIT. He served as a tea server in 1925 (as noted in some biographies). He had works exhibited at the George Eastman House (which houses the George Eastman Hall at RIT). He also designed the “wall” in Gosnell — referring to the famous “Gosnell Wall” or “Gosnell Square” in his work, which is part of his “Homage to the Square” series. This matches all criteria.\n\nB. George Eastman — He was the founder of Kodak and the George Eastman House. Not known for teaching at RIT, serving as a tea server, or doing a wall in Gosnell.\n\nC. Gosnell Hall — This is a location, not a person.\n\nD. Tea Server 1925 — This is not a person; it’s a role.\n\nTherefore, the correct answer is A. Josef Albers.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_5",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting in question is likely “The Arnolfini Portrait” by Jan van Eyck, a 15th-century Flemish masterpiece depicting a married couple. The composition, with its detailed setting and symbolic elements (such as the mirror reflecting two figures, the dog symbolizing fidelity, and the gesture of clasped hands), has been widely interpreted as representing a marriage or betrothal, possibly even a legal contract between the couple.\n\nHowever, coronation — a formal ceremony marking the enthronement of a monarch — is not depicted or implied in the painting. There are no regal symbols, crowns, or ceremonial elements suggesting a coronation. The scene is domestic and intimate, not royal or ecclesiastical in that sense.\n\nThus, the work has been interpreted as a visual document of marriage, betrothal, and legal contract, but not coronation.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_6",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows two vintage-style devices: one cream-colored and rectangular, the other dark, teardrop-shaped. These are clearly early models of hearing aids or amplifiers, possibly from the mid-20th century. The cream-colored device has a label that appears to read “Zenith” — a known brand in electronics and audio technology.\n\nThe title “Zenith 'Guardian Ear & Radio Nurse’” is a historical reference to a specific product line by Zenith Electronics from the 1930s–1940s, which combined hearing aid functionality with radio reception, marketed as a “nurse” for the ear — implying care for hearing impairment while also offering radio communication.\n\nGiven the context and the branding visible on the cream-colored unit (even if partially obscured), Option A is the most accurate and historically grounded title.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_7",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a classic bottle of Chanel No. 5 Eau de Parfum, which is one of the most iconic and famous perfumes in the world. The label on the bottle clearly reads “N°5 CHANEL PARIS EAU DE PARFUM,” confirming its identity.\n\nOption A correctly identifies the product as “Chanel No. 5 perfume,” which matches the visual content.\n\nOptions B, C, and D are unrelated to the specific design shown — they refer to broader topics or processes, not the title of this particular design.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_8",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is “The Annunciation” by Fra Angelico, painted around 1440–1445. It is a hallmark of the Early Renaissance and was created in the workshop or directly by Fra Angelico, who was a Dominican friar and painter active in Florence during the late 15th century.\n\nFra Angelico is known for his serene, devotional style and his use of gold leaf and soft, luminous colors — all evident in this work. The composition features the angel Gabriel (on the left) kneeling before the Virgin Mary (on the right), seated under an arcade. The architectural setting and the figures’ expressions are consistent with Fra Angelico’s style.\n\nWhile other artists like Giotto, Masaccio, and Piero della Francesca were contemporaries or predecessors, this specific work is attributed to Fra Angelico.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_9",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The Harbaville Triptych is a famous religious artifact from the 12th century, known for its intricate and delicate carvings. It is composed of three panels made from ivory, with figures and decorative elements carved into the material. This distinguishes it from fresco secco (dry fresco), marble, or mosaic, which are different media.\n\nTherefore, the correct medium is carved ivory.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_10",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The dress in the image features a sweetheart neckline, characterized by its gently curved, heart-shaped line that starts at the center of the chest and extends outward to the shoulders. This is distinct from a V-neck (which is angular and open), a cowl neckline (which wraps around the neck like a scarf), or a halter neckline (which ties behind the neck).\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Design_11",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image depicts the Trinity, a central Christian doctrine, with three figures seated around a table with a chalice, and each figure has a halo and wings—indicative of divine or angelic nature. The composition is symbolic rather than naturalistic, and it reflects theological concepts such as the Trinity and the unity of God.\n\nOption A refers to naturalism, which is not present here; the figures are stylized and symbolic.\n\nOption B, typology — the idea of linking Old Testament figures or events to New Testament ones — is consistent with medieval Christian iconography. The Trinity is often depicted in this way to show continuity between Testaments, and the three figures may represent the Father, Son, and Holy Spirit, with the chalice symbolizing the Eucharist, thus connecting to Christ’s sacrifice.\n\nOption C refers to saints, but the figures are not saints — they are divine persons (the Trinity).\n\nOption D refers to imperial authority, which is not indicated in this image.\n\nThus, the most fitting answer is B: aligning the Old Testament and the New Testament through typology.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Design_12",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The sleeves in the image are voluminous and flare out from the shoulder, which is characteristic of bell sleeves. They are not puff sleeves (which are typically more rounded and puffed at the shoulder), nor are they cap sleeves (short and fitted) or raglan sleeves (which extend diagonally from shoulder to underarm). The shape here matches bell sleeves.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_13",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The Alexander Mosaic, found in the House of the Faun in Pompeii, is a large-scale mosaic composed of over one million small tesserae (tiles). This technique allowed artists to create detailed and complex scenes with a high degree of precision. However, the mosaic’s composition was also designed to convey movement and chaos — the battle scene depicted is dynamic and overwhelming, with figures overlapping and action filling the frame.\n\nOption A — “depict a disorganized scene that overwhelms the viewer” — aligns with the visual effect of the mosaic: the chaotic, densely packed figures, horses, chariots, and weapons create a sense of overwhelming energy and motion. The use of small tiles enabled this level of detail and complexity without compromising the overall dramatic impact.\n\nOption B — “model the anatomy of the figures naturalistically” — while the mosaic does show some anatomical detail, the primary purpose of the tile-based medium was not to achieve naturalism in the way classical sculpture or painting might, but rather to render a grand, dynamic scene.\n\nOption C — “modify and transport the composition easily” — is incorrect; mosaics were labor-intensive and not easily modifiable or transportable in the way described.\n\nOption D — “reduce the figures into abstract forms” — is false; the mosaic is highly representational, not abstract.\n\nThus, the best answer is A, as the mosaic’s design and execution — made possible by the use of countless small tiles — serve to overwhelm the viewer with its intensity and disorder.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_14",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The painting shown is a Byzantine icon, likely from the 10th or 11th century C.E., as it features the typical characteristics of that period: the central Virgin and Child, flanked by saints with halos, stylized facial expressions, gold backgrounds, and ornate robes with geometric patterns. The iconographic style, including the use of gold leaf, the composition, and the depiction of figures (such as the saint on the left holding a cross and wearing a patterned robe), aligns with the iconography produced in the Eastern Orthodox tradition during the late Byzantine era.\n\nThis specific panel is actually a fragment of a larger icon, known as “The Icon of the Theotokos” or “The Virgin and Child with Saints,” and is associated with the famous “Icon of the Theotokos of Vladimir” or similar works, which were popular during the 10th–12th centuries in the Byzantine world and later in Slavic regions.\n\nTherefore, the most accurate answer is:\n\nC. tenth or eleventh century C.E.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_15",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting in question is “The Annunciation” by Fra Angelico, a work from the early Renaissance period. It was commissioned for a religious institution — specifically, it was painted for the convent of San Marco in Florence, which was a monastery and a place of worship. The devotional nature of the subject matter, the architectural setting (a cloistered space), and the presence of saints and angels all point to its intended use within a sacred context.\n\nTherefore, the correct answer is B. religious institution.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Design_16",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image displays a swirling pattern of blue and green, which are adjacent colors on the color wheel. Blue and green are considered analogous colors because they are next to each other — specifically, blue is a cool tone and green is a slightly warmer adjacent tone in the spectrum. The smooth transition between them and their proximity on the wheel supports this classification.\n\n- Complementary would involve opposite colors (like blue and orange), which is not the case.\n- Monochromatic would involve variations of a single hue — here, two distinct hues are present.\n- Triadic would involve three equally spaced colors (like red, yellow, blue), which is not represented.\n\nThus, the color scheme is analogous.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_17",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which color scheme uses different tints, shades, and intensities of ONE color. This is the definition of a **monochromatic** color scheme — it involves varying hues of a single color, such as different shades of blue or purple, without introducing other primary or secondary colors.\n\n- Analogous schemes use colors adjacent on the color wheel (e.g., blue, indigo, violet).\n- Complementary schemes use opposite colors on the wheel (e.g., red and green).\n- Triadic schemes use three equally spaced colors (e.g., red, yellow, blue).\n\nNone of these involve only one base color with variations in tint, shade, or intensity.\n\nTherefore, the correct answer is **C. Monochromatic Color Scheme**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_18",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Resolving a design involves not just creating a visual concept but ensuring it meets functional, aesthetic, and user-centered goals. While sketching ideas (A) and refining typography/layout (D) are part of the process, they are steps toward resolution, not the final resolution itself. Conducting user testing (B) is critical for validation but typically occurs after initial design development. The complete resolution of a design includes transforming the concept into a polished, publishable or deployable format that fulfills all evaluation criteria — such as usability, accessibility, branding, and technical requirements.\n\nTherefore, option C best captures the comprehensive end state of resolving a design.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_19",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image features the Grim Reaper, traditionally symbolizing death, holding a scythe and a clock. The phrase \"RATHER TIME\" is prominently displayed, suggesting that time is a central theme — likely emphasizing that time is inevitable and cannot be avoided, even for the dead. This aligns with the proverb “Time waits for no man,” which means that time does not pause or slow down for anyone, regardless of their status or circumstances.\n\nThe other options are less relevant: “A common experience” is too vague; “A mystery” doesn’t fit the clear message; “A clock” is just an object in the image, not the symbolic meaning being conveyed.\n\nThus, the most fitting interpretation is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_20",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In kitchen design, the sink is typically positioned between two countertop areas — one on each side. These areas are often referred to as “landing areas” or “counter space,” and they are essential for preparing food, placing items, or providing workspace.\n\nLooking at the diagram:\n- The sink is centered.\n- On one side, there’s a countertop area labeled 24\"×16\", which is 24 inches wide — meeting the requirement of “at least 24 inches.”\n- On the other side, there’s a countertop area labeled 18\"×16\", which is 18 inches wide — meeting the requirement of “at least 18 inches.”\n\nThese spaces are not designated as dish racks, dishwasher, or cutting boards (though those may be placed *on* the countertop). The key phrase is “on one side... on the other side,” referring to the overall countertop width allocated next to the sink.\n\nThus, the correct answer is **D. Countertop landing area**, as it refers to the usable surface area adjacent to the sink that must meet minimum widths for functional use.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Design_21",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for a color scheme that combines white, gray, black, or beige — which are all neutral colors — with one accent color.\n\nLet’s evaluate the options:\n\nA. Monochromatic Color Scheme — This refers to variations of a single color (e.g., different shades of blue). Not applicable here, since we’re combining multiple neutrals with one accent.\n\nB. Complementary Color Scheme — This involves two colors opposite each other on the color wheel (e.g., red and green). Doesn’t fit, as we’re not using two contrasting hues.\n\nC. Analogous Color Scheme — This uses colors next to each other on the wheel (e.g., blue, blue-green, green). Again, not matching the description.\n\nD. Accented Neutral Color Scheme — This is a descriptive term that fits: it uses a base of neutrals (white, gray, black, beige) and adds one accent color to create contrast or interest. The woman’s outfit exemplifies this — her dark jeans and boots are neutrals, while the bright red scarf is the accent.\n\nThus, “Accented Neutral Color Scheme” is the correct term.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Design_22",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Radial balance is a design principle where elements are arranged around a central point, creating a circular or symmetrical pattern that radiates outward. This contrasts with bilateral symmetry (mirror-image arrangement) or asymmetrical balance (unequal but harmonious distribution). The term “radical” is not relevant here — it refers to something extreme or fundamental, not a type of balance.\n\nThus, the correct answer is **A. Symmetrical**, as radial balance is a form of symmetrical arrangement.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_23",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image displays three vintage cameras, each labeled “BEAU BROWNIE” and “EASTMAN KODAK CO.” with “DOUBLET LENS” inscribed. This clearly identifies them as the Beau Brownie camera models, a well-known series of early 20th-century Kodak box cameras.\n\nWhile options like “Vintage Camera Collection” or “History of Kodak Cameras” are plausible in a broader context, the most specific and accurate title based on the visible branding and design is “Beau Brownie camera,” as it directly refers to the model shown.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Design_24",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The work depicted is a woodblock print by Utagawa Hiroshige, a master of the Japanese ukiyo-e school. His prints were primarily produced in large quantities for mass distribution and sale to the general public, especially urban dwellers and travelers. These works often depicted scenic views, daily life, and seasonal changes, designed to be appreciated for their beauty and accessibility.\n\nUnlike earlier or later art forms that served private devotional or elite patronage purposes, Hiroshige’s prints were intended for popular consumption — hanging in homes, shops, and public spaces — and were widely distributed through merchant networks and print shops.\n\nTherefore, the correct answer is:\n\nC. mass production for purchase by a wide audience\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_25",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is “The Diners” (1940), created by Jacob Lawrence. It is part of his series “The Migration Series,” though this particular work depicts a scene of people dining separately, with a stylized, geometric composition and bold lines — characteristic of Lawrence’s style.\n\n- Wifredo Lam is known for his surrealist and cubist influences, often featuring Caribbean themes.\n- Frida Kahlo is known for her self-portraits and symbolic imagery, typically focused on personal and emotional themes.\n- Diego Rivera is famous for his large-scale murals and political themes, especially in Mexico.\n- Jacob Lawrence, an African American artist, is known for his narrative paintings depicting the African American experience, including migration and daily life — and this piece fits that style.\n\nTherefore, the correct answer is D. Jacob Lawrence.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Design_26",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks who sought out Eileen Gray and became an important patron of her work for the Salon des Artistes Decorateurs.\n\nEileen Gray was a prominent modernist architect and designer. She was known to have worked with and been supported by Jacques Doucet, a French art dealer and collector who was a key patron of modernist artists and designers in the early 20th century. Doucet actively promoted Gray’s work and helped exhibit it at the Salon des Artistes Decorateurs, which was a significant venue for modern decorative arts in Paris.\n\nTherefore, Jacques Doucet is the correct answer.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Design_27",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nThe sculpture depicts a reclining figure with another figure leaning over them, which is characteristic of Etruscan funerary art. The style, including the anatomical representation and the presence of a coffin-like structure, aligns with Etruscan tomb sculptures from the late Iron Age (c. 600–300 BCE). The Etruscans were known for their elaborate burial practices and sculptural works that often included scenes of the deceased with attendants or symbolic figures. This particular piece is consistent with Etruscan iconography, not the earlier Sumerian, Mycenaean, or Minoan cultures, which had different artistic conventions and time periods.\nAnswer: C"
+  },
+  {
+    "id": "validation_Design_28",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In kitchen design, the \"work triangle\" refers to the triangular area formed by the stove, sink, and refrigerator — the key appliances for food preparation. The goal is to minimize movement and maximize efficiency. To avoid cluttering this triangle, major traffic paths should not cross through it, as this can disrupt workflow and create bottlenecks.\n\nThe diagram explicitly labels a “TRAFFIC PATTERN” that curves around the work triangle, indicating that people moving through the kitchen should avoid crossing the triangle’s interior.\n\nTherefore, the correct answer is:\n\nB. Traffic\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Design_29",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The artwork shown is a traditional Micronesian object, likely a type of woven or lashed frame structure made from natural materials such as bamboo or wood. These types of artifacts are often used in Micronesian cultures to represent spatial relationships, social organization, and territorial boundaries. In particular, many such geometric designs were used to record clan locations and boundary lines — essential for maintaining social order and land tenure in island societies.\n\nWhile some abstract patterns may have astronomical or navigational functions, the primary function of these specific geometric structures in Micronesia was typically to denote clan territories and lineage boundaries, not celestial bodies, royal lineage (which is more common in other cultures like those of Polynesia), or ocean currents.\n\nThus, the most accurate answer is:\n\nB. clan locations and boundary lines\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Design_30",
+    "subject": "Design",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The Chrysler Building was designed by William Van Allen, who was the chief architect of the building. He worked with the architectural firm of Shreve, Lamb & Harmon, and the design was completed in 1930.\n\nAnswer: C"
+  }
+]

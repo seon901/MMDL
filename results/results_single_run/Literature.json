@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Literature_1",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the term that describes a character who is in direct juxtaposition to another character and serves to highlight the characteristics of the other individual. This is a classic definition of a **foil**.\n\nA foil is a character who contrasts with another character (often the protagonist) to emphasize certain traits, such as virtues or flaws, through comparison.\n\nLet’s briefly consider the options:\n\n- A. Protagonist: The main character around whom the story revolves — not necessarily contrasting.\n- B. Round character: A character with complex, multifaceted traits — this is about depth, not contrast.\n- C. Character foil: Directly matches the definition given in the question.\n- D. Shape: Not a literary term used in this context; likely distractor.\n\nTherefore, the correct answer is **C. Character foil**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_2",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the term that refers to the theme of lesser importance to the book but of significance to the lives of specific readers.\n\nLet’s break down the options:\n\n- **A. Theme** – This is a general term for the central idea or message of a work. It’s too broad and doesn’t specify “lesser importance” or “specific readers.”\n\n- **B. Explicit Themes** – These are themes that are directly stated or clearly presented in the text. They are not necessarily “lesser in importance,” and they don’t focus on “specific readers.”\n\n- **C. Biography Series** – This refers to a collection of books about biographies, not a type of theme within a book.\n\n- **D. Secondary Themes** – These are themes that support the main theme but are less central. They often resonate with specific readers based on their personal experiences or interests — making them significant to those readers even if they’re not the primary focus.\n\nTherefore, “Secondary Themes” best fits the description: lesser importance to the book, but significant to specific readers.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_3",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The figure shows a person using a magnifying glass to examine the words “like, but, sci” — which suggests they are looking for clues to understand the meaning of an unknown word (“sci” likely standing for “science” or similar). This is a classic illustration of how context clues help readers deduce the meaning of unfamiliar vocabulary.\n\nLet’s evaluate the options:\n\nA. Inference — This refers to drawing conclusions based on evidence, but it’s not specifically about identifying the meaning of an unknown word through surrounding text.\n\nB. Message — This is too vague; it refers to the overall point or idea conveyed, not the mechanism for understanding vocabulary.\n\nC. Context Clue — This is the correct term. It refers to words, phrases, or sentences surrounding an unfamiliar word that help explain its meaning.\n\nD. Text Evidence — This refers to specific parts of the text used to support an argument or claim, not necessarily for decoding vocabulary.\n\nTherefore, the term that refers to words or phrases in a sentence that help the reader understand the meaning of an unknown word is “Context Clue.”\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_4",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The story “Thank You, Ma’am” by Langston Hughes is about a young boy who tries to steal a pair of blue suede shoes from a woman, but she stops him and offers him a place to stay. The key moment is when the boy, after being stopped, says he’s just trying to get the shoes because they’re his favorite — and the woman, instead of punishing him, gives him a warm meal and tells him to come back tomorrow. This story is about kindness, forgiveness, and how one person can change another’s life.\n\nNow let’s evaluate the options:\n\nA. The Mississippi River and Abraham Lincoln are mentioned. — Not in the story. The story is set in a small town, likely in the 1950s, but there’s no mention of the river or Lincoln.\n\nB. The writer compares a lost dream to a dried up raisin. — No such metaphor exists in the story.\n\nC. The writer uses images from nature in the cold dessert. — There’s no “cold dessert” in the story, nor any nature imagery used metaphorically.\n\nD. The would-be-thief was motivated by blue suede shoes. — Yes. The boy is clearly motivated by the shoes — he’s trying to steal them because they’re his favorite. The woman, who owns them, doesn’t know this, but the boy does. This is a central theme of the story.\n\nTherefore, option D is correct.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_5",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Since the images are not visible or accessible in this interface, I cannot definitively identify which image corresponds to a book written by Mark Twain. However, I can tell you that Mark Twain is best known for works such as:\n\n- The Adventures of Tom Sawyer\n- Adventures of Huckleberry Finn\n- The Prince and the Pauper\n- A Connecticut Yankee in King Arthur’s Court\n\nIf one of the images depicts any of these titles or covers, that would be the correct answer.\n\nWithout seeing the images, I cannot choose between A, B, C, or D.\n\nAnswer: Unknown"
+  },
+  {
+    "id": "validation_Literature_6",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which term refers to lines that give the impression of calm and tranquility, such as those seen in the ocean and open prairies.\n\nHorizontal lines are often associated with stability, peace, and serenity. The ocean’s horizon and the vastness of an open prairie are classic examples of horizontal lines that evoke a sense of calm and tranquility.\n\nDiagonal lines suggest movement or tension. Vertical lines imply strength or height. “List spacing” is not a line type in visual design.\n\nTherefore, the correct answer is Horizontal line.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_7",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The term that refers to the end of the story, or the very last event that takes place, is \"Resolution.\" This is the part of a narrative where the conflicts are resolved and the story concludes.\n\n- Exposition introduces the characters and setting.\n- Conflict is the problem or struggle.\n- Rising Action builds tension toward the climax.\n- Resolution wraps up the story.\n\nThus, the correct answer is A. Resolution.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_8",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The practice described — reading a book, creating a sketch that reflects upon the significance of the story or its connections, and then sharing it — is best captured by the term “Sketch to Stretch.” This phrase implies a process of visualizing and expanding on ideas from reading (sketching) to deepen understanding or make connections (stretching), often used in educational contexts.\n\nOther options:\n- A. Fact Book Stretch — doesn’t fit; this sounds like a focus on factual content rather than reflection or sketching.\n- C. Science Fiction Stretch — irrelevant; science fiction is a genre, not a method.\n- D. Informational Picture Book — describes a type of book, not a learning activity.\n\nThus, “Sketch to Stretch” is the most appropriate term.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_9",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The central message or lesson learned in a play is known as its theme. While plot refers to the sequence of events, dialogue is the spoken words between characters, and drama is the genre itself, the theme encapsulates the underlying message or moral.\n\nTherefore, the correct answer is A. Theme.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_10",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the term that refers to the choices a writer makes, including the combination of distinctive features such as mood, voice, or word choice.\n\nLet’s evaluate the options:\n\nA. Theme — This refers to the central idea or message of a work, not the stylistic choices the writer makes.\n\nB. Setting — This refers to the time and place in which the story occurs, not the writer’s stylistic decisions.\n\nC. Style — This encompasses the unique way a writer uses language, including word choice, sentence structure, tone, voice, and mood — exactly what the question describes.\n\nD. Tone — This is the attitude the writer conveys toward the subject or audience, but it’s a component of style, not the whole concept.\n\nTherefore, “Style” is the correct term.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_11",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The illustration facing the title page that is intended to establish the tone and entice the reader is known as a frontispiece. It often provides a visual preview of the content or mood of the book.\n\nA. Convoluted — means complicated or tangled; not relevant here.\nB. Frontispiece — correct term for an illustration on the title page or facing it.\nC. Preface — is a short introductory section, not an illustration.\nD. Omniscient — refers to a narrator who knows everything; not related to illustrations.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_12",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image depicts a dramatic scene with emotional intensity, likely from a theatrical performance. The term that refers to a play dealing with tragic events is \"tragedy.\" While \"drama\" is a broader category that includes both tragedies and comedies, and \"plot\" refers to the sequence of events in a story, the specific genre focused on tragic events is tragedy.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_13",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The term that refers to the usually two boards that make the book more durable and allow it to stand on a shelf is \"covers\". These are the front and back parts of the book that protect the pages and provide structure.\n\nA. Hates — Not a term related to books.\nB. Motif — A recurring design element, not referring to the protective boards.\nC. Drifts — Not relevant to book construction.\nD. Covers — Correct; these are the boards that encase the book.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_14",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows graffiti art on a wall — stylized lettering and a cartoon character — which is unrelated to the concept of a large paper used for writing, webbing, or sketching thoughts about a book. Let’s evaluate the options:\n\nA. Graffiti Boards — These are typically surfaces used for spray-painting, not for writing or sketching thoughts. This does not fit.\n\nB. Freewrites — This is a writing technique where one writes freely without stopping, often used in literature or creative writing classes to explore ideas. While it involves writing, “freewrites” are not physical boards or papers per se — they are methods of writing. However, this term might be misinterpreted as referring to a medium. Still, among the given choices, this is the only one that relates to writing thoughts.\n\nC. Activity Books — These are books designed for activities, often with exercises, but they are not typically large “boards” for group brainstorming.\n\nD. Story Ray — This is not a standard educational or literary term.\n\nGiven that “Freewrites” refers to the act of writing thoughts freely (often on paper), and assuming the question is referring to a method or tool for brainstorming thoughts (even if not literally a board), “Freewrites” is the best fit among the options.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_15",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The term that describes reading aloud in unison or parts with a whole class, small group, or individual students so that students hear the text at the same time they read it is **Choral Reading**. This technique is commonly used in classrooms to build fluency, confidence, and comprehension through synchronized reading.\n\n- **Choral Reading**: All students read together, often in unison or in parts, to model fluent reading.\n- **Literature Circle**: A collaborative reading strategy where students work in groups to discuss literature.\n- **Readers Theatre**: Students perform readings of texts, often with dramatic expression, usually individually or in small groups.\n- **Shared Reading**: A teacher reads aloud while students follow along, often with the teacher modeling phonics and vocabulary.\n\nTherefore, the correct answer is Choral Reading.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_16",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the term that describes a plot covering a specific period of time and events in chronological order, as seen in 'Charlotte's Web'. \n\n'Charlotte's Web' follows the story of Fern and Wilbur the pig, with events unfolding in a clear sequence over time — from Fern’s childhood to Wilbur’s life on the farm, with key events happening in order. This is the definition of a **chronological plot**.\n\nLet’s briefly consider the other options:\n- **Episodic plot**: Events are presented in disconnected segments or episodes, not necessarily in chronological order.\n- **Nonlinear plot**: The story is told out of chronological order, using flashbacks or jumps.\n- **Progressive plot**: Not a standard literary term; it may imply gradual development but doesn’t refer to chronological structure.\n\nThus, the correct answer is A. Chronological plot.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_17",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The term that refers to traditional folktales with a contemporary twist or told from a new perspective — as exemplified by works like “There’s a Wolf at the Door” and “The Adventures of the Dish and the Spoon” — is **Fractured Folktales**. These tales take classic stories and reinterpret them with modern or satirical elements, often subverting expectations or adding humorous, surreal, or ironic twists.\n\n“Adventures of the Dish and the Spoon” is a well-known example of a fractured folktale, where ordinary kitchen items are given human personalities and adventures, transforming the familiar into the fantastical.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_18",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows the cover of the “National Geographic Kids Almanac 2011,” which is designed to provide factual information about animals, cultures, adventures, and more — all presented in an engaging, child-friendly format. Almanacs are a classic type of reference book, meant to compile verifiable facts and data for general knowledge.\n\nLet’s evaluate the options:\n\nA. Epics — These are long narrative poems or stories that recount heroic deeds, typically mythological or legendary. Not relevant here.\n\nB. Multigenre Books — These combine multiple genres (e.g., fiction and nonfiction) in one volume. While this almanac might have some elements of storytelling, its primary purpose is informational, not multigenre.\n\nC. Informational Books — This is a broad category that includes textbooks, encyclopedias, and almanacs. It fits well, but it's not as precise as “reference books.”\n\nD. Reference Books — This term specifically refers to books or publications intended to provide quick, accurate, verifiable information on a subject — such as dictionaries, encyclopedias, atlases, and almanacs. The National Geographic Kids Almanac 2011 perfectly fits this definition.\n\nTherefore, the best term is “Reference Books.”\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_19",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting depicted is “The Witches’ Sabbath” by Caspar David Friedrich, a key figure in German Romanticism. Romanticism emphasized emotion, intuition, imagination, and the supernatural — themes that align with the question. While Transcendentalism (D) also valued intuition and nature, it was primarily an American movement. Realism (C) focused on depicting life as it was, without idealization or emotional embellishment. Modernism (A) often rejected tradition and embraced fragmentation and abstraction, not necessarily emotion or the supernatural in the same way.\n\nThus, the group that valued feeling, intuition, imagination, and the supernatural is Romanticism.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_20",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The poem “Dreams” by Langston Hughes emphasizes the importance of holding onto dreams. It uses vivid imagery — a broken-winged bird and a barren, frozen field — to illustrate the consequences of losing dreams. The repeated phrases “Hold onto dreams” and “Hold fast to dreams” directly urge the reader to preserve their aspirations. While option B mentions “danger,” it’s not the central theme; the poem is more about the imperative to hold on. Option C, “Keep hold of your dream,” is a direct paraphrase of the poem’s message. Option A and D are unrelated.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_21",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks which term refers to techniques like digital painting, digital application of color to hand-drawn art, and digital manipulation of images. These are creative processes performed using tools and applications on a computer.\n\nLet’s evaluate the options:\n\nA. Input — This refers to data or commands fed into a system (e.g., mouse clicks, keyboard entries), not the techniques themselves.\n\nB. Computer — This is the hardware device that runs the software; it’s not the technique or process.\n\nC. Software — This refers to the programs and applications that enable users to perform tasks such as digital painting or image manipulation. Adobe Photoshop (indicated by the “Ps” logo) is an example of software used for these techniques.\n\nD. Hardware — This refers to physical components like monitors, keyboards, etc., not the techniques or programs.\n\nThus, the correct term is “Software,” because it encompasses the applications (like Photoshop) that provide the tools for performing those techniques.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_22",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The illustration shows a person sitting atop a stack of books labeled “LITERATURE,” “HISTORY,” and “PHILOSOPHY.” These are all disciplines typically grouped under the broader category of **Humanities**, which encompasses the study of human culture, society, and artistic expression — including literature, history, and philosophy.\n\nScience Fiction, Informational Book Series, and Science Fantasy are not categories that encompass these fields; they are genres or types of publications.\n\nThus, the best term to describe these fields is Humanities.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Literature_23",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image depicts “The Lord of the Rings: The Fellowship of the Ring,” a famous epic adventure story centered around a quest — specifically, the search for the One Ring and its destruction. Adventure stories with a search motif are commonly referred to as **Quest Stories**.\n\nLet’s briefly evaluate the options:\n- A. Fable: These are moral stories, often featuring animals or allegorical characters (e.g., “The Tortoise and the Hare”).\n- B. Humorous Tale: These focus on comedy and light-heartedness, not necessarily a search or quest.\n- C. Theme: This is a general concept or underlying message in a story, not a genre category.\n- D. Quest Stories: These are precisely adventure stories that involve a journey or search for something — fitting perfectly with the plot of “The Lord of the Rings.”\n\nThus, the correct term is “Quest Stories.”\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_24",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows the Griffin family from the animated series \"Family Guy,\" which includes parents Peter and Lois, their children Meg, Chris, and Stewie, and their dog Brian. This group includes not only the immediate parents and children but also a sibling (Meg and Chris), and even a pet that is often treated as part of the family unit. The presence of multiple generations or close relatives beyond just the two parents and their children indicates an extended family structure.\n\nOption A, “Nuclear Family,” refers to just the parents and their children — which this image does not fully represent.\n\nOption B, “Perspective Switch,” is unrelated — it’s a term used in storytelling or media, not family structure.\n\nOption C, “News Program,” is clearly incorrect.\n\nOption D, “Extended Family,” best describes the dynamics shown, including siblings and other related individuals (like Brian, who is often included in the family unit).\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_25",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the term that best describes the field dealing with living organisms and the laws and phenomena relating to them. This is the definition of **Biological Science**, which is the scientific study of life and living organisms, including their structure, function, growth, origin, evolution, and distribution.\n\nLet’s evaluate the options:\n\n- **A. Science Fiction** – This is a genre of fiction, not a scientific discipline.\n- **B. Biological Science** – This directly matches the definition provided in the question.\n- **C. Physical Science or Natural Science** – While biological science falls under natural science, this option is too broad and doesn’t specifically refer to living organisms. Physical science includes physics, chemistry, etc., which are not about living things.\n- **D. Applied Science** – This refers to science used to solve practical problems, not the general study of living organisms.\n\nTherefore, the most precise and correct answer is **B. Biological Science**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Literature_26",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a medieval illuminated initial letter, likely from a religious manuscript, depicting Jesus Christ in a throne-like position, possibly during a teaching or judgment scene. The context suggests this is part of a religious text, and the term being asked about refers to stories based on religious writings or taken intact from them.\n\nLet’s evaluate the options:\n\nA. Religious Stories — This is too broad; it includes all stories with religious themes, not necessarily those derived from sacred texts.\n\nB. Parables — These are stories told by Jesus (e.g., the Good Samaritan, the Sower) to convey moral or spiritual lessons. They are often *based on* religious teachings but are not necessarily “taken intact from” religious manuscripts — they are usually narrative devices within the Gospels.\n\nC. Retold Tale — This implies a story that has been re-told, possibly with changes or adaptations. Not necessarily tied to religious manuscripts as a source.\n\nD. Legends — These are traditional stories, often involving saints or holy figures, that are *based on religious writings or events* and may be presented as historical or semi-historical, even if not literally true. Many legends are derived directly from religious texts or traditions, especially in medieval Christian contexts.\n\nIn medieval Christian tradition, “legends” often refer to stories that are rooted in biblical or ecclesiastical sources but are embellished or expanded for didactic or devotional purposes — such as the life of St. Augustine or the miracles of saints. These are frequently found in illuminated manuscripts like the one shown.\n\nTherefore, “Legends” best fits the description: stories based on religious writings or taken intact from religious manuscripts — even if embellished.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_27",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The term that refers to when text and illustration tell different stories — such as in \"Rosie’s Walk\" — is **counterpoint**. In this context, counterpoint describes how the illustrations and the text may convey contrasting or complementary narratives, often creating a playful or layered effect where the reader must interpret both elements together.\n\n- Contrast (A) refers to difference in appearance or meaning, but not necessarily the interplay of text and image.\n- Reasoning (B) is a cognitive process, not an artistic technique.\n- Printmaking (D) is a method of producing images, unrelated to narrative tension between text and illustration.\n- Counterpoint (C) specifically refers to the juxtaposition or contrast of elements — including text and image — that tell different stories, which fits perfectly with the concept described.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Literature_28",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The term that describes the adaptation of a natural home-based learning strategy used with groups of beginning readers in school settings, where Big Books are presented to groups in a sequence proposed by Holdaway, is the **Shared-book Experience**.\n\nThis method involves reading a large, illustrated book aloud to a group of children together, often with the teacher or reader guiding the story and encouraging participation. It’s designed to build early literacy skills through shared engagement, which aligns with the description provided.\n\nOther options like “Memoirs” or “Concept Picture Book” do not refer to this specific teaching model. “Survival And Adventure” is not a recognized term in early literacy pedagogy.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_29",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which term refers to the part that follows the exposition and introduces the conflict.\n\nIn a narrative structure:\n- The **exposition** introduces the setting, characters, and initial situation.\n- The **rising action** follows the exposition and builds tension or conflict.\n- The **climax** is the peak of the conflict.\n- The **falling action** follows the climax and resolves the conflict.\n\nSince the question specifically asks for the part that follows the exposition and introduces the conflict, that is the **rising action**.\n\nThe figure shows a graph with an upward slope (indicating rising tension or conflict) after a flat line (the exposition), which aligns with the rising action.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Literature_30",
+    "subject": "Literature",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks for a term that refers to stories portraying the ruling class as heroic and benevolent. While “Castle Tales” sounds like it might be related to castles (as seen in the image), it is not a standard literary term. “Retold Tale” is too vague. “Humorous Tale” doesn’t fit, as these typically focus on comedy or satire, not heroism. “Tall Tale,” however, is a well-known genre of storytelling — particularly in American folklore — where exaggerated or fantastical tales often feature heroic, sometimes noble, characters, frequently from the ruling or powerful class. Though “Tall Tale” usually involves exaggeration, it often includes portrayals of heroes and benefactors, aligning with the idea of the ruling class being heroic and benevolent.\n\nThus, the best answer is:\n\nAnswer: B"
+  }
+]

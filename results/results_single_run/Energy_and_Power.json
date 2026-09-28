@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Energy_and_Power_1",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a hemispherical heat source embedded in a large silicon substrate. The heat source is insulated on its top surface, and the surrounding substrate is at ambient temperature $ T_\\infty = 27^\\circ \\text{C} = 300 \\, \\text{K} $. The heat source has radius $ r_0 = 0.1 \\, \\text{mm} = 0.1 \\times 10^{-3} \\, \\text{m} = 10^{-4} \\, \\text{m} $, and it dissipates heat at a rate $ q = 4 \\, \\text{W} $.\n\nSince the hemisphere is embedded in a large slab (semi-infinite medium) and the top surface is insulated, we can model this as a **hemispherical heat source in a semi-infinite solid** with conduction only.\n\nThe key is to use the formula for the temperature rise of a hemispherical source in a semi-infinite medium under steady-state conditions, assuming uniform heat generation.\n\n---\n\n### Step 1: Use the standard formula for temperature distribution\n\nFor a **hemispherical heat source** of radius $ r_0 $ in a semi-infinite medium with thermal conductivity $ k $, and uniform volumetric heat generation $ q $, the surface temperature $ T_s $ (at the surface of the hemisphere, i.e., at $ r = r_0 $) is given by:\n\n$$\nT_s = T_\\infty + \\frac{q r_0^2}{2k}\n$$\n\nThis formula comes from solving the heat conduction equation in spherical coordinates for a semi-infinite medium with a hemispherical source. The derivation involves integrating the heat equation and applying boundary conditions — the insulated top surface implies no heat flux at the top, and the bottom is at $ T_\\infty $.\n\nNote: This formula assumes that the heat generation is uniform throughout the hemisphere, and that the hemisphere is small compared to the size of the substrate (which is justified since it's \"large\" silicon).\n\n---\n\n### Step 2: Plug in the values\n\nGiven:\n- $ q = 4 \\, \\text{W} $\n- $ r_0 = 0.1 \\, \\text{mm} = 10^{-4} \\, \\text{m} $\n- $ k = 125 \\, \\text{W/m·K} $\n- $"
+  },
+  {
+    "id": "validation_Energy_and_Power_2",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Energy_and_Power_3",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a nozzle with water flowing from a larger section (1) to a smaller nozzle, and the jet exits into sea-level air. A stagnation tube is placed at the exit, measuring the stagnation pressure (which equals the static pressure plus dynamic pressure). The height H is measured from the jet centerline to the top of the stagnation tube, indicating the pressure head.\n\nWe are told:\n- Centerline pressure at section (1): \\( P_1 = 110 \\, \\text{kPa} \\)\n- Diameter at section (1): \\( D_1 = 12 \\, \\text{cm} = 0.12 \\, \\text{m} \\)\n- Diameter at nozzle exit: \\( D_2 = 4 \\, \\text{cm} = 0.04 \\, \\text{m} \\)\n- The jet strikes a stagnation tube, and we are to find mass flow rate.\n- Losses are neglected → use Bernoulli’s equation.\n\nThe key is that the stagnation tube measures the stagnation pressure, which for an open jet in air (at sea level) is equal to the static pressure at the jet exit plus the dynamic pressure. But since the jet is exiting into air, and assuming the stagnation tube is exposed to the same air as the jet, then the stagnation pressure at the jet exit is equal to atmospheric pressure plus the dynamic pressure.\n\nWait — actually, the diagram shows the stagnation tube connected to the jet, and H is the height difference between the jet surface and the top of the tube. This suggests that the stagnation pressure is being measured relative to the static pressure of the jet. In such setups, the stagnation pressure is typically measured by a Pitot tube, and the height difference H corresponds to the stagnation pressure head.\n\nSo, the stagnation pressure \\( P_{\\text{stag}} \\) is related to the static pressure \\( P_2 \\) by:\n\n\\[\nP_{\\text{stag}} = P_2 + \\frac{1}{2} \\rho V_2^2\n\\]\n\nBut also, from the diagram, the stagnation pressure is equivalent to the hydrostatic pressure due to height H in the manometer (which is likely filled with water, since it's a water jet). So,\n\n\\[\nP_{\\text{stag}} = \\rho_{\\text{water}} g H\n\\]\n\nHowever, the problem does not"
+  },
+  {
+    "id": "validation_Energy_and_Power_4",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given an adiabatic expansion of R-134a from 100 psia and 100°F to saturated vapor at 10 psia. We need to find the entropy generation.\n\nSince it's adiabatic, Q = 0. The entropy generation is given by:\n\n\\[\ns_{gen} = s_2 - s_1\n\\]\n\nwhere \\(s_1\\) is the entropy at the inlet (state 1), and \\(s_2\\) is the entropy at the outlet (state 2).\n\n---\n\n**Step 1: Find state 1 (inlet)**\n\nAt 100 psia and 100°F, we check if this is a saturated state or superheated.\n\nFrom standard refrigerant tables for R-134a:\n\n- At 100 psia, saturation temperature is about 100°F (this is a key point — the saturation temperature at 100 psia is 100°F). So at 100 psia and 100°F, the refrigerant is **saturated liquid**? Wait — let’s be precise.\n\nActually, looking up R-134a tables:\n\nAt 100 psia, the saturation temperature is **100°F**. So at 100 psia and 100°F, the refrigerant is **saturated**. But is it saturated liquid or saturated vapor?\n\nThe problem says “100 psia, 100°F” — since the saturation temperature at 100 psia is 100°F, and we are not told it’s superheated or subcooled, we assume it’s saturated. But wait — in many cases, 100°F at 100 psia is actually the saturation temperature, so the refrigerant could be either liquid or vapor — but here, since it’s flowing into a valve, and the valve expands to a lower pressure, and the outlet is specified as saturated vapor, we can infer that the inlet is likely saturated liquid.\n\nWait — let me double-check.\n\nActually, at 100 psia, the saturation temperature is 100°F. If the refrigerant is at 100°F and 100 psia, and it’s not specified as superheated, then it must be saturated. But in practice, for a valve"
+  },
+  {
+    "id": "validation_Energy_and_Power_5",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "To make the sphere neutrally buoyant, the total weight of the sphere (including added weight) must equal the buoyant force, which is the weight of the displaced water.\n\n---\n\n**Step 1: Calculate the volume of the sphere**\n\nThe diameter is 14 inches → radius R = 7 inches.\n\nVolume of a full sphere:  \nV_sphere = (4/3)πR³ = (4/3)π(7)^3 = (4/3)π(343) ≈ 1436.76 in³\n\nBut since it’s hollow, we need to subtract the volume of the hollow part.\n\nWall thickness = 0.16 in → inner radius r = 7 - 0.16 = 6.84 in\n\nVolume of hollow part:  \nV_hollow = (4/3)πr³ = (4/3)π(6.84)^3 ≈ (4/3)π(318.18) ≈ 1345.2 in³\n\nSo, volume of steel shell = V_sphere - V_hollow ≈ 1436.76 - 1345.2 ≈ 91.56 in³\n\n---\n\n**Step 2: Calculate the weight of the steel shell**\n\nSG_steel = 7.85 → density = 7.85 × 62.4 lbm/ft³ (since SG = specific gravity = density / water density, and water density = 62.4 lbm/ft³)\n\nBut we’re working in inches, so convert to consistent units.\n\nConvert volume to ft³:  \n91.56 in³ = 91.56 / 1728 ft³ ≈ 0.0530 ft³\n\nWeight of steel = volume × density = 0.0530 ft³ × 7.85 × 62.4 lbm/ft³\n\nFirst, compute density of steel: 7.85 × 62.4 = 489.6 lbm/ft³\n\nThen, weight = 0.0530 × 489.6 ≈ 25.95 lbf (since weight = mass × g, and in engineering units, lbm and lbf are often used interchangeably with g = 3"
+  },
+  {
+    "id": "validation_Energy_and_Power_6",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows a cylindrical vessel with a coiled tube inside it. Fluid enters at the top (IN) and exits at the bottom (OUT), while the coil is wrapped around the vessel, suggesting that heat transfer occurs between the fluid flowing through the coil and the external medium (possibly the vessel contents or jacket). This configuration is characteristic of an **internal coiled vessel**, often used for heating or cooling by circulating a fluid through the coil.\n\nLet’s evaluate the options:\n\nA. **Jacketed Vessel** – This typically has a space between the inner and outer walls for heat exchange, not a coiled tube inside.\n\nB. **Half coil Vessel** – Not a standard term; might imply only half the coil is present, which isn’t indicated here.\n\nC. **Internal Coiled Vessel** – Matches perfectly: a coil inside the vessel, with fluid entering and exiting from the same side — common in heat exchangers or reactors.\n\nD. **Shell and Tube Heat Exchanger** – This has two separate fluids, one in tubes and one in the shell, with flow directions typically perpendicular — not matching this diagram.\n\nTherefore, the correct answer is **C. Internal Coiled Vessel**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Energy_and_Power_7",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given an ideal vapor-compression refrigeration cycle using R-134a, with:\n\n- Condenser pressure (P₂ = P₃) = 800 kPa → this is the condenser pressure, so state 2 and 3 are at 800 kPa.\n- Evaporator temperature (T₁) = 212°C → this is the evaporator temperature, so state 1 and 4 are at 212°C.\n\nWe need to find:\n1. The Coefficient of Performance (COP) of the cycle.\n2. The power input required to service a 150 kW cooling load (QL).\n\n---\n\n### Step 1: Determine states\n\nSince it’s an **ideal** vapor-compression cycle, we assume:\n\n- State 1: Saturated vapor at evaporator temperature (212°C)\n- State 2: Superheated vapor at condenser pressure (800 kPa), and since it's ideal, the compressor is reversible and isentropic → so h₂ = h₁ + w_in, s₂ = s₁\n- State 3: Saturated liquid at condenser pressure (800 kPa)\n- State 4: Saturated liquid at evaporator temperature (212°C)\n\nWait — hold on! There’s a problem here.\n\nThe **evaporator temperature is given as 212°C**, which is **above the normal boiling point of water**, but for refrigerants like R-134a, the saturation temperature at 800 kPa is around 39.6°C (from standard tables). So 212°C is **much higher** than that.\n\nActually, let me check the standard R-134a saturation temperature at 800 kPa.\n\nFrom R-134a property tables:\n\nAt 800 kPa (condenser pressure):\n\n→ Saturation temperature T_sat ≈ 39.6°C\n\nBut the evaporator is at 212°C? That is impossible because in a refrigeration cycle, the evaporator temperature must be **lower** than the condenser temperature.\n\nSo there must be a mistake in the question or our interpretation.\n\nWait — perhaps the evaporator is at **212 kPa**, not 212°C? That would make sense.\n\nLooking back at the question:\n\n> \"maintains a condenser at 800"
+  },
+  {
+    "id": "validation_Energy_and_Power_8",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a manometer with three fluids: water, mercury, and Meriam red oil. The pressure difference between points B and A is given as \\( p_B - p_A = 97 \\) kPa. We are to find the height H (in cm) of the oil column.\n\n### Step 1: Understand the setup\n\nThe manometer has:\n- Left side: Point A, with water (35 cm below point B)\n- Right side: Point B, with mercury (which is at the bottom)\n- Between A and B: an oil column of height H (this is the unknown we’re solving for), with the oil level higher on the right (mercury side) than on the left (water side).\n\nActually, looking at the diagram:\n\n- From point A (left): Water column of 35 cm downward to mercury.\n- Then from that mercury level, up to the top of the oil column (height H) — but wait, no.\n\nLet me interpret the figure correctly:\n\nThe manometer has two legs:\n\n- **Left leg**: \n  - Starts at point A (bottom of the left leg).\n  - Has a water column extending upward to a certain height — but actually, the label \"Water\" is below the 35 cm mark, so perhaps the water is in the lower part? Wait, let’s read carefully.\n\nActually, the figure shows:\n\n- On the left: A circle labeled A, with a tube going up. Below A, it says “Water” and then 35 cm — meaning the water column is 35 cm high? Or is it the distance from A to the mercury level?\n\nWait — the diagram shows:\n\n- From point A (left), there is a water column going down 35 cm to meet mercury? No — the 35 cm is labeled between the mercury and the point B.\n\nActually, looking again:\n\nThe text says:\n\n> Water 35 cm Mercury\n\nThis likely means: from point A (left), there is a water column of 35 cm, and then mercury is at the bottom? That doesn’t make sense.\n\nAlternatively, think of it as:\n\nThe manometer has a U-shape, but with different fluids.\n\nActually, the standard interpretation is:\n\n- Point A is at the bottom of the left leg.\n- The left leg contains water, and goes up to a height of 35 cm above point A? But the diagram labels \"35 cm\" under \""
+  },
+  {
+    "id": "validation_Energy_and_Power_9",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Energy_and_Power_10",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the thermal conductivity \\( k \\) of the test specimen using the guarded hot plate method, we use the formula:\n\n\\[\nk = \\frac{Q}{A \\cdot \\Delta T}\n\\]\n\nWhere:\n- \\( Q \\) is the heat flow rate (in watts),\n- \\( A \\) is the area through which heat is conducted (in m²),\n- \\( \\Delta T \\) is the temperature difference across the specimen (in K).\n\n---\n\nFrom the problem:\n\n- Power dissipated by the heater (which equals heat flow rate \\( Q \\)) = 15 W.\n- The heater is 6.5 cm × 6.5 cm → Area \\( A = 0.065 \\, \\text{m} \\times 0.065 \\, \\text{m} = 0.004225 \\, \\text{m}^2 \\).\n- Temperature difference \\( \\Delta T = 325 \\, \\text{K} - 300 \\, \\text{K} = 25 \\, \\text{K} \\).\n\n---\n\nNow plug into the formula:\n\n\\[\nk = \\frac{15}{0.004225 \\times 25} = \\frac{15}{0.105625} \\approx 142.0 \\, \\text{W/m·K}\n\\]\n\nWait — that’s way too high for most materials! Clearly, I made a mistake.\n\nLet me reconsider.\n\nIn the **guarded hot plate method**, the heat generated by the heater is **not** the heat flowing through the specimen — it's the **heat supplied to the guard heater**, which is used to **maintain a uniform temperature** around the specimen, so that **the heat flow is only through the specimen** and not sideways or into the guard.\n\nThe **wattmeter reading (W)** measures the **heat flow rate through the specimen**, not the power input to the guard heater.\n\nWait — let’s read the problem again carefully.\n\n> “Two similar 1 cm thick specimens receive heat from a 6.5 cm by 6.5 cm guard heater. When the power dissipation by the wattmeter was 15 W...”\n\nAh — here’s the key: **The wattmeter reads 15 W**, which is the **heat flow rate through the specimen**.\n\nSo, \\( Q = "
+  },
+  {
+    "id": "validation_Energy_and_Power_11",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a P-V diagram for an ideal gas undergoing two processes:\n\n- Process 1 → 2: **Adiabatic**\n- Process 2 → 3: **Isothermal**\n\nWe are asked to find the true statement about the **change in temperature (ΔT)** and **heat transferred (Q)** during process **1 → 2**.\n\n---\n\n### Step 1: Understand the adiabatic process\n\nAn **adiabatic process** is one where **no heat is exchanged with the surroundings**, so:\n\n> **Q = 0** for process 1 → 2.\n\nThis immediately eliminates options A, C, D, and E (since they all claim Q ≠ 0 or Q = 0 but ΔT ≠ 0).\n\nThat leaves only **Option B**:  \n> **ΔT < 0, Q = 0**\n\nSo we need to check whether the temperature decreases during an adiabatic process from state 1 to state 2.\n\n---\n\n### Step 2: Analyze the direction of the process on the P-V diagram\n\nLooking at the diagram:\n\n- State 1 is at the top-left (high pressure, low volume).\n- State 2 is at the bottom-right (low pressure, high volume).\n\nSo, the process 1 → 2 is moving **to the right and down** — meaning **volume increases** and **pressure decreases**.\n\nFor an ideal gas, we can use the adiabatic relation:\n\n> **TV^{γ-1} = constant**\n\nwhere γ = Cp/Cv > 1.\n\nSince volume increases (V increases), and γ - 1 > 0, then **T must decrease** to keep TV^{γ-1} constant.\n\nThus, **ΔT < 0**.\n\n---\n\n### Step 3: Confirming the heat transfer\n\nAs stated, the process is **adiabatic**, so **Q = 0**.\n\n---\n\n### Final conclusion:\n\nDuring process 1 → 2 (adiabatic):\n\n- ΔT < 0 (temperature decreases)\n- Q = 0 (no heat transfer)\n\nThis matches **Option B**.\n\n---\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Energy_and_Power_12",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Energy_and_Power_13",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a refrigeration cycle using R-134a, and we need to find the **quality of the refrigerant at the evaporator inlet** (point 4).\n\n---\n\n### Step 1: Understand the cycle\n\nThe cycle is:\n\n- **Compressor**: Inlet at 60 kPa, -34°C → Outlet at 1.2 MPa, 65°C (given)\n- **Condenser**: Refrigerant enters at 1.2 MPa, 65°C; leaves at 42°C\n- **Expansion valve**: Reduces pressure from 1.2 MPa to 60 kPa\n- **Evaporator**: Refrigerant enters at 60 kPa, state 4 (unknown quality), absorbs heat Q_L\n\nAlso, cooling water enters condenser at 18°C, leaves at 26°C, mass flow rate = 0.25 kg/s.\n\nWe are to find **quality at point 4**, which is the evaporator inlet.\n\n---\n\n### Step 2: Use energy balance on the condenser\n\nThe condenser rejects heat to cooling water. So,\n\n\\[\n\\dot{Q}_{\\text{cond}} = \\dot{m}_w c_p (T_{\\text{out}} - T_{\\text{in}})\n\\]\n\nAssuming water properties: \\( c_p = 4.18 \\, \\text{kJ/kg·K} \\)\n\n\\[\n\\dot{Q}_{\\text{cond}} = 0.25 \\times 4.18 \\times (26 - 18) = 0.25 \\times 4.18 \\times 8 = 8.36 \\, \\text{kW}\n\\]\n\nThis heat rejected by refrigerant in condenser equals the heat absorbed in evaporator plus compressor work input minus net heat gain.\n\nWait — but for now, let’s use the **condenser** to find the enthalpy change of refrigerant.\n\n---\n\n### Step 3: Find enthalpy at points 2 and 3 (condenser inlet and outlet)\n\nAt point 2: Refrigerant enters condenser at 1.2 MPa, 65°C\n\nFrom R-134a tables (superheated region):\n\nAt 1.2 MPa (1200 kPa), 65°C:\n\n→ \\( h_2 = 30"
+  },
+  {
+    "id": "validation_Energy_and_Power_14",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a container with three layers of liquids:\n\n- Bottom layer: A liquid with specific gravity (SG) = 1.60, height = 1 m.\n- Middle layer: Water, height = 1.5 m.\n- Top layer: Gasoline, height = h (unknown).\n\nThe water and gasoline are at the same elevation — meaning they are at the same horizontal level.\n\nWe need to find the height **h** of the gasoline layer.\n\n---\n\n### Step 1: Understand the setup\n\nThe container is divided into two vertical compartments by a partition, but the bottom layer is continuous. The water and gasoline are in separate compartments, but both are open to atmosphere and at the same elevation (i.e., their surfaces are at the same height). This implies that the pressure at the interface between the bottom liquid and the water must equal the pressure at the interface between the bottom liquid and the gasoline — because they are at the same elevation.\n\nActually, let’s think carefully about the geometry.\n\nLooking at the figure description:\n\n- From the bottom up:\n  - 1 m of liquid with SG=1.60\n  - Then 1.5 m of water\n  - Then gasoline on top, with height h\n\nBut the water and gasoline are said to be at the same elevation — so their **surfaces** are at the same height.\n\nThat means the **top surface of the water** and the **top surface of the gasoline** are at the same level.\n\nTherefore, the water layer (1.5 m) must be sitting on top of the bottom liquid (1 m), and then the gasoline layer (height h) is sitting on top of the water? But that would mean the total height from bottom to top is 1 + 1.5 + h.\n\nBut if water and gasoline are at the same elevation, then the top of the water and top of the gasoline are at the same height — which suggests that the gasoline layer is *above* the water layer, and they are at the same level — so the gasoline layer must start at the same level as the water layer.\n\nWait — that doesn’t make sense unless the gasoline is poured into the compartment next to the water, and the water is in the other compartment.\n\nLooking at the figure description again: it says “water” and “gasoline” are in separate compartments, but both open to atmosphere and at the same elevation. So likely, the water and gasoline are in adjacent compartments, and the bottom liquid is"
+  },
+  {
+    "id": "validation_Energy_and_Power_15",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a system with two reservoirs and a pipe network. We need to find the flow rate from reservoir (1) to reservoir (2) when valve C is open, with a given loss coefficient K_valve = 0.5.\n\n### Step 1: Understand the setup\n\n- Reservoir (1): Z₁ = 25 m\n- Reservoir (2): Z₂ = 0 m (but there’s a 10 m height difference shown above point B, and 30 m below point C — we’ll interpret this as the datum for point 2 being at Z=0, and the pipe outlet at Z=0)\n- The pipe from (1) to (2) has three branches:\n  - Branch A: L = 100 m\n  - Branch B: L = 50 m\n  - Branch C: L = 70 m, with a valve\n\nAll pipes are 8 cm diameter cast iron → D = 0.08 m\n\nWater at 20°C → use standard properties:\n\n- Density ρ = 998 kg/m³\n- Kinematic viscosity ν = 1.004 × 10⁻⁶ m²/s\n\nWe assume the flow is steady, incompressible, and fully developed.\n\n### Step 2: Apply energy equation between reservoir (1) and reservoir (2)\n\nSince the reservoirs are large, the velocity head at the surface is negligible. So, applying Bernoulli’s equation with minor losses:\n\nBetween point (1) and point (2), considering all losses:\n\nZ₁ + (P₁/ρg) + (V₁²/2g) - h_L = Z₂ + (P₂/ρg) + (V₂²/2g)\n\nAssuming atmospheric pressure at both surfaces (P₁ = P₂), and negligible velocity heads at the reservoir surfaces (V₁ ≈ V₂ ≈ 0), we get:\n\nZ₁ - Z₂ = h_L_total\n\nBut wait — the pipe outlets are at different elevations? Actually, looking at the diagram:\n\n- Point (1) is at Z = 25 m\n- Point (2) is at Z = 0 m (datum)\n- However, the pipe splits into three branches, and the valve is at the end of branch C, which is 30 m below point 2? No — the diagram shows:\n\nAt the right"
+  },
+  {
+    "id": "validation_Energy_and_Power_16",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a refrigeration heat pump cycle using Refrigerant-134a. The key data:\n\n- Refrigerant enters the **condenser** at 800 kPa and 35°C (superheated vapor).\n- Leaves the condenser at 800 kPa as **saturated liquid**.\n- Mass flow rate, ṁ = 0.018 kg/s.\n- Compressor power input, ṢẆ_in = 1.2 kW.\n\nWe are to find the **Coefficient of Performance (COP)** of the heat pump.\n\n---\n\n### Step 1: Determine enthalpy at inlet to condenser (state 1)\n\nAt 800 kPa and 35°C, we look up properties for R-134a in superheated tables.\n\nFrom R-134a superheated tables at 800 kPa (8 bar):\n\nAt T = 35°C:\n- h₁ = 276.59 kJ/kg (approximate — let's verify from standard tables)\n\nActually, checking precise values:\n\nAt 800 kPa, T = 35°C:\n\nFrom standard R-134a tables:\n\n- h₁ = 276.59 kJ/kg (yes, this is correct)\n- s₁ = 0.9195 kJ/kg·K\n\n---\n\n### Step 2: Determine enthalpy at exit of condenser (state 2)\n\nState 2: saturated liquid at 800 kPa.\n\nFrom saturated R-134a tables at 800 kPa:\n\n- h₂ = h_f = 88.82 kJ/kg (this is the enthalpy of saturated liquid)\n\nSo, the heat rejected in the condenser is:\n\nq_H = h₁ - h₂ = 276.59 - 88.82 = 187.77 kJ/kg\n\n---\n\n### Step 3: Calculate heat transfer rate to the hot reservoir (Q_H)\n\nQ_H = ṁ * (h₁ - h₂) = 0.018 kg/s * 187.77 kJ/kg = 3.380 kJ/s = 3.380 kW\n\n---\n\n### Step 4: Use COP formula for heat pump\n\nFor a heat pump, COP is"
+  },
+  {
+    "id": "validation_Energy_and_Power_17",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Initial depth of water: 40 cm = 0.4 m\n- Velocity of water flow: 2 m/s\n- Absorption rate by porous bed: 8 mm/s = 0.008 m/s (uniform vertical velocity)\n- Depth into paper: 5 m (this is the width of the channel in the direction perpendicular to the flow, but since we’re dealing with a length L along the flow direction, and the absorption is uniform, we can use the volume flow rate conservation)\n\nWe need to find the length L over which the water is absorbed.\n\n---\n\n**Step 1: Volume flow rate**\n\nThe volume flow rate Q (m³/s) is given by:\n\nQ = A × V\n\nWhere A is the cross-sectional area of flow, and V is the velocity.\n\nBut note: the flow is over an outfall onto a porous bed, and the bed absorbs water uniformly vertically. So, the flow is essentially a shallow flow, and we can consider the cross-section as a rectangle with width W (which is not given, but we are told “the system is 5 m deep into the paper” — this likely means the width of the channel perpendicular to the flow direction is 5 m).\n\nWait — actually, let’s interpret the diagram carefully.\n\nThe diagram shows water flowing from left to right, with initial depth 40 cm, and then spreading out over a porous bed that absorbs water at 8 mm/s. The length L is the distance along the flow direction where absorption occurs.\n\nSince the absorption is uniform vertically, and the bed is porous, we can assume that the water is being removed at a constant rate per unit area, so the volume flow rate must be equal to the volume absorbed per unit time.\n\nLet’s denote:\n\n- Let W = width of the channel (perpendicular to the flow direction). The problem says “the system is 5 m deep into the paper” — this is ambiguous, but in fluid mechanics problems like this, “depth into the paper” usually refers to the width of the channel in the direction perpendicular to the flow. So we take W = 5 m.\n\nThen, the cross-sectional area of flow at the inlet (just before the porous bed) is:\n\nA_inlet = depth × width = 0.4 m × 5 m = 2 m²\n\nVelocity = 2 m/s → So, volume flow rate Q = A_inlet × V = 2 m² × "
+  },
+  {
+    "id": "validation_Energy_and_Power_18",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a vapor-compression refrigeration cycle using R-134a. We need to find the **exergy destruction in the condenser**.\n\n---\n\n### Step 1: Understand the condenser\n\nThe condenser is where the refrigerant (R-134a) releases heat to cooling water. The refrigerant enters at 1.2 MPa and 50°C, and leaves as saturated liquid at 1.2 MPa.\n\nCooling water enters at 20°C and leaves at 28°C, with a mass flow rate of 0.13 kg/s.\n\nWe are to compute exergy destruction in the condenser. Exergy destruction is due to irreversibilities (entropy generation) in the heat transfer process.\n\n---\n\n### Step 2: Find heat rejected by refrigerant in the condenser\n\nSince the refrigerant leaves as saturated liquid at 1.2 MPa, we can look up its enthalpy.\n\nFrom R-134a tables:\n\nAt **P = 1.2 MPa**, saturated liquid:\n\n- \\( h_f = h_{\\text{liq}} \\approx 107.3 \\, \\text{kJ/kg} \\) (at 1.2 MPa)\n\nWait — actually, let’s be precise.\n\nAt **P = 1.2 MPa**, from R-134a tables:\n\n- Saturated liquid enthalpy: \\( h_f = 107.3 \\, \\text{kJ/kg} \\)\n- Saturated vapor enthalpy: \\( h_g = 267.5 \\, \\text{kJ/kg} \\)\n\nBut the refrigerant enters at 50°C and 1.2 MPa — which is **superheated**.\n\nSo, we need to find the enthalpy of the refrigerant entering the condenser.\n\nAt **T = 50°C, P = 1.2 MPa** (superheated region):\n\nFrom R-134a superheated table:\n\n- \\( h_1 = 279.5 \\, \\text{kJ/kg} \\) (approximately — let me confirm)\n\nActually, standard R-134a properties at 50°C and 1.2 MPa:\n\nUsing interpolation or standard tables:\n\nAt 50°C and 1.2 MPa, \\( h = 279.5 \\, \\"
+  },
+  {
+    "id": "validation_Energy_and_Power_19",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "To compute the test stand support reaction \\( R_x \\), we apply the **momentum equation** in the horizontal direction. The engine is mounted on a test stand, and the reaction force \\( R_x \\) must balance the momentum flux of the air and fuel exiting the engine.\n\n---\n\n### Step 1: Define known quantities\n\n- Air inlet:  \n  - Temperature = 20°C → assume standard air properties (γ = 1.4, R = 287 J/kg·K)  \n  - Pressure = 1 atm = 101,325 Pa  \n  - Area \\( A_1 = 0.5 \\, \\text{m}^2 \\)  \n  - Velocity \\( V_1 = 250 \\, \\text{m/s} \\)\n\n- Fuel-air ratio = 1:30 → mass flow rate of fuel \\( \\dot{m}_{\\text{fuel}} = \\frac{1}{30} \\dot{m}_{\\text{air}} \\)\n\n- Exit:  \n  - Pressure = 1 atm (same as inlet)  \n  - Velocity \\( V_2 = 900 \\, \\text{m/s} \\)  \n  - Area \\( A_2 = 0.4 \\, \\text{m}^2 \\)\n\nWe need to find \\( R_x \\), which is the horizontal force exerted by the test stand on the engine to hold it in place. By Newton’s second law applied to the control volume:\n\n\\[\nR_x = \\dot{m}_{\\text{total}} (V_2 - V_1)\n\\]\n\nBut wait — this is only true if the mass flow rate is constant and there are no other forces. However, since the engine is ejecting exhaust at high velocity, the thrust is given by:\n\n\\[\nF_{\\text{thrust}} = \\dot{m}_{\\text{total}} (V_2 - V_1)\n\\]\n\nAnd the test stand must provide a reaction force equal and opposite to this thrust. But note: the engine is stationary, so net force in x-direction is zero. Thus:\n\n\\[\nR_x = \\dot{m}_{\\text{total}} (V_2 - V_1)\n\\]\n\nHowever, we must be careful: the momentum equation for a control volume with fixed control surfaces and no acceleration is:\n\n\\[\n\\sum F_x = \\dot{"
+  },
+  {
+    "id": "validation_Energy_and_Power_20",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Water main pressure at 5 m below ground: \\( P_1 = 600 \\, \\text{kPa} \\)\n- Pressure at top floor (100 m above ground): \\( P_2 = 200 \\, \\text{kPa} \\)\n- Height of building: 150 m (from ground to top floor), but pump is located at 5 m below ground.\n- So, the vertical distance the water is lifted by the pump is from 5 m below ground to 100 m above ground → total elevation change: \\( \\Delta z = 100 - (-5) = 105 \\, \\text{m} \\)\n- Flow rate: \\( \\dot{m} = 10 \\, \\text{kg/s} \\)\n- Temperature: 10°C → we can assume water is incompressible and use specific volume \\( v \\approx 0.001010 \\, \\text{m}^3/\\text{kg} \\) (standard value for water at 10°C).\n- Neglect kinetic energy and internal energy changes → so only potential and pressure energy changes matter.\n\nWe need to find the **pump work** per unit mass or total power input.\n\n---\n\n### Step 1: Use the steady-flow energy equation (SFEE) for a pump\n\nNeglecting kinetic and internal energy changes, and assuming no heat transfer, the SFEE becomes:\n\n\\[\n\\dot{W}_{\\text{pump}} = \\dot{m} \\left( h_2 - h_1 \\right) = \\dot{m} \\left( \\frac{P_2}{\\rho} + g z_2 - \\frac{P_1}{\\rho} - g z_1 \\right)\n\\]\n\nBut since \\( h = \\frac{P}{\\rho} + gz \\) (for incompressible fluid), then:\n\n\\[\n\\dot{W}_{\\text{pump}} = \\dot{m} \\left[ \\left( \\frac{P_2 - P_1}{\\rho} \\right) + g(z_2 - z_1) \\right]\n\\]\n\nNote: The pump work is **positive** if it’s supplying energy to the fluid. But in this case, the pressure drops from 600 kPa to 200 k"
+  },
+  {
+    "id": "validation_Energy_and_Power_21",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Energy_and_Power_22",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a pipe system with a tank containing pressurized air, and we need to find the gage pressure p₁ needed to produce a water flow rate Q = 60 m³/h through a smooth pipe of diameter d = 5 cm (0.05 m) and then discharging as an open jet.\n\nThe key is to apply the **Bernoulli equation** between point 1 (in the tank, at the surface) and point 2 (at the exit of the pipe, where the jet is open to atmosphere).\n\nBut note: The pipe has a length of 60 m and then goes up 80 m vertically, and then 30 m horizontally before exiting. The total head loss will be due to friction in the pipe, which we must account for using the Darcy-Weisbach equation.\n\nHowever, since the pipe is smooth and we are not given roughness or flow regime details, we may need to assume that the flow is turbulent and use the Blasius equation for smooth pipes (for Re > 4000), or perhaps approximate with a reasonable friction factor.\n\nBut wait — we can also consider using the **energy equation** (Bernoulli with head loss) between the tank surface (point 1) and the jet exit (point 2). Since the jet is open to atmosphere, the pressure at point 2 is atmospheric (gage = 0). The velocity at point 1 is negligible (large tank), and at point 2, it’s the jet velocity.\n\nSo, let’s write Bernoulli’s equation from point 1 to point 2:\n\np₁/ρg + z₁ + V₁²/(2g) - h_L = p₂/ρg + z₂ + V₂²/(2g)\n\nAssuming point 1 is at elevation z₁ = 0 (reference), and point 2 is at elevation z₂ = 80 m (since the jet exits 80 m above the tank level). Also, V₁ ≈ 0, p₂ = 0 (gage), and we’ll denote the head loss as h_L.\n\nSo,\n\np₁/ρg + 0 + 0 - h_L = 0 + 80 + V₂²/(2g)\n\nThus,\n\np₁/ρg = 80 + V₂²/(2g) + h_L\n\nNow, we need to compute V₂ and h_L.\n\nFirst,"
+  },
+  {
+    "id": "validation_Energy_and_Power_23",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a tank with a 4-cm diameter plug that will pop out when the hydrostatic force on it reaches 25 N. We need to find the manometer reading `h` (in meters) of mercury when this happens.\n\n---\n\n### Step 1: Understand the setup\n\n- The tank contains water, and there is a plug at the bottom of a sloped wall.\n- The plug has diameter D = 4 cm = 0.04 m.\n- The plug is located at a depth of 2 cm = 0.02 m below the horizontal plane where the manometer is connected.\n- The manometer uses mercury, and we need to find the height `h` such that the hydrostatic force on the plug equals 25 N.\n\nNote: The angle of the sloped wall (50°) is **not** directly needed for calculating the hydrostatic force on the plug, because the plug is perpendicular to the wall, and the force is calculated based on the pressure at the center of the plug, which is at depth `H` from the free surface.\n\nWait — actually, let’s read carefully.\n\nThe diagram shows:\n\n- Water level at top.\n- A vertical distance `H` from water surface to the plug.\n- The plug is located at the bottom of a sloped wall inclined at 50°.\n- The horizontal distance from the vertical wall to the plug is 2 cm.\n- The plug is circular, diameter 4 cm.\n- The manometer is attached to the side, showing a height `h` of mercury.\n\nBut crucially, the plug is located at a depth `H` in the water, and the force on it is due to the water pressure at that depth.\n\nHowever, the manometer reading `h` is not necessarily equal to `H`. The manometer measures the difference in pressure between the point where the manometer is attached and atmospheric pressure, and since the manometer is open to atmosphere at the other end, the mercury column height `h` corresponds to the gauge pressure at the point of attachment.\n\nBut where is the manometer attached? Looking at the diagram, it appears to be attached to the side of the tank, at the same horizontal level as the plug's center? Or perhaps at the bottom?\n\nActually, looking at the figure, the manometer is connected to the tank at a point that is **horizontal distance 2 cm from the vertical wall**, and the plug is located at the bottom of"
+  },
+  {
+    "id": "validation_Energy_and_Power_24",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram shows a forward feed evaporator system with three evaporators (1, 2, and 3) arranged in series. In a forward feed evaporator, the feed is introduced at the first stage (Evaporator 1), and the condensate from each stage is used as the feed for the next stage. The capacity of such a system is typically the sum of the capacities of all individual evaporators because each stage contributes to the overall evaporation process.\n\nTherefore, the total capacity is E1 + E2 + E3.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Energy_and_Power_25",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a gas-turbine power plant operating on the **simple Brayton cycle** with variable specific heats for air. The key parameters are:\n\n- Compressor inlet: 100 kPa, 40°C (State 1)\n- Compressor outlet pressure: 1.6 MPa = 1600 kPa (State 2)\n- Turbine outlet temperature: 650°C (State 4)\n- Air flow rate: 850 m³/min\n- Compressor isentropic efficiency: 85% = 0.85\n- Turbine isentropic efficiency: 88% = 0.88\n\nWe need to find:\n(1) Net power output (W_net)\n(2) Back work ratio (BWR)\n\n---\n\n### Step 1: Use air properties with variable specific heats\n\nWe will use standard air tables (from thermodynamics textbooks or NIST) for variable specific heats.\n\nFrom air tables:\n\n**State 1 (Compressor inlet):**\nP₁ = 100 kPa, T₁ = 40°C = 313.15 K\n\n**State 2s (isentropic compressor exit):**\nP₂s = 1600 kPa, T₁ = 313.15 K, s₁ = s₂s\n\nUsing air property tables (e.g., from Table A-21E or similar):\n\nAt 100 kPa and 313.15 K → h₁ ≈ 313.94 kJ/kg, s₁ ≈ 1.7020 kJ/kg·K  \nAt 1600 kPa and same s₂s, we interpolate to find T₂s.\n\nSince s₂s = s₁ = 1.7020 kJ/kg·K, and at 1600 kPa, we look for state with s=1.7020.\n\nFrom air tables (for example, at 1600 kPa):\n\n- At 600 K: s = 2.0060 kJ/kg·K\n- At 500 K: s = 1.9000 kJ/kg·K\n- At 480 K: s = 1.8720 kJ/kg·K\n- At 49"
+  },
+  {
+    "id": "validation_Energy_and_Power_26",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a hose system with a nozzle, and we need to find the minimum gage pressure required at the hose inlet (Pinside) to reach the garden 125 ft away, neglecting losses. The flow is from the hose (D = 0.625 in) to the nozzle (d = 0.375 in), and the nozzle exits into the garden — implying that the jet exits at atmospheric pressure.\n\nSince there are no losses, we can apply Bernoulli’s equation between the hose inlet (point 1) and the nozzle exit (point 2). However, note that the nozzle is smaller, so the velocity will increase at the nozzle exit due to continuity.\n\nBut here’s the key: the problem says “reach the garden” — and the diagram shows an arc, which implies the water is sprayed out of the nozzle and travels 125 ft horizontally before hitting the garden. This suggests we’re dealing with a projectile motion problem after the nozzle exit.\n\nWait — but the question asks for the *minimum gage pressure* inside the hose to reach the garden. Since we're neglecting losses, we can assume the entire pressure drop is converted to kinetic energy at the nozzle exit, and then the water follows a parabolic trajectory. However, for the water to travel 125 ft horizontally, we must first compute the exit velocity from the nozzle.\n\nIn projectile motion, the horizontal distance (range) is:\n\nR = V_x * t\n\nwhere V_x is the horizontal component of velocity (which equals V_exit, since it’s exiting horizontally), and t is the time of flight.\n\nThe vertical motion is governed by:\n\ny = V_y * t - (1/2) g t^2\n\nAt the ground level, y = 0, and assuming the nozzle is at height h above the garden (which is not specified), we need to know h.\n\nWait — this is a problem. The diagram does not specify the height of the nozzle. But in many such problems, if not specified, we assume the nozzle is at the same level as the garden — i.e., the exit is at atmospheric pressure and the garden is at the same elevation. But then the water would just shoot straight out — and the range would be infinite unless there’s gravity acting. Actually, without initial vertical velocity, if the nozzle is at the same level, the water would go straight — but that contradicts the arc shown.\n\nAlternatively, perhaps the nozzle is at some height"
+  },
+  {
+    "id": "validation_Energy_and_Power_27",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the force needed to open the valve, we need to calculate the net force acting on the valve due to the pressure difference between inside and outside the cylinder.\n\nThe force exerted by a pressure is given by:\n\n\\[\nF = P \\cdot A\n\\]\n\nwhere:\n- \\(P\\) is the pressure,\n- \\(A\\) is the cross-sectional area.\n\nThe net force on the valve is due to the pressure difference:\n\n\\[\nF_{\\text{net}} = (P_{\\text{cyl}} - P_{\\text{outside}}) \\cdot A\n\\]\n\nGiven:\n- \\(P_{\\text{cyl}} = 735 \\, \\text{kPa} = 735,000 \\, \\text{Pa}\\)\n- \\(P_{\\text{outside}} = 99 \\, \\text{kPa} = 99,000 \\, \\text{Pa}\\)\n- \\(A = 11 \\, \\text{cm}^2 = 11 \\times 10^{-4} \\, \\text{m}^2\\) (since 1 cm² = 10⁻⁴ m²)\n\nFirst, compute the pressure difference:\n\n\\[\n\\Delta P = 735,000 - 99,000 = 636,000 \\, \\text{Pa}\n\\]\n\nNow compute the force:\n\n\\[\nF = \\Delta P \\cdot A = 636,000 \\, \\text{Pa} \\times 11 \\times 10^{-4} \\, \\text{m}^2\n\\]\n\n\\[\nF = 636,000 \\times 0.0011 = 699.6 \\, \\text{N}\n\\]\n\nSo, the force needed to open the valve is **699.6 N**.\n\nThis matches option **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Energy_and_Power_28",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a pipe of radius $ R $ with a fully developed laminar flow of air. The velocity profile is given by:\n\n$$\nV(r) = V_c \\left[1 - \\left(\\frac{r}{R}\\right)^2\\right]\n$$\n\nwhere:\n- $ V_c $ is the centerline velocity (at $ r = 0 $),\n- $ r $ is the radial distance from the centerline.\n\nWe are to find:\n1. The **average velocity** $ \\bar{V} $,\n2. The **total mass flow rate** $ \\dot{m} $, as functions of $ V_c $ and $ R $.\n\n---\n\n### Step 1: Average Velocity\n\nFor a cylindrical pipe, the average velocity is defined as:\n\n$$\n\\bar{V} = \\frac{1}{A} \\int_0^R V(r) \\cdot 2\\pi r \\, dr\n$$\n\nwhere $ A = \\pi R^2 $ is the cross-sectional area.\n\nSubstitute the velocity profile:\n\n$$\n\\bar{V} = \\frac{1}{\\pi R^2} \\int_0^R V_c \\left[1 - \\left(\\frac{r}{R}\\right)^2\\right] \\cdot 2\\pi r \\, dr\n$$\n\nSimplify:\n\n$$\n\\bar{V} = \\frac{V_c}{R^2} \\int_0^R \\left[1 - \\left(\\frac{r}{R}\\right)^2\\right] \\cdot 2r \\, dr\n$$\n\nFactor out constants:\n\n$$\n\\bar{V} = \\frac{2V_c}{R^2} \\int_0^R \\left(r - \\frac{r^3}{R^2}\\right) dr\n$$\n\nCompute the integral:\n\n$$\n\\int_0^R \\left(r - \\frac{r^3}{R^2}\\right) dr = \\left[ \\frac{r^2}{2} - \\frac{r^4}{4R^2} \\right]_0^R = \\frac{R^2}{2} - \\frac{R^4}{4R^2} = \\frac{R^2}{2} - \\frac{R^2}{4} = \\frac{R^2}{4}\n$$\n\nSo,\n\n$$\n\\bar"
+  },
+  {
+    "id": "validation_Energy_and_Power_29",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Energy_and_Power_30",
+    "subject": "Energy_and_Power",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B. -11.8 kg/s\n\nTo compute the rate of mass loss of the propellant, we apply a control volume analysis for the solid-propellant rocket engine shown in Fig. P3.35.\n\nThe key is to recognize that the control volume encloses the combustion chamber and nozzle, and we are given exit conditions (pressure, temperature, velocity) and inlet conditions (temperature, pressure) for the propellant. Since the rocket is self-contained and has no entrance ducts, we assume the propellant enters at the same state as it is combusted — i.e., the inlet conditions given (1500 K, 950 kPa) are for the propellant before combustion, and the combustion process occurs within the control volume.\n\nHowever, note that the problem asks for the *rate of mass loss* of the propellant — which is essentially the rate at which mass is being consumed by the combustion process. In a steady-flow control volume, the mass flow rate into the control volume must equal the mass flow rate out, if there’s no accumulation. But here, since the propellant is being consumed (burned), the net mass flow rate through the control volume is negative — meaning mass is leaving due to combustion.\n\nBut wait — in a typical rocket engine, the mass flow rate of propellant is often considered as the rate at which fuel and oxidizer are consumed, and this is typically calculated using the continuity equation for the control volume. However, in this case, we have only one exit stream (the exhaust gas) and the propellant is entering from the “left” side — but the diagram shows propellant flowing into the combustion chamber, and then the product gases exiting. The combustion process converts chemical potential energy into kinetic energy and heat.\n\nWe can use the **steady-flow energy equation** or **mass conservation**. But for mass conservation, we need to know the mass flow rates.\n\nLet’s denote:\n\n- ṁ_in = mass flow rate of propellant entering (unknown, what we want to find)\n- ṁ_out = mass flow rate of exhaust gas exiting\n- For a steady-state system with no accumulation: ṁ_in = ṁ_out\n\nWait — this would imply that the mass flow rate of propellant equals the mass flow rate of exhaust gas. But that’s not correct because the exhaust gas is the *product* of combustion — so the propellant mass is converted into exhaust gas mass. Therefore, in terms of mass conservation"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Basic_Medical_Science_1",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a histological section stained with hematoxylin and eosin (H&E), displaying a prominent, darkly staining, round structure surrounded by a pinkish background of cellular debris or tissue. The central structure appears to be a large, dense, rounded inclusion, which is characteristic of **corpora amylacea** — these are accumulations of amyloid-like material found in the brain, particularly in astrocytes, and are often associated with aging or certain neurological conditions.\n\nCorpora amylacea are typically seen in the cerebral cortex and are not indicative of active pathology but rather represent degenerative changes. They are distinct from other options:\n\n- Alzheimer’s type II astrocyte: This refers to a specific type of astrocyte associated with Alzheimer’s disease, usually with prominent cytoplasmic vacuoles, not a granular inclusion.\n- Bergman gliosis: Refers to reactive astrocytes in the cerebellum, especially after injury, with a different morphology.\n- Eosinophilic granular body: This is vague and not a standard term; it may refer to eosinophilic inclusions like those in some viral infections or granulomas, but not this structure.\n- “Eosinophilic granular body” repeated — likely a typo or duplication.\n\nGiven the morphology — a centrally located, dark, spherical inclusion in a pink-stained background — this is classic for **corpora amylacea**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_2",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows parallel, cylindrical structures with striations — a hallmark of skeletal muscle tissue. Skeletal muscle is characterized by its voluntary control, long, multinucleated fibers, and distinct sarcomeric striations visible under a microscope. The pink coloration may be due to staining or dye used in histological preparations.\n\nCardiac muscle (A) typically has intercalated discs and branched cells, which are not seen here. Bone (B) is a hard, mineralized tissue with a different cellular and structural architecture.\n\nTherefore, the tissue depicted is skeletal muscle.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_3",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a microscopic view of cells with clearly defined cell walls and, more importantly, distinct, membrane-bound structures that appear to be nuclei (the blue-stained regions). These are characteristic features of eukaryotic cells. Prokaryotic cells lack membrane-bound organelles, including a nucleus. The presence of what appears to be a nucleus — even if stained — indicates this is a eukaryotic cell.\n\nOption A is incorrect because prokaryotes do not have a nucleus, but the image shows one, so it’s not a prokaryote.\n\nOption B is correct: It is a eukaryotic cell because it has a cell wall (visible as the blue outlines) and a nucleus (blue dots).\n\nOption C is incorrect — eukaryotic cells DO have a nucleus and a cell membrane; they don’t lack either.\n\nOption D is incorrect — having a cell wall does not identify a cell as prokaryotic; many eukaryotes also have cell walls (e.g., plants, fungi).\n\nTherefore, the correct answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_4",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The vestibular system, which includes the semicircular canals and vestibule, is responsible for balance and spatial orientation. It is innervated by the vestibulocochlear nerve (cranial nerve VIII), which also carries auditory information from the cochlea.\n\nA tumor pressing on the vestibulocochlear nerve (as indicated by the arrow) would likely cause:\n\n- **Vertigo** (due to vestibular dysfunction),\n- **Tinnitus** (due to cochlear involvement),\n- **Decreased auditory acuity** (due to cochlear damage or compression).\n\nHowever, **loss of facial sensation** is associated with **cranial nerve VII (facial nerve)**, which controls facial muscles and carries taste and sensory information from the anterior two-thirds of the tongue. The vestibulocochlear nerve (CN VIII) does not innervate the face.\n\nTherefore, loss of facial sensation would NOT occur due to a vestibulocochlear nerve tumor.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_5",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "This diagram illustrates a synaptic transmission involving norepinephrine (NE) as the neurotransmitter. Key features include:\n\n- The presynaptic neuron contains NE, which is synthesized from L-DOPA via tyrosine hydroxylase and dopamine β-hydroxylase.\n- NE is stored in vesicles and released upon calcium influx.\n- The postsynaptic cell has receptors (α1, α2, β1, β2) that are G-protein coupled, indicating adrenergic receptor activation.\n- Enzymes like COMT and MAO are present to degrade NE.\n- The presence of NE as the neurotransmitter and adrenergic receptors (α/β subtypes) strongly indicates this is an **adrenergic synapse**.\n\nWhile “autonomic synapse” (D) may seem plausible because the autonomic nervous system uses NE (in sympathetic neurons), the term “autonomic synapse” is not specific enough — it could refer to any synapse in the autonomic nervous system, including cholinergic synapses. The diagram specifically shows NE release and adrenergic receptors, making “adrenergic synapse” the most precise answer.\n\n“Cholinergic synapse” (B) would involve acetylcholine, which is not present here. “Peripheral synapse” (C) is vague and not a standard classification. “Adrenergic synapse” (A) is the correct and specific term for a synapse using NE as the neurotransmitter.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_6",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows the following key steps:\n\n1. Pathogen is engulfed by a dendritic cell (D.C.), which then activates the D.C.\n2. The activated D.C. does two things:\n   - Attracts Th2 cells\n   - Enables D.C. to differentiate T-cells into Th2 cells\n3. Th2 cells then:\n   - Promote IgE production\n   - Promote mast cell activity\n   - Stimulate eosinophil production\n4. Finally, IgE binds to mast cells to form IgE-mast cell complexes — which triggers allergic reactions (e.g., in asthma).\n\nNow let’s evaluate the options:\n\nA. “Columnar epithelial cells detect activated Dendritic cells and secrete thymic stromal lymphocytes.” — This is incorrect. Columnar epithelial cells are not involved in secreting thymic stromal lymphocytes (TSLP) in this context; TSLP is secreted by epithelial cells in response to allergens, but the diagram doesn’t show that pathway. Also, TSLP is not shown here as a product of D.C. activation.\n\nB. “Activated Dendritic cell secretes a hormone.” — Not accurate. While dendritic cells can secrete cytokines (like IL-6, IL-12, etc.), the diagram focuses on their role in attracting Th2 cells and enabling T-cell differentiation, not hormone secretion.\n\nC. “Mast cell is activated through the activation of the D.C and secretes thymic stromal lymphocytes.” — Incorrect. Mast cells are activated by IgE binding, not directly by D.C. activation. Also, mast cells do not secrete TSLP — that’s an epithelial cell function.\n\nD. “Thymic stromal lymphocytes are created by TH2 cells which have detected the activation of the dendritic cell.” — This is misleading. Thymic stromal lymphocyte (TSLP) is NOT produced by Th2 cells. It is produced by epithelial cells in response to allergens or irritants. Th2 cells are downstream of D.C. activation and promote IgE and mast cell activity — they don't create TSLP.\n\nNone of the options perfectly match the diagram, but if we must choose the *least incorrect* based on what the diagram implies, we should note that the diagram does not mention TSLP at all. The diagram shows D.C. activating Th2 cells"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_7",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The patient is a 10-year-old boy with fever, muscle aches, sore throat, and cough. Vital signs show high fever (39.2°C), tachycardia (120/min), and tachypnea (28/min), which are consistent with a viral upper respiratory infection.\n\nPhysical exam findings:\n- Clear lung sounds → no pneumonia or significant lower respiratory involvement.\n- Erythematous, edematous nasal turbinates with clear discharge → typical of viral rhinitis.\n- Erythematous oropharynx without exudate → suggests viral pharyngitis, not bacterial (e.g., strep).\n\nThe key diagnostic clue: **Rapid diagnostic immunoassay of nasal secretions reveals antigens from a segmented RNA virus**.\n\nLet’s evaluate the options:\n\nA. **Coronavirus** – Can cause upper respiratory symptoms, but typically presents with more systemic illness (e.g., COVID-19) and often has exudate or more severe lower respiratory involvement. Also, coronaviruses are not typically segmented RNA viruses in the same way as influenza; they are single-stranded RNA, but not segmented like influenza. More importantly, coronavirus testing is usually done via RT-PCR, not rapid immunoassay for antigen. Not the best fit.\n\nB. **Influenza virus** – Segmented RNA virus (8 segments). Classic presentation: fever, myalgias, cough, sore throat. Tachycardia and tachypnea are common. Influenza can be diagnosed rapidly by rapid antigen test — this matches perfectly. The clinical picture (age 10, fever, sore throat, cough, no exudate) is classic for influenza. Also, the nasal exam shows edematous turbinates — consistent with influenza.\n\nC. **Parainfluenza virus** – Causes croup (laryngotracheobronchitis) and bronchiolitis. Often presents with hoarseness, stridor, and cough — not typically with clear nasal discharge and no exudate. Also, parainfluenza is not usually associated with high fever and tachycardia/tachypnea as prominently as influenza. Less likely.\n\nD. **Respiratory syncytial virus (RSV)** – Typically affects infants and young children. Presents with cough, wheezing, and sometimes bronchiolitis. Not commonly seen in 10-year"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_8",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a cross-section of the brain, likely the visual cortex, with an arrow pointing to a line of myelinated axons in layer IV. Layer IV of the primary visual cortex (V1) is the main input layer from the thalamus. The axons that project to layer IV are primarily from the lateral geniculate nucleus (LGN) of the thalamus — the major relay station for visual information from the retina via the optic tract.\n\n- The superior colliculus (A) is involved in reflexive eye movements and visual processing but does not send direct axons to layer IV.\n- The medial geniculate nucleus (D) processes auditory information, not visual.\n- The retina (C) is the light-sensitive layer at the back of the eye; its axons form the optic nerve and project to the LGN, not directly to layer IV.\n- The lateral geniculate nucleus (B) is the correct source: it receives input from the retina via the optic chiasm and sends axons through the optic radiations to layer IV of the visual cortex.\n\nThus, the axons in layer IV originate from the lateral geniculate nucleus.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_9",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows a membrane potential over time, depicting the sequence of an action potential.\n\n- Point A: Resting membrane potential (~ -70 mV).\n- B: Depolarization phase (rising from rest toward threshold).\n- C: Threshold is reached (around -55 mV), triggering the action potential.\n- D: Peak of the action potential (~ +30 mV).\n- E: The falling phase after the peak — this is **repolarization**, where the membrane potential returns toward resting levels.\n- F: Hyperpolarization (more negative than resting potential) following repolarization.\n\nTherefore, E represents the **repolarization** phase.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_10",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The hydrogen bond is indicated by the dashed line connecting a hydrogen atom to an oxygen atom in a neighboring molecule. Looking at the diagram:\n\n- Arrow (a) points to a hydrogen atom bonded to an oxygen atom, but it's not pointing to a hydrogen bond — it’s pointing to a covalent bond.\n- Arrow (b) points to a hydrogen atom bonded to an oxygen atom, also not indicating a hydrogen bond.\n- Arrow (c) points to a hydrogen atom that is connected via a dashed line to an oxygen atom in another molecule — this represents a hydrogen bond.\n- Arrow (d) points to a hydrogen atom that is connected via a dashed line to an oxygen atom in another molecule — this also represents a hydrogen bond.\n\nHowever, the question asks which arrow points to a hydrogen bond. Both (c) and (d) point to hydrogen bonds. But typically, in such diagrams, each arrow indicates one specific hydrogen bond. Since (c) and (d) are both valid, but if we must choose one, the question might imply selecting one representative. However, looking at the diagram, arrows (c) and (d) both indicate hydrogen bonds. But let’s re-examine: the diagram shows three hydrogen bonds (between O-H...O groups), and arrows (a), (b) point to covalent bonds, while (c) and (d) point to hydrogen bonds. The question says “which arrow”, implying possibly one answer.\n\nBut in many such diagrams, (c) and (d) are both correct. However, since the question likely expects one answer, and (c) is on the left side and (d) on the right, perhaps the intended answer is either. But let me check: arrow (c) is pointing to a hydrogen atom that is involved in a hydrogen bond with an oxygen atom in the next molecule. Similarly for (d). So both are hydrogen bonds.\n\nWait — perhaps the question is asking which arrow points to a hydrogen bond *in general*, and both (c) and (d) do. But maybe the diagram is designed so that only one is correct? Let me look again.\n\nActually, in standard representation, the hydrogen bond is shown as a dashed line between H and O of different molecules. Arrows (c) and (d) are both pointing to H atoms that are participating in hydrogen bonds. But arrow (a) and (b) are pointing to H atoms in covalent bonds within the same molecule.\n\nSo both (c)"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_11",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows elongated, striated cells with visible nuclei located centrally, arranged in parallel bundles. These are characteristic features of skeletal muscle tissue. Cardiac muscle is typically smaller, has branched cells with centrally located nuclei, and often appears in a more irregular pattern — not matching this image. Cartilage is not striated and lacks the cellular arrangement seen here.\n\nTherefore, the tissue depicted is skeletal muscle.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_12",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks about the neural pathway through which tactile and pressure stimuli from the nipple reach the neurosecretory nuclei.\n\nThe nipple is part of the skin, and sensory input from the skin (including touch and pressure) is transmitted via sensory neurons to the spinal cord. From there, these signals ascend to the brainstem and then to higher centers. The neurosecretory nuclei — particularly those involved in the hypothalamus — receive inputs related to somatic sensation, including from the nipple, via specific ascending pathways.\n\nAmong the options:\n\n- **A. Dorsal column** — This carries fine touch, vibration, and proprioception from the body to the thalamus and then to the somatosensory cortex. It does not directly project to neurosecretory nuclei.\n\n- **B. Spinoreticular pathways** — These are a group of ascending pathways that carry nociceptive and other non-specific somatic sensory information from the spinal cord to the reticular formation in the brainstem. The reticular formation has connections to the hypothalamus and can influence neurosecretory functions. Importantly, the spinoreticular tract is known to convey nociceptive and mechanoreceptive signals from the periphery, including the nipple, to the hypothalamus and other neurosecretory nuclei.\n\n- **C. Solitary tract** — This carries visceral sensory information (e.g., from the vagus nerve) to the nucleus tractus solitarius. Not relevant for nipple stimulation.\n\n- **D. Dentatorubrothalamic tract** — This is a pathway involved in motor control, specifically for the dentate nucleus → red nucleus → thalamus → cortex. Not involved in sensory transmission to neurosecretory nuclei.\n\nTherefore, the correct answer is **B. Spinoreticular pathways**, as they transmit sensory information from the nipple to the brainstem reticular formation, which connects to neurosecretory nuclei like those in the hypothalamus.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_13",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The muscle labeled B in the diagram is the **superior oblique muscle** of the eye. This muscle is responsible for intorsion and depression of the eye, and it is innervated by the **oculomotor nerve (Cranial Nerve III)**.\n\nHowever, note that the superior oblique muscle is actually innervated by the **trochlear nerve (Cranial Nerve IV)** — not the oculomotor nerve. The trochlear nerve innervates the superior oblique muscle, which is a key point in ophthalmology.\n\nLet’s clarify:\n\n- Cranial Nerve III (Oculomotor) innervates: medial rectus, inferior rectus, superior rectus, and inferior oblique.\n- Cranial Nerve IV (Trochlear) innervates: **superior oblique**.\n- Cranial Nerve VI (Abducens) innervates: lateral rectus.\n\nTherefore, since muscle B is the superior oblique, it is innervated by **Cranial Nerve IV**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_14",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": false,
+    "predicted": "Genetic engineering",
+    "answer": "Transformation",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Genetic engineering\n\nAnswer: Genetic engineering"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_15",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Pallidothalamic axons originate from the globus pallidus and project to the thalamus. These fibers typically cross the midline within the **posterior limb of the internal capsule** before reaching their thalamic targets (such as the ventral anterior and ventral lateral nuclei).\n\nThe anterior limb and genu are more associated with corticospinal tract fibers, while the posterior limb is the main pathway for pallidothalamic projections.\n\nTherefore, the correct answer is:\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_16",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The statement is true. Lower motor neurons are the neurons whose axons directly innervate skeletal muscle fibers. They originate in the motor cortex (in the brain) and descend through the spinal cord or brainstem to synapse with muscle fibers, causing contraction. These neurons are also called \"lower\" because they are located closer to the effector organs (muscles) compared to upper motor neurons, which originate in the brain.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_17",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The cell membrane is composed of a phospholipid bilayer. The hydrophobic region of the membrane is the inner part of the bilayer, where the fatty acid tails of the phospholipids are oriented inward, away from water. This region is nonpolar and thus hydrophobic.\n\nLooking at the diagram:\n- A points to the outer surface of the membrane, which includes the polar head groups (hydrophilic).\n- B points to a glycoprotein or glycolipid on the outer surface — these are also hydrophilic.\n- C points to a transmembrane protein with hydrophilic regions exposed to the aqueous environment.\n- D points to the hydrophobic tails of the phospholipids — this is the hydrophobic region.\n- E points to the hydrophilic head groups of the phospholipids — these are polar and face the aqueous environments.\n\nTherefore, the hydrophobic region is indicated by **D**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_18",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The sinoatrial (SA) node is the natural pacemaker of the heart and is located in the right atrium, near the entrance of the superior vena cava. In the provided diagram, label **A** points to the region near the superior vena cava and the upper part of the right atrium — this is where the SA node is typically found.\n\nLabel B points to the atrioventricular (AV) node, which is located between the atria and ventricles, near the septum.\n\nLabel C points to the right atrium’s muscular wall or a major vessel.\n\nLabel D points to the interventricular septum or a ventricular structure.\n\nLabel E points to the left ventricle.\n\nTherefore, the SA node is indicated by **A**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_19",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The Purkinje cell dendrites are oriented perpendicular to the granule cell axons in the cerebellar cortex. This perpendicular arrangement is crucial for the inhibitory synaptic interactions between these two cell types, allowing for precise modulation of motor coordination and learning.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_20",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The optic nerve (II) and olfactory tract are both part of the central nervous system (CNS). Unlike peripheral nerves, CNS neurons do not have the capacity to regenerate effectively after injury due to inhibitory factors in the glial scar environment and limited regenerative capacity of CNS neurons. While some experimental therapies are being explored to promote regeneration, in natural conditions, these structures do not regenerate once interrupted.\n\nTherefore, the correct answer is: A. No, will not regenerate.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_21",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The septum pellucidum is a thin, membrane-like structure that separates the two lateral ventricles. It is composed of two parts: the anterior and posterior portions, which are continuous with the medial surfaces of the frontal lobes. The thickened portion of the septum pellucidum is actually the **septal nuclei**, which are clusters of neurons located within the septum pellucidum and are part of the limbic system.\n\nThe fornix is a bundle of fibers that runs from the hippocampus to the mammillary bodies and does not constitute the thickened portion of the septum pellucidum.\n\nTherefore, the thickened portion represents the **septal nuclei**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_22",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine whether the pedigree shown can represent the transmission of colorblindness, we need to recall that **colorblindness is an X-linked recessive disorder**.\n\nKey features of X-linked recessive inheritance:\n\n1. **Males are more frequently affected** because they have only one X chromosome. If they inherit the mutant allele, they express the trait.\n2. **Females are usually carriers** if they have one mutant allele (heterozygous), and typically do not show symptoms unless homozygous recessive.\n3. A **carrier female** (heterozygous) can pass the mutant allele to her sons (who will be affected) or daughters (who may become carriers).\n4. An **affected male** passes the mutant allele to all his daughters (making them carriers) but none of his sons.\n\nNow, let’s analyze the pedigree:\n\n- Individual 1 (female, shaded half — carrier) and 2 (male, fully shaded — affected) have children:\n  - Children 3, 6, and 8 are affected males → consistent with X-linked recessive: affected male passes X^c to daughters → daughter 4 (carrier) and 8 (affected) could be from this.\n  - Daughter 5 is normal → possible if she inherited normal X from father (but father is affected, so he gives X^c to daughters — so daughter 5 must have gotten X^C from mother? But mother is carrier — yes, possible).\n\nWait — let’s look closely at individual 1 (carrier female) and 2 (affected male). Their children:\n\n- Child 3: affected male → got X^c from mother and Y from father → correct for X-linked recessive.\n- Child 4: carrier female → got X^c from father? No — father is affected (X^cY), so he gives X^c to daughters. So daughter 4 must be X^c X^C → carrier — correct.\n- Child 5: normal female → must have gotten X^C from father? But father is affected (X^cY) → he gives X^c to daughters. So daughter 5 must have gotten X^C from mother (carrier) → X^C X^c → carrier? But she is marked as “normal” — which is correct for a carrier in X-linked recessive (since females need two copies to be affected).\n\nIn the legend, “Normal” circle means no disease, but"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_23",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a large, round cell with a prominent nucleus that appears dark purple and somewhat irregular in shape, surrounded by multiple smaller, greenish, leaf-like structures — likely representing the cytoplasmic projections or surrounding cells. This morphology is characteristic of a **monocyte**, which is the largest type of white blood cell and typically has a large, kidney-shaped or indented nucleus.\n\n- Eosinophils (A) have bilobed nuclei and granular cytoplasm.\n- Thrombocytes (B) are platelets — small, disc-shaped, not seen here.\n- Lymphocytes (C) are small with round nuclei, not matching this large cell.\n- Neutrophils (E) are small with multilobed nuclei.\n- Monocytes (D) match the large size, prominent nucleus, and overall appearance.\n\nThus, the correct answer is D. Monocyte.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_24",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In an electrocardiogram (ECG), the P wave represents atrial depolarization, which initiates the contraction of the atria. The QRS complex (which includes the Q, R, and S waves) represents ventricular depolarization, which triggers the contraction of the ventricles. The T wave represents ventricular repolarization, which is the recovery phase of the ventricles.\n\nTherefore, the correct matching is:\n- P wave → atrial depolarization\n- QRS segment → ventricular depolarization\n- T wave → ventricular repolarization\n\nThis corresponds to option A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_25",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histological section of a nucleus in the brainstem, likely the **nucleus ambiguus** or **dorsal motor nucleus of the vagus**, which is involved in parasympathetic innervation. The yellow arrow points to a structure that appears to be a **nerve fiber or axon** emerging from the nucleus.\n\nThis nucleus gives rise to **parasympathetic fibers** that travel via the **vagus nerve (CN X)** and innervate the **muscles of the pharynx and larynx**, including the muscles of swallowing and vocalization. These include the stylopharyngeus, palatopharyngeus, and intrinsic laryngeal muscles.\n\nThus, the correct answer is:\n\nA. Muscles of pharynx and larynx.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_26",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a cell with several key features:\n\n- A rigid, green cell wall (visible around the perimeter).\n- Chloroplasts (green, oval-shaped organelles) scattered throughout the cytoplasm — these are involved in photosynthesis.\n- A large central vacuole (the light blue, irregularly shaped structure).\n- A nucleus surrounded by a nucleolus (purple center).\n- Other organelles like mitochondria (red ovals), Golgi apparatus (purple and pink), and endoplasmic reticulum (blue wavy lines).\n\nThese features — especially the cell wall and chloroplasts — are characteristic of plant cells. Animal cells do not have cell walls or chloroplasts.\n\nTherefore, this is a plant cell.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_27",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The structure labeled “MACULA” in the image is part of the inner ear, specifically the macula of the utricle, which is involved in detecting linear acceleration and head position relative to gravity. This is a key component of the vestibular system for balance.\n\nLet’s evaluate the options:\n\nA. Signals angular acceleration. — This is the function of the semicircular canals, not the macula.\n\nB. Is important for conjugate eye movements. — Conjugate eye movements are primarily controlled by the vestibulo-ocular reflex (VOR), which involves the semicircular canals and the otolith organs (including the macula) indirectly, but the macula itself is not directly responsible for conjugate eye movements.\n\nC. Signals orientation with respect to gravity. — Correct. The macula contains hair cells that detect changes in head position relative to gravity via the otolith membrane and calcium carbonate crystals (otoconia). This is its primary function.\n\nD. Is bathed with perilymph. — While true, this is a general anatomical fact about the inner ear structures, not specific to the macula’s primary function. The question asks what this structure does, and the most accurate functional description is C.\n\nTherefore, the best answer is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_28",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The tuberoinfundibular tract is a neural pathway that originates in the hypothalamus (specifically, the supraoptic and paraventricular nuclei) and extends to the posterior pituitary. However, more precisely, the tuberoinfundibular tract refers to the axons that project from the hypothalamus to the adenohypophysis (anterior pituitary), carrying releasing and inhibiting hormones such as dopamine, TRH, GnRH, etc.\n\nBut note: The term “tuberoinfundibular tract” specifically refers to the neural pathways that extend from the hypothalamic tuberoinfundibular neurons to the anterior pituitary — not to the posterior pituitary. These neurons release hormones like dopamine, which regulate prolactin secretion.\n\nOption A says “A tract carrying releasing hormones.” — This is correct. The tuberoinfundibular tract carries releasing hormones (e.g., dopamine, TRH, GnRH) from the hypothalamus to the anterior pituitary.\n\nOption B refers to ADH and oxytocin — these are transported via the hypothalamic-hypophyseal portal system and are carried by axons in the **hypothalamic-pituitary portal system**, not the tuberoinfundibular tract. ADH and oxytocin are synthesized in hypothalamic neurons and stored in the posterior pituitary; their transport is via axons of the **hypophyseal portal system** or **hypothalamic-hypophyseal portal veins** — not the tuberoinfundibular tract.\n\nOption C says “a tract carrying nerve impulses to the adenohypophysis.” — While this is partially true, it’s too vague. The tuberoinfundibular tract is more accurately described as carrying *releasing hormones*, not just “nerve impulses.” Also, nerve impulses are action potentials, while releasing hormones are neurochemicals.\n\nTherefore, Option A is the most accurate and specific answer.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_29",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To analyze this question, we must consider both the pedigree and the Southern blot.\n\nFirst, the **pedigree**:\n\n- Generation I: A male (square) and a female (circle) — the female is affected (filled circle). They have one child in generation II.\n- Generation II: The child is affected (filled circle) and mates with an unaffected male (square). Their child in generation III is affected (filled square).\n- Importantly, the disease appears in every generation — suggesting it is **not recessive**, because recessive traits typically skip generations. Also, males and females are affected equally — so it’s not X-linked recessive (which would show more affected males if it were recessive).\n\nIn fact, since both males and females are affected and the trait is passed from parents to offspring without skipping generations, this strongly suggests **autosomal dominant inheritance**.\n\nNow, look at the **Southern blot**:\n\nIt shows five different bands (five patterns of black bars), each representing a different restriction fragment size. The key is that **the band pattern changes between individuals** — particularly, the individual in generation III who is affected has a **different banding pattern** than the unaffected individuals.\n\nThis is classic for **trinucleotide repeat expansion disorders**, such as Huntington’s disease. In HD, the CAG triplet repeat in the huntingtin gene expands in the affected individuals, leading to larger fragments after restriction digestion. The Southern blot shows this expansion — the affected individual has a larger fragment (or multiple larger fragments) compared to unaffected individuals.\n\nSo, let’s evaluate the options:\n\nA. HD is an autosomal recessive disease → Incorrect. The pedigree does not show skipping generations or two unaffected parents having an affected child; rather, affected individuals have affected children, which is consistent with autosomal dominant inheritance.\n\nB. The huntingtin gene is likely to be located on the X-chromosome → Incorrect. If it were X-linked, you’d expect more affected males and possibly a pattern where males pass it to daughters but not sons — but here, both sexes are affected and transmitted similarly.\n\nC. A likely cause of HD is an unstable triplet repeat in the HD gene → **Correct**. This is well-established in Huntington’s disease. The CAG repeat expansion is the known cause, and the Southern blot shows the expanded fragment.\n\nD. The pattern of bands in the blot is indicative of abnormal splicing of the HD mRNA → Incorrect. The blot is probing genomic DNA, not mRNA. Splicing abnormalities would be"
+  },
+  {
+    "id": "validation_Basic_Medical_Science_30",
+    "subject": "Basic_Medical_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The areas involved in speech, particularly Broca’s area (responsible for speech production) and Wernicke’s area (responsible for language comprehension), are predominantly supplied by the middle cerebral artery (MCA). In the majority of people, the left hemisphere is dominant for language, so the **left middle cerebral artery** is the primary vessel serving these critical speech-related regions.\n\nWhile the right MCA may supply some areas related to language processing, the dominant and primary vessel for speech is the left MCA.\n\nAnswer: B"
+  }
+]

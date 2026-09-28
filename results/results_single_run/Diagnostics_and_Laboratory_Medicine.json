@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_1",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with hematoxylin and eosin (H&E), displaying a pink, somewhat irregular mass with areas of varying density and some small cystic or vacuolated spaces. The architecture appears to be composed of loosely arranged cells with moderate nuclear pleomorphism, but no clear evidence of high-grade malignancy such as necrosis, prominent mitotic figures, or microvascular proliferation that would suggest glioblastoma multiforme.\n\nGiven the appearance — particularly the presence of small, rounded, well-defined structures that resemble vascular elements — this is suggestive of **meningoangiomatosis**, a benign neoplasm of meningeal and vascular tissue characterized by a proliferation of smooth muscle and endothelial cells forming nodules, often with a “cystic” or “pseudocystic” appearance. It is typically found in the meninges and can present as a soft, lobulated mass.\n\nLet’s evaluate the options:\n\nA. This tumor is a variant of glioblastoma multiforme (GBM) — Incorrect. GBM typically shows marked necrosis, high mitotic activity, and microvascular proliferation — none of which are evident here.\n\nB. This tumor is metastatic from a soft tissue sarcoma — Incorrect. Soft tissue sarcomas usually show spindle cell morphology, nuclear atypia, and lack of the vascular/soft tissue pattern seen here.\n\nC. This patient had a pigmented lesion removed 10 years before — Incorrect. Pigmented lesions (like melanocytic) would show melanin pigment, which is not visible here. Also, the age of removal is irrelevant to the histology shown.\n\nD. This represents a gliotic scar in an infarct — Incorrect. Gliotic scars typically show glial proliferation and fibrosis, not the vascular/soft tissue nodular appearance.\n\nE. This is a classic example of meningoangiomatosis — Correct. The histologic features — including the presence of vascular-like structures and nodular growth — are consistent with meningoangiomatosis.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_2",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section of tissue with characteristic features: small, round to oval nuclei, scant cytoplasm, and a dense arrangement — consistent with **Hürthle cell change** or **Hürthle cell carcinoma**, but more likely here is **Hürthle cell adenoma** or **Hürthle cell carcinoma** in the context of thyroid pathology. However, the question asks which condition this is **not** associated with.\n\nLet’s analyze each option:\n\nA. **Carcinoma of the breast** – Hürthle cells are not typically associated with breast carcinoma. Breast carcinomas are usually epithelial in origin and do not feature Hürthle cells. This is a candidate for “except”.\n\nB. **Medullary carcinoma of the thyroid gland** – This tumor is characterized by amyloid deposits, and often contains **Hürthle cells** (also called medullary thyroid carcinoma with Hürthle cell variants). So it *is* associated.\n\nC. **Tricholemmomas of the face** – These are benign tumors of the skin, composed of keratinocytes, and do not involve Hürthle cells. But wait — **tricholemmomas** are associated with **Hürthle cell changes**? Actually, no — tricholemmomas are **not** associated with Hürthle cells. They are benign, keratinizing tumors of the skin, and their histology does not include Hürthle cells. So this is also a candidate for “except”.\n\nD. **Macrocephaly** – Macrocephaly refers to an abnormally large head size. It can be associated with various genetic conditions, including **Hürthle cell disease**? No — macrocephaly is not directly associated with Hürthle cells. However, in some rare cases, **Hürthle cell hyperplasia** may be seen in **hypothyroidism** or other endocrine disorders, and macrocephaly may be associated with such conditions, especially if there's developmental delay or hypothyroidism-related issues. But strictly speaking, **macrocephaly is not a direct association** with Hürthle cells.\n\nWait — let’s reconsider the question: “This condition may be seen in association with all of the following except”\n\nSo we need to find the one that is **NOT** associated with the condition shown.\n\nBut what is the condition shown? The image appears to show **H"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_3",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with H&E, revealing a brain tissue sample with areas of necrosis and vacuolation, particularly in the white matter. There are also prominent perivascular inflammatory infiltrates and areas of demyelination. The pattern is consistent with **progressive multifocal leukoencephalopathy (PML)**, which is caused by the JC virus (a polyomavirus) and typically affects immunocompromised individuals.\n\nLet’s evaluate the options:\n\n- **A. Creutzfeldt-Jakob disease (CJD)**: Typically presents with rapid neurodegeneration, spongiform change, and gliosis. Histology often shows spongiform degeneration and astrocytosis — not the pattern seen here.\n  \n- **B. Amebic encephalitis**: Caused by *Naegleria fowleri* or *Acanthamoeba*. Presents with focal necrosis and inflammation, but usually with fungal or protozoan cysts visible on histology — not seen here.\n  \n- **C. Herpes Simplex Encephalitis**: Characterized by acute necrotizing inflammation in the temporal lobes, with multinucleated giant cells and neutrophilic infiltration — this does not match the diffuse, demyelinating pattern.\n  \n- **D. Progressive Multifocal Leukoencephalopathy (PML)**: This is the correct answer. PML is caused by JC virus and presents as multiple foci of demyelination, especially in immunocompromised patients. Histologically, it shows “ghost” myelin sheaths, vacuolated areas, and sometimes perivascular lymphocytic infiltration. The patient is a 45-year-old fisherman — possibly immunocompromised due to HIV or other causes — and has a sudden onset of bizarre behavior, which is consistent with PML presentation.\n\n- **E. Subacute sclerosing panencephalitis (SSPE)**: A progressive, fatal neurological disorder caused by the measles virus. It presents with neuronal loss and gliosis, typically over months to years — not acute and not presenting with focal demyelination like PML.\n\nGiven the clinical scenario (45-year-old fisherman, 1 week history of bizarre behavior) and the histological findings, the most likely etiology is **PML**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_4",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The microscopic image depicts a histological section with characteristic features: a pink-stained background (representing the extracellular matrix or stroma) and scattered, rounded, pale areas that may represent cystic spaces or vacuoles. The cellular architecture appears relatively uniform, with no significant atypia or mitotic figures, which is consistent with benign tumors.\n\nSubependymomas are typically benign, slow-growing tumors of the subependymal region of the brain, often found intraventricularly. They are characterized by a \"cystic\" or \"pseudocystic\" appearance in some cases, and their histology can show cells arranged in a “honeycomb” or “tubular” pattern, sometimes with eosinophilic cytoplasm and prominent nuclei. However, without specific staining or more detailed morphology, it’s difficult to definitively identify the exact tumor type from this image alone.\n\nBut based on the options:\n\nA. shows the typical pattern of a subependymoma — This is plausible, as subependymomas can have a “cystic” or “vacuolated” appearance.\n\nB. is benign and slow growing — True for most subependymomas; they are generally low-grade and indolent.\n\nC. commonly intraventricular — Yes, subependymomas are frequently located within the ventricular system.\n\nThus, all three statements are correct for subependymomas, which is why D (“all are correct”) is the best answer.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_5",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a muscle biopsy stained with Gomori trichrome, which is a common histological stain for muscle tissue. In this stain, collagen appears pink, while muscle fibers are stained blue. The key feature in the image is a **single abnormal fiber** that is **pink-stained**, indicating it contains **excess collagen or fibrosis** — a hallmark of **chronic inflammation or fibrosis**.\n\nThis finding is **classic for polymyositis**, an inflammatory myopathy characterized by **fibrosis and infiltration of inflammatory cells** in muscle fibers. The pink staining corresponds to the accumulation of collagenous tissue within the muscle fiber, which is not typical of normal muscle architecture.\n\nLet’s briefly evaluate the other options:\n\n- **A. Hypoxia**: Typically associated with changes in mitochondrial function or red blood cell count; does not typically cause prominent collagen deposition in muscle fibers.\n- **B. A mitochondrial disorder**: Often presents with ragged red fibers (on Gomori trichrome, these may appear as abnormal blue fibers with cytoplasmic granules), but not typically with pink staining due to collagen.\n- **D. Nemaline myopathy**: Characterized by nemaline bodies (intracellular rods) and often has normal or mildly abnormal staining patterns; not associated with significant fibrosis or pink staining.\n\nThus, the presence of a single pink-stained fiber with Gomori trichrome is most characteristic of **polymyositis**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_6",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The radiograph is a right lateral view of the thorax in an English Bulldog. In megaesophagus, one of the classic radiographic findings is the “dilated esophagus” that appears as a dilated, air-filled tube that may be seen in the mediastinal region or extending into the cranial abdomen. However, on this image, there is no clear evidence of a dilated esophagus — instead, the mediastinum appears relatively normal in contour and the cardiac silhouette is not enlarged or displaced.\n\nAlso notable: the presence of a “R” marker indicates the right side is to the left of the image (standard for right lateral views). The lung fields appear relatively clear with no obvious fluid levels or large pleural effusions. There is no significant mediastinal shift or prominent air-fluid levels suggesting aspiration pneumonia or pulmonary edema.\n\nMoreover, the dog’s breed — English Bulldog — is predisposed to megaesophagus due to its brachycephalic anatomy and often has a “corkscrew” or “dilated” esophagus that may be visible on radiographs if it is distended. However, on this image, there is no clear dilatation of the esophagus; the mediastinum does not show a characteristic “swelling” or “bulging” consistent with megaesophagus.\n\nAdditionally, the mediastinum appears somewhat dense but not necessarily due to fat — extra mediastinal fat would typically cause a more diffuse, homogeneous increase in density, which is not evident here.\n\nPulmonary edema in the cranial lobes would show increased opacity in the upper lungs, which is not present here.\n\nA large pleural effusion would show a meniscus sign or obliteration of the costophrenic angles, which is absent.\n\nTherefore, based on the radiograph, there is no clear evidence of megaesophagus, nor any acute pathology such as pleural effusion, pulmonary edema, or aspiration pneumonia.\n\nThus, the most appropriate answer is:\n\nB. This dog has extra mediastinal fat, and megaesophagus is not identified.\n\nWait — actually, let me reconsider. Is there any indication of extra mediastinal fat? On a right lateral view, the mediastinum is usually less prominent, and the heart is shifted slightly to the left. But without a clear “fat pad” or “mediastinal widening,” we cannot confidently say extra mediastinal fat is present."
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_7",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histologic section with a large area of pale, eosinophilic tissue surrounded by a dense, pink-staining gliotic wall. This is classic for a **remote infarct** in the brain — specifically, a **chronic, gliotic scar** surrounding a previously necrotic region.\n\nLet’s evaluate each option:\n\n**A. The differential diagnosis on this case is remote infarct vs. remote contusion**\n\nThis is true. Both remote infarcts and remote contusions can present with similar histologic appearances after a prolonged period — especially if the contusion has become chronic and glioticized. The presence of a well-formed gliotic wall helps distinguish them from acute lesions, but in the chronic phase, differentiation can be difficult.\n\n**B. There is a well developed gliotic wall associated with this remote injury**\n\nThis is true. The pink, densely staining rim around the central white area is consistent with a well-developed glial scar (gliotic wall), which forms in response to chronic injury or infarction.\n\n**C. The presence of macrophages is not helpful in distinguishing this from a subacute process**\n\nThis is **false**. Macrophages are typically present in the early phases of injury (subacute) as part of the inflammatory response. In a *chronic* lesion like this, macrophages should be sparse or absent. If macrophages are still abundant, it suggests a *subacute* process rather than a chronic one. So their presence *is* helpful in distinguishing subacute from chronic.\n\n**D. This is very unlikely to have resulted from venous occlusion**\n\nThis is true. Venous occlusion typically leads to **hemorrhagic infarcts** (due to venous congestion and hemorrhage), whereas the lesion shown here is **non-hemorrhagic**, with a pale center and gliotic wall — consistent with **arterial occlusion** (e.g., ischemic stroke). Venous occlusion would more likely show red blood cell debris or hemorrhage, which is not present here.\n\nTherefore, the false statement is **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_8",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histological section with areas of pink-stained tissue (likely representing connective tissue or bone) and prominent white, lucent areas that suggest areas of necrosis or degeneration. The morphology is consistent with **skeletal dysplasia** or **osteomalacia**, which can be associated with **hypoplastic or malformed bones** due to developmental insults.\n\nIn the context of pediatric pathology, such lesions are most commonly associated with **intrauterine insults** during the **first trimester**, when the skeletal system is rapidly forming and highly vulnerable to teratogens or metabolic disturbances. For example, conditions like **rickets**, **hypocalcemia**, or **genetic disorders** affecting bone development often manifest as such lesions if the insult occurs early in gestation.\n\nLesions seen in post-partum infants (even pre-term or term) are typically due to acquired conditions (e.g., infection, nutritional deficiency), not developmental origin. While some pathological changes can occur in the 2nd trimester, the first trimester is the most critical window for osteogenic development and malformation.\n\nTherefore, the most likely developmental stage for the insult is:\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_9",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a histological section stained with hematoxylin and eosin (H&E), displaying a brain tissue sample with a characteristic appearance of **cerebral cortex** showing **disorganized neuronal layers**, **absent or malformed gyri**, and **abnormal cortical folding**. These features are highly suggestive of **neuronal migration defects**, such as those seen in **lissencephaly** or **subcortical band heterotopia**.\n\nIn infants and young children, seizures associated with such histopathological findings are often due to **impaired neuronal migration during fetal development**, leading to cortical malformations that disrupt normal neural circuitry.\n\nLet’s evaluate the options:\n\nA. **Neuronal migration defect** — This is consistent with the histological appearance shown: disorganized cortical layers, lack of normal gyri, and absence of normal neuronal layering. This is a classic finding in conditions like lissencephaly or heterotopias, which can cause early-onset seizures.\n\nB. **Neural tube closure defect** — Conditions like spina bifida or anencephaly typically present with structural defects in the neural tube, not cortical malformations like those seen here. The image does not show evidence of spinal cord or brainstem defects.\n\nC. **Perinatal hypoxic/ischemic event** — This would typically show areas of necrosis, hemorrhage, or white matter changes — not the uniform cortical disorganization seen here.\n\nD. **Neoplasm** — Tumors would show cellular atypia, mitotic figures, or infiltrative growth — none of which are evident in this image.\n\nTherefore, the most likely etiology is a **neuronal migration defect**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_10",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with H&E, displaying multiple nodular lesions with a granulomatous appearance and some areas of necrosis. These findings are characteristic of tuberculous meningitis, especially when seen in immunocompromised or immigrant populations who may have latent tuberculosis reactivation.\n\nLet’s evaluate the options:\n\nA. Trypanosomiasis — Typically presents with meningoencephalitis due to Trypanosoma cruzi or T. brucei; histology would show trypanosomes, not granulomas. Not consistent.\n\nB. Amebic encephalitis — Would show cysts or amebic hyphae; not typically granulomatous or nodular like this. Also, it's more common in tropical regions with amoebic liver/brain infection, but not classic for this pattern.\n\nC. Cerebral malaria — Presents with cerebral edema, hemorrhage, and microvascular changes, not granulomatous nodules. Histology does not resemble this.\n\nD. Tuberculous meningitis — Classic presentation: granulomatous inflammation, caseating necrosis, lymphoid infiltrates, and often with calcified nodules. This histology is very suggestive — especially given the patient’s age (25), immigrant background (suggesting possible exposure to TB), and symptoms (fever + cord problems — likely referring to cranial nerve involvement or meningeal irritation).\n\nE. Aspergillosis — Typically shows fungal hyphae, not granulomatous nodules unless chronic. Invasive aspergillosis can cause nodules, but they are less commonly granulomatous than in TB.\n\nGiven the clinical context (immigrant, fever, cord problems — possibly indicating meningeal irritation) and the histologic appearance (granulomatous nodules), the most likely etiology is **tuberculous meningitis**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_11",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with H&E (hematoxylin and eosin), revealing numerous small, round, darkly staining nuclei (likely neurons or glial cells) scattered within a background of pink-staining cytoplasmic material. There are also prominent pale, vacuolated areas, which may represent spongiform degeneration — a hallmark of certain neurodegenerative diseases.\n\nAmong the options:\n\n- **A. HIV encephalitis** typically presents with inflammatory infiltrates, microglial nodules, and sometimes perivascular inflammation; it does not usually show widespread spongiform change as prominently as in some other diseases.\n\n- **B. Creutzfeldt-Jakob Disease (CJD)** is a prion disease that commonly presents with **spongiform change** in the brain parenchyma — visible as vacuoles in neuronal cytoplasm — and often shows astrocytic changes and neuronal loss. The histology is consistent with this pattern: widespread vacuolation, loss of cellular architecture, and neuronal dropout. This is classic for CJD.\n\n- **C. Progressive supranuclear palsy (PSP)** typically shows more pronounced atrophy and gliosis, but less spongiform change than CJD. It’s more associated with specific neuronal loss patterns (e.g., in the midbrain).\n\n- **D. Amyotrophic lateral sclerosis (ALS)** is a motor neuron disease, primarily affecting upper and lower motor neurons; it does not typically present with spongiform change in the cerebral cortex or white matter.\n\nGiven the presence of **spongiform change** — the characteristic vacuolated appearance — the most likely diagnosis is **Creutzfeldt-Jakob Disease**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_12",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a histological section of brain tissue, likely stained with hematoxylin and eosin (H&E), displaying a characteristic pattern of neuronal loss and gliosis — particularly in the context of neurodegenerative pathology. The morphology suggests involvement of the **pons**, specifically the **basis pontis** region, which is known to be affected in conditions like **multiple system atrophy (MSA)** and **progressive supranuclear palsy (PSP)**, where there is selective degeneration of neurons in the brainstem.\n\nLet’s briefly evaluate the options:\n\n- **A. Inferior olivary nucleus** – This is involved in motor coordination and is often affected in spinocerebellar ataxias, but not classically associated with the same type of pathology as shown here.\n- **B. Dentate nucleus** – Part of the cerebellum; more commonly affected in cerebellar atrophy or Huntington’s disease, not typically the classic site for this kind of brainstem pathology.\n- **C. Locus ceruleus** – A noradrenergic nucleus in the brainstem that is affected in Parkinson’s disease and other neurodegenerative disorders, but its pathology is distinct and usually involves small cell loss, not the massive gliosis seen here.\n- **D. Basis pontis** – This is the area of the pons that contains the **pontine nuclei**, which are part of the cerebellar pathway, and is classically affected in **MSA** and **PSP**, showing prominent neuronal loss, gliosis, and sometimes “spongiform” changes — similar to what may be inferred from the image.\n\nGiven the morphology and location, the **basis pontis** is the most likely area that would show similar pathology.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_13",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows eosinophilic intraneuronal inclusions, which are characteristic of **Pick bodies** seen in **Pick’s disease** (a form of frontotemporal lobar degeneration). These inclusions are composed primarily of **hyperphosphorylated tau protein**, which is the hallmark of tauopathies.\n\nLet’s evaluate the options:\n\n- **A. Tau** — Correct. Pick bodies are composed of aggregated tau protein and are strongly immunostained with anti-tau antibodies.\n\n- **B. Alpha synuclein** — Incorrect. Alpha-synuclein is associated with Parkinson’s disease and Lewy body dementia, not Pick’s disease.\n\n- **C. Ubiquitin** — Incorrect. While ubiquitin can be present in some neurodegenerative inclusions (like in Alzheimer’s disease or some other tauopathies), it is not the primary marker for Pick bodies. In Pick’s disease, tau is the main component.\n\n- **D. both B and C** — Incorrect. As explained, alpha-synuclein and ubiquitin are not the primary markers.\n\nTherefore, the correct answer is **A. tau**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_14",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a transverse section of the spinal cord with a fluid-filled cavity (syrinx) running longitudinally through the center, dividing the cord into two halves. The syrinx is clearly visible as a central, empty space, and the surrounding cord tissue appears normal in architecture but is interrupted by this fluid-filled channel.\n\nThis pattern is characteristic of **syringomyelia**, which is a condition involving the formation of a fluid-filled cyst or cavity within the spinal cord, typically extending along its length. It is often associated with congenital anomalies or trauma.\n\n- **Hydromyelia** (A) refers to a dilatation of the central canal of the spinal cord, usually presenting with a dilated, fluid-filled space, but not necessarily a distinct syrinx.\n- **Syringobulbia** (C) involves a syrinx that extends into the brainstem — not seen here.\n- **Diastematomyelia** (D) is a congenital condition where there is a split in the spinal cord, often with a bony septum — not depicted in this image.\n\nThus, the correct diagnosis is **syringomyelia**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_15",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a fetal brain section with a prominent area of hemorrhage and necrosis, consistent with **periventricular leukomalacia (PVL)**, which is a common cause of cerebral palsy in premature infants. PVL typically occurs due to **hypoxic-ischemic injury** during the second trimester or later, particularly in preterm infants.\n\nWhile nuchal cord (B) and premature birth (C) are associated with PVL, the most important *predisposing factor* is the **hypoxic-ischemic event**, especially during the second trimester when the fetal brain is vulnerable to hypoxia. This is because the developing brain has high metabolic demands and is sensitive to oxygen deprivation. Placental abruption (E) can cause hypoxia but is less common as a primary predisposing factor compared to the general vulnerability of the fetus during the second trimester.\n\nSepsis (D) may contribute to brain injury, but it is not the most important predisposing factor for PVL.\n\nTherefore, the correct answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_16",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The clinical presentation includes a 2-year-old boy with occipital headaches, vomiting (suggesting increased intracranial pressure), and a history of sleeping with the neck extended — a classic sign of cerebellar or posterior fossa pathology. The imaging shows a mass in the posterior fossa, specifically at the level of the fourth ventricle (consistent with the location of medulloblastoma). The fact that the lesion is partially resected suggests it was surgically approached, which is common for medulloblastoma due to its tendency to spread via cerebrospinal fluid.\n\nMedulloblastoma is the most common malignant brain tumor in children, typically arising in the posterior fossa, especially in the cerebellum. It often presents with symptoms like headache, vomiting, and neck stiffness. In younger children, it may also cause hydrocephalus and be associated with a “cerebellar shift” or “posterior fossa mass effect.” The imaging in the first image (axial view) shows a mass in the posterior fossa with possible displacement of structures, consistent with medulloblastoma.\n\nPilocytic astrocytoma (A) is more common in older children and adolescents, and typically presents with less aggressive symptoms; it’s usually benign and slow-growing.\n\nSubependymoma (B) is a benign tumor, often located near the ventricles, and does not typically present with such severe symptoms or require surgical resection.\n\nGlioblastoma (C) is highly malignant and typically occurs in adults or older children, not in a 2-year-old, and usually presents with more diffuse symptoms.\n\nAnaplastic ependymoma (D) is also a malignant tumor, often seen in older children and adolescents, and tends to be located in the spinal cord or posterior fossa but is less common in very young children than medulloblastoma.\n\nMedulloblastoma (E) fits all criteria: age of patient (young child), location (posterior fossa), symptoms (headache, vomiting, neck extension), and imaging findings (mass in posterior fossa).\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_17",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows two brain sections, likely from a post-mortem examination. The key features are:\n\n- **Atrophy of the frontal lobes** (especially the prefrontal region), which is evident in the shape and size.\n- **Presence of a prominent central hole or cavity**, which is characteristic of **cerebral atrophy with loss of gray matter**, particularly seen in **progressive supranuclear palsy (PSP)**.\n\nIn PSP, there is significant **frontal lobe atrophy**, **basal ganglia involvement**, and often a **“sulcal pattern”** or “**sulci widening**” that can be observed in histological sections. Additionally, **cortical thinning** and **loss of neurons** are common.\n\nParkinson’s disease typically presents with **basal ganglia changes** (e.g., nigrostriatal degeneration) and **motor symptoms** like tremor and rigidity — not primarily cortical atrophy with the specific pattern seen here.\n\nThus, the most likely diagnosis is **Progressive supranuclear palsy**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_18",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a cross-section of a human brain, with the left side labeled \"normal\" and the right side showing distinct pathological changes. The right hemisphere exhibits significant shrinkage (atrophy) of the cerebral cortex, particularly in the frontal and temporal lobes, which is characteristic of neurodegenerative diseases like Alzheimer’s disease. The ventricles appear enlarged, which is also consistent with cortical atrophy.\n\nLet’s evaluate the options:\n\nA. **cortical atrophy consistent with Alzheimer's Disease** — This is correct. Alzheimer’s disease typically presents with widespread cortical atrophy, especially in the medial temporal lobe and association cortices, leading to enlargement of ventricles. The appearance on the right matches this pattern.\n\nB. **caudate atrophy consistent with Huntington's Disease** — Huntington’s disease primarily affects the basal ganglia, including the caudate nucleus, but does not typically cause the diffuse cortical atrophy seen here. The caudate is not the main feature shown.\n\nC. **normal variation of ventricular size** — Incorrect. The ventricles are significantly enlarged on the right side, indicating pathology, not normal variation.\n\nD. **none of the above** — Incorrect, because A is correct.\n\nTherefore, the best answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_19",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with H&E, displaying a large area of **diffuse necrosis** with **spongiform change** (vacuoles) and **loss of normal architecture**, consistent with **encephalitis** or **neurodegenerative process**. The pink staining suggests widespread neuronal damage and loss.\n\nLet’s evaluate the options:\n\nA. **Creutzfeldt-Jakob disease (CJD)** – Typically presents with rapid neurodegeneration, spongiform change, and characteristic “spongiosis” on biopsy. However, CJD is usually associated with **rapid progression** (weeks to months), **cerebellar ataxia**, **myoclonus**, and **early dementia**. It is not typically associated with **bizarre ideation** as a primary feature — though psychiatric symptoms can occur. Also, CJD rarely presents with **bizarre ideation** in isolation; more commonly it's with rapidly progressive dementia.\n\nB. **Amebic encephalitis** – Caused by *Naegleria fowleri* or *Acanthamoeba*. Presents with **acute onset**, **severe headache**, **fever**, **vomiting**, and **focal neurological signs**. Histology shows **inflammatory infiltrates**, **cysts**, and **necrosis** — but not typically diffuse spongiform change. Also, amebic infection is **rare** in San Diego and more common in warm freshwater exposure. Not the most likely.\n\nC. **Herpes Simplex Encephalitis (HSE)** – Classic presentation: **acute onset**, **bizarre ideation** (often including hallucinations, delusions, or paranoia), **focal seizures**, **headache**, **fever**. Histology shows **perivascular inflammation**, **neuronal necrosis**, **microglial activation**, and **cytotoxic edema** — but **not typically spongiform change** unless very advanced. HSE is **common** in immunocompetent individuals, including teachers. However, the image shows **widespread necrosis and spongiform change**, which is **not typical** for HSE.\n\nD. **Progressive Multifocal Leukoencephalopathy (PML)** – Caused by JC virus, affects **immunocompromised patients** (e.g., HIV, transplant recipients, immunosuppressants). Presents with **"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_20",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section of brain tissue with a large, well-circumscribed, rounded lesion (likely a cyst) surrounded by inflammatory infiltrate and adjacent parenchymal changes. The architecture suggests a parasitic infection, particularly one that forms cysts in the brain.\n\nGiven the patient’s background — a 45-year-old Mexican rancher — we should consider endemic parasitic infections. Cysticercosis is endemic in areas with poor sanitation and is common in Mexico. It is caused by Taenia solium, and its cerebral form can present with cognitive deficits, seizures, and mass effect due to cysts or granulomas. The histology often shows cysts with oncospheres or scolex remnants, and surrounding inflammation.\n\nAmebic encephalitis (B) typically presents with more acute, necrotizing lesions and is associated with liver disease or ingestion of contaminated water — less likely in this context.\n\nHerpes Simplex encephalitis (C) usually presents with focal necrosis and neuronal degeneration, not cystic lesions.\n\nTrypanosomiasis (D) — especially Chagas disease — may involve the brain but is more commonly associated with cardiac or gastrointestinal manifestations; it does not typically present as large cysts.\n\nCoccidiodal meningitis (E) is a fungal infection endemic to arid regions like the southwestern U.S. and parts of Latin America, but it typically presents with meningeal inflammation and granulomatous lesions rather than cystic structures.\n\nThe most consistent finding with cysticercosis — especially in a rural Mexican setting — is the presence of cystic lesions in the brain parenchyma, which aligns with the histology shown.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_21",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In a 3-year-old male with a large posterior fossa tumor, the most common and best-diagnosed tumor is **medulloblastoma**. While pilocytic astrocytomas are also common in children, they are typically smaller and more likely to be located in the cerebellum but not necessarily large or aggressive. Ependymomas can occur in the posterior fossa but are less common in young children than medulloblastomas. Medulloblastoma is the most frequent malignant tumor of the posterior fossa in children under 10 years old, especially in the 3-5 age range.\n\nThe imaging appearance (though not visible here) often shows a large, solid mass with possible calcifications or cystic components, and histologically it may show small blue cells with high mitotic activity — though without histology, we rely on clinical context. Given the age and location, medulloblastoma is the most likely diagnosis.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_22",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section with characteristic features: rounded, sometimes multilayered, tumor cells with prominent nuclei and a pink-stained cytoplasm (likely H&E staining). These features are highly suggestive of **ganglioglioma**, which is a benign or low-grade tumor of the central nervous system composed of glial cells and neurons. Gangliogliomas are most commonly found in children and adolescents, often in the cerebrum or cerebellum.\n\nLet’s evaluate each option:\n\nA. More common in children than adults — ✅ True. Gangliogliomas are most frequently diagnosed in children and young adults, typically under 30 years old.\n\nB. May be intraventricular in children — ❌ Unlikely. While gangliogliomas can occur anywhere in the CNS, intraventricular tumors are more characteristic of ependymomas or other ventricular tumors. Gangliogliomas are not typically located intraventricular.\n\nC. Is often associated with seizures — ✅ True. Many gangliogliomas are associated with seizures due to their location near cortical areas or functional brain regions. However, this is not always the case, but it's a common association.\n\nD. Also has binucleate neurons — ✅ True. One of the hallmark features of ganglioglioma is the presence of neurons with two nuclei (binucleate neurons), often seen in the tumor’s neuronal component.\n\nSo, all three options A, C, and D are true for ganglioglioma, but the question asks “This tumor is:” and implies selecting one best answer. Since the question does not specify “which is least true” or “which is most true,” we must consider what is most specific and diagnostic.\n\nHowever, note that option B is false — gangliogliomas are NOT typically intraventricular. So if B is incorrect, then among A, C, D, which is the most accurate?\n\nActually, let’s reconsider: the question may be implying which statement is correct about this tumor, and since multiple are correct, perhaps we should pick the one that is most consistently true and diagnostic.\n\nBut wait — the image doesn’t clearly show binucleate neurons, and the pattern could also be consistent with other tumors like pilocytic astroblastoma or even some types of medulloblastoma, though ganglioglioma is classic.\n\nHowever, given the context, and that the question likely expects one correct answer"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_23",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histological section of a skull lesion stained with H&E (hematoxylin and eosin). The tissue appears to be composed of fibrous connective tissue with some areas of cellular proliferation, but there is no evidence of malignant cells, osteoblastic or osteoclastic activity typical of osteosarcoma, or the characteristic features of a germ cell tumor.\n\nThe pink staining suggests collagenous or fibrous tissue, and the irregular borders and lack of atypical nuclei suggest a benign process. Eosinophilic granuloma (also known as Langerhans cell histiocytosis in some contexts) can present with fibrosis and reactive changes, often in bone, and may show a “granular” appearance under microscopy — though this image does not clearly show granulomas or Langerhans cells.\n\nHowever, the most likely diagnosis here — given the context of a skull lesion and the histologic appearance — is **trauma with repair**. This would explain the fibrotic, reactive tissue seen, which is common after injury to bone. The lesion is not obviously neoplastic, nor does it show the classic features of osteosarcoma (osteoid matrix, mitotic figures, etc.), nor does it resemble a germ cell tumor (which would show teratoma components or yolk sac-like structures).\n\nTherefore, based on the histology shown — fibrous tissue with reactive changes — the most appropriate answer is:\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_24",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section stained with H&E (hematoxylin and eosin), revealing a large area of necrotic tissue with prominent, irregularly shaped cavities or vacuoles. These appear to be cystic spaces lined by remnants of cellular structures, which is characteristic of viral encephalitis with extensive neuronal loss and gliosis.\n\nLooking at the options:\n\nA. Creutzfeldt-Jakob disease — Typically shows spongiform change and astrocytic reaction, but not typically with large cystic spaces like this.\n\nB. Syphilis — Can show “tabes dorsalis” or “syphilitic meningoencephalitis,” but usually with more inflammatory infiltrates and less cystic necrosis.\n\nC. Herpes Simplex encephalitis — Often shows neuronal necrosis, but the pattern is more diffuse with perivascular inflammation and often no large cystic spaces.\n\nD. Progressive Multifocal Leukoencephalopathy (PML) — This is caused by JC virus and is characterized by **large, well-demarcated areas of necrosis in white matter**, often with **cystic changes** and **loss of myelin**. The appearance in this image — large, pale, cystic-looking areas within a purple-stained background — is highly suggestive of PML.\n\nE. HIV encephalitis — Presents with diffuse gliosis and microglial nodules, but does not typically show large cystic necrotic areas.\n\nThe most fitting diagnosis based on the histology is **Progressive Multifocal Leukoencephalopathy (PML)**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_25",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The statement is misleading. The absence of pigment does not necessarily indicate metastatic carcinoma. Pigment (such as melanin or hemoglobin) is not a reliable diagnostic marker for metastatic carcinoma — in fact, many carcinomas are pigment-negative, and some tumors may be pigmented but still be non-metastatic.\n\nMoreover, the image appears to be a histological section (likely H&E stained) showing a large dark purple area (possibly representing a tumor or tissue with high cellularity), surrounded by lighter areas and structures that could represent stroma, vessels, or other tissues. Without additional clinical context or immunohistochemical markers, it is not possible to definitively classify this as metastatic carcinoma based solely on the absence of pigment.\n\nTherefore, the assertion that “this is most likely a metastatic carcinoma because there is no pigment” is incorrect.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_26",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The ECG shows a rapid, irregular, and poorly defined waveform with no identifiable P waves or QRS complexes in the traditional sense. The rhythm appears chaotic, with no consistent pattern of ventricular depolarization, which is characteristic of ventricular fibrillation.\n\nLet’s evaluate the options:\n\nA. Ventricular preexcitation syndrome — This typically presents with a delta wave (slurred upstroke) and is associated with WPW syndrome. Not seen here.\n\nB. Ventricular fibrillation — This is characterized by rapid, disorganized, and uncoordinated electrical activity in the ventricles, producing a chaotic, irregular, and non-repetitive waveform without discernible QRS complexes. This matches the appearance in the image.\n\nC. Sustained ventricular tachycardia — Typically has a regular or nearly regular rhythm with recognizable QRS complexes, often at a rate >100 bpm. The rhythm here is chaotic and irregular, so this is unlikely.\n\nD. Accelerated idioventricular rhythm — Usually has a regular rhythm, narrow QRS complexes, and may be associated with a slower rate than VT, often seen after MI. The rhythm here is not regular or organized.\n\nThus, the most accurate diagnosis based on the ECG pattern is ventricular fibrillation.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_27",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section with two panels: the top panel appears to be H&E staining showing a dense population of small, round cells with scant cytoplasm and prominent nuclei — characteristic of a pituitary adenoma, particularly a non-functioning type. The bottom panel is likely a reticulin stain, which highlights the fibrous stroma and can help distinguish tumor architecture from normal glandular tissue.\n\nLet’s evaluate each option:\n\nA. “can be seen in a patient with acromegaly” — Acromegaly is caused by a functioning somatotroph adenoma secreting excess growth hormone. Non-functioning adenomas (which are also common) do not cause acromegaly. However, the lesion shown could be a functioning or non-functioning pituitary adenoma. Since acromegaly is associated with *functioning* adenomas, this statement is not universally true for *all* such lesions. But if we interpret it as “can be associated with,” then it’s partially correct — but not the best answer.\n\nB. “can be found incidentally” — Yes, many pituitary adenomas are discovered incidentally on imaging (e.g., MRI) due to incidental findings like a mass effect or an asymptomatic lesion. This is true.\n\nC. “may require the use of a reticulin stain to differentiate from normal gland” — Reticulin stain is often used to assess the architecture of the pituitary gland and to differentiate between benign adenomas and normal glandular tissue, especially when there is overlap in appearance under H&E. This is accurate.\n\nD. “can present as a non-functioning tumor with mass effect” — Absolutely. Non-functioning pituitary adenomas (like prolactinomas, somatotropinomas, etc.) can grow large enough to exert mass effect on surrounding structures, causing headaches, visual field defects, or other symptoms. This is a classic presentation.\n\nE. “all are correct” — Since A is somewhat misleading (as it implies the lesion is specifically associated with acromegaly, which is incorrect — acromegaly is associated with *functioning* tumors), we must consider whether A is truly correct. However, the lesion shown is consistent with a pituitary adenoma, which *could* be associated with acromegaly if it's a functioning somatotroph adenoma — but the question does not specify that the lesion is functioning. So strictly speaking, A is"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_28",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histopathological section of a cerebellar lesion, likely a hemangioblastoma, given the characteristic appearance with red-staining vascular structures and dark-staining nuclei (possibly tumor cells or endothelial cells). Hemangioblastomas are commonly associated with Von Hippel-Lindau disease (VHL), which is a hereditary syndrome that predisposes to multiple benign and malignant tumors, including cerebellar hemangioblastomas.\n\nLet’s evaluate each option:\n\nA. “is commonly associated with Von Hippel Lindau” — Correct. Cerebellar hemangioblastomas are one of the hallmark tumors of VHL disease.\n\nB. “contains inhibin A positive stromal cells” — Incorrect. Inhibin A is typically expressed in certain germ cell tumors (e.g., yolk sac tumors) and some other tumors, but not specifically in cerebellar hemangioblastomas. In fact, hemangioblastomas are generally negative for inhibin A.\n\nC. “is rich in reticulin” — This is misleading. Reticulin staining is often used to identify the reticular framework of connective tissue, and while some tumors may show reticulin, it is not a defining feature of cerebellar hemangioblastomas. The presence of reticulin is more typical of certain lymphoid or fibrous tumors, not this type.\n\nD. “all are correct” — Since B and C are incorrect, D cannot be correct.\n\nTherefore, only option A is correct.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_29",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a CT scan in the arterial phase, with a large, well-defined hypervascular lesion within the liver. Given the patient’s 20-year history of liver cirrhosis, this is a high-risk population for hepatocellular carcinoma (HCC), which typically presents with arterial phase enhancement followed by washout in the portal venous phase.\n\n- Aortic dissection (A) would show a tear in the aortic wall, not a hepatic lesion.\n- Liver abscess (C) usually appears as a fluid-filled cavity with surrounding inflammation; it does not typically enhance uniformly in the arterial phase.\n- Liver adenoma (D) may enhance in the arterial phase but is more commonly seen in younger patients and often has a well-circumscribed, non-infiltrative appearance without the typical “washout” pattern or associated cirrhosis features.\n- Hepatocellular carcinoma (B) in cirrhotic livers frequently demonstrates intense arterial phase enhancement with a “target-like” or “hypervascular” appearance, consistent with the imaging findings here.\n\nThus, the most likely diagnosis is liver cancer (hepatocellular carcinoma).\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Diagnostics_and_Laboratory_Medicine_30",
+    "subject": "Diagnostics_and_Laboratory_Medicine",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a histological section stained with hematoxylin and eosin (H&E), displaying a large area of pale, homogeneous tissue with some scattered small vessels or remnants of architecture. The tissue appears to be a brain parenchyma with areas of necrosis or infarction. The most striking feature is the presence of numerous small, round, PAS-positive inclusions — which are characteristic of glycogen storage.\n\nGlycogen accumulation in the brain parenchyma is often associated with glycogen storage diseases (GSDs) such as Pompe disease or other lysosomal disorders. When these occur in the context of cerebral infarcts, it may suggest an underlying metabolic disorder causing both storage and vascular compromise. The “subacute” nature of the infarcts implies that they have been present for weeks, consistent with chronic metabolic disturbances.\n\nOption C: “Subacute embolic infarcts associated with glycogen (PAS-Positive) storage disease” best fits this description because:\n- Subacute infarcts are visible.\n- PAS-positive glycogen deposits are evident.\n- Embolic infarcts can occur secondary to systemic metabolic disorders.\n\nOther options do not match:\n- A refers to epithelioid vascular proliferation — not seen here.\n- B mentions metaplastic choroid plexus — not relevant.\n- D suggests metastatic carcinoma — no evidence of malignant cells or tumor features.\n\nThus, C is the correct answer.\n\nAnswer: C"
+  }
+]

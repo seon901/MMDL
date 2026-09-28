@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Computer_Science_1",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D\nThe resource-allocation graph shows that each process (P1, P2, P3) is holding a resource (R1, R2, R3 respectively) and is waiting for another resource. For example, P1 holds R1 and is waiting for R2; P2 holds R2 and is waiting for R3; P3 holds R3 and is waiting for R1. This forms a cycle: P1 → R1 → P2 → R2 → P3 → R3 → P1. In such a cycle, no process can proceed because each is waiting for a resource held by another process in the cycle. Hence, a deadlock occurs, and none of the processes will finish — so the correct answer is D. There is a deadlock."
+  },
+  {
+    "id": "validation_Computer_Science_2",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a tree and asked to delete the minimum number from it, and then determine which statement is TRUE.\n\nFirst, note that this is a **leftist heap**. In a leftist heap:\n\n- The root is the minimum element in the heap.\n- The leftist property: for any node, the rank (the distance to the nearest leaf along the leftmost path) of the left subtree is at least as large as that of the right subtree. The rank of a node is defined as the length of the path from the node to the farthest leaf, counting edges. For a leaf, the rank is 0.\n- The heap is typically implemented as a binary tree where each node has two children, and we maintain the min-heap property (parent < children).\n\nBut more importantly, **in a leftist heap, the root is always the minimum element**.\n\nLooking at the tree:\n\n```\n        6\n       / \\\n      13  8\n     / \\  / \\\n    18 24 12 37\n       / \\   / \\\n      35  17 19\n         /\n        26\n```\n\nThe root is 6. So, if we delete the minimum element, we delete **6**.\n\nNow, after deleting 6, we need to reconstruct the leftist heap. But the question is not asking us to rebuild the heap — it’s asking which statement is TRUE after deleting the minimum number.\n\nHowever, the statements refer to relationships among nodes that exist before deletion. Let's check each option.\n\n---\n\n**Option A: 8 is NOT the root**\n\nBefore deletion, 6 is the root. After deletion, the root becomes one of the children of 6, which are 13 and 8. In a leftist heap, when you delete the root, you combine the two subtrees (left and right) recursively, but the structure changes.\n\nBut note: the question says “Delete the minimum number from the given leftist heap.” That means we remove 6. Then, the new root will be the minimum of the two subtrees — i.e., min(13, 8) = 8. So after deletion, **8 becomes the new root**.\n\nTherefore, after deletion, 8 IS the root. So Option A says “8 is NOT the root” — which is FALSE.\n\n---\n\n**Option B: 12 is the right child of 8**\n\nLooking at the original"
+  },
+  {
+    "id": "validation_Computer_Science_3",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The phrase “moves datagrams from the source host to the destination host” refers to the function of routing packets across different networks. In the five-layer Internet protocol stack, the **Network Layer** (also known as the IP layer) is responsible for logical addressing and routing of datagrams between hosts across networks.\n\n- The **Application Layer** handles end-user processes (like HTTP requests).\n- The **Transport Layer** manages end-to-end communication (e.g., TCP/UDP segments).\n- The **Link Layer** deals with local network access (e.g., MAC addresses, switches).\n- The **Physical Layer** deals with raw bit transmission over cables or wireless media.\n- The **Network Layer** specifically handles routing and forwarding of datagrams between different networks — which matches the description perfectly.\n\nTherefore, the correct answer is the Network Layer.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Computer_Science_4",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe DFA is not minimal because there are two states, G₆ and G₅, that are distinguishable — they have different behaviors. Specifically, from G₆, on input 'a' you go to G₅, and from G₅, on input 'a' you go back to G₆. But from G₆, on input 'b' you go to G₇, while from G₅, on input 'b' you go to G₆. This creates a cycle that can be minimized by merging G₅ and G₆ into a single state, since they behave identically in all transitions (both transition to each other on 'a' and 'b', and both transition to G₇ on 'b'). Thus, the automaton has redundant states and is not minimal."
+  },
+  {
+    "id": "validation_Computer_Science_5",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram shows a sequence of nodes, each containing \"data\" and a pointer (arrow) pointing to the next node. The last node points to \"null\", indicating the end of the list. There is no pointer pointing back to the previous node, and the list is not circular (since it ends with null). This is the defining characteristic of a **singly linked list**.\n\n- Doubly linked list: would have two pointers per node (forward and backward).\n- Circularly linked list: the last node would point back to the first.\n- Array: elements are stored in contiguous memory locations, not linked by pointers.\n- None of the other answers: incorrect, since singly linked list fits.\n\nThus, the correct answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Computer_Science_6",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The learning curve shows that both the training error (J_train(θ)) and the test error (J_test(θ)) are high, and they do not decrease much as the training set size increases. This indicates that the model is underfitting — it is not learning the patterns in the data well enough, which is a sign of **high bias**.\n\nIn contrast, if the training error were low but the test error were high (and the gap between them widened with more training data), that would indicate **high variance** (overfitting).\n\nHere, since both errors are high and the curves are close to each other, it suggests the model is too simple to capture the underlying patterns — classic high bias.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Computer_Science_7",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a hash table of length 10 using open addressing with linear probing and hash function h(k) = k mod 10. The table has 6 keys inserted, and we need to find a possible insertion order that results in the given final state.\n\nThe table is:\n\n```\n0: empty\n1: empty\n2: 42\n3: 23\n4: 34\n5: 52\n6: 46\n7: 33\n8: empty\n9: empty\n```\n\nLet’s analyze the positions:\n\n- h(42) = 42 mod 10 = 2 → placed at index 2.\n- h(23) = 23 mod 10 = 3 → placed at index 3.\n- h(34) = 34 mod 10 = 4 → placed at index 4.\n- h(52) = 52 mod 10 = 2 → but index 2 is occupied by 42, so linear probing: try 3 (occupied), 4 (occupied), 5 (empty) → placed at 5.\n- h(46) = 46 mod 10 = 6 → placed at 6.\n- h(33) = 33 mod 10 = 3 → but index 3 is occupied by 23, so probe 4 (occupied), 5 (occupied), 6 (occupied), 7 (empty) → placed at 7.\n\nSo the insertion order must respect these probing sequences.\n\nNow check each option:\n\n**Option A: 46, 42, 34, 52, 23, 33**\n\n- Insert 46: h=6 → slot 6 (empty) → OK.\n- Insert 42: h=2 → slot 2 (empty) → OK.\n- Insert 34: h=4 → slot 4 (empty) → OK.\n- Insert 52: h=2 → slot 2 is taken → probe 3 (empty) → put at 3? But in final table, 52 is at 5, not 3. So this violates the final state. ❌\n\n**Option B: 34, 42, 23, 52, 33, 46**\n\n-"
+  },
+  {
+    "id": "validation_Computer_Science_8",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C. 12\n\nTo find the maximum flow from V1 to V6, we apply the Ford-Fulkerson method or visualize augmenting paths in the network.\n\nWe can trace possible paths:\n\n1. V1 → V2 → V5 → V6: capacity = min(6, 2, 4) = 2\n2. V1 → V2 → V3 → V6: capacity = min(6, 2, 5) = 2\n3. V1 → V4 → V3 → V6: capacity = min(7, 3, 5) = 3\n4. V1 → V4 → V3 → V5 → V6: capacity = min(7, 3, 4, 4) = 3 (but note this path is not independent — it shares edges with others)\n\nWait — let’s do a more systematic approach.\n\nActually, consider:\n\nPath 1: V1 → V2 → V5 → V6: bottleneck = min(6,2,4) = 2  \nPath 2: V1 → V2 → V3 → V6: bottleneck = min(6,2,5) = 2  \nPath 3: V1 → V4 → V3 → V6: bottleneck = min(7,3,5) = 3  \nPath 4: V1 → V4 → V3 → V5 → V6: bottleneck = min(7,3,4,4) = 3 — but this path uses V3→V5 which has capacity 4, and V5→V6 has 4, so yes, 3.\n\nBut note: after using Path 1 and 2, the edge V2→V5 is used up (capacity 2), and V2→V3 is also used up (capacity 2). So V2→V5 and V2→V3 are saturated.\n\nNow, for Path 3: V1→V4→V3→V6: uses V4→V3 (cap 3), V3→V6 (cap 5) — so min(7,3,5)=3.\n\nThen Path 4: V1→V4→V3→V5→V6: now V4→V3 is already at 3, so we can’t use it again unless we send more via other paths.\n\nAlternative: What"
+  },
+  {
+    "id": "validation_Computer_Science_9",
+    "subject": "Computer_Science",
+    "is_mcq": false,
+    "predicted": "60",
+    "answer": "60",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The middle link has a capacity of 300 Mbps and is fairly shared among the four client-server pairs, so each pair gets 300 / 4 = 75 Mbps from the middle link.\n\nEach client link (RC = 60 Mbps) can handle up to 60 Mbps, which is less than 75 Mbps. Therefore, the client link becomes the bottleneck for each pair.\n\nEach server link (RS = 80 Mbps) is greater than 75 Mbps, so it is not the bottleneck.\n\nThus, the maximum achievable end-to-end throughput for each pair is limited by the client link capacity: 60.\n\nAnswer: 60"
+  },
+  {
+    "id": "validation_Computer_Science_10",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Computer_Science_11",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which binary tree may become a binary search decision tree (excluding external nodes), we must understand the properties of a binary search tree (BST):\n\n- In a BST, for any node:\n  - All keys in the left subtree are less than the node’s key.\n  - All keys in the right subtree are greater than the node’s key.\n- The tree is ordered: traversing left → root → right gives sorted order.\n- The structure must be consistent with BST property at every internal node.\n\nSince the question says “excluding external nodes,” we are only concerned with the internal nodes and their relationships. External nodes (leaves) are not part of the decision logic — they are just terminal points.\n\nWithout seeing the images, we can deduce that the correct answer must be the one where:\n\n- The tree is structurally valid as a BST: left subtree keys < root < right subtree keys.\n- The shape doesn’t violate BST ordering (e.g., no right child with a smaller key, or left child with a larger key).\n\nIn typical multiple-choice questions like this, the correct option will have a structure that allows for a valid BST traversal — meaning, if you were to traverse it in-order, you’d get a sorted sequence.\n\nCommonly, such questions include:\n\n- A tree that violates BST property (e.g., left child > right child, or right child < left child).\n- A tree that is perfectly balanced or skewed but still satisfies BST.\n- A tree that could be a BST if we assign values appropriately (but since the question says “may become,” it implies we can assign values to nodes to satisfy BST property — though strictly speaking, the tree structure must allow such assignment).\n\nWait — actually, re-reading: “which one may become a binary search decision tree” — this suggests we are given trees with labeled nodes (probably with numbers or letters), and we need to check whether those nodes can be assigned values such that the BST property holds.\n\nBut again — without images — I must assume that in standard such problems, **Option B** is often the correct answer because it has the structure that allows for a valid BST (for example, left subtree contains smaller values, right subtree contains larger values, and the root is positioned correctly). Other options may violate BST property.\n\nAlternatively, some problems use unlabeled trees and ask whether the *structure* can be a BST — but that’s ambiguous.\n\nGiven the context and common exam patterns, **Option B** is frequently the correct choice for such questions — especially"
+  },
+  {
+    "id": "validation_Computer_Science_12",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a directed graph with discovery and finishing time stamps for each node, labeled as x/y. The graph is:\n\n- Nodes: a, b, c, d, e, f, g, h\n- Edges (with direction):\n  - a → b\n  - a → e\n  - b → c\n  - b → f\n  - c → d\n  - c → g\n  - d → h\n  - e → f\n  - e → a (back edge to a)\n  - f → g\n  - g → h\n  - h → h (self-loop)\n\nTime stamps:\n- a: 13/14\n- b: 11/16\n- c: 1/10\n- d: 8/9\n- e: 12/15\n- f: 3/4\n- g: 5/7\n- h: 2/6\n\nNote: The time stamps are written as x/y, where x is discovery time and y is finishing time.\n\nIn DFS, we start at a node, explore as far as possible along each branch, then backtrack. Each DFS tree corresponds to a connected component in the forest. A back edge connects to an already visited node (in the DFS tree or in a previously finished subtree).\n\nWe must determine which nodes belong to the same DFS tree (i.e., are reachable from each other via DFS traversal).\n\nLet’s try to reconstruct the DFS traversal order using the timestamps.\n\nThe earliest discovery time is **c: 1/10** — so DFS starts at c.\n\nFrom c:\n- c → d (discovery 1, finishes at 10)\n- c → g (discovery 1, finishes at 10) — wait, but g has discovery 5/7? That doesn’t make sense if c is starting at 1.\n\nWait — let’s check the discovery times again. The smallest discovery time is 1 (node c). Then 2 (h), 3 (f), 5 (g), 8 (d), 11 (b), 12 (e), 13 (a).\n\nSo discovery order: c (1), h (2), f (3), g (5), d (8), b (11), e (12), a (13).\n\nBut note: h has discovery 2, and g has discovery "
+  },
+  {
+    "id": "validation_Computer_Science_13",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nThe cost function is $J(\\theta_1) = \\frac{1}{2m} \\sum_{i=1}^m (h_\\theta(x^i) - y^i)^2$. For $\\theta_1 = 0$, we have $h_\\theta(x) = 0$ for all x. So for each example, the error is $(0 - y^i)^2 = (y^i)^2$. The three examples are at (1,1), (2,2), and (3,3). So the sum of squared errors is $1^2 + 2^2 + 3^2 = 1 + 4 + 9 = 14$. Then $J(0) = \\frac{1}{2 \\cdot 3} \\cdot 14 = \\frac{14}{6}$. Wait — this contradicts my initial thought.\n\nWait, let me re-examine the plot. The points are:\n\n- At x=1, h(x)=1 → so y^1 = 1\n- At x=2, h(x)=2 → so y^2 = 2\n- At x=3, h(x)=3 → so y^3 = 3\n\nBut wait — the plot shows red 'x' marks at (1,1), (2,2), and (3,3)? Actually, looking again — the point at x=1 is at h(x)=1, x=2 is at h(x)=2, and x=3 is at h(x)=3? But that would be on the line y=x. However, the problem says \"training set with m=3 examples\", and the plot has three red crosses. Let's read the coordinates carefully.\n\nLooking at the axes: the x-axis goes from 0 to 3, and y-axis from 0 to 3. The red crosses are located at approximately:\n\n- One at (1,1)\n- One at (2,2)\n- One at (3,3)\n\nThat’s exactly on the line y=x. So if the hypothesis is hθ(x) = θ₁x, then when θ₁=1, it fits perfectly. But the question asks for J(0).\n\nSo for θ₁=0, hθ(x) = 0 for all x. So for each training example, the predicted value is 0, while the actual values are"
+  },
+  {
+    "id": "validation_Computer_Science_14",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which schedule is an equivalent serial schedule for the precedence graph, we must analyze the dependencies between transactions.\n\nThe precedence graph is given with arrows indicating dependencies:\n\n- T1 → T2 (because there’s an arrow from T1 to T2, meaning T1 must complete before T2 can start — this is implied by the edge from T1 to T2 in the diagram? Wait, let’s look carefully.)\n\nActually, looking at the diagram:\n\nThere are three transactions: T1, T2, T3.\n\nEdges:\n\n- From T1 to T2: This is not directly shown. But wait — there is a path: T1 has an output that goes to T3 via Y, and T2 has an output that goes to T3 via Y,Z. Also, there is a feedback loop: T1 → T2 → T3 → T1? Not exactly.\n\nWait — let me re-express the diagram properly.\n\nFrom the diagram:\n\n- There is an arrow from T1 to T2? Actually, no — the diagram shows:\n\n  - An arrow from T1 to T3 (labeled Y), and from T2 to T3 (labeled Y,Z). Also, there is an arrow from T2 back to T1 (labeled Y). And also, there is a direct arrow from T1 to T2? No — actually, the diagram shows:\n\n    - A loop: T1 → T2 → T3 → T1? Let's map it.\n\nActually, the diagram is:\n\n- T1 has an arrow pointing to T2? No — the diagram shows:\n\n  - An arrow from T1 to T3 (labeled Y)\n\n  - An arrow from T2 to T3 (labeled Y,Z)\n\n  - An arrow from T2 to T1 (labeled Y) — this is a backward edge, so T2 must complete before T1 can proceed? No — wait, in precedence graphs, an edge from A to B means A must complete before B starts.\n\nBut here, the arrow from T2 to T1 is labeled Y — so T2 must complete before T1 can proceed? That would mean T2 → T1.\n\nAlso, there is an arrow from T1 to T3 (Y), and from T2 to T3 (Y,Z).\n\nAnd there is an arrow from T3 to T1? The diagram shows a line from T3 back to T1, labeled Y — so T3 → T1.\n\n"
+  },
+  {
+    "id": "validation_Computer_Science_15",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram shows three entities: EMPLOYEE, WORKS_FOR, and DEPARTMENT. The WORKS_FOR entity acts as a linking or junction table between EMPLOYEE and DEPARTMENT.\n\n- An employee (e.g., e1) can work for multiple departments (e.g., d1, d2).\n- A department (e.g., d1) can have multiple employees working for it (e.g., e1, e2, e3).\n\nThis is a classic many-to-many relationship: multiple employees can be associated with multiple departments, and vice versa.\n\nTherefore, the relationship between EMPLOYEE and DEPARTMENT via WORKS_FOR is N:M (many-to-many).\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Computer_Science_16",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Let's analyze the DAG (Directed Acyclic Graph) step by step.\n\nThe DAG has:\n\n- At the bottom: two nodes labeled `x` and `y`.\n- Above them, we have:\n  - A node with `+` (addition) that takes inputs from `x` and `y` → so this is `(x + y)`\n  - A node with `-` (subtraction) that takes inputs from `x` and `y` → so this is `(x - y)`\n  - Then, a multiplication node `*` that takes `(x + y)` and `(x - y)` as inputs → so this is `(x + y) * (x - y)`\n  - Then, another `+` node that takes `(x + y)` and the result of `(x + y) * (x - y)` → so this is `(x + y) + ((x + y) * (x - y))`\n  - And a `-` node that takes `(x + y)` and the result of `(x + y) * (x - y)` → so this is `(x + y) - ((x + y) * (x - y))`\n\nNow, looking at the structure:\n\n- The topmost node is `+` (addition), which has two inputs:\n  - Left input: `(x + y) - ((x + y) * (x - y))`\n  - Right input: `((x + y) * (x - y))`\n\nSo the entire expression is:\n\n> `[(x + y) - ((x + y) * (x - y))] + [(x + y) * (x - y)]`\n\nWhich matches option **D**.\n\nLet’s check the other options quickly:\n\n- Option A: `((x + y) - ((x + y) * (x - y))) - ((x + y) * (x - y))` — This would be subtraction, not addition. The top node is `+`, so no.\n- Option B: `((x - y) - ((x + y) * (x - y))) + ((x + y) * (x - y))` — The left child of the top `+` is `x - y`, but in the diagram, the left child is `x + y`. So no.\n- Option C: `(x - ((x + y) * (x - y))) + ((x + y"
+  },
+  {
+    "id": "validation_Computer_Science_17",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "This diagram represents a finite automaton (specifically, a non-deterministic finite automaton with ε-transitions) where:\n\n- The bottom circle is the start state.\n- There is an ε-transition from the start state to the state labeled \"s\".\n- There is also an ε-transition from state \"s\" back to the start state.\n- Additionally, there is an arrow from the start state to state \"s\" labeled ε, and another arrow from state \"s\" to the start state labeled ε — forming a loop.\n\nThis structure indicates that the state \"s\" can be reached from the start state via ε-transition, and from \"s\" you can return to the start state via ε-transition. This implies that the automaton can stay in this loop indefinitely without consuming any input symbols (since ε-transitions consume no input).\n\nIn formal language theory, such a structure typically denotes a **Kleene star** operation on the symbol or state \"s\". The Kleene star (*) means zero or more repetitions of the element. Since we have a loop between the start state and \"s\", it suggests that \"s\" can be repeated zero or more times — which is exactly what the Kleene star does.\n\nThus, this structure represents \"s*\", meaning zero or more occurrences of \"s\".\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Computer_Science_18",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Computer_Science_19",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D"
+  },
+  {
+    "id": "validation_Computer_Science_20",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the given ER diagram, the DEPARTMENT table has a foreign key constraint via `Mgr_ssn`, which references the `Ssn` attribute in the EMPLOYEE table. This means that every department must have a manager — and that manager must be an employee in the EMPLOYEE table.\n\nIf there are no employees in the database, then there is no valid `Mgr_ssn` value to assign to any department. Therefore, you cannot add a DEPARTMENT without an employee to serve as its manager.\n\nThis is a typical referential integrity constraint in relational databases: a foreign key must reference a valid primary key in the referenced table.\n\nThus, the correct answer is: **B. No**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Computer_Science_21",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D\nThe traversal follows a spiral pattern: starting from the top-left, moving right, then down, then left, then up, and continuing in layers inward — which matches the spiral traversal technique. The given output sequence 1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10 follows this spiral path around the matrix."
+  },
+  {
+    "id": "validation_Computer_Science_22",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nThe NFA has two paths from the start state: one that reads ε (empty string) to state 1, then an 'a' to state 2, which is a self-loop on 'a', so this path accepts any number of 'a's including zero (i.e., a*). The other path reads ε to state 3, then 'b' to state 4, which has a self-loop on 'b', so this path accepts any number of 'b's including zero (i.e., b*). But wait — looking more carefully, the diagram shows state 2 and state 4 as accepting states (double circles), and state 0 is the start. So the entire machine accepts strings that are either all 'a's (from the top path) or all 'b's (from the bottom path). However, note that the top path requires at least one 'a' after ε? No — from state 0, ε goes to state 1, then from state 1 there’s an edge labeled 'a' to state 2, which is accepting. So you must read at least one 'a'? Actually, no — because state 2 is accepting, and it has a self-loop on 'a', meaning you can stay in state 2 reading multiple 'a's. But what about the empty string? To get to state 2, you must read an 'a' (since from 0 to 1 is ε, then 1 to 2 is 'a'). So the top path requires at least one 'a'. Similarly, the bottom path: from 0 to 3 via ε, then 3 to 4 via 'b', and 4 is accepting with self-loop on 'b'. So that path requires at least one 'b'. Therefore, the language is {a} ∪ {b} ∪ {aa} ∪ {bb} ∪ ... = a+ ∪ b+. But wait — let’s look again.\n\nActually, the diagram does not have a self-loop from state 0 to itself — but state 0 has ε transitions to 1 and 3. Then from 1, you go to 2 with 'a', and 2 is accepting. From 3, you go to 4 with 'b', and 4 is accepting. There is no way to stay in state 0 without consuming input. So the only way to accept is to take one of the two branches"
+  },
+  {
+    "id": "validation_Computer_Science_23",
+    "subject": "Computer_Science",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "253.75",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Initial estimatedRTT = 250 msec  \n- Initial DevRTT = 38 msec  \n- α = 0.125, β = 0.25  \n- Measured RTTs: 280, 200, 340 msec (in order)\n\nWe use the formulas:\n\n**EstimatedRTT = (1 - α) * estimatedRTT + α * measuredRTT**\n\n**DevRTT = (1 - β) * DevRTT + β * |measuredRTT - estimatedRTT|**\n\n**Timeout value = estimatedRTT + 4 * DevRTT**\n\n---\n\n### After first measured RTT = 280 msec:\n\n**estimatedRTT = (1 - 0.125) * 250 + 0.125 * 280**  \n= 0.875 * 250 + 0.125 * 280  \n= 218.75 + 35.00  \n= **253.75 msec**\n\n**DevRTT = (1 - 0.25) * 38 + 0.25 * |280 - 253.75|**  \n= 0.75 * 38 + 0.25 * 26.25  \n= 28.50 + 6.5625  \n= **35.0625 ≈ 35.06 msec**\n\n**Timeout = 253.75 + 4 * 35.06 = 253.75 + 140.24 = 393.99 msec**\n\n---\n\n### After second measured RTT = 200 msec:\n\n**estimatedRTT = (1 - 0.125) * 253.75 + 0.125 * 200**  \n= 0.875 * 253.75 + 0.125 * 200  \n= 221.6875 + 25.00  \n= **246.69 msec**\n\n**DevRTT = (1 - 0.25) * 35.06 +"
+  },
+  {
+    "id": "validation_Computer_Science_24",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the ER diagram, the relationship between COURSE and DEPT is labeled \"OFFERS\". The cardinality on the DEPT side of the OFFERS relationship is (0,N), meaning that a COURSE can be offered by zero or more DEPTs.\n\nThis indicates that there is no restriction limiting a COURSE to only one DEPT. Therefore, a COURSE can be offered by multiple DEPTs — which corresponds to \"N\" in the cardinality.\n\nLooking at the options:\nA. 0 → Incorrect, because a course can also be offered by one or more departments.\nB. 1 → Incorrect, because it's not restricted to just one department.\nC. 2 → Incorrect, because the diagram doesn't limit it to exactly two.\nD. N → Correct, as (0,N) includes the possibility of any number (including zero) of DEPTs.\nE. None of the other answers → Incorrect, since D is correct.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Computer_Science_25",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows two distinct clusters of points: one cluster of red triangles and another of blue circles. The clusters are not linearly separable — there is no straight line that can separate all the red triangles from all the blue circles without misclassifying some points. However, the clusters appear to be roughly circular or convex-shaped, suggesting that a quadratic (or more generally, a second-order polynomial) decision boundary might be able to separate them.\n\nIn machine learning, particularly with support vector machines or other classifiers, the ideal complexity of the separating curve depends on how well it can capture the underlying structure of the data. Since the two classes form non-linearly separable clusters but have relatively simple, smooth shapes, a quadratic boundary (which can model curved boundaries) is often sufficient and ideal for such cases.\n\nHigher-order polynomials like cubic may overfit, especially with limited data, and are unnecessary here. A linear separator would fail completely. Therefore, quadratic is the most appropriate choice.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Computer_Science_26",
+    "subject": "Computer_Science",
+    "is_mcq": false,
+    "predicted": "156",
+    "answer": "251",
+    "correct": false,
+    "retried": false,
+    "raw_output": "4 + 14 + 9 + 34 + 95 = 156\nAnswer: 156"
+  },
+  {
+    "id": "validation_Computer_Science_27",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks what to do if an SVM with a Gaussian kernel is underfitting.\n\nUnderfitting means the model is too simple to capture the underlying structure of the data — it’s not learning enough from the training set. In SVMs, this typically happens when:\n\n- The regularization parameter C is too large (too much penalty on misclassifications → model becomes too rigid and doesn’t generalize well).\n- Or, when the kernel parameter σ² is too small (the Gaussian kernel becomes too narrow → decision boundary is too smooth and misses complex patterns).\n\nWait — actually, let’s be precise.\n\nIn SVM with a Gaussian (RBF) kernel:\n\n- **C** controls the trade-off between maximizing margin and minimizing classification error. A **large C** means we penalize misclassifications more, leading to a more complex model that may overfit. A **small C** means we allow more misclassifications, leading to a simpler, smoother decision boundary — which can lead to underfitting.\n\n- **σ²** controls the “width” of the Gaussian kernel. A **large σ²** means the kernel is wide → points far apart are still considered similar → decision boundary is smoother → less flexible → underfitting. A **small σ²** makes the kernel narrow → decision boundary is more flexible → better at capturing local patterns → less underfitting.\n\nSo, if the SVM is underfitting, we want to make the model more flexible.\n\nTherefore:\n- We should **increase C** (to allow for a more complex model that fits the data better)\n- We should **decrease σ²** (to make the kernel narrower → more flexibility)\n\nWait — let me double-check.\n\nActually, no: decreasing σ² makes the kernel *more* localized → more sensitive to local variations → more flexible → better at fitting complex data → less underfitting.\n\nYes, so:\n\nTo fix underfitting:\n→ Increase C (less regularization, more flexibility)\n→ Decrease σ² (make kernel narrower → more flexibility)\n\nThat matches option C.\n\nLet’s look at the plot: the decision boundary is very linear and smooth, and there are many misclassifications (yellow circles vs. plus signs). The SVM is not separating the classes well — likely because the model is too simple.\n\nSo yes — increasing C will allow the SVM to create a more complex boundary. Decreasing σ² will also allow the SVM to capture more local structure.\n\nThus, correct answer is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Computer_Science_28",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a logistic regression model with L1 regularization. The objective function is:\n\n∑ᵢ log P(yᵢ | xᵢ, w₀, w₁, w₂) - C(|w₁| + |w₂|)\n\nL1 regularization adds a penalty term proportional to the sum of absolute values of the weights (coefficients). This penalty encourages sparsity — meaning it tends to drive some coefficients to exactly zero.\n\nThe key point is: **as C increases, the regularization penalty becomes stronger, and the model will try to minimize the number of non-zero coefficients**.\n\nNow, let’s look at the data in the figure. We have two classes: '+' and '○'. The features are x₁ and x₂. The '+' signs are clustered in the bottom-left quadrant (x₁ < 0, x₂ < 0), while the '○' signs are clustered in the top-right quadrant (x₁ > 0, x₂ > 0).\n\nThis suggests that the decision boundary should be diagonal — separating the bottom-left from the top-right. In such a case, both x₁ and x₂ are likely to be important for classification. However, we must consider what happens as C increases.\n\nIn L1 regularization, the optimization process tends to set coefficients to zero if they are not needed. But here's the crucial insight: **the optimal solution under L1 regularization is often sparse — i.e., only one or a few coefficients are non-zero.**\n\nHowever, in this specific case, the data is not linearly separable by a single axis — you need both x₁ and x₂ to separate the classes effectively. But wait — actually, looking at the plot, the data is not linearly separable? Or is it?\n\nActually, the two clusters are separated by a line that is not aligned with either axis. So both x₁ and x₂ contribute to the decision boundary.\n\nBut here’s the catch: **when C is very large, the L1 penalty dominates, and the model will try to use as few features as possible. Since both features are needed to separate the classes (they are not separable along x₁ alone or x₂ alone), the model may still keep both coefficients non-zero.**\n\nWait — let me reconsider. Is there any reason why one coefficient would become zero first?\n\nIn practice, for L1 regularization, the sparsity pattern depends on the data structure and the magnitude of the coefficients. If the data is symmetric or if one feature is more important than"
+  },
+  {
+    "id": "validation_Computer_Science_29",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let’s analyze the finite automaton (FA) step by step.\n\nThe FA has:\n- A start state (indicated by a solid dot), which is state 0.\n- State 0 has two outgoing transitions:\n  - On input `1-9` → goes to state 1.\n  - On input `0` → goes to state 3 (which is an accepting state — double circle).\n- State 1 has one outgoing transition: on input `0-9` → goes to state 2.\n- State 2 is also an accepting state (double circle) and has a self-loop on `0-9`.\n\nSo, what strings does this FA accept?\n\nFrom state 0:\n- If we read `0`, we go to state 3 (accepting) → so “0” is accepted.\n- If we read `1-9`, we go to state 1.\n  - From state 1, we can read any digit `0-9` and go to state 2.\n  - From state 2, we can read any digit `0-9` and stay in state 2 (self-loop).\n  - So from state 1, we can read any number of digits (including zero) → meaning any string starting with a non-zero digit followed by any sequence of digits.\n\nTherefore, the language accepted is:\n- The string \"0\" (single digit 0)\n- Any string that starts with a digit from 1–9, followed by any number of digits (including zero).\n\nThis matches exactly the regular expression:  \n**([1-9][0-9]*) | 0**\n\nWhich is option **C**.\n\nNow let’s quickly check why the others are wrong:\n\nA. \"for\" — This is not accepted. The FA doesn’t have transitions for letters or specific sequences like \"for\". It only accepts digits and the character '0'.\n\nB. [a-z][a-z0-9]* — This would accept strings starting with a lowercase letter, followed by any combination of lowercase letters and digits. But our FA only accepts digits and the digit 0. No letters at all. So incorrect.\n\nD. none of the above — Incorrect, because C is correct.\n\nFinal answer: C\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Computer_Science_30",
+    "subject": "Computer_Science",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two transactions, T₁ and T₂, to be executed serially with T₁ before T₂. Initial values: X = 20, Y = 30.\n\nLet’s trace T₁ first:\n\nT₁:\n1. read_lock(Y); → reads Y (Y=30)\n2. read_item(Y); → reads Y (Y=30)\n3. unlock(Y); → unlocks Y\n4. write_lock(X); → locks X\n5. read_item(X); → reads X (X=20)\n6. X := X + Y; → X = 20 + 30 = 50\n7. write_item(X); → writes X=50\n8. unlock(X); → unlocks X\n\nAfter T₁, X = 50, Y = 30 (unchanged).\n\nNow execute T₂:\n\nT₂:\n1. read_lock(X); → reads X (X=50)\n2. read_item(X); → reads X (X=50)\n3. unlock(X); → unlocks X\n4. write_lock(Y); → locks Y\n5. read_item(Y); → reads Y (Y=30)\n6. Y := X + Y; → Y = 50 + 30 = 80\n7. write_item(Y); → writes Y=80\n8. unlock(Y); → unlocks Y\n\nAfter T₂, X = 50, Y = 80.\n\nSo final values: X = 50, Y = 80.\n\nLooking at the options:\n\nA. X=20, Y=30 → Incorrect  \nB. X=50, Y=80 → Correct  \nC. X=70, Y=50 → Incorrect  \nD. None of the other answers → Incorrect, since B is correct.\n\nAnswer: B"
+  }
+]

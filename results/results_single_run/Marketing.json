@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Marketing_1",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "To compute the Mean Square Factor (MSF) in a one-way ANOVA, we need to:\n\n1. Compute the group means.\n2. Compute the between-group sum of squares (SSB).\n3. Compute the degrees of freedom for between groups (dfB = k - 1, where k is the number of groups).\n4. Compute MSB = SSB / dfB.\n\nWe have three groups (k = 3), so dfB = 3 - 1 = 2.\n\n---\n\n**Step 1: Group Means**\n\nGroup 1: [216, 198, 240, 187, 176]  \nMean1 = (216 + 198 + 240 + 187 + 176) / 5 = 1017 / 5 = **203.4**\n\nGroup 2: [202, 213, 284, 228, 210]  \nMean2 = (202 + 213 + 284 + 228 + 210) / 5 = 1137 / 5 = **227.4**\n\nGroup 3: [170, 165, 182, 197, 201]  \nMean3 = (170 + 165 + 182 + 197 + 201) / 5 = 915 / 5 = **183**\n\n---\n\n**Step 2: Overall Mean**\n\nTotal sum = 1017 + 1137 + 915 = 3069  \nTotal N = 15  \nGrand Mean = 3069 / 15 = **204.6**\n\n---\n\n**Step 3: Between-Groups Sum of Squares (SSB)**\n\nSSB = Σ n_i * (mean_i - grand_mean)^2\n\nn_i = 5 for each group.\n\nSSB = 5 * [(203.4 - 204.6)^2 + (227.4 - 204.6)^2 + (183 - 204.6)^2]\n\nCompute each term:\n\n(203.4"
+  },
+  {
+    "id": "validation_Marketing_2",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the degrees of freedom (df) for the numerator in an ANOVA test, we need to recall that:\n\n> **df for the numerator (between groups) = number of groups - 1**\n\nIn this case, there are **4 teams** (Team 1, Team 2, Team 3, Team 4), so:\n\n> df numerator = 4 - 1 = **3**\n\nThis is a standard result in one-way ANOVA.\n\nTherefore, the correct answer is **B. 3**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_3",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a multiple regression model:\n\n$$\n\\widehat{y}_i = b_0 + b_1 X_{1i} + b_2 X_{2i} + b_3 X_{3i}\n$$\n\nand a table with the estimated coefficients $ b_i $ and their standard errors $ S_{b_i} $:\n\n- $ b_0 = 8 $, $ S_{b_0} = 1.6 $\n- $ b_1 = 2.2 $, $ S_{b_1} = 0.24 $\n- $ b_2 = -0.72 $, $ S_{b_2} = 0.32 $\n- $ b_3 = 0.005 $, $ S_{b_3} = 0.002 $\n\nThe question asks for the **calculation of the confidence interval for $ b_2 $**.\n\nThe general formula for a confidence interval for a regression coefficient $ b_j $ is:\n\n$$\nb_j \\pm t^* \\cdot S_{b_j}\n$$\n\nwhere $ t^* $ is the critical value from the t-distribution (depending on degrees of freedom and confidence level).\n\nSo for $ b_2 $, the confidence interval is:\n\n$$\nb_2 \\pm t^* \\cdot S_{b_2} = -0.72 \\pm t^* \\cdot 0.32\n$$\n\nTherefore, the interval is centered at $ -0.72 $, with a margin of error determined by $ t^* \\cdot 0.32 $. The lower bound is $ -0.72 - t^* \\cdot 0.32 $, and the upper bound is $ -0.72 + t^* \\cdot 0.32 $.\n\nLooking at the options:\n\nA. -.62,.22 → center is (-0.62 + 0.22)/2 = -0.2, not -0.72  \nB. -.62,.32 → center = (-0.62 + 0.32)/2 = -0.15, not -0.72  \nC. -.72,.22 → center = (-0.72 + 0.22)/2 = -0.25, not -0.72  \nD. -."
+  },
+  {
+    "id": "validation_Marketing_4",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the shape of the distribution, we examine the histogram.\n\nThe histogram has bars for values 3, 4, 5, 6, and 7. The heights (frequencies) are:\n\n- 3: 1\n- 4: 1\n- 5: 2\n- 6: 4\n- 7: 7\n\nWe can see that the frequencies increase as we move from left to right, meaning the tail extends to the right. This is characteristic of a **right-skewed** distribution — the majority of the data is concentrated on the left, with a long tail extending to the right.\n\nThere is no symmetry (it’s not symmetric), and it’s not skewed left (which would have a tail to the left).\n\nTherefore, the correct answer is B. The distribution is skewed right.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_5",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the exact distribution for a hypothesis test based on the given data, which includes annual goals scored by teams in the Western and Eastern MLS conferences. The data is presented as paired observations (Western vs. Eastern), and we are to assume that this is a random sample from two independent populations.\n\nIn hypothesis testing for comparing means of two independent groups (e.g., using a two-sample t-test), the exact distribution under the null hypothesis — when population variances are unknown and assumed equal or unequal — is the **Student’s t-distribution**. This is because the sample sizes are small (n=6 for each group), and the population standard deviations are typically unknown, leading to the use of the t-test.\n\nWhile the normal distribution is often used as an approximation (especially with large samples), the “exact” distribution for small samples with unknown variances is the t-distribution.\n\nThus, the correct answer is:\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_6",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nTo determine whether cholesterol levels were significantly lowered, we can perform a paired t-test. The null hypothesis is that the mean difference in cholesterol levels (ending minus starting) is zero (no change), and the alternative hypothesis is that the mean difference is less than zero (a reduction).\n\nCalculating the differences:\n- 140 - 140 = 0\n- 220 - 230 = -10\n- 110 - 120 = -10\n- 240 - 220 = +20\n- 200 - 190 = +10\n- 180 - 150 = +30\n- 190 - 200 = -10\n- 360 - 300 = +60\n- 280 - 300 = -20\n- 260 - 240 = +20\n\nMean difference = (0 -10 -10 +20 +10 +30 -10 +60 -20 +20)/10 = 70/10 = 7.0 → Wait, let’s recalculate:\n\nActually:  \n0, -10, -10, +20, +10, +30, -10, +60, -20, +20  \nSum = 0 -10 -10 +20 +10 +30 -10 +60 -20 +20 =  \n(0+20+10+30+60+20) + (-10-10-10-20) = 140 - 50 = 90 → 90/10 = 9.0\n\nSo mean difference = 9.0 — positive, meaning average cholesterol level increased? That contradicts the goal of lowering it.\n\nWait — no! The question is whether cholesterol was *lowered*. But if ending < starting for some, and > for others, but overall mean difference is positive, that suggests cholesterol went up on average — which would contradict the claim.\n\nBut let’s double-check the arithmetic:\n\nList of differences:\n1. 140-140 = 0\n2. 220-230 ="
+  },
+  {
+    "id": "validation_Marketing_7",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "To construct a 95% confidence interval for the true mean number of colors on national flags, we use the formula:\n\n\\[\n\\bar{x} \\pm z^* \\cdot \\frac{s}{\\sqrt{n}}\n\\]\n\nwhere:\n- \\(\\bar{x}\\) is the sample mean,\n- \\(s\\) is the sample standard deviation,\n- \\(n = 39\\) (sample size),\n- \\(z^*\\) is the critical value for 95% confidence, which is approximately 1.96.\n\n---\n\n**Step 1: Compute the sample mean \\(\\bar{x}\\)**\n\nWe are given a frequency distribution:\n\n| x | Frequency (f) |\n|---|---------------|\n| 1 | 1             |\n| 2 | 7             |\n| 3 | 18            |\n| 4 | 7             |\n| 5 | 6             |\n\nTotal frequency \\(n = 1+7+18+7+6 = 39\\)\n\nCompute \\(\\sum x \\cdot f\\):\n\n\\[\n(1)(1) + (2)(7) + (3)(18) + (4)(7) + (5)(6) = 1 + 14 + 54 + 28 + 30 = 127\n\\]\n\nSo,\n\n\\[\n\\bar{x} = \\frac{127}{39} \\approx 3.2564\n\\]\n\n---\n\n**Step 2: Compute the sample standard deviation \\(s\\)**\n\nUse the formula:\n\n\\[\ns = \\sqrt{\\frac{\\sum f(x - \\bar{x})^2}{n - 1}}\n\\]\n\nFirst compute \\(\\sum f(x - \\bar{x})^2\\):\n\nFor each \\(x\\):\n\n- \\(x=1\\): \\(f=1\\), \\((1 - 3.2564)^2 = (-2.2564)^2 ≈ 5.092\\), so \\(1 \\cdot 5.092 = 5.092\\)\n- \\(x=2\\): \\(f=7\\), \\((2 - 3.2564)^2 = (-1.2564)^2 ≈ 1.578\\), so \\(7 \\cdot 1.578 = 11.046\\)\n"
+  },
+  {
+    "id": "validation_Marketing_8",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To evaluate the statement “We cannot determine if any of the means for both graphs is different,” we need to consider whether the visual information in the histograms allows us to compare the means.\n\nThe mean of a distribution is the central tendency — roughly, where the “balance point” would be. In histograms, if the bars are roughly symmetric and centered around the same value, the means are likely similar. However, if one histogram is skewed left or right, or has a clear center shift, we can infer differences in mean.\n\nLooking at Figure 2.25:\n\n- Graph (a): The distribution appears to be somewhat symmetric or slightly right-skewed, with the tallest bar at 3, and the bulk of the data around 2–4. The leftmost bar (at 1) is the smallest, and the rightmost (at 5) is also relatively small. So the center seems to be around 3.\n\n- Graph (b): The distribution is more spread out and appears to be left-skewed. The tallest bar is at 5, and the bar at 3 is the smallest. The center appears to be shifted toward the right — perhaps around 4 or 5.\n\nVisually, graph (b) has its mass concentrated on the higher end (especially at 5), while graph (a) is more balanced around the middle. This suggests that the mean of graph (b) is likely higher than the mean of graph (a).\n\nTherefore, we *can* determine that the means are different — at least qualitatively — based on the shape and position of the histograms.\n\nSo the statement “We cannot determine if any of the means for both graphs is different” is **false**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_9",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo determine the p-value, we perform a one-way ANOVA (Analysis of Variance) to test whether there are significant differences in the mean jump heights among the five teams. The null hypothesis is that all team means are equal; the alternative is that at least one mean is different.\n\nStep 1: Calculate the group means.\nTeam 1: (36 + 42 + 51)/3 = 129/3 = 43\nTeam 2: (32 + 35 + 38)/3 = 105/3 = 35\nTeam 3: (48 + 50 + 39)/3 = 137/3 ≈ 45.67\nTeam 4: (38 + 44 + 46)/3 = 128/3 ≈ 42.67\nTeam 5: (41 + 39 + 40)/3 = 120/3 = 40\n\nStep 2: Calculate the overall mean.\nTotal sum = 36+42+51+32+35+38+48+50+39+38+44+46+41+39+40 = 646\nTotal count = 15\nOverall mean = 646 / 15 ≈ 43.07\n\nStep 3: Compute the Sum of Squares Between (SSB), Sum of Squares Within (SSW), and total SS.\nSSB = Σn_i*(mean_i - overall_mean)^2\n= 3*(43-43.07)^2 + 3*(35-43.07)^2 + 3*(45.67-43.07)^2 + 3*(42.67-43.07)^2 + 3*(40-43.07)^2\n≈ 3*(0.0049) + 3*(65.6449) + 3*(6.8649) + 3*(0.1681) + 3*(9.4869)\n≈ 0.0147 + 196.9347 + "
+  },
+  {
+    "id": "validation_Marketing_10",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a probability distribution table for the number of DVDs rented per customer, with values for x = 0, 1, 2, 4, and 5, but the probability for x = 3 is missing.\n\nSince this is a valid probability distribution, the sum of all probabilities must equal 1.\n\nGiven:\n- P(0) = 0.03\n- P(1) = 0.50\n- P(2) = 0.24\n- P(4) = 0.07\n- P(5) = 0.04\n\nLet P(3) = p (what we need to find).\n\nSum of all probabilities:\n\n0.03 + 0.50 + 0.24 + p + 0.07 + 0.04 = 1\n\nAdd the known values:\n\n0.03 + 0.50 = 0.53  \n0.53 + 0.24 = 0.77  \n0.77 + 0.07 = 0.84  \n0.84 + 0.04 = 0.88\n\nSo:\n\n0.88 + p = 1  \n→ p = 1 - 0.88 = 0.12\n\nTherefore, the probability that a customer rents three DVDs is **0.12**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_11",
+    "subject": "Marketing",
+    "is_mcq": false,
+    "predicted": "0.10",
+    "answer": "0.10",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find P(x = 4), we use the fact that the sum of all probabilities in a probability distribution must equal 1.\n\nGiven:\nP(0) = 0.12  \nP(1) = 0.18  \nP(2) = 0.30  \nP(3) = 0.15  \nP(5) = 0.10  \nP(6) = 0.05  \n\nSum of known probabilities:  \n0.12 + 0.18 + 0.30 + 0.15 + 0.10 + 0.05 = 0.90\n\nTherefore, P(4) = 1 - 0.90 = 0.10\n\nAnswer: 0.10"
+  },
+  {
+    "id": "validation_Marketing_12",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nTo calculate the t-value for a two-sample t-test (assuming unequal variances or using Welch’s t-test), we need to:\n\n1. Calculate the means and standard deviations for both groups.\n2. Use the formula for Welch’s t-statistic:\n   t = (mean1 - mean2) / sqrt(s1²/n1 + s2²/n2)\n\nGroup 1: Work hours with breakfast (n1 = 10)\nData: 8, 7, 9, 5, 9, 8, 10, 7, 6, 9\n\nMean1 = (8+7+9+5+9+8+10+7+6+9)/10 = 78/10 = 7.8\nStandard deviation1 (s1) = sqrt[ Σ(xi - mean1)² / (n1-1) ]\n= sqrt[ ( (8-7.8)² + (7-7.8)² + ... + (9-7.8)² ) / 9 ]\n= sqrt[ (0.04 + 0.64 + 1.44 + 8.41 + 1.44 + 0.04 + 4.84 + 0.64 + 4.84 + 1.44) / 9 ]\n= sqrt[ 23.8 / 9 ] ≈ sqrt(2.6444) ≈ 1.626\n\nGroup 2: Work hours without breakfast (n2 = 10)\nData: 6, 5, 5, 4, 7, 7, 7, 5, 6, 5\n\nMean2 = (6+5+5+4+7+7+7+5+6+5)/10 = 57/10 = 5.7\nStandard deviation2 (s2) = sqrt[ Σ(xi - mean2)² / (n2-1) ]\n= sqrt[ ( (6-5.7)² + (5-5.7)² + ... + (5-5.7)² ) / 9 ]\n= sqrt[ (0.09 + 0.49 + 0.49 + 3.61 + 1.69"
+  },
+  {
+    "id": "validation_Marketing_13",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nRetailer (1) is the direct link with the customer (III), which matches 1-III.\nManufacturer (2) typically gives products to distributors (IV), so 2-IV.\nDistributor (3) often has low margin and high volume (I), so 3-I.\nAgent (4) does not take title to goods (II), so 4-II.\nThus, option A correctly matches all roles to their descriptions."
+  },
+  {
+    "id": "validation_Marketing_14",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a color wheel divided into 8 equal sections (since it's divided into 8 slices by lines from the center).\n\nEach section has equal area, so each section has an equal probability of being landed on.\n\nLet’s count the number of sections for each color:\n\n- Blue (B): There are 2 blue sections.\n- Red (R): There are 3 red sections.\n- Green (G): There is 1 green section.\n- Yellow (Y): There is 1 yellow section.\n\nTotal sections = 8.\n\nThe probability of landing on yellow, P(Y), is the number of yellow sections divided by total sections:\n\nP(Y) = 1 / 8 = 0.125\n\nTherefore, the correct answer is **A. 0.125**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Marketing_15",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B\nTo test for independence between type of fries and location, we perform a chi-square test of independence. The null hypothesis (H₀) is that the type of fries and location are independent; the alternative hypothesis (H₁) is that they are dependent.\n\nWe compute the expected frequencies for each cell under the assumption of independence. The formula for expected frequency is:\n\nEᵢⱼ = (row total × column total) / grand total\n\nFirst, calculate row totals:\n- Skinny fries: 70 + 50 + 20 + 25 = 165\n- Curly fries: 100 + 60 + 15 + 30 = 205\n- Steak fries: 20 + 40 + 10 + 10 = 80\n\nColumn totals:\n- Northeast: 70 + 100 + 20 = 190\n- South: 50 + 60 + 40 = 150\n- Central: 20 + 15 + 10 = 45\n- West: 25 + 30 + 10 = 65\n\nGrand total = 165 + 205 + 80 = 450\n\nNow compute expected values for each cell:\n\nFor example, expected for “Skinny fries” in Northeast:\nE = (165 × 190) / 450 ≈ 66.0\n\nSimilarly, compute all expected values:\n\n| Type of Fries | Northeast (E) | South (E) | Central (E) | West (E) |\n|---------------|---------------|-----------|-------------|----------|\n| Skinny fries  | 66.0          | 55.0      | 16.5        | 22.5     |\n| Curly fries   | 83.3          | 66.7      | 15.8        | 23.3     |\n| Steak fries   | 20.7          | 18.3      | 4.7         | 6.3      |\n\nNow compute chi-square statistic:\n\nχ² = Σ [(O - E)² / E]\n\nCompute each term:\n\n- Skinny fries, NE: (70 - 66)² / 66 = "
+  },
+  {
+    "id": "validation_Marketing_16",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C. 93.33%\n\nThe cumulative relative frequency for \"3 flossing per week\" is given as 0.9333. This means that 93.33% of the adults flossed at most three times per week (i.e., 0, 1, or 3 times). Since the question asks for the percentage who flossed at most three times per week, we directly use this value from the table."
+  },
+  {
+    "id": "validation_Marketing_17",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the mean weight of a bag of candy in the sample, we need to calculate the average of the given weights.\n\nThe weights are:\n15.65  \n16.09  \n16.01  \n15.99  \n16.02  \n16.00  \n15.98  \n16.08  \n\nStep 1: Add all the weights together.\n\n15.65 + 16.09 = 31.74  \n31.74 + 16.01 = 47.75  \n47.75 + 15.99 = 63.74  \n63.74 + 16.02 = 79.76  \n79.76 + 16.00 = 95.76  \n95.76 + 15.98 = 111.74  \n111.74 + 16.08 = **127.82**\n\nTotal sum = 127.82 ounces\n\nStep 2: Divide by the number of bags, which is 8.\n\nMean = 127.82 ÷ 8 = **15.9775** ounces\n\nRounded to two decimal places (as appropriate for the data), this is **15.98 ounces**.\n\nNow, comparing with the options:\n\nA. 14.00 ounces → too low  \nB. 15.00 ounces → too low  \nC. 14.98 ounces → too low  \nD. 15.98 ounces → matches our calculation\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Marketing_18",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo determine the p-value, we need to perform a hypothesis test. Since we are comparing two independent samples (work hours with vs. without breakfast), and assuming we want to test whether there is a significant difference in means, we can use a two-sample t-test.\n\nStep 1: Calculate sample means and standard deviations.\n\nLeft column (with breakfast):  \nData: 8, 7, 9, 5, 9, 8, 10, 7, 6, 9  \nn1 = 10  \nMean1 = (8+7+9+5+9+8+10+7+6+9)/10 = 80/10 = 8  \nStandard deviation1 (s1) ≈ 1.732 (calculated using formula)\n\nRight column (without breakfast):  \nData: 6, 5, 5, 4, 7, 7, 7, 5, 6, 5  \nn2 = 10  \nMean2 = (6+5+5+4+7+7+7+5+6+5)/10 = 57/10 = 5.7  \nStandard deviation2 (s2) ≈ 1.140\n\nStep 2: Perform two-sample t-test (assuming unequal variances).\n\nt = (mean1 - mean2) / sqrt(s1²/n1 + s2²/n2)  \n= (8 - 5.7) / sqrt(1.732²/10 + 1.140²/10)  \n= 2.3 / sqrt(0.300 + 0.130)  \n= 2.3 / sqrt(0.430)  \n≈ 2.3 / 0.6557 ≈ 3.51\n\nDegrees of freedom (df) using Welch-Satterthwaite equation:  \ndf ≈ (s1²/n1 + s2²/n2)² / [(s1²/n1)²/(n1-1) + (s2²/n2)²/(n2-1)]  \n≈ (0.430)² / [(0.300)²/9 + (0.130)²/9]  \n≈ 0.185 /"
+  },
+  {
+    "id": "validation_Marketing_19",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B\nTo compute the chi-square test statistic, we use the formula:\n\nχ² = Σ [(O - E)² / E]\n\nwhere O is the observed frequency and E is the expected frequency.\n\nFirst, we need to calculate the expected frequencies for each cell. The expected frequency for a cell is:\n\nE = (row total × column total) / grand total\n\nGrand total = 40\n\nRow totals: 20, 20\nColumn totals: 14, 12, 14\n\nNow calculate expected values for each cell:\n\nFor cell (17-25, 1-5): E = (20 × 14) / 40 = 7\nFor cell (17-25, 6-24): E = (20 × 12) / 40 = 6\nFor cell (17-25, ≥25): E = (20 × 14) / 40 = 7\n\nFor cell (26-30, 1-5): E = (20 × 14) / 40 = 7\nFor cell (26-30, 6-24): E = (20 × 12) / 40 = 6\nFor cell (26-30, ≥25): E = (20 × 14) / 40 = 7\n\nNow compute (O - E)² / E for each cell:\n\nCell (17-25, 1-5): (8 - 7)² / 7 = 1/7 ≈ 0.1429\nCell (17-25, 6-24): (7 - 6)² / 6 = 1/6 ≈ 0.1667\nCell (17-25, ≥25): (5 - 7)² / 7 = 4/7 ≈ 0.5714\n\nCell (26-30, 1-5): (6 - 7)² / 7 = 1/7 ≈ 0.1429\nCell (26-30, 6-24): (5 - 6)² / 6 = 1/6 ≈ 0.1"
+  },
+  {
+    "id": "validation_Marketing_20",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In roulette, the wheel has 38 numbered pockets: numbers 1 through 36, plus 0 and 00.\n\nWhen you bet on **three numbers in a line**, such as 1-2-3, you are betting that the ball will land exactly on one of those three specific numbers.\n\nSince there are 38 total possible outcomes (each number has an equal probability of being landed on), and you have selected 3 specific numbers, the probability of winning is:\n\n> Number of favorable outcomes / Total number of possible outcomes = 3 / 38\n\nThis matches option C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Marketing_21",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the degrees of freedom (df) for the numerator in an ANOVA (Analysis of Variance), we need to understand what the numerator df represents.\n\nIn a one-way ANOVA, the numerator df (also called the \"between-groups\" df) is calculated as:\n\n**df(numerator) = k - 1**\n\nwhere **k** is the number of groups.\n\nFrom the table, we have:\n\n- Group 1\n- Group 2\n- Group 3\n\nSo, **k = 3**\n\nTherefore,\n\n**df(numerator) = 3 - 1 = 2**\n\nThis is the degrees of freedom for the between-group variation, which is the numerator in the F-statistic.\n\nThe options are:\nA. 1  \nB. 2  \nC. 3  \nD. 4  \n\nSo, the correct answer is **B. 2**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_22",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given that the distribution is uniform: X ~ U(1.5, 4.5). This means the probability density function (pdf) is constant over the interval [1.5, 4.5], and zero outside.\n\nFor a continuous uniform distribution over [a, b], the probability that X lies in some interval [c, d] is:\n\nP(c ≤ X ≤ d) = (d - c) / (b - a)\n\nIn this case, a = 1.5, b = 4.5, so the total width is 4.5 - 1.5 = 3.\n\nWe are asked to find P(x < 3.5 | x < 4).\n\nThis is a **conditional probability**:\n\nP(x < 3.5 | x < 4) = P(x < 3.5 and x < 4) / P(x < 4)\n\nBut since x < 3.5 implies x < 4 (because 3.5 < 4), then:\n\nP(x < 3.5 and x < 4) = P(x < 3.5)\n\nSo,\n\nP(x < 3.5 | x < 4) = P(x < 3.5) / P(x < 4)\n\nNow compute each:\n\n1. P(x < 3.5) = (3.5 - 1.5) / (4.5 - 1.5) = 2.0 / 3.0 = 2/3 ≈ 0.6667\n\n2. P(x < 4) = (4 - 1.5) / (4.5 - 1.5) = 2.5 / 3.0 = 5/6 ≈ 0.8333\n\nTherefore,\n\nP(x < 3.5 | x < 4) = (2/3) / (5/6) = (2/3) * (6/5) = 12/15 = 4/5 = 0.8\n\nSo the answer is 0.8.\n\nLooking at the options:\n\nA. 0.5  \nB. 0.625  \nC. 0.8 ✅  \nD. 0.875  \n\nAnswer: C"
+  },
+  {
+    "id": "validation_Marketing_23",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Marketing_24",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Looking at Table 2.71, we are given relative frequencies for different salary ranges. The question asks: “What percentage of the survey answered ‘not sure’?”\n\nHowever, **none** of the salary ranges in the table include a category labeled “not sure.” The table only lists salary brackets (e.g., <20,000, 20,000–25,000, etc.), and there is no category for “not sure” or “don’t know.”\n\nBut let’s check if the sum of all relative frequencies equals 1.00 — this would indicate that all responses were accounted for.\n\nAdding up the relative frequencies:\n\n0.02 + 0.09 + 0.19 + 0.26 + 0.18 + 0.17 + 0.02 + 0.01 =\n\nLet’s compute step by step:\n\n0.02 + 0.09 = 0.11  \n0.11 + 0.19 = 0.30  \n0.30 + 0.26 = 0.56  \n0.56 + 0.18 = 0.74  \n0.74 + 0.17 = 0.91  \n0.91 + 0.02 = 0.93  \n0.93 + 0.01 = 0.94\n\nSo the total relative frequency is **0.94**, not 1.00.\n\nThat means **6%** of the responses (since 1 - 0.94 = 0.06) are unaccounted for — which likely corresponds to the “not sure” responses.\n\nTherefore, the percentage of the survey that answered “not sure” is **0.06**.\n\nThis matches option **C. 0.06**\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Marketing_25",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B\nTo calculate the t-value for the hypothesis test of the mean difference in satisfaction levels (husband’s score minus wife’s score), we follow these steps:\n\n1. Calculate the differences (husband - wife) for each pair:\n   - 2-2 = 0\n   - 2-2 = 0\n   - 1-3 = -2\n   - 3-3 = 0\n   - 2-4 = -2\n   - 1-2 = -1\n   - 1-1 = 0\n   - 1-2 = -1\n   - 2-4 = -2\n   - 4-4 = 0\n\n   So the differences are: [0, 0, -2, 0, -2, -1, 0, -1, -2, 0]\n\n2. Compute the mean of the differences (d̄):\n   Sum = 0+0-2+0-2-1+0-1-2+0 = -8\n   n = 10\n   d̄ = -8 / 10 = -0.8\n\n3. Compute the standard deviation of the differences (s_d):\n   First, compute squared deviations from the mean (-0.8):\n   - (0 - (-0.8))² = 0.64\n   - (0 - (-0.8))² = 0.64\n   - (-2 - (-0.8))² = (-1.2)² = 1.44\n   - (0 - (-0.8))² = 0.64\n   - (-2 - (-0.8))² = (-1.2)² = 1.44\n   - (-1 - (-0.8))² = (-0.2)² = 0.04\n   - (0 - (-0.8))² = 0.64\n   - (-1 - (-0.8))² = (-0.2)² = 0.04\n   - (-2 - (-0.8))² = (-1.2)² = 1.44\n   - (0 - (-0.8))² = 0.64\n\n   Sum of squared deviations = 0.64 + 0.64 + 1"
+  },
+  {
+    "id": "validation_Marketing_26",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the probability that a randomly selected musician is female, we use the formula for probability:\n\nP(female) = (Number of females) / (Total number of musicians)\n\nFrom the table:\n\n- Number of females = 72\n- Total number of musicians = 130\n\nSo,\n\nP(female) = 72 / 130\n\nLet’s simplify this fraction or convert to decimal:\n\n72 ÷ 130 ≈ 0.5538...\n\nRounding to two decimal places gives approximately 0.55.\n\nLooking at the options:\n\nA. 0.55  \nB. 0.45  \nC. 0.30  \nD. 0.70  \n\nThe closest and correct answer is **A. 0.55**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Marketing_27",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In roulette, the wheel has 38 numbered pockets (0, 00, and 1 through 36). When you bet on **two numbers that touch each other on the table**, such as 10-11 or 10-13, you are betting on **two specific numbers**.\n\nSince there are 38 possible outcomes (each number has an equal chance of being landed on), the probability of winning a bet on any two specific numbers is:\n\n> P(win) = (number of favorable outcomes) / (total number of possible outcomes)  \n> P(win) = 2 / 38\n\nThis is because only one of the 38 outcomes will match your chosen pair — but since you're betting on **two numbers**, and both must come up (which is impossible in a single spin), we interpret this as betting on **either one of those two numbers**. However, in standard roulette betting rules, when you place a \"touch\" bet (like 10-11), you are betting that **the ball lands on either 10 or 11** — so it’s a **two-number bet**.\n\nThus, the probability is 2/38.\n\nLet’s verify with an example: if you bet on 10 and 11, you win if the ball lands on 10 **or** 11. Since each number has a 1/38 chance, the probability of landing on either 10 or 11 is:\n\nP(10 or 11) = P(10) + P(11) = 1/38 + 1/38 = 2/38.\n\nSo, the correct answer is **B. 2/38**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_28",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine whether the statement “We cannot determine if any of the third quartiles for both graphs is different” is true or false, we need to consider what the third quartile (Q3) represents.\n\nThe third quartile is the value below which 75% of the data falls. In a histogram, Q3 is not directly visible unless the data is binned and the cumulative distribution is known. However, in a histogram with discrete bins (like this one, where x-values are integers 1 through 5), we can infer Q3 by observing the position of the bars and the general shape of the distribution.\n\nLooking at Figure 2.25:\n\n- **Graph (a)**: The distribution is left-skewed (tail on the left). The majority of the data appears to be concentrated toward the right (higher values). The tallest bar is around x=3, and the distribution tapers off to the right. Since the data seems to be more spread out on the left, the median might be around 3, and Q3 would likely be around 4 or 5.\n\n- **Graph (b)**: This distribution is right-skewed (tail on the right). The tallest bar is around x=5, and there’s a noticeable drop after x=3. So, the bulk of the data is on the left (x=1–3), but the tail extends to higher values. The median might be around 2 or 3, and Q3 would likely be around 4 or 5 as well — but since the tail is on the right, Q3 might be higher than in graph (a).\n\nHowever, without exact data points or cumulative percentages, we cannot precisely compute Q3. But we *can* make an inference based on the shapes.\n\nIn graph (a), since it’s left-skewed, Q3 is likely closer to the center-right of the distribution — perhaps around 4.\n\nIn graph (b), since it’s right-skewed, Q3 is likely higher — perhaps around 5.\n\nThis suggests that Q3 might be different between the two graphs.\n\nMoreover, the question says “we cannot determine if any of the third quartiles for both graphs is different.” If we can reasonably infer from the shape that Q3 differs, then the statement is false.\n\nTherefore, the correct answer is:\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_29",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a table that shows the total hits for four baseball players: Babe Ruth, Jackie Robinson, Ty Cobb, and Hank Aaron. The last row gives the **TOTAL HITS** across all players: 12,351.\n\nThe question asks: *If one hit is randomly selected from the entire table, what is the probability that it was made by Babe Ruth?*\n\nSince each hit is equally likely to be chosen (random selection), the probability is:\n\n> **P(hit was made by Babe Ruth) = (Babe Ruth’s total hits) / (Total hits of all players)**\n\nFrom the table, Babe Ruth’s total hits = **2,873**\n\nTotal hits = **12,351**\n\nSo,\n\n> P = 2873 / 12351\n\nLooking at the options:\n\nA. 1518/2873 → This is Jackie Robinson’s total hits divided by Babe Ruth’s — not relevant.\n\nB. 2873/12351 → Matches our calculation.\n\nC. 583/12351 → This is the total number of triples — irrelevant.\n\nD. 4189/12351 → This is Ty Cobb’s total hits — not what we want.\n\nTherefore, the correct answer is **B**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Marketing_30",
+    "subject": "Marketing",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The shaded region in the graph is between x = 6 and x = 7. Since the graph appears to represent a probability density function (given the context of \"shaded area\" and the x-axis labeled with values from 0 to 10), the shaded area represents the probability that a random variable X falls within that interval.\n\nThus, the shaded area represents P(6 < x < 7).\n\nLooking at the options:\n\nA. 5,6  \nB. 5,7  \nC. 6,7  \nD. 6,8  \n\nOption C matches exactly: 6,7.\n\nAnswer: C"
+  }
+]

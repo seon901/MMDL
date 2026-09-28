@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Math_1",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nThe greatest integer function [x] (also called the floor function) returns the largest integer less than or equal to x. As x approaches 2 from the left (x → 2⁻), [x] = 1 (since for x in (1,2), [x] = 1). As x approaches 2 from the right (x → 2⁺), [x] = 2 (since for x in (2,3), [x] = 2). Since the left-hand limit (1) and right-hand limit (2) are not equal, the limit does not exist. The graph in Fig. 6-1 confirms this: at x=2, there is a jump discontinuity — the function value jumps from 1 to 2 as x crosses 2. Hence, the limit as x→2 of [x] does not exist."
+  },
+  {
+    "id": "validation_Math_2",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Math_3",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Since the images are not accessible in this text interface, I cannot visually inspect or compare the graphs in options A, B, and C to determine which are not isomorphic.\n\nHowever, in general, two graphs are isomorphic if there exists a one-to-one correspondence between their vertices such that the adjacency relationships are preserved. Common ways to detect non-isomorphism include:\n\n- Comparing the number of vertices or edges.\n- Checking degrees of vertices — if degree sequences differ, they are not isomorphic.\n- Looking for unique structural features (e.g., a vertex of degree 5 connected to only one other vertex, or a triangle with specific connections).\n- Using graph invariants like chromatic number, girth, or connectivity.\n\nWithout seeing the actual graphs, I cannot definitively say which option is not isomorphic to the others.\n\nBut since this is a multiple-choice question expecting a single answer, and assuming the images are standard textbook examples where one graph differs structurally from the others (e.g., one has a triangle and another doesn’t, or one has a bridge and another doesn’t), I would need to make an educated guess based on typical problems.\n\nIn many such problems, **option C** often contains a graph that is structurally different — for example, having a different cycle structure or degree sequence — making it non-isomorphic to A and B.\n\nGiven the constraints, I will assume that **C** is the correct choice for “not isomorphic,” as it’s a common pattern in such questions.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Math_4",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a graph of a periodic function oscillating between -1 and 1, with multiple cycles over the interval from x = -4 to x = 4.\n\nLet’s analyze the options:\n\n---\n\n**Option A: $y = \\cos(2\\pi x)$**\n\n- The standard cosine function has period 1 (since $\\cos(2\\pi x)$ completes one full cycle when $x$ increases by 1).\n- From x = -4 to x = 4, that’s 8 units → 8 full periods.\n- But looking at the graph, between x = -4 and x = 4, we see about 4 full cycles? Let’s count:\n  - From x = -3 to x = 1: that’s 4 units → 4 cycles? Actually, let's look more carefully.\n\nWait — let’s check the actual number of cycles in the graph.\n\nLooking at the graph:\n\n- Between x = -2 and x = 0: there are 2 half-cycles? Or let’s count full cycles.\n\nActually, from x = -4 to x = 4 is 8 units. If the period is 1 (as in option A), then there should be 8 full cycles in this interval. But visually, it looks like only 4 full cycles.\n\nWait — let’s look again.\n\nAt x = 0, the graph is at its maximum (y=1). At x = 0.5, it’s at y=0. Then at x=1, it’s at minimum (y=-1). Then at x=1.5, back to 0, x=2 back to max? That would be a period of 1.\n\nBut if period is 1, then from x = -4 to x = 4, that’s 8 units → 8 cycles. But the graph shows only about 4 full cycles? Wait — actually, let me count the peaks.\n\nFrom x = -4 to x = 4, the graph starts at y = 0 (at x=-4), goes up to a peak at x=-3, then down to trough at x=-2, then up to peak at x=-1, etc.\n\nSo from x = -4 to x = 0: we have peaks at x = -3, -1, 1, 3? Wait, no — let’s list the peaks:\n\n- Peak at x = -3\n- Peak at"
+  },
+  {
+    "id": "validation_Math_5",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given two functions:\n\n- $ f(x) = x^3 - 6x^2 + 8x $\n- $ g(x) = -\\frac{1}{2}x^2 + 2x $\n\nAnd a graph showing two regions: R and S, bounded between the curves and the x-axis.\n\nWe are to find an integral expression for the area of region **R**.\n\nLooking at the graph:\n\n- Region R is the area between the curves from x=0 to x=2, and it is bounded above by f(x) and below by g(x). This is evident because:\n  - At x=0, both functions pass through (0,0).\n  - At x=2, they intersect (as marked on the graph).\n  - Between 0 and 2, f(x) is above g(x), as shown by the shaded region R.\n\nSo, to compute the area of R, we integrate the difference between the top function and the bottom function over [0, 2]:\n\n$$\n\\text{Area of } R = \\int_{0}^{2} [f(x) - g(x)] \\, dx\n$$\n\nNow let’s check the options:\n\nA. $\\int_{0}^{1.5}[f(x)-g(x)]\\,d x$ → Incorrect interval (ends at 1.5, not 2)\n\nB. $\\int_{0}^{1.5}[g(x)-f(x)]\\,d x$ → Wrong interval and wrong order (g < f here, so this would be negative)\n\nC. $\\int_{0}^{2}[f(x)-g(x)]\\,d x$ → Correct! Matches our reasoning.\n\nD. $\\int_{0}^{2}[g(x)-f(x)]\\,d x$ → This would be negative since f > g in [0,2], so area would be negative — invalid.\n\nTherefore, the correct choice is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Math_6",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a circle with center $O$, and a point $P$ outside the circle. From $P$, we have:\n\n- A **tangent** segment $\\overline{PS}$ touching the circle at $S$.\n- A **secant** line $\\overline{PQR}$ passing through the circle, intersecting it at points $Q$ and $R$, with $Q$ closer to $P$ than $R$.\n\nWe are told:\n\n- $PS = x$\n- $PQ = 3$\n- $PR = x + 18$\n\nWe use the **Power of a Point Theorem** for a point outside a circle:  \n> If a tangent and a secant are drawn from an external point, then the square of the length of the tangent equals the product of the lengths of the entire secant segment and its external part.\n\nIn symbols:  \n$$\nPS^2 = PQ \\cdot PR\n$$\n\nSubstitute the known values:\n\n$$\nx^2 = 3 \\cdot (x + 18)\n$$\n\nNow solve the equation:\n\n$$\nx^2 = 3x + 54\n$$\n\nBring all terms to one side:\n\n$$\nx^2 - 3x - 54 = 0\n$$\n\nFactor the quadratic:\n\nWe need two numbers that multiply to $-54$ and add to $-3$. Those numbers are $-9$ and $6$:\n\n$$\n(x - 9)(x + 6) = 0\n$$\n\nSo the solutions are:\n\n$$\nx = 9 \\quad \\text{or} \\quad x = -6\n$$\n\nSince $x$ represents a length ($PS$), it must be positive. So we discard $x = -6$.\n\nThus, $x = 9$.\n\n---\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Math_7",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Math_8",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Math_9",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The graph shown is a hexagon with an additional diagonal connecting opposite vertices, forming a complete graph K₆ minus three edges? Actually, let’s analyze the structure.\n\nLooking at the diagram: it has 6 vertices arranged in a hexagon, and each vertex is connected to its two neighbors (forming a cycle), and also each vertex is connected to the vertex directly opposite it. So, for example, if we label the vertices clockwise as A, B, C, D, E, F, then:\n\n- A is connected to B and F\n- B is connected to A and C\n- C is connected to B and D\n- D is connected to C and E\n- E is connected to D and F\n- F is connected to E and A\n\nAdditionally, there are diagonals: A-C, B-D, C-E, D-F, E-A, F-B? Wait — no, looking at the diagram, the connections are only between adjacent vertices in the hexagon, and also one more line: from the top-left to bottom-right? Actually, the diagram shows lines connecting each vertex to the one two steps away — that is, it's a 6-cycle with all diameters added? Let me count.\n\nActually, the diagram appears to be a **complete graph K₆** minus the three “opposite” edges? No — wait, let’s count edges.\n\nIn the diagram, we have:\n\n- The outer hexagon: 6 edges (A-B, B-C, C-D, D-E, E-F, F-A)\n- Plus, inside, there’s a line connecting the top vertex to the bottom vertex? No — actually, looking again, the diagram shows a central connection between the top and bottom? Wait, no — the center of the hexagon has a point? No — there are six vertices, and they form a hexagon with diagonals drawn from each vertex to the one two steps away? Actually, the diagram shows:\n\nEach vertex is connected to two adjacent ones (the cycle), and also to the vertex two steps away — so that’s a 6-cycle plus all chords skipping one vertex — which makes it a **complete bipartite graph K_{3,3}**? No — K_{3,3} is bipartite and has 6 vertices, but in K_{3,3}, each vertex has degree 3, and the graph is bipartite.\n\nWait — let’s list all edges:\n\nVertices: Label them 1"
+  },
+  {
+    "id": "validation_Math_10",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine why the given graph is not a regular graph, we need to recall the definition of a **regular graph**.\n\n> A **regular graph** is a graph where **every vertex has the same degree** (i.e., the same number of edges incident to it).\n\nLet’s analyze the degrees of each vertex in the given graph:\n\nLabel the vertices:  \n- a, b, c, d, e, f, h (note: there are 7 vertices)\n\nNow, count the degree of each vertex by counting how many edges are connected to it:\n\n- **Vertex a**: connected to b, d, and e → degree 3\n- **Vertex b**: connected to a, c, e, h → degree 4\n- **Vertex c**: connected to b, d, f, h → degree 4\n- **Vertex d**: connected to a, c, e → degree 3\n- **Vertex e**: connected to a, d, f → degree 3\n- **Vertex f**: connected to c, e, h → degree 3\n- **Vertex h**: connected to b, c, f → degree 3\n\nWait — let’s double-check vertex **b**:\n\nLooking at the diagram:\n- From b, edges go to a, c, and h? Also, there’s an edge from b to e? Let me trace carefully.\n\nActually, looking at the diagram again:\n\nFrom vertex **b**, we see:\n- Edge to a (top)\n- Edge to c (right side)\n- Edge to e (diagonal down-left)\n- Edge to h (right triangle)\n\nSo yes, **b** is connected to a, c, e, h → that’s **4 edges** → degree 4.\n\nBut **a** is connected to b, d, e → 3 edges → degree 3.\n\nSimilarly, **c** is connected to b, d, f, h → 4 edges → degree 4.\n\n**d** is connected to a, c, e → 3 edges → degree 3.\n\n**e** is connected to a, d, f → 3 edges → degree 3.\n\n**f** is connected to c, e, h → 3 edges → degree 3.\n\n**h** is connected to b, c, f → 3 edges → degree 3.\n\nSo degrees are:\n\n- a: 3\n- b: 4\n- c: 4\n- d:"
+  },
+  {
+    "id": "validation_Math_11",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine whether the function $ f(x) = x^2 - 6x + 4 $ is convex or concave, we can examine its second derivative.\n\nFirst, compute the first derivative:\n$$\nf'(x) = 2x - 6\n$$\n\nThen compute the second derivative:\n$$\nf''(x) = 2\n$$\n\nSince the second derivative $ f''(x) = 2 > 0 $ for all $ x $, the function is **convex** everywhere.\n\nIn optimization and calculus, a function with a positive second derivative is convex. The graph of this quadratic function is a parabola opening upwards, which is the classic visual representation of a convex function.\n\nTherefore, the correct answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Math_12",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D"
+  },
+  {
+    "id": "validation_Math_13",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a regular octagon with side length 4, and a regular hexagon of side length 4 embedded inside it. The quadrilateral $ABCD$ is formed by four vertices: $A$, $B$, $C$, $D$, which appear to be every other vertex of the octagon, skipping one vertex each time (so they form a \"diamond\" shape inside the octagon).\n\nLet’s analyze the figure.\n\n---\n\n**Step 1: Understand the structure**\n\nThe outer shape is a **regular octagon**, meaning all sides equal, all internal angles equal to $135^\\circ$. The inner shape is a **regular hexagon**, also with side length 4.\n\nThe vertices $A, B, C, D$ are labeled such that:\n\n- $A$ and $B$ are adjacent vertices of the octagon (top side).\n- $C$ and $D$ are two vertices below, connected by a horizontal segment.\n- The hexagon is inscribed in the octagon, sharing some sides or vertices.\n\nWait — if both shapes are regular and have side length 4, but are nested, we need to visualize how they are positioned.\n\nActually, from the diagram description, it seems that the hexagon is rotated relative to the octagon. But since both are regular and same side length, perhaps the hexagon is centered at the same center as the octagon, and its vertices lie on the octagon's vertices? That might not make sense because a regular hexagon has 6 vertices, while an octagon has 8.\n\nAlternatively, perhaps the hexagon shares some vertices with the octagon? Let’s think differently.\n\nAnother interpretation: The octagon has 8 vertices. The hexagon has 6 vertices. The quadrilateral $ABCD$ is formed by 4 of the octagon’s vertices, and the hexagon is somehow inside, connecting them.\n\nBut looking at the labeling: A–B is a side of the octagon (top). Then D–C is another side, lower down. And there are connections from A to D and B to C? Wait, the diagram shows lines connecting A to D and B to C, forming the quadrilateral ABCD.\n\nWait — perhaps the hexagon is formed by connecting every other vertex of the octagon? But that would give a square, not a hexagon.\n\nWait — maybe the hexagon is formed by taking 6 of the octagon’s vertices, but arranged to form a regular hexagon"
+  },
+  {
+    "id": "validation_Math_14",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given the graph of $ y = f(x) $, and two shaded regions:\n\n- Region A (below the x-axis, from $ x = -2 $ to $ x = 0 $) has area $ a $. Since it's below the x-axis, the integral of $ f(x) $ over $[-2, 0]$ is negative:  \n  $$\n  \\int_{-2}^{0} f(x)\\,dx = -a\n  $$\n\n- Region B (above the x-axis, from $ x = 0 $ to $ x = 4 $) has area $ b $. So:\n  $$\n  \\int_{0}^{4} f(x)\\,dx = b\n  $$\n\nWe are to find the **average value** of $ g(x) = f(x) + 3 $ on the interval $[-2, 4]$.\n\n---\n\nThe formula for the average value of a function $ g(x) $ on $[a, b]$ is:\n\n$$\n\\text{Average} = \\frac{1}{b - a} \\int_a^b g(x)\\,dx\n$$\n\nHere, $ a = -2 $, $ b = 4 $, so $ b - a = 6 $.\n\nThen,\n\n$$\n\\text{Average} = \\frac{1}{6} \\int_{-2}^{4} [f(x) + 3]\\,dx = \\frac{1}{6} \\left( \\int_{-2}^{4} f(x)\\,dx + \\int_{-2}^{4} 3\\,dx \\right)\n$$\n\nBreak the integral into parts:\n\n$$\n\\int_{-2}^{4} f(x)\\,dx = \\int_{-2}^{0} f(x)\\,dx + \\int_{0}^{4} f(x)\\,dx = (-a) + b = b - a\n$$\n\nAnd\n\n$$\n\\int_{-2}^{4} 3\\,dx = 3 \\cdot (4 - (-2)) = 3 \\cdot 6 = 18\n$$\n\nSo,\n\n$$\n\\text{Average} = \\frac{1}{6} \\left( b - a + 18 \\right) = \\frac{b - a}{6} + \\frac{18}{6} = \\frac{b - a"
+  },
+  {
+    "id": "validation_Math_15",
+    "subject": "Math",
+    "is_mcq": false,
+    "predicted": "24/7",
+    "answer": "['24/7', '3.429']",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a right triangle formed by the ladder (hypotenuse = 25 ft), the wall (vertical leg = y), and the ground (horizontal leg = x). The ladder is slipping, so we have related rates.\n\nGiven:\n- The ladder length is constant: $x^2 + y^2 = 25^2 = 625$\n- $\\frac{dy}{dt} = -1$ ft/s (negative because y is decreasing)\n- We want to find $\\frac{dx}{dt}$ when $x = 7$\n\nDifferentiate implicitly with respect to time $t$:\n\n$$\n2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 0\n$$\n\nDivide both sides by 2:\n\n$$\nx\\frac{dx}{dt} + y\\frac{dy}{dt} = 0\n$$\n\nSolve for $\\frac{dx}{dt}$:\n\n$$\n\\frac{dx}{dt} = -\\frac{y}{x} \\cdot \\frac{dy}{dt}\n$$\n\nWhen $x = 7$, use the Pythagorean theorem to find $y$:\n\n$$\ny = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24\n$$\n\nNow plug in values:\n\n$$\n\\frac{dx}{dt} = -\\frac{24}{7} \\cdot (-1) = \\frac{24}{7}\n$$\n\nSo the bottom of the ladder is slipping away at $\\frac{24}{7}$ ft/s.\n\nAnswer: 24/7"
+  },
+  {
+    "id": "validation_Math_16",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D\nThe objective function (x1 - 3)^2 + (x2 - 2)^2 is minimized when (x1, x2) is as close as possible to (3, 2). The constraints define a feasible region: x1^2 - x2 - 3 ≤ 0 (a parabola opening right), x2 ≤ 1 (horizontal line), and x1 ≤ 0 (vertical line). The point (3, 2) is outside the feasible region. The contour of the objective function passing through (2, 1) — which lies on the boundary of the feasible region (satisfying all constraints: x1=2≤0, x2=1≤1, and 2^2 - 1 - 3 = 0 ≤ 0) — is the closest such contour to (3, 2) within the feasible region. Hence, (2, 1) is the optimal solution."
+  },
+  {
+    "id": "validation_Math_17",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Math_18",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagrams show a process of transforming a graph by changing node colors (likely indicating selection or inclusion in the spanning tree). In both (a) and (b), we see a sequence of steps where nodes are progressively colored black, suggesting they are being included in the spanning tree.\n\nHowever, **breadth-first spanning tree (BFS)** construction involves visiting nodes level by level, starting from a root. This means that in BFS, we first visit all neighbors of the root, then their neighbors, etc., without revisiting nodes.\n\nLooking at diagram (a):\n- Step 1: A white node is likely the root.\n- Step 2: One neighbor becomes red (possibly selected), then another becomes black.\n- Step 3: More nodes become black, but not necessarily in levels — it seems more like a greedy or depth-first style.\n\nDiagram (b) shows a more complex process with multiple steps and arrows pointing backward, which suggests an iterative refinement or possibly a different algorithm (like Kruskal’s or Prim’s for MST), but not clearly BFS.\n\nActually, upon closer inspection, neither diagram perfectly matches BFS, but if we interpret the diagrams as showing a *step-by-step* selection of nodes to include in a spanning tree, and considering that BFS typically explores all neighbors before moving deeper, **diagram (a)** appears to follow a more “level-by-level” progression — even though it's not perfectly drawn, the initial step has one node, then two, then three, then four — resembling BFS expansion.\n\nBut wait — in diagram (a), the color changes seem to be applied in a way that might resemble **depth-first** (DFS) — where you pick a node, explore one branch fully before backtracking.\n\nIn diagram (b), the process seems more systematic and iterative, perhaps similar to Kruskal’s or Prim’s, but again, not clearly BFS.\n\nActually, there is a key clue: **in BFS, the tree is built level by level, so nodes at the same distance from the root are processed together.**\n\nIn diagram (a), after Step 1 (root white), Step 2 adds one red node (a direct neighbor), then Step 3 adds another black node — but this doesn’t clearly show level-by-level processing.\n\nLooking again at diagram (b): The \"Output\" is shown at the end, and the steps go from Step 5 → Step 4 → Step 3 → Step 2 → Step 1, which is backwards. This suggests the diagram"
+  },
+  {
+    "id": "validation_Math_19",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the Fundamental Cut sets of a graph with respect to a spanning tree, we need to understand the concept.\n\nA **fundamental cut set** (also called a fundamental cut) corresponding to an edge *not* in the spanning tree is the set of edges that are \"cut\" by removing that edge from the graph. More precisely, for each edge *e* not in the spanning tree, the fundamental cut set associated with *e* is the set of edges in the spanning tree that lie on the unique path between the two endpoints of *e*.\n\nHowever, note: In some contexts, especially in older literature or certain conventions, the fundamental cut set for an edge *e* not in the spanning tree is defined as the set of edges in the spanning tree that are incident to one endpoint of *e* but not the other? Actually, let me clarify.\n\nThe standard definition:\n\n- A **fundamental cut set** corresponding to an edge *e* (not in the spanning tree) is the set of edges in the spanning tree that lie on the unique path between the two vertices connected by *e*. This set includes all edges of the spanning tree that are on the path connecting the two endpoints of *e*, and it is also known as the “cut set” induced by removing *e*.\n\nBut wait — there's another common definition: sometimes, the fundamental cut set is defined as the set of edges in the spanning tree that are incident to one endpoint of *e* and whose removal disconnects the component containing the other endpoint? That’s not quite right.\n\nActually, the correct definition is:\n\n> The fundamental cut set corresponding to an edge *e* (not in the spanning tree) is the set of edges in the spanning tree that lie on the unique path between the two endpoints of *e*.\n\nThis is because when you remove *e*, the graph is split into two components, and the fundamental cut set is exactly the set of edges in the spanning tree that connect these two components — i.e., the edges on the path between the two endpoints of *e*.\n\nNow, looking at the problem: we are given a graph and a spanning tree. But in the question, the spanning tree is not explicitly given. However, the options list sets of edges like {e1, e8}, {e2, e4, e8}, etc. — which suggests that these are the fundamental cut sets for different edges not in the spanning tree.\n\nWait — the second image is a spanning tree"
+  },
+  {
+    "id": "validation_Math_20",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Math_21",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nThe Newton-Raphson method converges if the initial guess is sufficiently close to a root and if the function is well-behaved (i.e., continuous, differentiable, and with non-zero derivative near the root). For f₁(x) = x e^{-x}, the only root is at x=0. The graph shows that for x > 1, the function is decreasing and positive, and for x < 0, it's negative and approaching 0 from below. The derivative f₁'(x) = e^{-x} - x e^{-x} = e^{-x}(1 - x), which is zero at x=1 (the maximum point). Near x=0, the derivative is positive (since 1-x > 0), so Newton-Raphson should converge from values slightly greater than 0. However, the question asks for convergence for which starting points — and note that the function has a maximum at x=1, and the Newton-Raphson iteration may diverge if you start too far away or on the wrong side.\n\nBut critically, let’s analyze the behavior of the iteration:\n\nf₁(x) = x e^{-x}\n\nf₁'(x) = e^{-x}(1 - x)\n\nNewton-Raphson update: x_{n+1} = x_n - f₁(x_n)/f₁'(x_n)\n\nAt x₀ = 0: f₁(0)=0, so x₁=0 → converges immediately.\n\nAt x₀ = 1: f₁(1) = e^{-1} ≠ 0, f₁'(1) = 0 → division by zero → undefined → does not converge.\n\nAt x₀ < 0: say x₀ = -1: f₁(-1) = -e^{1} ≈ -2.718, f₁'(-1) = e^{1}(1 - (-1)) = 2e ≈ 5.436 → x₁ = -1 - (-2.718/5.436) ≈ -1 + 0.5 = -0.5\n\nThen x₂ = -0.5 - [(-0.5)e^{0.5}) / (e^{0.5}(1 - (-0.5)))] = -0.5 - [(-0.5)/1.5] = -0.5 + 1/3 ≈ -0"
+  },
+  {
+    "id": "validation_Math_22",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given trapezoid $ABCD$ with $\\overline{AB} \\parallel \\overline{CD}$, $BC = CD = 43$, and $\\overline{AD} \\perp \\overline{BD}$. Let $O$ be the intersection of diagonals $AC$ and $BD$, and $P$ is the midpoint of $BD$. We’re told $OP = 11$, and we are to find $AD = m\\sqrt{n}$, then compute $m+n$.\n\n---\n\nFirst, since $AB \\parallel CD$, and $AD \\perp BD$, this suggests a right angle at $D$ between $AD$ and $BD$. So triangle $ADB$ has a right angle at $D$. Also, since $BC = CD = 43$, triangle $BCD$ is isosceles with base $BD$.\n\nLet’s place the figure on coordinate plane to make calculations easier.\n\n---\n\n**Step 1: Coordinate Setup**\n\nPlace point $D$ at origin: $D = (0, 0)$.\n\nSince $AD \\perp BD$, and both are legs from $D$, let’s assume:\n\n- Let $A = (0, a)$, so that $AD$ is vertical (along y-axis).\n- Since $AD \\perp BD$, then $BD$ must be horizontal — so $B = (b, 0)$.\n\nSo:\n- $D = (0, 0)$\n- $A = (0, a)$\n- $B = (b, 0)$\n\nNow, since $AB \\parallel CD$, and $AB$ is from $(0,a)$ to $(b,0)$, its slope is $\\frac{0 - a}{b - 0} = -\\frac{a}{b}$.\n\nSo line $CD$ must have same slope. Point $C$ lies somewhere such that $CD$ has slope $-\\frac{a}{b}$, and $CD = 43$, and also $BC = 43$.\n\nAlso, since $D = (0,0)$, and $CD$ has slope $-\\frac{a}{b}$, we can write coordinates of $C$ as:\n\nLet $C = (x, y)$. Then vector $\\vec{DC} = (x, y)$, and since slope is $-\\frac{a}{b}$, we have:\n\n$$"
+  },
+  {
+    "id": "validation_Math_23",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a projectile motion problem. A rocket is shot from the top of a tower at 45° above the horizontal. It lands after 5 seconds, and the horizontal distance from the foot of the tower is 3h, where h is the height of the tower.\n\nWe need to find h.\n\n---\n\nLet’s denote:\n\n- Initial velocity = v₀ (to be determined)\n- Angle = 45°\n- Time of flight = t = 5 s\n- Horizontal displacement = x = 3h\n- Vertical displacement = y = -h (since it starts at height h and ends at ground level, so Δy = -h)\n\n---\n\n### Step 1: Horizontal Motion\n\nHorizontal velocity component:  \nvₓ = v₀ cos(45°) = v₀ / √2\n\nHorizontal displacement:  \nx = vₓ * t  \n⇒ 3h = (v₀ / √2) * 5  \n⇒ v₀ = (3h * √2) / 5   ...(1)\n\n---\n\n### Step 2: Vertical Motion\n\nVertical velocity component:  \nvᵧ = v₀ sin(45°) = v₀ / √2\n\nVertical displacement:  \nΔy = vᵧ * t - (1/2) g t²  \n⇒ -h = (v₀ / √2) * 5 - (1/2)(9.8)(5)²  \n⇒ -h = (5 v₀ / √2) - (1/2)(9.8)(25)  \n⇒ -h = (5 v₀ / √2) - 122.5   ...(2)\n\n---\n\nNow substitute equation (1) into equation (2):\n\nFrom (1): v₀ = (3h √2)/5\n\nPlug into (2):\n\n- h = [5 * (3h √2)/5 / √2] - 122.5  \nSimplify inside the brackets:\n\n[5 * (3h √2)/5] / √2 = [3h √2] / √2 = 3h\n\nSo:\n\n- h = 3h - 122.5\n\nBring terms together:\n\n- h - 3h = -122.5  \n⇒ -4h = -122.5  \n⇒ h = 122.5 / 4  \n⇒ h ="
+  },
+  {
+    "id": "validation_Math_24",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Math_25",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "We are given the horizontal and vertical velocity components as functions of time:\n\n- Horizontal velocity: $\\frac{dx}{dt} = 1.4$ (constant, since no air resistance)\n- Vertical velocity: $\\frac{dy}{dt} = 4.2 - 9.8t$\n\nWe are to find the angle $\\theta$ between the path of the object and the ground **at the instant it hits the ground**.\n\n---\n\n### Step 1: Find when the object hits the ground.\n\nThe vertical position is given by $y(t)$, and we know the initial vertical position is 10 m above ground. Since acceleration is constant ($-9.8 \\, \\text{m/s}^2$), we can integrate the velocity to get position.\n\nFirst, integrate $\\frac{dy}{dt} = 4.2 - 9.8t$ to get $y(t)$:\n\n$$\ny(t) = \\int (4.2 - 9.8t) \\, dt = 4.2t - 4.9t^2 + C\n$$\n\nInitial condition: at $t=0$, $y(0) = 10$, so $C = 10$.\n\nThus,\n\n$$\ny(t) = 4.2t - 4.9t^2 + 10\n$$\n\nSet $y(t) = 0$ to find when it hits the ground:\n\n$$\n4.2t - 4.9t^2 + 10 = 0\n$$\n\nMultiply both sides by 10 to eliminate decimals:\n\n$$\n42t - 49t^2 + 100 = 0\n\\Rightarrow 49t^2 - 42t - 100 = 0\n$$\n\nUse quadratic formula:\n\n$$\nt = \\frac{42 \\pm \\sqrt{(-42)^2 - 4 \\cdot 49 \\cdot (-100)}}{2 \\cdot 49}\n= \\frac{42 \\pm \\sqrt{1764 + 19600}}{98}\n= \\frac{42 \\pm \\sqrt{21364}}{98}\n$$\n\nCompute $\\sqrt{21364}$:\n\nNote: $146^2 = 21316$, $147^2"
+  },
+  {
+    "id": "validation_Math_26",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Math_27",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a circle with center $O$, and two chords $\\overline{AB}$ and $\\overline{CD}$ intersecting at point $E$.\n\nWe are given:\n- $CE = 10$\n- $ED = 6$\n- $AE = 4$\n\nWe are to find the length of $\\overline{EB}$.\n\n---\n\nThis is a classic application of the **Intersecting Chords Theorem**:\n\n> If two chords intersect inside a circle, then the products of the lengths of the segments of each chord are equal.\n\nThat is:\n$$\nAE \\cdot EB = CE \\cdot ED\n$$\n\nPlug in the known values:\n$$\n4 \\cdot EB = 10 \\cdot 6\n$$\n$$\n4 \\cdot EB = 60\n$$\n$$\nEB = \\frac{60}{4} = 15\n$$\n\n---\n\nTherefore, the length of $\\overline{EB}$ is $15$.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Math_28",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows a graph with six vertices arranged in two columns of three, connected by red lines (which typically represent edges in a Cayley diagram) and blue curved arrows (which usually indicate the action of generators). In a standard Cayley diagram, each vertex represents an element of a group, and the edges (or arrows) represent multiplication by generators. The arrows must be labeled with generators, and the diagram must reflect the group operation.\n\nHowever, this diagram does not have explicit labels for the generators or any indication of which elements are being multiplied — it merely shows connections and directed paths without specifying what the generators are or how they act on the group elements. Additionally, the structure appears to be a 3x2 grid with some additional curved arrows that might suggest a non-standard or non-group-theoretic interpretation.\n\nIn particular, Cayley diagrams for groups must satisfy certain properties: they must be vertex-transitive (if the group is finite), and the edges must correspond to generators acting on group elements. Moreover, in a proper Cayley diagram, you would expect to see arrows labeled with generators (e.g., “a” or “b”), and the diagram should show how multiplying by those generators moves you from one group element to another.\n\nSince no generator labels are present, and the structure doesn’t clearly represent a group’s multiplication table or action under generators, this is not a valid Cayley diagram.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Math_29",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Math_30",
+    "subject": "Math",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a square $ABCD$ with side length 1. Points $P, Q, R, S$ lie on the sides of the square such that the hexagon $APQCRS$ is equilateral and convex, with all sides equal to $s$. We need to find $s$.\n\nLet’s label the square:\n\n- Let $A$ be at top-left, $B$ top-right, $C$ bottom-right, $D$ bottom-left.\n- So, side $AB$ is top, $BC$ right, $CD$ bottom, $DA$ left.\n\nPoints:\n\n- $P$ lies on $AB$\n- $Q$ lies on $BC$\n- $R$ lies on $CD$\n- $S$ lies on $DA$\n\nThe hexagon is $APQCRS$, meaning the vertices in order are: $A \\to P \\to Q \\to C \\to R \\to S \\to A$.\n\nNote: The hexagon goes from $A$ to $P$ (on top), then to $Q$ (on right), then to $C$ (corner), then to $R$ (on bottom), then to $S$ (on left), then back to $A$.\n\nAll sides of this hexagon have length $s$: $AP = PQ = QC = CR = RS = SA = s$.\n\nWait — but note: the hexagon is $APQCRS$, so its edges are: $AP$, $PQ$, $QC$, $CR$, $RS$, $SA$. That's six sides, each of length $s$.\n\nBut notice: point $C$ is a vertex of the square, and also a vertex of the hexagon. So the side $QC$ connects $Q$ (on $BC$) to $C$, and side $CR$ connects $C$ to $R$ (on $CD$). So we are going from $Q$ to $C$ to $R$, which suggests that the hexagon includes the corner $C$, and the path goes from $Q$ to $C$ to $R$.\n\nThis implies that the side $QC$ is not along the side of the square — it’s a diagonal inside the square? But wait — if $Q$ is on $BC$ and $C$ is the corner, then $QC$ is part of side $BC$, right? Similarly, $CR$ is part of"
+  }
+]

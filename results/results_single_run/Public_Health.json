@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Public_Health_1",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nThe correlation coefficient (tr) measures the strength and direction of the linear relationship between two variables, while the regression coefficient (tb) represents the slope of the best-fit line in a linear regression model. When both variables follow a normal distribution, the correlation coefficient and the regression coefficient are equal in magnitude (and same sign) if the relationship is perfectly linear. However, in this context, \"tr\" likely refers to the correlation coefficient and \"tb\" to the regression coefficient (slope), and for a simple linear regression with normally distributed variables, they are not necessarily equal unless the regression is standardized or under specific conditions.\n\nBut wait — in many contexts, especially in introductory statistics, when comparing correlation and regression coefficients for the same pair of variables, the correlation coefficient (r) and the regression coefficient (b) are related by b = r * (SD_y / SD_x). So unless the standard deviations of systolic blood pressure and BMI are equal, tr ≠ tb.\n\nLooking at the data:\n- Systolic BP ranges from 118 to 162 → SD ≈ 15–20\n- BMI ranges from 19 to 38 → SD ≈ 7–8\n\nSo SD_y (BMI) << SD_x (systolic BP). Therefore, |b| = |r| * (SD_y / SD_x) < |r| → so |tb| < |tr|, but since both have the same sign (positive trend), we have tb < tr.\n\nThus, tr > tb.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_2",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **odds ratio (OR)** for the relationship between drinking alcohol and hypertension in this case-control study, we use the formula:\n\n**OR = [ (a × d) / (b × c) ]**\n\nWhere:\n- **a** = number of cases who drank alcohol = 73\n- **b** = number of cases who did not drink alcohol = 81\n- **c** = number of controls who drank alcohol = 202\n- **d** = number of controls who did not drink alcohol = 381\n\nPlug in the numbers:\n\n**OR = (73 × 381) / (81 × 202)**\n\nCalculate numerator:  \n73 × 381 = 27,713\n\nCalculate denominator:  \n81 × 202 = 16,362\n\nNow divide:  \n27,713 ÷ 16,362 ≈ **1.70**\n\nSo, the **OR is approximately 1.70**.\n\nThis means that individuals who drank alcohol were about 1.7 times more likely to develop hypertension than those who did not, **in the unstratified analysis**.\n\nThe question asks for the **cOR**, which likely refers to the **crude odds ratio** — i.e., the unadjusted OR. Since no stratification by BMI or other variables is performed in this calculation, this is indeed the crude OR.\n\nThus, the correct answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_3",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The study aims to assess the preventive and immunological effects of the hepatitis A vaccine. It involves two groups — a vaccination group and a control group — both followed for 3 years. The outcome measured is the number of cases of hepatitis A in each group.\n\n- **Incidence** refers to the rate of new cases over a specified period of time. Since this is a follow-up study measuring new cases after vaccination, incidence is the appropriate measure.\n- **Prevalence** refers to the proportion of existing cases at a given point in time — not suitable here because it’s a longitudinal follow-up.\n- **Secondary attack rate** refers to the rate of infection among contacts of an index case — not relevant to this study design.\n- **Survival rate** refers to the proportion surviving after disease onset — irrelevant to evaluating vaccine efficacy in preventing infection.\n\nThus, the main outcome of the study is the **incidence of hepatitis A**, which allows comparison between vaccinated and unvaccinated groups to assess vaccine effectiveness.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_4",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Ectoparasites are organisms that live on the external surface of a host, rather than inside it. This category includes many arthropods such as ticks, fleas, lice, and mosquitoes — all of which are insects or related arthropods.\n\nLet’s evaluate the options:\n\nA. Some viruses — Viruses are not parasites in the traditional sense (they require host cells to replicate) and do not live on the external surface; they invade internally. So, not ectoparasites.\n\nB. Some bacteria — Bacteria can be parasitic, but they typically live inside host cells or tissues (endoparasites), though some may live externally (e.g., on skin). However, this is not their defining characteristic, and “some” is too vague. Most bacterial parasites are endoparasites.\n\nC. Some protozoa — Protozoa are unicellular eukaryotes that are often parasitic, but they typically infect internal tissues (e.g., Plasmodium in humans — malaria parasite). While some protozoa might attach externally (like those causing leishmaniasis in skin), they are still primarily considered endoparasites or facultative parasites. Not primarily classified as ectoparasites.\n\nD. Some insects — This is correct. Many insects are ectoparasites — for example, ticks, fleas, lice, and bed bugs. They live on the exterior of their hosts and feed on blood or tissue fluids.\n\nThus, the best and most accurate answer is D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Public_Health_5",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **Benefit-Cost Ratio (BCR)**, we use the formula:\n\n> **BCR = Total Benefits / Total Costs**\n\nIn this context:\n- **Total Benefits** = Direct benefits + Indirect benefits\n- **Total Costs** = Total cost of vaccination\n\nFrom the table:\n\nFor the **Low endemic area**:\n- Total cost of vaccination = 42 (RMB 10,000)\n- Direct benefits = 562 (RMB 10,000)\n- Indirect benefits = 1852 (RMB 10,000)\n\nSo,\n\n> **Total Benefits** = 562 + 1852 = 2414  \n> **Total Costs** = 42  \n\n> **BCR = 2414 / 42 ≈ 57.476...**\n\nRounding to two decimal places: **57.48**\n\nThus, the correct answer is **C. 57.48**\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Public_Health_6",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are comparing the proportion of patients who developed an infection between two different hospitals. The data is presented in a 2x2 contingency table:\n\n|           | Infection | No Infection | Total |\n|-----------|-----------|--------------|-------|\n| Hospital A| 16        | 237          | 253   |\n| Hospital B| 27        | 594          | 621   |\n\nThis is a classic case for comparing proportions between two independent groups. Since the outcome is binary (infection or no infection), and we have two independent samples (Hospital A and Hospital B), the appropriate test is a **chi-square test of independence** or, when sample sizes are small or expected frequencies are low, **Fisher’s Exact Test**.\n\nLet’s evaluate the options:\n\nA. **Independent samples t-test** — This is for continuous data, not categorical proportions. Not appropriate here.\n\nB. **Fisher’s Exact Test** — This is specifically designed for 2x2 contingency tables with small sample sizes or when assumptions for chi-square are violated. It tests whether there is a significant association between the two groups (here, hospital vs. infection). Given that the total sample size is relatively large (253 + 621 = 874), chi-square could be used, but Fisher’s Exact Test is conservative and often preferred for such comparisons, especially when dealing with small cell counts or when exact probabilities are needed. However, note that this is not a paired test — so McNemar’s test does not apply.\n\nC. **Kappa** — This measures inter-rater agreement for categorical data, not comparison of proportions between two groups. Not applicable.\n\nD. **McNemar’s test** — This is for paired data (e.g., before/after, or matched subjects). Here, the two hospitals are independent, so McNemar’s test is not appropriate.\n\nWhile chi-square might be acceptable, **Fisher’s Exact Test** is the most appropriate choice for a 2x2 table when you want to compare proportions between two independent groups, especially if you’re cautious about assumptions or working with smaller cells (though in this case, all cells are fairly large).\n\nTherefore, the best answer is **B. Fisher's Exact test**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Public_Health_7",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Let’s analyze the data carefully.\n\nWe are told that there were **120,000** total adverse reaction reports in 2016, and **9,000** of those were serious adverse reactions.\n\nThe table shows the distribution by sector and drug category:\n\n### Sector-wise distribution (number of items = number of reports):\n- Medical institutions: 90,000\n- Operating companies: 20,000\n- Others: 10,000\n→ Total: 90,000 + 20,000 + 10,000 = 120,000 → matches.\n\n### Drug Category-wise distribution (number of items = number of reports):\n- Chemical drugs: 90,000\n- Traditional Chinese Medicine: 20,000\n- Biological products: 2,000\n- Others: 8,000\n→ Total: 90,000 + 20,000 + 2,000 + 8,000 = 120,000 → also matches.\n\n---\n\nNow evaluate each option:\n\n**A. Medical institutions were the main source of reported adverse reactions.**\n\n→ Medical institutions reported 90,000 out of 120,000 → 75%. This is clearly the largest share. So this is correct.\n\n**B. Chemical drugs caused the highest rate of adverse drug reactions in the province.**\n\n→ “Rate” is ambiguous. If it means proportion of total reports, then chemical drugs = 90,000 / 120,000 = 75%, which is the highest. But if it means *rate per unit* (e.g., per 1000 patients or per 1000 prescriptions), we don’t have such data. The table only gives total counts — not rates or frequencies per patient or per dose. Since no further info is given, we can’t assume “rate” implies proportion. But even if we interpret “rate” as proportion, chemical drugs still lead. However, note: the question says “caused the highest rate”, and without context, this might be misleading. Still, among all options, A is unambiguously correct.\n\nBut let’s check C and D.\n\n**C. Adverse reactions caused by Biological"
+  },
+  {
+    "id": "validation_Public_Health_8",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the protective rate against all EV71-related diseases, we use the formula:\n\n**Protective Rate = (Number of new cases in placebo group - Number of new cases in vaccine group) / Number of new cases in placebo group × 100%**\n\nFrom the table:\n\n- New cases in vaccination group (all EV71 related diseases) = 13\n- New cases in placebo group (all EV71 related diseases) = 106\n\nSo,\n\nProtective Rate = (106 - 13) / 106 × 100%\n= 93 / 106 × 100%\n≈ 87.74%\n\nLooking at the options:\n\nA. 100% → too high  \nB. 94.8% → too high  \nC. 94.6% → too high  \nD. 88.1% → closest to our calculated value of ~87.74%\n\nNote: The slight discrepancy may be due to rounding or exact data presentation in the source, but among the given choices, **88.1%** is the closest.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Public_Health_9",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe specificity of a test is the proportion of true negatives (correctly identified as negative) among all actual negatives. In this case, electronic colposcopy is being evaluated for its ability to correctly identify patients without cervical lesions.\n\nFrom the table:\n- The \"Patients with non-cervical lesions\" group (actual negatives) = 500.\n- Among these, the number of patients who tested negative by electronic colposcopy (\"-\" in the \"electronic colposcopy\" column) = 245 (from the row where \"electronic colposcopy\" is \"-\" and \"TCT\" is \"-\").\n\nSo, specificity = True Negatives / (True Negatives + False Positives)\n= 245 / (245 + 10)  [False positives are those with cervical lesions but tested negative by colposcopy = 10]\n\nWait — let’s double-check:\n\nActually, the denominator for specificity should be the total number of actual negatives (non-cervical lesions) = 500.\nThe true negatives are those who are actually negative (no lesion) AND tested negative by colposcopy = 245.\nThe false positives are those who are actually negative (no lesion) but tested positive by colposcopy = 10 (from the row where \"electronic colposcopy\" is \"+\" and \"TCT\" is \"-\", and \"Patients with non-cervical lesions\" = 10).\n\nSo specificity = 245 / (245 + 10) = 245 / 255 ≈ 0.9608, which is approximately 0.96.\n\nBut wait — that doesn't match any option. Let me re-express.\n\nActually, I think I made an error in identifying the false positives.\n\nIn the table, under \"Patients with non-cervical lesions\" (i.e., actual negatives), we have:\n\n- Electronic colposcopy = \"+\" → 10 cases (these are false positives — they were incorrectly classified as having lesions)\n- Electronic colposcopy = \"-\" → 245 cases (true negatives)\n\nSo, specificity = true negatives / (true negatives + false positives) = 245 / (245 + 10) = 245/255 ≈ 0.9608\n\nBut none of the options are close to 0.96. Let me check"
+  },
+  {
+    "id": "validation_Public_Health_10",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **attributable risk (AR)**, also known as the **risk difference**, we use the formula:\n\n> **Attributable Risk = Incidence in exposed group - Incidence in unexposed group**\n\nIn this case:\n- Exposed group = Smokers → 300/100,000 person years\n- Unexposed group = Non-smokers → 100/100,000 person years\n\nSo,\n\n> AR = 300 - 100 = **200/100,000 person years**\n\nThis represents the excess risk of cardiovascular disease attributable to smoking.\n\nNote: The general population rate (150) is not used in calculating attributable risk for the exposure (smoking) — that would be used in other measures like population attributable risk (PAR).\n\nThus, the correct answer is **A. 200/100,000 person years**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_11",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The table presents a 2x2 contingency table comparing smokers and non-smokers among lung cancer patients and non-lung cancer patients. This is a classic setup for calculating **relative risk (RR)**, which compares the risk of developing lung cancer between smokers and non-smokers.\n\nLet’s define the cells:\n\n- Lung cancer patients who are smokers: 150\n- Non-lung cancer patients who are smokers: 50\n- Lung cancer patients who are non-smokers: 100\n- Non-lung cancer patients who are non-smokers: 200\n\nRelative Risk (RR) = [Incidence in exposed group] / [Incidence in unexposed group]\n\nExposed group = smokers\nUnexposed group = non-smokers\n\nIncidence in smokers = 150 / (150 + 50) = 150/200 = 0.75  \nIncidence in non-smokers = 100 / (100 + 200) = 100/300 ≈ 0.333\n\nRR = 0.75 / 0.333 ≈ 2.25\n\nThis is a standard calculation in epidemiology to assess the strength of association between exposure (smoking) and outcome (lung cancer).\n\nNow, let’s consider the options:\n\nA. PAR — Population Attributable Risk: This measures the proportion of disease in the population that can be attributed to the exposure. It requires more data (e.g., total population or prevalence) and is not directly calculated from this 2x2 table alone without additional assumptions.\n\nB. AR — Attributable Risk: Measures the difference in incidence between exposed and unexposed groups. While it can be calculated here (0.75 - 0.333 = 0.417), it is not the primary measure of association like RR.\n\nC. RR — Relative Risk: Directly calculable from the data as shown above.\n\nD. OR — Odds Ratio: Can also be calculated from a 2x2 table (OR = (a*c)/(b*d) = (150*200)/(50*100) = 30000/5000 = 6). However, the question asks what can be calculated *from these data*, and both RR and OR can be calculated. But note: the question"
+  },
+  {
+    "id": "validation_Public_Health_12",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **sensitivity** of a screening test, we use the formula:\n\n> **Sensitivity = (True Positives) / (True Positives + False Negatives)**\n\nFrom the table:\n\n- **True Positives (TP)**: Number of cervical cancer patients who tested positive = 800\n- **False Negatives (FN)**: Number of cervical cancer patients who tested negative = 200\n\nSo,\n\n> Sensitivity = 800 / (800 + 200) = 800 / 1000 = 0.80 = **80%**\n\nThus, the sensitivity of the test is **80%**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_13",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which food is most likely the cause of the outbreak, we can calculate the **proportion of people who got sick out of those who ate that food** for each item. This is known as the **attack rate** or **sickness proportion**.\n\nThe formula is:\n\n> Attack Rate = (Number of people who got sick) / (Number of people who ate that food)\n\nLet’s compute this for each food:\n\n- **Cold chicken**: 34 / 86 ≈ 0.3953 (or 39.53%)\n- **Potato salad**: 38 / 54 ≈ 0.7037 (or 70.37%)\n- **Egg sandwiches**: 40 / 76 ≈ 0.5263 (or 52.63%)\n- **Fruit pie and cream**: 12 / 32 = 0.375 (or 37.5%)\n- **Cheese**: 12 / 48 = 0.25 (or 25%)\n\nThe highest attack rate is for **potato salad** at approximately **70.37%**, meaning the largest proportion of people who ate potato salad got sick compared to any other food.\n\nTherefore, based on the data, potato salad is the most likely cause of the food poisoning outbreak.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Public_Health_14",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the Odds Ratio (OR) in a case-control study, we use the formula:\n\n**OR = (a × d) / (b × c)**\n\nWhere:\n- **a** = number of cases with exposure = 400\n- **b** = number of cases without exposure = 100\n- **c** = number of controls with exposure = 100\n- **d** = number of controls without exposure = 400\n\nPlugging in the values:\n\n**OR = (400 × 400) / (100 × 100)**\n**OR = 160000 / 10000**\n**OR = 16**\n\nTherefore, the correct answer is **B. 16**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Public_Health_15",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a contingency table and asked to find the **odds** that a person under 30 **always** exceeds the speed limit.\n\nFrom the table:\n\n- Under 30, \"Always\" = 100\n- Under 30, \"Not Always\" = 100\n\nThe odds in favor of an event are calculated as:\n\n> **Odds = (Number of favorable outcomes) / (Number of unfavorable outcomes)**\n\nSo, for people under 30 who always exceed the limit:\n\n> Odds = 100 / 100 = 1 / 1\n\nThis is a ratio of 1:1.\n\nNow, let’s check the options:\n\nA. 1 to 2  \nB. 2 to 1  \nC. 1 to 1 ← This matches our calculation  \nD. 50% ← This is a probability, not odds\n\nSo the correct answer is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Public_Health_16",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nThe reasoning is as follows: To calculate the 95% confidence interval (CI) for the odds ratio (OR) in the 25-29 years age group, we first need to compute the OR from the table. The data for this group are:\n\n- MI group: 6 (cases) and 286 (controls) → total exposed = 6 + 286 = 292\n- OC exposure among MI patients: 4 (cases exposed) and 62 (controls exposed) → total exposed = 4 + 62 = 66\n\nActually, looking at the table structure, the “MI group” column shows the number of MI cases with their standard deviation in parentheses — but for OR calculation, we need the counts. The table appears to show counts per group.\n\nLet’s clarify the table layout:\n\nFor age group 25–29 (combined), the table gives:\n- MI group: 6 (with SD 2.6) → likely 6 cases.\n- Control group: 286 (with SD 16.4) → likely 286 controls.\n- OC exposure among MI: 4 (with SD 66.7) → likely 4 exposed MI cases.\n- OC exposure among control: 62 (with SD 21.7) → likely 62 exposed controls.\n\nSo, we have a 2x2 table for OR calculation:\n\n|               | OC Exposed | OC Not Exposed | Total |\n|---------------|------------|----------------|-------|\n| MI            | 4          | 2 (since 6-4=2) | 6     |\n| Not MI        | 62         | 286 - 62 = 224 | 286   |\n| **Total**     | 66         | 286            | 352   |\n\nWait — actually, the “OC exposure” columns are subdivided into “MI” and “Control” subgroups. So for the 25–29 age group:\n\n- MI group: 6 cases total; among them, 4 were OC-exposed → so 2 were not OC-exposed.\n- Control group: 286 controls total; among them, 62 were OC-exposed → so 224 were not OC-exposed.\n\nThus, the 2x2"
+  },
+  {
+    "id": "validation_Public_Health_17",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **Attributable Risk Percentage (AR%)**, we use the formula:\n\n> AR% = [(Incidence in exposed - Incidence in unexposed) / Incidence in exposed] × 100%\n\nIn this case:\n- Incidence in smokers (exposed) = 48.0 per 100,000\n- Incidence in non-smokers (unexposed) = 25.4 per 100,000\n\nSo,\n\nAR% = [(48.0 - 25.4) / 48.0] × 100%\n    = (22.6 / 48.0) × 100%\n    ≈ 47.08%\n\nLooking at the options:\n\nA. 48.0 → This is the incidence in smokers, not AR%.\n\nB. 48.0 - 25.4 = 22.6 → This is the absolute risk difference, not percentage.\n\nC. 48.0 / 25.4 = 1.89 → This is the relative risk (RR), not AR%.\n\nD. (48.0 - 25.4) / 48.0 → This is the exact numerator of the AR% formula, which matches the calculation.\n\nNote: Although option D does not include the ×100% part, it represents the **proportion** of the disease attributable to smoking, which is what AR% is defined as — the fraction of the risk increase due to exposure. In multiple-choice contexts, especially when only ratios are given, D is the correct choice because it captures the core calculation for AR%.\n\nTherefore, the correct answer is **D**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Public_Health_18",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The timeline shows that on 8/25, blood cultures x2 are positive for Staph aureus. On 8/18, blood cultures x2 are repeated and positive for E. coli. Therefore, both organisms are reported.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Public_Health_19",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Regression coefficient (slope) = b = 1.648\n- SS within (residuals) = SS back = 1044.352\n- SS total = 1878.400\n\nWe are to find the **coefficient of determination**, which is denoted as **R²**.\n\nThe formula for R² is:\n\n> **R² = 1 - (SS_residual / SS_total)**\n\nWhere:\n- SS_residual = SS back (given as 1044.352)\n- SS_total = 1878.400\n\nSo,\n\nR² = 1 - (1044.352 / 1878.400)\n\nLet’s compute that:\n\nFirst, divide 1044.352 by 1878.400:\n\n1044.352 ÷ 1878.400 ≈ 0.556\n\nThen,\n\nR² = 1 - 0.556 = 0.444\n\nTherefore, the coefficient of determination is **0.444**\n\nNow, check the options:\n\nA. 0.444  \nB. 0.556  \nC. 1.799  \nD. 2.716  \n\nCorrect answer is **A. 0.444**\n\nNote: The value 0.556 is actually the proportion of variance explained by the *residuals* (i.e., 1 - R²), but the question asks for R², which is 0.444.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_20",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **attributable risk (AR)**, also known as the **risk difference**, we use the formula:\n\n> **AR = Incidence in exposed group - Incidence in non-exposed group**\n\nFrom the table:\n\n- Incidence in exposure group = 58 / 100,000 = **0.00058**\n- Incidence in non-exposed group = 5 / 100,000 = **0.00005**\n\nSo,\n\n> AR = 0.00058 - 0.00005 = **0.00053**\n\nConvert to per 100,000:\n\n> 0.00053 × 100,000 = **53.0 / 100,000**\n\nThis is the attributable risk — the excess risk of disease due to exposure.\n\nNow, let’s check the options:\n\nA. 11.6 → Not matching  \nB. 53.0/100000 → Matches our calculation  \nC. 63.0/100000 → Too high  \nD. 0.91 → Not matching\n\nTherefore, the correct answer is **B**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Public_Health_21",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a table showing adverse reactions in two groups: vaccination group and placebo group.\n\nThe question asks for the **incidence of tertiary adverse reactions in the placebo group**.\n\nFrom the table:\n\n- The number of tertiary adverse reactions in the **placebo group** is **158**.\n- The total number of persons in the placebo group is **4873.0** (which we can treat as 4873).\n\nTo calculate the incidence percentage:\n\n> Incidence = (Number of incidents / Total number of persons) × 100\n\nSo,\n\n> Incidence = (158 / 4873) × 100 ≈ ?\n\nLet’s compute:\n\n158 ÷ 4873 ≈ 0.03246\n\nMultiply by 100: ≈ **3.246%**\n\nNow, looking at the options:\n\nA. 51.4%  \nB. 52.4%  \nC. 3.1%  \nD. 10.8%\n\nOur calculated value is approximately **3.25%**, which is closest to **3.1%**.\n\nTherefore, the correct answer is **C. 3.1%**\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Public_Health_22",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which disease poses a greater health threat to the city’s occupational population aged 20–59, we need to compare the total number of deaths from each cause across all age groups in that range.\n\nFrom the table:\n\n- **Total deaths from cardiovascular and cerebrovascular diseases** = 1250\n- **Total deaths from malignant neoplasms** = 597\n\nClearly, 1250 > 597, so cardiovascular and cerebrovascular diseases account for more deaths than malignant neoplasms in this population.\n\nHowever, we must also consider whether we are comparing deaths *per person* or total deaths. The question asks: “Which of these two diseases is the greater health threat?” In public health contexts, “health threat” is typically measured by the number of deaths (or mortality rate) — especially since the data provided is absolute counts.\n\nMoreover, note that the life expectancy values are given for each age group, but they are not used in the comparison — because the question is about the *total number of deaths* from each cause, not the proportion of life lost or the risk per capita adjusted for age.\n\nTherefore, based on the raw totals provided:\n\n- Cardiovascular and cerebrovascular diseases: 1250 deaths\n- Malignant neoplasms: 597 deaths\n\nCardiovascular and cerebrovascular diseases represent a greater health threat.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_23",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a 2x2 contingency table for skin test results and actual diagnosis of hepatic schistosomiasis.\n\nThe table is:\n\n| Test       | Yes (Hepatic Schistosomiasis) | No (No Hepatic Schistosomiasis) | Total |\n|------------|-------------------------------|----------------------------------|-------|\n| positive   | 117                           | 53                              | 170   |\n| negative   | 8                             | 312                             | 320   |\n| **total**  | **125**                       | **365**                         | **490** |\n\nWe are asked to find **Pr+**, which typically stands for the **prevalence of the disease in the population** — that is, the proportion of individuals who actually have hepatic schistosomiasis (i.e., “Yes” in the diagnosis column).\n\nFrom the table, total number with disease = 125  \nTotal number in population = 490\n\nSo,\n\nPr+ = 125 / 490 ≈ 0.2551\n\nBut this value is not among the options.\n\nAlternatively, sometimes Pr+ can mean the **positive predictive value (PPV)** — the probability that someone has the disease given that the test is positive.\n\nPPV = True Positives / (True Positives + False Positives)  \n= 117 / (117 + 53)  \n= 117 / 170 ≈ 0.6882 ≈ 0.69\n\nThis matches option A.\n\nLet’s check other options:\n\n- Option B: 0.98 → too high; that would be like sensitivity or something else.\n- Option C: 0.02 → very low; could be false negative rate or something.\n- Option D: 0.94 → close to 1, maybe specificity? Specificity = True Negatives / (True Negatives + False Negatives) = 312 / (312 + 8) = 312/320 = 0.975 — not 0.94.\n\nActually, let’s compute specificity:  \nSpecificity = TN / (TN + FP) = 312 / (312 + 53) = 312/36"
+  },
+  {
+    "id": "validation_Public_Health_24",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nThe incidence rate is calculated as (number of new cases / population at risk) × 1000 (or 100, depending on the standard). Here, we are told the population at the beginning of 2010 was 2,528. From the graph, we need to count the number of new cases in 2010.\n\nLooking at the graph:\n- The y-axis shows case serial numbers (from 1 to 20).\n- The x-axis shows dates from 2010/11/1 to 2011/1/1.\n- We are interested in cases that occurred in 2010 only — so we look for cases with onset (circle) or recovery (triangle) between 2010/11/1 and 2010/12/31 (i.e., before 2011/1/1).\n\nFrom the graph:\n- Onset (circles) for cases 1–20: All circles appear to be in 2010, except possibly some after 2010/12/31? Let’s check carefully.\nActually, looking at the graph, all the onset points (circles) are before 2011/1/1, but we must distinguish which are *new* cases. Since no births/deaths/in-migrants/refusals occurred, we assume all cases shown are new.\n\nBut note: the graph shows “onset” (circle), “duration” (line without arrow), “death” (x), and “recovery” (triangle). To compute incidence, we need **new cases** — typically onset events.\n\nHowever, the key is to count how many cases had their onset in 2010. Looking at the graph:\n\n- The first case (serial #1) has onset on 2010/11/1 — that’s in 2010.\n- Case #2: onset 2010/11/1\n- ...\n- Case #10: onset 2010/11/1\n- Case #11: onset 2010/12/1? Not clear — but all circles (onset) are clustered near the end of 2010.\n\nWait — actually, the graph shows onset (circle) for cases 1 through"
+  },
+  {
+    "id": "validation_Public_Health_25",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate **specificity** of a screening test, we use the formula:\n\n> **Specificity = True Negatives / (True Negatives + False Positives)**\n\nIn the given table:\n\n- **True Negatives (TN)**: These are individuals **without disease** who tested **negative** → that’s **D**\n- **False Positives (FP)**: These are individuals **without disease** who tested **positive** → that’s **B**\n\nTherefore, specificity = D / (B + D)\n\nLooking at the options:\n\nA. A/(A+C) → This is sensitivity (true positives / true positives + false negatives)\n\nB. B/(B+D) → This is false positive rate (FP / (FP + TN)) — not specificity\n\nC. C/(A+C) → This is true negative rate? No — this is actually the proportion of diseased individuals who tested negative, which is not specificity.\n\nD. D/(B+D) → This matches our definition of specificity.\n\n✅ Correct answer: **D. D/(B+D)**\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Public_Health_26",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for indicators appropriate for describing the risk of morbidity in various groups of the population, based on a cohort study that followed participants over time and recorded cardiovascular disease deaths (outcome events).\n\nLet’s analyze the options:\n\nA. **Point prevalence and period prevalence** – These describe the proportion of individuals with a condition at a specific point in time or over a defined period, but they do not measure *risk* of developing the condition over time. They are descriptive, not risk-based.\n\nB. **Mortality rate and case fatality rate** – Mortality rate is the number of deaths in a population over a specified time period, and case fatality rate is the proportion of those who develop the disease who die from it. While mortality rate might be used to describe outcomes, it does not directly describe *risk of morbidity* — which refers to the probability of developing the disease. Case fatality rate is about death among those who got sick, not about incidence or risk of getting sick.\n\nC. **Cumulative incidence and incidence density** – These are measures of the risk of developing a new event (like a cardiovascular disease death) over time. Cumulative incidence is the proportion of individuals who develop the outcome during a specified follow-up period, while incidence density accounts for varying follow-up times (e.g., person-years). This is exactly what is needed to describe the *risk of morbidity* (i.e., the risk of developing the outcome) across different fruit intake groups. The study follows people over 3.2 million person-years, and reports numbers of deaths — this is classic cohort analysis using incidence measures.\n\nD. **PYLL and DALY** – These are measures of burden of disease: PYLL (Years of Life Lost) and DALY (Disability-Adjusted Life Years). They are used to quantify the overall health impact of diseases, not to describe the *risk* of developing them in different groups.\n\nGiven that the study is a cohort study tracking the development of cardiovascular disease deaths over time, and comparing risk across fruit intake categories, **cumulative incidence and incidence density** are the most appropriate measures to describe the risk of morbidity (i.e., occurrence of the outcome).\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Public_Health_27",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks for the \"Date of Event,\" but it does not specify which event. However, given the context and the structure of the timeline, it is likely referring to the event that is most significant or final in the sequence — often the point where a critical outcome is identified, such as infection confirmation or discharge.\n\nLooking at the timeline:\n\n- 5/12: Admission\n- 5/14: Port accessed\n- 5/17: ANC elevated (200 cells/mm³)\n- 5/19: Blood cultures positive for Enterobacter cloacae → This is a critical diagnostic event.\n- 5/21: WBC elevated (150 cells/mm³), no other source of infection identified → This is also important, but perhaps secondary to the culture result.\n- 5/25: Discharged\n\nWhile multiple dates are events, **5/19** is when the patient was confirmed to have a bacterial infection via blood cultures — a pivotal diagnostic event that likely triggered further management.\n\nOption B (5/18) is not listed anywhere in the timeline, so it’s invalid.\n\nOption C (5/17) is an ANC elevation, which is important but not the definitive “event” like the culture result.\n\nOption D (5/20) is not mentioned.\n\nThus, the most logical answer — especially if “event” refers to a diagnostic or clinical turning point — is **5/19**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Public_Health_28",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nTo calculate the relative risk (RR) of coronary heart disease for the 231–255 mg/dl group compared to the reference group (114–193 mg/dl), we use the formula:\n\nRR = (Incidence in exposed group) / (Incidence in reference group)\n\nThe \"exposed group\" here is the 231–255 mg/dl group, and the reference group is 114–193 mg/dl.\n\nFrom the table:\n- Number of cases in 231–255 mg/dl group = 32\n- Total number of observations in 231–255 mg/dl group = 209\n→ Incidence rate = 32 / 209 ≈ 0.1536\n\n- Number of cases in 114–193 mg/dl group = 2\n- Total number of observations in 114–193 mg/dl group = 209\n→ Incidence rate = 2 / 209 ≈ 0.00957\n\nNow compute RR:\nRR = 0.1536 / 0.00957 ≈ 16.05\n\nWait — that’s not among the options. Let me double-check the table.\n\nLooking again: The table shows “Number of cases” for each cholesterol group. For 114–193 mg/dl, it’s 2 cases out of 209. For 231–255 mg/dl, it’s 32 cases out of 209. But the total number of observations per group is 209? That can’t be right — because if all groups have 209, then total observations would be 209 × 5 = 1045, which matches the total.\n\nSo yes, the calculation above is correct: 32/209 divided by 2/209 = 32/2 = 16.\n\nBut 16 is not an option. Wait — perhaps I misread the reference group?\n\nThe question says: “If the serum cholesterol level 114–193 mg/dl group is used as the reference group”\n\nBut looking at the table, the first row is 1"
+  },
+  {
+    "id": "validation_Public_Health_29",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D. 3.45\n\nTo calculate the adjusted odds ratio (OR), we need to compute the OR for drinking surface water in both rural and urban populations separately, then combine them using a stratified OR approach (also known as Mantel-Haenszel OR).\n\nThe formula for the Mantel-Haenszel OR is:\n\nOR = [ (a1 * d2) + (a2 * d1) ] / [ (b1 * d2) + (b2 * d1) ]\n\nWhere:\n- a1 = cases exposed in rural\n- b1 = controls exposed in rural\n- a2 = cases exposed in urban\n- b2 = controls exposed in urban\n- d1 = total controls in rural\n- d2 = total controls in urban\n\nWait — actually, let’s be precise. The Mantel-Haenszel OR uses:\n\nOR = Σ (a_i * d_i) / Σ (b_i * d_i)\n\nBut more accurately, we calculate the OR for each stratum (rural and urban), then use the weighted average.\n\nLet’s first compute OR for Rural:\n\nRural:\nCases (surface water): 20\nControls (surface water): 50\nCases (deep water): 30\nControls (deep water): 150\n\nTotal cases: 50, total controls: 200\n\nFor rural, we are comparing surface water vs deep water.\n\nSo for rural:\nOR_rural = (20 / 50) / (30 / 150) = (0.4) / (0.2) = 2.0\n\nFor urban:\nCases (surface water): 150\nControls (surface water): 30\nCases (deep water): 50\nControls (deep water): 20\n\nOR_urban = (150 / 30) / (50 / 20) = (5) / (2.5) = 2.0\n\nWait — that can’t be right because if both are 2.0, then adjusted OR would be 2.0? But let’s check the table again.\n\nActually, I think I misread the table. The “Cases(%)” and “Control(%)” columns are percentages of total cases or controls? Actually, looking at the table:\n\nIn rural:\n- Surface water: 20 cases out of 5"
+  },
+  {
+    "id": "validation_Public_Health_30",
+    "subject": "Public_Health",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nThe +LR (positive likelihood ratio) for a parallel test is calculated as:\n\n+LR = Sensitivity / (1 - Sensitivity)\n\nFor a parallel test, we are interested in the test’s ability to correctly identify those with the disease (true positives) when the test is positive.\n\nFrom the table:\n- True Positives (TP) = 15 (electronic colposcopy + and TCT - for patients with cervical lesions) — wait, no, that's not right. Actually, for a parallel test, we need to look at the combination of both tests being positive for patients with disease.\n\nWait — let me clarify: In a parallel test, the test is considered positive if either test is positive. So, for patients with cervical lesions, the true positives are those where at least one test is positive.\n\nLooking at the table under “Patients with cervical lesions”:\n\n- Electronic colposcopy + AND TCT - → 15 (this is a false negative)\n- Electronic colposcopy - AND TCT + → 5 (this is a false negative)\n- Electronic colposcopy + AND TCT + → 70 (true positive)\n- Electronic colposcopy - AND TCT - → 10 (false negative)\n\nSo total true positives (TP) = 70\n\nTotal patients with cervical lesions = 100\n\nTherefore, sensitivity = TP / (TP + FN) = 70 / (70 + 10) = 70/80 = 0.875\n\nNow, the false negatives (FN) = 10\n\nSo, 1 - sensitivity = 1 - 0.875 = 0.125\n\nTherefore, +LR = 0.875 / 0.125 = 7\n\nWait — this contradicts my initial thought. But 7 is not among the options. Did I misinterpret?\n\nWait — perhaps the question is asking for the +LR of the **parallel test**, which means: the test is considered positive if **either** method is positive.\n\nIn that case, for patients with cervical lesions:\n\n- The total number who tested positive on at least one test = 70 (both positive) + 15 (colposcopy +, TCT -) + 5 (colposcopy -, TCT +) = 90\n\nBut that would be the total positive cases, not the true positives.\n\n"
+  }
+]

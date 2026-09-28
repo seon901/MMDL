@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Psychology_1",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The relationship between performance and arousal is typically depicted by an inverted U-shaped curve, often called the Yerkes-Dodson Law. This model suggests that performance increases with arousal up to a point, after which further increases in arousal lead to a decline in performance. The peak of performance occurs at an optimal level of arousal.\n\nWithout seeing the actual images, I must infer based on standard psychological models. The correct depiction would show:\n\n- Low arousal → low performance\n- Moderate arousal → peak performance\n- High arousal → declining performance\n\nThis is commonly represented as a bell-shaped or inverted U-curve graph.\n\nAmong the options (A–E), the one that best depicts this inverted U-shaped relationship is most likely **Option C**, as it is commonly used in textbooks and research to illustrate the Yerkes-Dodson Law.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_2",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks what is most important in the experimental design to investigate divided attention. The study compares performance in a dual-task condition (listening to prose while inspecting photographs) with a baseline (single-task) condition, using the same participants.\n\nTo isolate the effect of dividing attention — and not confounding it with other factors like fatigue, order of tasks, or individual differences — researchers must control for the sequence in which the tasks are presented. If participants are tested in a different order on different days or in different sessions, their performance could be influenced by factors such as mental fatigue or priming effects.\n\nCounterbalancing — varying the order of conditions across participants — helps ensure that any observed differences are due to the manipulation (dual-task vs. single-task) rather than the order in which the tasks were administered.\n\nOption A suggests counterbalancing the order, which is a standard method to control for order effects in experimental designs involving repeated measures or within-subjects comparisons.\n\nOption B (consistent order) would actually introduce a confound, because if all participants do the baseline task first, then the dual-task, for example, their memory might be affected by prior task exposure.\n\nOptions C and D are irrelevant to the core issue of isolating the effect of divided attention. Gender balance and participants’ beliefs are not central to the design’s validity in this context.\n\nTherefore, the most important element is counterbalancing to control for order effects.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Psychology_3",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows a pattern of word recall that peaks at the beginning (primacy), dips in the middle (intermediate), and then rises again at the end (recency). This is a classic representation of the **serial position effect**, which refers to the psychological phenomenon where items at the beginning and end of a list are more easily remembered than those in the middle.\n\n- Primacy effect: Items at the start are recalled better.\n- Recency effect: Items at the end are recalled better.\n- Intermediate items: Recall is poorer due to interference or lack of rehearsal.\n\nThis matches perfectly with option E.\n\nOther options:\n- A. Spacing effect: Refers to better retention when study sessions are spaced out over time — not illustrated here.\n- B. Elaborative rehearsal: Involves connecting new information to existing knowledge — not depicted.\n- C. Forgetting curve: Shows decline in memory over time — not shown here.\n- D. Visual imagery: Involves mental pictures aiding memory — not relevant to this graph.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Psychology_4",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The diagram shows that an emotional-inducing stimulus triggers both a physiological response and a conscious cognitive interpretation simultaneously, which then leads to a behavioral response and finally the labeling of emotion. This structure aligns with the **Cannon-Bard Theory** of emotion, which posits that physiological and cognitive responses occur simultaneously in response to an emotional stimulus, rather than one causing the other.\n\n- James-Lange Theory suggests that physiological responses precede and cause emotions.\n- Schachter-Singer Theory emphasizes cognitive labeling after physiological arousal.\n- Cranberry-Melon Theory is not a real psychological theory.\n\nThus, the correct answer is B. Cannon-Bard Theory.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_5",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The arrow is pointing to the pink region at the posterior (back) part of the brain, which is the occipital lobe. This lobe is responsible for processing visual information.\n\nLet’s evaluate the options:\n\nA. Parietal lobe — Located on the top and sides of the head, behind the frontal lobe; not pointed to by the arrow.\nB. Temporal lobes — Located laterally, near the ears; not indicated by the arrow.\nC. Cerebral cortex — This is the outer layer of the brain, but the arrow points specifically to a subregion (the occipital lobe), not the entire cortex.\nD. Occipital lobe — Correct. The arrow points to the back of the brain, which is the occipital lobe.\n\nTherefore, the correct answer is D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Psychology_6",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which learning curve represents a **variable ratio reinforcement schedule**, we need to understand what that schedule looks like.\n\nA **variable ratio (VR)** schedule reinforces responses after an unpredictable number of responses. This leads to a high and steady rate of responding, with a gradual increase in the cumulative number of responses over time, and a characteristic “staircase” or “zigzag” pattern where reinforcement is delivered after varying intervals.\n\nLooking at the options:\n\n- **A** shows a steep, linear rise — this is typical of a **fixed ratio (FR)** schedule, where reinforcement is given after a set number of responses.\n- **B** shows a staircase pattern that increases steadily — this is also characteristic of a **fixed ratio** schedule.\n- **C** shows a smooth, curved upward trend — this is more typical of a **variable interval** schedule.\n- **D** shows a pattern where reinforcement occurs after unpredictable intervals but with a high and steady rate — this matches the **variable ratio** schedule.\n- **E** shows no reinforcement — this is not a reinforcement schedule at all.\n\nThe key feature of variable ratio is that reinforcement occurs unpredictably after a variable number of responses, leading to a high and consistent rate of responding, as seen in D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Psychology_7",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks for the region of the neuron that contains neurotransmitter receptors and receives incoming messages. This is typically the dendrites or the cell body, which are responsible for receiving signals from other neurons.\n\nLooking at the diagram:\n- A is likely a dendrite (or part of the dendritic tree), which receives incoming signals.\n- B is the cell body (soma), which also contains receptors and integrates signals.\n- C is the axon (the long projection that sends signals).\n- D is a segment of the axon.\n- E is the axon terminal (end of the axon), which releases neurotransmitters.\n- F is the dendrites at the end of the axon’s terminal, but this is not correct — F is actually the dendrites of the neuron, which receive input.\n\nHowever, the key point is: **neurotransmitter receptors are located on the dendrites and the cell body** to receive incoming messages. The diagram shows:\n- A and B are both dendritic structures (A is a dendrite, B is inside the cell body).\n- But option A is labeled as a dendrite (branching structure) — it’s the most direct site for receiving incoming synaptic input.\n\nBut wait — in many diagrams, the dendrites are shown as branching structures extending from the cell body. In this diagram, **A** points to one of those branches — likely a dendrite — and **B** points to the cell body itself.\n\nThe question says “the main part of the neuron that contains neurotransmitter receptors (i.e. receives incoming messages)”. While the cell body (B) does contain receptors, the dendrites (A) are the primary sites for receiving incoming signals from other neurons.\n\nHowever, looking more closely, **F** is labeled as the dendrites at the end of the axon — which doesn’t make sense anatomically. The axon terminals are at the end of the axon, and dendrites are branched structures extending from the cell body. So F is probably mislabeled or pointing to dendrites.\n\nActually, **F** appears to be the dendrites — the branching structures at the bottom right. That would be the region receiving incoming messages.\n\nLet’s reevaluate:\n\nIn standard neuron anatomy:\n- Dendrites (A and F) receive incoming signals.\n- Cell body (B) integrates them.\n- Axon (C, D, E) transmits outgoing signals.\n\nThe question asks for the region that *receives* incoming messages — so"
+  },
+  {
+    "id": "validation_Psychology_8",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the mean of Data Set A, we sum all the values and divide by the number of values.\n\nData Set A: 3, 4, 6, 12, 16, 17, 19\n\nStep 1: Add the numbers:\n3 + 4 = 7\n7 + 6 = 13\n13 + 12 = 25\n25 + 16 = 41\n41 + 17 = 58\n58 + 19 = 77\n\nTotal sum = 77\n\nStep 2: Count the number of values = 7\n\nStep 3: Calculate the mean = 77 ÷ 7 = 11\n\nSo, the mean of Data Set A is 11.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_9",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The newspaper clipping advertises a psychological study on “authority and behavior,” and mentions that participants’ “responses to different kinds of authority will be assessed.” This indicates that the study is designed to observe how individuals react or respond under varying conditions of authority — which is the definition of an independent variable in experimental research: the variable that is manipulated or varied by the researcher to observe its effect.\n\nLet’s evaluate the options:\n\nA. Perception of authority — This might be a dependent variable, as it could be what participants are responding to, not manipulated by the researcher.\n\nB. Conformity — While related to authority, conformity is not directly mentioned and may be inferred, but it’s not the most direct or explicitly stated variable.\n\nC. Perception of behavior — This is vague and not clearly tied to the study’s focus on authority.\n\nD. Response to authority — This matches the text: “your responses to different kinds of authority will be assessed.” The researcher is manipulating the type of authority (e.g., authoritative vs. non-authoritative) and measuring the response. So this is the most likely independent variable.\n\nE. Age — Not mentioned in the ad, so unlikely.\n\nThus, the best answer is D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Psychology_10",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let’s analyze the labeled regions in the brain diagram:\n\n- Label **1** points to the front part of the brain, which is the **frontal lobe**. This is the largest lobe and is associated with higher cognitive functions like decision-making and personality.\n\n- Label **2** points to the top back portion of the brain, which is the **parietal lobe**. It processes sensory information from the body.\n\n- Label **3** points to the rear part of the brain, which is the **occipital lobe**. This is primarily responsible for vision.\n\n- Label **4** points to the side and lower region of the brain, which is the **temporal lobe**. It handles auditory processing and memory.\n\nSo, the correct order — 1, 2, 3, 4 — is: Frontal lobe, parietal lobe, occipital lobe, temporal lobe.\n\nThat matches option **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_11",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks us to interpret Panel C, which is labeled “Bridge Between Disjoint Populations.” The description provided in the passage explains that adolescent sexual networks differ from adult ones: adults have a core group (like transportation hubs), while adolescents have long chains and no central core — but it also mentions that “one single component of the network was found to have 288 linked students,” implying that the network is connected through chains.\n\nPanel C’s title explicitly refers to a “bridge between disjoint populations.” In network terms, this means there is a connection (often a single node or edge) that links two otherwise separate groups or clusters. The visual representation in Panel C shows two distinct clusters of nodes (populations) connected by a single link — this is the classic definition of a bridge.\n\nLet’s evaluate the options:\n\nA. One individual's past partner is tied through multiple chains to his or her current or future partner.  \n→ This describes a complex web or branching structure, not a bridge between populations. Not accurate for Panel C.\n\nB. It is a structure with few cycles, low redundancy, and sparse density.  \n→ While this might be true of some networks, it doesn’t specifically explain the “bridge between populations” concept. Too vague and not directly related to the panel’s labeling.\n\nC. One actor shows the ability to stop the transmission of STDs between two networks.  \n→ This is a functional interpretation, but Panel C doesn’t suggest any control or stopping of transmission; it just shows connectivity. Not supported.\n\nD. Two populations of persons engaged in different behaviors are linked by one actor.  \n→ This matches exactly what Panel C depicts: two separate groups (populations) connected via a single link (actor). This is the definition of a “bridge” in network theory.\n\nTherefore, Option D best explains Panel C.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Psychology_12",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks which theory supports the viewpoint that the Piraha have not needed a counting system beyond two, and that when a better numbering system is necessary, their language will create it. This reflects the idea that language shapes thought and cognition — specifically, that the structure of a language influences how its speakers perceive and conceptualize the world.\n\nThis aligns with **linguistic determinism**, which is the view that the structure of a language determines the cognitive possibilities of its speakers. The Whorfian theory (often associated with Edward Sapir and Benjamin Lee Whorf) is a form of linguistic determinism — the idea that language shapes thought and that cultural and linguistic structures constrain or determine cognitive processes.\n\nThe option \"C. Whorfian\" directly corresponds to this view. While “Weak linguistic determinism” (D) might suggest that language influences thought but doesn’t completely determine it, the question’s viewpoint — that the Piraha’s language *creates* the need for a counting system — is more aligned with a stronger version of linguistic determinism, which Whorfian theory represents.\n\nPiaget (A) focuses on cognitive development stages independent of language, while Vygotsky (B) emphasizes social interaction and scaffolding in learning — neither of which addresses the claim that language structure dictates cognitive capability like counting.\n\nThus, the best answer is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_13",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The neurotransmitter dopamine is released from the presynaptic neuron (at B, which represents synaptic vesicles containing dopamine) and diffuses across the synaptic cleft (D) to bind to receptors on the postsynaptic neuron. The receptors are located on the membrane of the postsynaptic neuron, specifically at E, which is labeled as the receptor site.\n\nThus, dopamine has its effect at E — the receptor sites on the postsynaptic neuron.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Psychology_14",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which option would NOT account for the “LBFS (Look But Failed to See)” accident, we must understand what LBFS implies: the driver looked in a direction (e.g., checking the side mirror or scanning the road) but failed to perceive an oncoming vehicle that should have been visible from that position.\n\nLet’s evaluate each option:\n\nA. **Saccadic masking occurrence, in which moving eyes are rendered temporarily blind**  \n→ This is a well-documented phenomenon in visual perception where rapid eye movements (saccades) cause a temporary loss of visual input during the movement. This could directly lead to missing objects during a glance — a plausible explanation for LBFS.\n\nB. **Driving on an unfamiliar road**  \n→ An unfamiliar road may cause cognitive load or uncertainty, potentially reducing attentional focus or increasing distraction. However, this does not inherently explain *why* the driver looked in a direction and failed to see an object that should have been visible. If the road is unfamiliar, the driver might be looking for signs, exits, or hazards — but if they look in a direction and miss an oncoming car, it’s more about attentional failure or sensory processing than the road being unfamiliar per se. Still, it could indirectly contribute by causing distraction or stress. But let’s compare with others.\n\nC. **Domain-general and domain-specific interference**  \n→ As described in the passage, these refer to cognitive resource competition. If language tasks (visual, motor, abstract) interfere with driving performance, they could impair attention or processing speed — leading to missed cues or delayed reaction times. This fits with LBFS, since failing to see something may stem from divided attention or cognitive overload.\n\nD. **An experienced driver's existing schema does not match an oncoming car**  \n→ Schemas are mental frameworks that help predict and interpret stimuli. If the driver’s schema doesn’t match the actual situation (e.g., expecting a car to be at a certain location or size, but seeing one that’s different), they may fail to recognize it as a threat. This can lead to LBFS — e.g., expecting a truck to appear from the right, but seeing a car that looks like a pedestrian or a van, and misjudging its presence. So this is also a valid account.\n\nNow, back to B: **Driving on an unfamiliar road**. While it can increase stress or require extra cognitive effort, it doesn't inherently explain why the driver looked in a direction and failed to see an oncoming vehicle."
+  },
+  {
+    "id": "validation_Psychology_15",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The bar graph shows that as exposure to media violence increases (from Low to High), the percentage of aggressive behavior increases for both elementary school girls and boys. This suggests that observing media violence leads to an increase in aggressive behavior — a classic example of observational learning, where individuals learn behaviors by watching others.\n\nOperant conditioning involves reinforcement or punishment shaping behavior, which is not directly illustrated here.\n\nClassical conditioning involves associating stimuli with responses (e.g., Pavlov’s dogs), which is not what this graph depicts.\n\nPrepared conditioning is not a standard psychological term in this context.\n\nSelf-actualization, from humanistic psychology, refers to realizing one’s potential — unrelated to this data.\n\nTherefore, the best explanation is **observational learning**, as it aligns with the idea that children are modeling aggressive behavior after seeing it in media.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Psychology_16",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let’s analyze the graph and the options.\n\nThe graph shows three dark adaptation curves:\n\n- The **solid line** represents overall human light sensitivity (rod + cone).\n- The **dashed lines** represent receptor-specific curves:\n  - **Rod** curve: starts at very high sensitivity in darkness, but drops off rapidly under bright light.\n  - **Cone** curve: starts at low sensitivity in darkness, but rises sharply as you go into darkness — reaching maximum sensitivity around 10–20 minutes. However, cones are not sensitive to low light — they’re adapted to brighter conditions.\n\nKey physiological facts:\n\n- **Rods** are highly sensitive to light and function best in dim light (scattered throughout retina). They are **not responsible for color vision** — they detect brightness only, and have limited spectral sensitivity (respond broadly to wavelengths).\n- **Cones** are responsible for color vision and function best in bright light (concentrated in fovea). They have high spectral sensitivity and can distinguish colors, but are **not effective in low-light conditions**.\n\nSo, under low-light conditions, **rods dominate**, and since rods do not respond to specific wavelengths (they are less selective), **color perception is lost**. This is why we cannot see colors in the dark — it’s not because there are fewer photons, but because the receptors (rods) don’t encode color information.\n\nNow evaluate the options:\n\n**A. Rods are responsible for color vision...** → False. Rods are NOT responsible for color vision.\n\n**B. Cones are responsible for color vision... under low-light conditions** → False. Cones are NOT functional in low-light conditions.\n\n**C. Rods do not respond preferentially to wavelengths... which explains why colors are not detectable in low-light conditions.** → True. Rods have broad spectral sensitivity and do not distinguish wavelengths, so no color perception occurs in dim light.\n\n**D. Both rods and cones respond to specific colors... loss of color vision... result of fewer photons** → False. While both types *can* respond to specific wavelengths, rods do not — and color vision loss in dark is due to rod dominance and lack of cone function, not photon count per se.\n\nThus, the correct statement is **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_17",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The relationship between arousal and performance is typically described by the “Yerkes-Dodson Law,” which states that performance increases with arousal up to an optimal point, after which performance decreases as arousal continues to increase. This creates an inverted U-shaped curve.\n\nTherefore, the graph that best represents this relationship should show performance peaking at moderate levels of arousal and declining at very low or very high levels.\n\nWithout seeing the actual images, I must infer based on standard representations:\n\n- Image 1: Might be a straight line — incorrect.\n- Image 2: Could be a U-shape — incorrect (performance doesn’t decrease at low arousal).\n- Image 3: Likely shows an inverted U-shape — correct.\n- Image 4: Possibly a linear relationship — incorrect.\n- Image 5: May show no relationship or random variation — incorrect.\n\nThus, the best representation is the one showing an inverted U-curve, which is commonly labeled as Image 3.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_18",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which group was most susceptible to relapse, we need to identify the group with the highest percentage of individuals returning to drug abuse one year after release. Relapse susceptibility is indicated by a higher percentage in the table.\n\nThe table shows:\n\n- **Medication referral only**:\n  - Opiates: 65.6%\n  - Cocaine: 71.2%\n\n- **Medication post-release only**:\n  - Opiates: 48.7%\n  - Cocaine: 69.8%\n\n- **Medication pre- and post-release**:\n  - Opiates: 25.0%\n  - Cocaine: 43.2%\n\nWe are looking for the highest percentage across all groups. The highest value in the table is **71.2%** for **cocaine users who received only a medication referral**.\n\nThis corresponds to option **B**: “Individuals who were addicted to cocaine and received medication referrals.”\n\nLet’s verify the other options:\n\n- A: Opiates, pre/post → 25.0% — low\n- C: Opiates, post-only → 48.7% — lower than 71.2%\n- D: Cocaine, pre/post → 43.2% — much lower\n\nThus, the group most susceptible to relapse is indeed those addicted to cocaine and receiving only medication referrals.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_19",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The most serious problem with the methodology of this research is that it introduces a confounding variable: the gender of the singer. The researcher hypothesized that music type (jazz vs. opera) influences men and women differently, but in this study, the jazz piece was sung by a man and the operatic piece was sung by a woman. This means that the observed differences in mood inventory scores might be due to the singer’s gender rather than the music type itself.\n\nFor example, if men are more emotionally affected by male singers or women by female singers, then the results could be misleading — the effect might not be due to the music genre but to the singer’s gender. This violates the principle of controlling for extraneous variables in experimental design.\n\nOption A is incorrect because participants did listen to both types of music — 40 men and 40 women listened to jazz, and another 40 men and 40 women listened to opera. So they did experience both conditions.\n\nOption C is incorrect — sample size (80 per group) is adequate for an experiment like this, especially since the graph shows clear trends.\n\nOption D is irrelevant — whether participants are musicians doesn’t affect the validity of the mood inventory results.\n\nTherefore, the most serious problem is that the singers were not the same gender, which introduces a confounding variable.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_20",
+    "subject": "Psychology",
+    "is_mcq": false,
+    "predicted": "embryonic",
+    "answer": "embryonic",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The red arrow in the figure points to the period labeled \"3\" on the timeline, which corresponds to the **embryonic** stage of pregnancy. This is indicated by the text \"Period of dividing zygote, implantation, and bilaminar embryo\" associated with stages 1-2, and the red arrow spans from stage 3 to stage 4, which are part of the embryonic period (approximately weeks 3–8).\n\nAnswer: embryonic"
+  },
+  {
+    "id": "validation_Psychology_21",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let's analyze the question and the provided options in the context of psychological research on schizophrenia.\n\nThe question asks which statement is NOT true, based on psychological research. We need to evaluate each option against established scientific knowledge about the causes of schizophrenia.\n\nOption A: \"Schizophrenia has a genetic component that can be inherited from biological parents, but genetic factors alone cannot account for the development of the disorder.\" This is true. Research shows a hereditary link; if one parent has schizophrenia, the child's risk increases. However, genetics is not sufficient; environmental factors also play a role. The disorder is polygenic and multifactorial.\n\nOption B: \"The production and activity of specific chemical substances in the brain have been found to be associated with schizophrenia.\" This is true. Neurochemical imbalances, particularly involving dopamine and glutamate, are well-documented in schizophrenia research. These neurotransmitters are involved in brain signaling and their dysregulation is implicated in the disorder's symptoms.\n\nOption C: \"Environmental factors contribute to the development of schizophrenia.\" This is true. Environmental factors such as prenatal exposure to viruses, urban upbringing, substance abuse, and social stressors are known to increase the risk of developing schizophrenia, especially when combined with genetic vulnerability.\n\nOption D: \"A person has a 100% chance of developing schizophrenia if both of his or her parents have schizophrenia.\" This is false. While having two affected parents significantly increases the risk (to around 40-50% for children), it does not guarantee the disorder. Schizophrenia is a complex disorder influenced by many genes and environmental factors. Having a family history does not mean a person will definitely develop it.\n\nTherefore, the statement that is NOT true is Option D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Psychology_22",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which coping strategy best describes the deep breathing program described in the passage.\n\nLet’s analyze the options in light of the program:\n\n- The deep breathing program is designed to induce a **relaxation response**, which counteracts the physiological effects of stress (e.g., increased heart rate, muscle tension, elevated blood pressure). This is not about changing how patients perceive or appraise their stress (which would be appraisal-focused), nor is it about avoiding the problem or distancing oneself from stress reactions (avoidance-focused).\n\n- Instead, the program teaches patients to **regulate their physiological responses** to stress through controlled breathing. It does not focus on changing beliefs or assumptions about cancer (eliminating A), nor does it aim to solve the underlying problem (eliminating C). Rather, it helps patients **manage their emotional and physical arousal** — specifically, the *emotional* and *physical* symptoms listed in Table 1 (like anxiety, headaches, rapid heartbeat, etc.) — by activating a physiological relaxation state.\n\nThis aligns with **emotion-focused coping**, which involves managing the emotional and physiological consequences of stress rather than altering the stressor itself or directly addressing the problem.\n\nIn psychology, emotion-focused coping strategies include techniques like mindfulness, meditation, and deep breathing, which aim to reduce emotional arousal and physiological stress responses — exactly what this program does.\n\nTherefore, the correct answer is:\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_23",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks how the model for embodied cognition differs from the information-processing model, based on the provided text.\n\nThe passage describes embodied cognition as emphasizing the interaction between the mind and body, sensorimotor experience, and the environment. It cites examples like mental imagery conflicting with action performance and memory being tied to sensorimotor information. The experiment described (with hockey and non-hockey scenarios) is designed to test whether sensorimotor experience aids decision-making — a core idea in embodied cognition.\n\nIn contrast, the information-processing model typically views the mind as a computer-like system — processing inputs, applying rules, and generating outputs. This is a well-established distinction in cognitive science: information-processing models are often metaphorically \"computer-based,\" while embodied cognition models emphasize the role of the body and environment in shaping cognition.\n\nLooking at the options:\n\nA. “The information-processing model is often characterized by a metaphor of mind like a computer; however, the embodied cognition model views cognition as a product of represented actions, environment, and past experience.” — This correctly contrasts the two models, matching the description in the passage.\n\nB. Incorrectly states that embodied cognition is passive and rule-based — it’s actually active and grounded in sensory-motor experience.\n\nC. Incorrect — they are not essentially the same; they differ fundamentally.\n\nD. Incorrect — it reverses the roles: it says embodied cognition is computer-like, which is wrong.\n\nTherefore, option A is correct.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Psychology_24",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a lateral view of the human brain, with a blue arrow pointing to the lower part of the brainstem. The structure indicated is the **medulla oblongata**, which is the lowermost part of the brainstem and continues into the spinal cord. It is responsible for regulating vital autonomic functions such as heart rate, breathing, and blood pressure.\n\nLet’s evaluate the options:\n\n- A. Pons — This is located above the medulla and is involved in sleep regulation and relaying signals between the cerebrum and cerebellum. Not the structure pointed to.\n- B. Medulla oblongata — Correct. This is the region at the bottom of the brainstem, just above the spinal cord, and is precisely what the blue arrow indicates.\n- C. Spinal cord — While it connects to the medulla, the spinal cord is not part of the brain itself; it’s a separate structure extending downward from the medulla. The image shows the brain, not the spinal cord.\n- D. Reticular formation — This is a network of neurons within the brainstem (including the medulla and pons) involved in arousal and sleep regulation. However, the blue arrow points to a more distinct, lower portion — the medulla — rather than the reticular formation as a whole.\n\nTherefore, the correct answer is the medulla oblongata.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Psychology_25",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows the forgetting curve, which illustrates how memory retention declines over time after learning. The key observation is that the initial steep drop — especially from day 0 to day 1 — indicates rapid forgetting in the early stages. The curves show that memory fades quickly at first, then more slowly over time. This is consistent with Ebbinghaus’s findings: most forgetting occurs shortly after learning, particularly within the first few days.\n\nLet’s evaluate the options:\n\nA. “Most forgetting occurs gradually over a long period of time.” — Incorrect. The graph shows rapid initial decline, not gradual over long periods.\n\nB. “Most forgetting occurs after only a few days.” — This is misleading. While forgetting happens quickly, “most” forgetting occurs *early*, not “after only a few days” — this phrasing implies the bulk of forgetting happens *after* a few days, which is inaccurate.\n\nC. “Most forgetting occurs soon after information is learned.” — Correct. The steep initial drop (especially between day 0 and day 1) shows that the majority of forgetting happens very soon after learning.\n\nD. “Most forgetting occurs at a constant rate over time.” — Incorrect. The graph clearly shows a non-linear decline — steeper initially, then leveling off — so it’s not constant.\n\nThus, option C best characterizes forgetting based on the graph.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Psychology_26",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine how many complete sleep cycles can be seen in Figure 1, we need to understand the structure of a typical sleep cycle.\n\nAccording to the passage:\n- A complete sleep cycle consists of: N1 → N2 → N3 → REM → back to N2 (and then repeat).\n- The cycle typically begins about 90 minutes after falling asleep.\n- The first REM stage lasts about 20 minutes.\n- The average night includes five such cycles.\n\nNow, looking at Figure 1, which is a hypnogram (a chart showing sleep stages over time), we must identify the distinct patterns that represent one full cycle. Each cycle should include:\n\n1. A transition from awake → N1 (short spike)\n2. Then N2 (medium duration)\n3. Then N3 (longer duration, deep sleep)\n4. Then REM (shorter than N3, but often visually distinct with a peak or drop-off)\n5. Then back to N2 (or sometimes directly to wakefulness)\n\nIn the figure, we can see the following:\n\n- The graph starts with a large “Awake” bar at the beginning (around 0–1 hour), which is likely the person falling asleep.\n- Then we see a transition into sleep stages: N1 (A), then N2 (B), then N3 (C), then REM (D) — and then it loops back.\n\nWe can count the distinct “cycles” by identifying where the pattern repeats:\n\n- First cycle: From ~0 to ~1.5 hours (N1 → N2 → N3 → REM → N2? Not fully clear, but let’s look for full transitions).\n\nActually, based on the visual structure:\n\nThe figure shows:\n\n- Awake → N1 → N2 → N3 → REM → N2 → N3 → REM → N2 → N3 → REM → N2 → N3 → REM → N2 → ... \n\nWait — let's map it out more carefully.\n\nLooking at the x-axis (Hours of sleep) from 0 to 7.\n\nFrom 0 to 1: Awake\nThen from 1 to 2: N2 (since B is labeled as sleep stage B, which according to text is N2 — assuming A=N1, B=N2, C=N3, D=REM)\n\nBut wait — the labels are:\n\n- Awake (top)\n- A (first sleep stage)\n- B (second)\n- C (third)\n- D (fourth"
+  },
+  {
+    "id": "validation_Psychology_27",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks what phenomenon best explains the performance differences between Groups A and B.\n\nGroup A was told that most students are expected to pass — this is a positive expectation, which typically motivates students to perform better. Group B was told that most students are expected to fail — this is a negative expectation, which can demotivate or lower performance.\n\nThis scenario aligns with the **Pygmalion effect**, which is the phenomenon where higher expectations from others (e.g., teachers, peers, or even exam instructions) lead to improved performance by the individuals involved. Conversely, lowered expectations can lead to poorer performance.\n\nLet’s briefly consider the other options:\n\n- **A. Social facilitation** — refers to improved performance on simple tasks due to the presence of others. Not relevant here, as there’s no mention of social presence.\n- **B. Group polarization** — occurs when group discussion leads to more extreme positions than individuals held alone. Not applicable here; groups were not discussing.\n- **C. Self-serving bias** — tendency to attribute success to oneself and failure to external factors. Doesn’t explain the group-level performance difference caused by introductory statements.\n- **D. Unstable attribution** — refers to attributing behavior to unstable causes (like effort vs. ability). Not directly related to the effect of expectations in this context.\n\nThus, the Pygmalion effect is the best explanation for why Group A performed better than Group B — because the introduction set positive expectations, leading to better performance.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Psychology_28",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows that as group size increases, the amount of effort exerted by individuals decreases. This is a classic illustration of **social loafing**, which is the phenomenon where individuals exert less effort when working in a group compared to when they work alone, especially as group size grows.\n\n- Social facilitation (B) refers to improved performance due to the presence of others.\n- Group polarization (C) refers to group decisions becoming more extreme than individual initial positions.\n- Groupthink (D) is a phenomenon where group dynamics lead to irrational or dysfunctional decision-making.\n- Minority influence (E) refers to how minority opinions can sway majority opinion, often through persistence and consistency.\n\nNone of these fit the pattern shown: decreasing individual effort with increasing group size.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Psychology_29",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The graph illustrates the forgetting curve, which shows that memory declines rapidly at first and then more slowly over time. The key insight is that repeated review (as shown by the “Second review,” “Third review,” and “Fourth review” curves) flattens the curve — meaning that with each subsequent review, the rate of forgetting slows down, and memory retention improves.\n\nIn the scenario described, you take a training course and then retake the test every summer. This corresponds to repeated reviews (relearning), similar to Ebbinghaus’s experiments. Each year, your memory is refreshed, so the forgetting curve for each subsequent test would be “revised” or “reset” at the point of review.\n\nLooking at the graph:\n\n- The “First learning exposure” curve shows rapid initial forgetting.\n- The “Second review” curve is above the first, indicating better retention after review.\n- The “Third review” curve is even higher than the second, and the “Fourth review” curve is the highest of all, showing that repeated review significantly improves long-term retention.\n\nTherefore, if you retake the test every summer, you are essentially performing a “review” each year, which according to the graph, leads to progressively better memory retention over time — meaning your performance should improve or at least not decline as sharply as it would without review.\n\nBut note: the question asks how you would expect to perform on the test — implying the *performance* over time, not necessarily improvement. Since you’re reviewing each year, you’ll retain more information than if you didn’t review, and the forgetting curve will be “flattened” each time. So, while forgetting still happens, it does so at a slower rate, and your performance should remain high over the years — not decline sharply or collapse.\n\nLet’s evaluate the options:\n\nA. Test performance would decline sharply at first but decline less and less in later years.  \n→ This matches the forgetting curve *without* review. But since you are reviewing annually, this isn't what happens — review prevents the sharp initial decline and keeps memory high. So A is incorrect.\n\nB. Test performance would decline gradually over the years and then stabilize.  \n→ This implies no review — just natural forgetting. But you are reviewing annually, so performance won’t decline gradually — it will likely stay stable or even improve slightly due to review. So B is misleading.\n\nC. Test performance would decline sharply at first and continue to decline rapidly until eventually, you were unable to remember anything at all.  \n→ This is"
+  },
+  {
+    "id": "validation_Psychology_30",
+    "subject": "Psychology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The relationship between a person’s level of arousal and performance on a challenging task is best described by the **Yerkes-Dodson Law**, which states that performance increases with arousal up to an optimal point, after which performance declines as arousal continues to increase. This creates an inverted U-shaped curve.\n\nTherefore, the graph that shows performance increasing with arousal up to a peak and then decreasing is the correct one.\n\nWithout seeing the actual images, I must infer based on standard representations: typically, Image 3 (or similar) would show this inverted U-shape — rising performance with moderate arousal, peaking at medium arousal, then declining at high arousal.\n\nSince the question asks for the best display of this relationship, and assuming Image 3 represents the inverted U-curve, it is the most appropriate.\n\nAnswer: C"
+  }
+]

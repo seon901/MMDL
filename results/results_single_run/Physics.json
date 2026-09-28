@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Physics_1",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given four identical current-carrying wires, all with conventional current coming **out of the plane of the page** (indicated by the dot in the center of each circle). The wire on the right is labeled P. We are to find the direction of the **total magnetic force** on wire P due to the other three wires.\n\n---\n\n### Step 1: Understand the setup\n\n- All wires carry current perpendicular to the page, out of the page.\n- The wires are arranged roughly in a square pattern: one at the top, one at the left, one at the bottom, and P at the right.\n- Since the currents are all in the same direction (out of the page), we can use the rule for magnetic forces between parallel currents: **parallel currents attract**, and **anti-parallel currents repel**.\n\nBut here, the wires are not all parallel to each other — they form a square, so the wires are not all aligned in the same direction relative to wire P.\n\nLet’s analyze the force on wire P from each of the other three wires:\n\n---\n\n### Step 2: Force from the top wire\n\n- Wire P (right) and top wire are **not parallel**; they are diagonal.\n- The current in both is out of the page → same direction.\n- But the wires are not parallel — the angle between their directions is 45° (since they form a square).\n- However, the magnetic field produced by the top wire at the location of wire P will be **perpendicular to the radial direction** from the top wire to P.\n- The magnetic field lines from a straight wire are concentric circles around it.\n- At point P, which is to the right of the top wire, the magnetic field due to the top wire will be **into the page** (using right-hand rule: thumb out of page, fingers curl clockwise → at right side, field is into page).\n\nNow, the force on wire P due to this field: F = I(L × B)\n\nThe current in wire P is out of the page (say, +z direction).\n\nThe magnetic field at P due to the top wire is into the page (say, -z direction).\n\nSo, B is into the page, I is out of the page → L × B is... let's compute:\n\nIf L is along +z (current out of page), and B is along -z (into page), then L × B = |L||B| sin(180"
+  },
+  {
+    "id": "validation_Physics_2",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Physics_3",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given two long parallel wires, each carrying a current `i` directed into the page (represented by the symbol \"×\"). The wires are separated by a distance `d`.\n\nTo find the direction of the force on the **right-hand wire** due to the current in the **left-hand wire**, we use the right-hand rule for magnetic forces between parallel currents.\n\n### Step-by-step reasoning:\n\n1. **Magnetic field produced by the left wire**:  \n   A current flowing into the page (into the page) produces a magnetic field that circles around the wire in a clockwise direction (using the right-hand rule: thumb into the page, fingers curl clockwise).\n\n2. **Direction of the magnetic field at the location of the right wire**:  \n   Since the right wire is to the right of the left wire, and the magnetic field lines are clockwise around the left wire, the field at the position of the right wire points **downward** (into the plane of the page — i.e., perpendicular to the line joining the wires, pointing downward if we imagine the wires horizontal).\n\n   More precisely: if the left wire is at the origin and the right wire is along the +x axis, then the magnetic field from the left wire at the right wire’s location points in the –y direction (downward).\n\n3. **Force on the right wire**:  \n   The force on a current-carrying wire in a magnetic field is given by:  \n   **F = I L × B**\n\n   Here, the current in the right wire is also into the page (same direction as the left wire). So, the current vector `I` is into the page (say, –z direction), and the magnetic field `B` at the right wire is downward (–y direction).\n\n   Therefore, the cross product `I × B` is:  \n   - Current vector: –z  \n   - Magnetic field vector: –y  \n   - Cross product: (–z) × (–y) = z × y = –(z × y) = –(–x) = x direction? Wait — let's be precise.\n\n   Actually, using right-hand rule:  \n   Point fingers in direction of current (into page = –z), curl toward magnetic field (downward = –y). The thumb gives direction of force.\n\n   Alternatively, recall:  \n   For two parallel wires with **same-direction currents**, the force is **attractive** — meaning the wires pull toward each other.\n\n  "
+  },
+  {
+    "id": "validation_Physics_4",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nThe ray enters from air (n_air ≈ 1.00) into plastic at point P, and we are given the angle of incidence in air (53°) and the angle of refraction in plastic (37°). Using Snell’s Law: n₁ sin(θ₁) = n₂ sin(θ₂), we have:\n\n1.00 × sin(53°) = n_plastic × sin(37°)\n\nWe know that sin(53°) ≈ 0.7986 and sin(37°) ≈ 0.6018.\n\nSo,\n\nn_plastic = sin(53°)/sin(37°) ≈ 0.7986 / 0.6018 ≈ 1.327\n\nThe speed of light in a medium is v = c / n, where c = 3.00 × 10⁸ m/s.\n\nTherefore, v = 3.00 × 10⁸ / 1.327 ≈ 2.26 × 10⁸ m/s — wait, this contradicts the options given.\n\nBut note: the question asks for the speed of light in the plastic, and the options are given as decimals (like 0.44, 0.88, etc.) — which suggests they might be expressing the speed as a fraction of c, i.e., v/c.\n\nLet me recalculate v/c:\n\nv/c = 1 / n_plastic ≈ 1 / 1.327 ≈ 0.754 — still not matching.\n\nWait — perhaps I misread the angles? Let me double-check the diagram.\n\nThe ray is coming from Q to P. The angle marked 53° is the angle between the ray and the normal? Or with the surface?\n\nIn optics diagrams, when an angle is drawn near the interface, it's usually measured from the normal unless otherwise specified. But here, the 53° is shown inside the triangle formed by the vertical and the ray — so if the vertical is the normal to the surface, then 53° is the angle between the ray and the normal — meaning it’s the angle of incidence.\n\nSimilarly, 37° is shown on the other side — that would be the angle of refraction.\n\nBut 53° + 3"
+  },
+  {
+    "id": "validation_Physics_5",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the average speed of the ball between 3 and 4 seconds, we use the formula:\n\n**Average speed = total distance traveled / total time taken**\n\nFrom the diagram:\n\n- At **t = 3s**, position = **9 cm**\n- At **t = 4s**, position = **16 cm**\n\nSo, the distance traveled between 3s and 4s is:\n\n**16 cm - 9 cm = 7 cm**\n\nThe time interval is:\n\n**4s - 3s = 1 second**\n\nTherefore, average speed = **7 cm / 1 s = 7.0 cm/s**\n\nThis matches option **B. 7.0 cm/s**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Physics_6",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "According to Newton’s Third Law of Motion, for every action, there is an equal and opposite reaction. This means that if the tractor exerts a force on the trailer, the trailer exerts an equal and opposite force on the tractor.\n\nThe masses of the tractor and trailer (trailer being 4 times the mass of the tractor) do not affect the magnitude of the force pair between them. The force exerted by the tractor on the trailer is equal in magnitude to the force exerted by the trailer on the tractor, regardless of their relative masses.\n\nTherefore, the force that the trailer applies on the tractor is equal to the force that the tractor applies on the trailer.\n\nCorrect answer: C\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Physics_7",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows an elliptical orbit with five labeled points: A, B, C, D, and E. In celestial mechanics, for a planet orbiting the Sun, the Sun is located at one of the two foci of the ellipse.\n\nIn an ellipse, the foci are located along the major axis, which is the longest diameter of the ellipse. The center of the ellipse is midway between the two foci.\n\nLooking at the diagram:\n- Point A is on the leftmost edge of the ellipse.\n- Points B, C, and D are inside the ellipse.\n- Point E is on the top edge.\n\nThe major axis must be aligned such that the foci lie along it. Since point A is clearly on the extreme left, and the ellipse is symmetric, the other end of the major axis would be on the opposite side (not shown). The foci are located along this major axis, closer to the center than to the ends.\n\nAmong the given points, point C is centrally located, and points B and D are closer to the center than to the edges. However, the foci are not necessarily at the center — they are located along the major axis, but not at the center unless the ellipse is a circle (which it is not, since it’s an ellipse).\n\nTypically, in diagrams like this, the focus is often placed near the center, but let’s evaluate each option:\n\nA. Eccentricity less than zero → Impossible. Eccentricity is always ≥ 0. For a circle, e=0; for an ellipse, 0 < e < 1.\n\nB. Eccentricity greater than 1 → That would make it a hyperbola, not an ellipse.\n\nC. The Sun might be at point C → Point C is inside the ellipse, and if the major axis is horizontal, then the foci would be on the horizontal axis. Point C is roughly central, so it could be a focus if the ellipse is symmetric and the major axis passes through C. But wait — the foci are not at the center, they are at the ends of the minor axis? No — foci are along the major axis, at distance e*a from the center.\n\nActually, the diagram does not show the center, but we can infer that the foci are along the major axis. Since point A is on the perihelion (closest approach), and the Sun is at one focus, it should be closer to point A than to point E. But point A is"
+  },
+  {
+    "id": "validation_Physics_8",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a rod of length $L$, pivoted at one end, and a force $F$ applied at the other end at an angle $\\theta$ to the rod.\n\nThe torque produced by a force is given by:\n\n$$\n\\tau = r \\cdot F \\cdot \\sin(\\phi)\n$$\n\nwhere:\n- $r$ is the distance from the pivot to the point of application of the force,\n- $F$ is the magnitude of the force,\n- $\\phi$ is the angle between the force vector and the lever arm (i.e., the perpendicular distance from the pivot to the line of action of the force).\n\nIn this case, the force is applied at the end of the rod, so $r = L$. The angle between the force vector and the rod is $\\theta$, but the torque depends on the component of the force perpendicular to the rod. Since the rod is horizontal and the force is applied at an angle $\\theta$ to the rod, the perpendicular component is $F \\sin\\theta$.\n\nSo the torque is:\n\n$$\n\\tau = L \\cdot F \\cdot \\sin\\theta\n$$\n\nNow, if the force is applied **perpendicular** to the rod, then $\\phi = 90^\\circ$, so $\\sin\\phi = 1$. Therefore, the torque becomes:\n\n$$\n\\tau' = r' \\cdot F \\cdot 1 = r' \\cdot F\n$$\n\nWe want the torque to be the same, so:\n\n$$\nr' \\cdot F = L \\cdot F \\cdot \\sin\\theta\n$$\n\nCanceling $F$ (assuming $F \\neq 0$):\n\n$$\nr' = L \\sin\\theta\n$$\n\nTherefore, the force must be applied at a distance $L \\sin\\theta$ from the axis to produce the same torque.\n\n---\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Physics_9",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nThe torque due to the rope's force acts at point 1 (where it is attached to the wall), so its torque about point 1 is zero. The weight of the rod acts downward at its center of mass, which is at the midpoint of the rod, so its torque about point 1 is non-zero. The normal force from the wall at point 2 also exerts a torque about point 1 (since it’s not at the pivot). However, if we choose point 1 as the pivot, the rope’s force has no torque (since it acts at the pivot), and we can write an equation for torques about point 1 involving only the weight and the wall’s normal force — but wait, actually, the wall’s normal force at point 2 does exert a torque about point 1.\n\nBut here’s the key: if we take torques about point 1, the tension in the rope has zero torque (acts at pivot), and the wall’s normal force at point 2 has a torque (since it’s not at the pivot). The weight acts at the center of the rod, so it has a torque. So we have two forces with non-zero torques about point 1: the weight and the wall’s normal force. But then we’d need two equations (for horizontal and vertical forces) and one torque equation — that’s three equations for three unknowns.\n\nWait — no! Actually, we don’t need to solve for the wall’s normal force. If we take torques about point 1, the rope’s tension contributes zero torque (it acts at the pivot), so the net torque about point 1 must be zero. That gives us one equation: sum of torques = 0. The weight of the rod creates a clockwise torque, and the normal force from the wall at point 2 creates a counterclockwise torque (if the rod is horizontal and the wall pushes leftward, it creates a counterclockwise torque about point 1). So we can write:\n\nτ_weight + τ_normal = 0\n\nThis gives us one equation relating the magnitude of the normal force and the weight, and the distances. But we are asked to solve for the force exerted by the rope — which is the tension T.\n\nHowever, note: if we take torques about point 1, the tension T has zero torque, so we cannot directly solve for T from torques about point 1 alone — unless we use the fact that the"
+  },
+  {
+    "id": "validation_Physics_10",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given two systems:\n\n- Left: A mass \\( m_1 \\) attached to a spring, displaced downward and released → simple harmonic motion (SHM) of a spring-mass system.\n- Right: A mass \\( m_2 \\) suspended by a string of length \\( L \\), displaced to the right and released → simple pendulum with small amplitude → also approximated as SHM.\n\nWe are to find which statement is true for **both** spheres.\n\nLet’s evaluate each option.\n\n---\n\n**Option A: The maximum kinetic energy is attained as the sphere passes through its equilibrium position.**\n\n- In both systems, the equilibrium position is where the net force is zero (for spring: Hooke’s law; for pendulum: restoring torque).\n- In SHM, energy is conserved. At the point of release (maximum displacement), all energy is potential (spring potential or gravitational potential). As the object moves toward equilibrium, potential energy converts to kinetic energy.\n- At equilibrium, displacement is zero → velocity is maximum → kinetic energy is maximum.\n- This holds for both systems.\n\n✅ So A is correct.\n\n---\n\n**Option B: The minimum gravitational potential energy is attained as the sphere passes through its equilibrium position.**\n\n- For the spring-mass system: Gravitational potential energy is not the primary form of potential energy — it's elastic potential energy stored in the spring. But if we consider gravitational PE, then for the spring-mass system, the gravitational PE depends on vertical position. If the spring is vertical, then at equilibrium, the mass is at a certain height, and when displaced downward, it goes lower → so gravitational PE is lower at the bottom (point of release) and higher at equilibrium? Wait — let’s think carefully.\n\nActually, for a vertical spring-mass system, the equilibrium position is where the spring is stretched such that the spring force balances gravity. So if you displace it further down (from equilibrium), you go to a lower position → gravitational PE decreases. So at equilibrium, gravitational PE is higher than at the point of release? No — wait: if you release from a lower position, you’re already below equilibrium. Let me clarify.\n\nIn the diagram, the point of release is shown *below* the equilibrium position for the spring system. So when you release from there, the mass is already below equilibrium, and it moves upward to equilibrium. Therefore, as it moves upward to equilibrium, its gravitational potential energy increases (since height increases).\n\nSo at equilibrium, gravitational potential"
+  },
+  {
+    "id": "validation_Physics_11",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a thin film of glass (n = 1.50) sandwiched between air (n = 1.00) above and water (n = 1.33) below. A light ray is incident **normal** to the glass layer. We are to find the **minimum thickness t** of the glass that causes **constructive interference** in the **reflected light**, resulting in an orange color (λ = 600 nm in air).\n\n---\n\n### Step 1: Understand the interference\n\nWhen light reflects off both surfaces of the thin film, there are two reflected rays:\n\n- Ray 1: reflects off the **top surface** (air to glass). Since the index increases (1.00 → 1.50), **phase reversal** occurs.\n- Ray 2: reflects off the **bottom surface** (glass to water). Since the index decreases (1.50 → 1.33), **no phase reversal**.\n\nSo, the two reflected rays have a **phase difference of π radians (180°)** due to the reflection at the top surface.\n\n---\n\n### Step 2: Path difference and condition for constructive interference\n\nThe path difference between the two rays is twice the thickness of the film: 2t.\n\nBut because of the **phase reversal** at the top surface, we must consider the **net phase difference**.\n\nIn thin-film interference, when there is **one phase reversal**, the condition for **constructive interference** is:\n\n> **Path difference = (m + ½) λ**  \n> where m = 0, 1, 2, ...\n\nThis is because the phase reversal effectively adds a half-wavelength phase shift, so for constructive interference, the total phase difference must be an odd multiple of π.\n\nAlternatively, we can think: since one reflection causes a phase shift of π, for constructive interference, the path difference must be such that the extra distance traveled (2t) corresponds to an **odd multiple of half wavelengths**:\n\n> **2t = (m + ½) λ**\n\nwhere λ is the wavelength in air (given as 600 nm).\n\nWe want the **minimum thickness**, so take m = 0:\n\n> **2t = (0 + ½) * 600 nm = 300 nm**\n\n> **t = 150 nm**\n\n---\n\n### Step 3: Check if this applies\n\nNote: The refr"
+  },
+  {
+    "id": "validation_Physics_12",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Physics_13",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D. Between 2 and 3 s\n\nThe object starts at t = 0 from its initial position (since velocity is zero and displacement is zero). It moves in the negative direction until t = 1 s, then back toward the origin, and continues moving forward until t = 4 s when it returns to zero velocity. The key is that displacement equals the area under the velocity-time graph.\n\nFrom t = 0 to t = 1 s, the velocity is negative, so displacement is negative (object moves away from origin).\n\nFrom t = 1 to t = 2 s, velocity becomes positive, so displacement increases (object moves back toward origin).\n\nAt t = 2 s, the object has moved from its position at t = 1 s to a point where displacement is zero? Not necessarily — we need to calculate the net area.\n\nActually, let’s compute cumulative displacement:\n\n- From t=0 to t=1: velocity is negative, forming a triangle below axis: area = (1/2) * base * height = (1/2)*1*(-2) = -1 m\n- From t=1 to t=2: velocity goes from 0 to 2 m/s, forming a triangle above axis: area = (1/2)*1*2 = +1 m → total displacement from 0 to 2 s: -1 + 1 = 0 m.\n\nWait — that means at t=2 s, displacement is zero, so the object is back at its initial position!\n\nBut wait — the graph shows from t=0 to t=1: velocity goes from 0 to -2, then back to 0 at t=1. So the area under curve from 0 to 1 is a triangle with area = (1/2)*1*(-2) = -1 m.\n\nFrom t=1 to t=2: velocity goes from 0 to 2, forming a triangle above axis: area = (1/2)*1*2 = +1 m.\n\nTotal displacement from 0 to 2 s: -1 + 1 = 0 m → so yes, at t=2 s, the object is back at initial position.\n\nBut then why is the answer not C? Let me recheck the graph.\n\nLooking at the graph carefully:\n\n- From t=0 to t=1: velocity goes from 0 to -2 (downward triangle), then back to 0 at t=1"
+  },
+  {
+    "id": "validation_Physics_14",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Physics_15",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D"
+  },
+  {
+    "id": "validation_Physics_16",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The average velocity is defined as the displacement divided by the time interval. Displacement is a vector quantity that points from the initial position to the final position.\n\nIn this case, the particle starts at point P and ends at point Q, which is exactly halfway around the circle — meaning it has moved 180 degrees along the circular path. Since the circle is symmetric and the path is counterclockwise, if we imagine the circle with P on the rightmost point, then Q will be on the leftmost point.\n\nTherefore, the displacement vector points from P to Q — which is directly to the left.\n\nSince the motion is in a circle and the particle returns to the same point after one full revolution, but here it only moves halfway, the displacement is not zero — it’s a straight line from P to Q, which is horizontal and to the left.\n\nThus, the direction of the average velocity is leftward.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Physics_17",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which graph shows how power dissipated \\( P \\) varies with current \\( I \\) in a component that obeys Ohm’s law, we start with the fundamental relationships.\n\nOhm’s law states:  \n\\[\nV = IR\n\\]  \nwhere \\( V \\) is voltage, \\( I \\) is current, and \\( R \\) is resistance (constant for ohmic components).\n\nPower dissipated in the component is given by:  \n\\[\nP = VI\n\\]\n\nSubstituting Ohm’s law into the power formula:  \n\\[\nP = (IR)I = I^2 R\n\\]\n\nSince \\( R \\) is constant, this equation tells us that power \\( P \\) is proportional to the square of the current \\( I \\):  \n\\[\nP \\propto I^2\n\\]\n\nThis is a quadratic relationship. Graphically, if \\( P \\) is plotted against \\( I \\), it should be a parabola opening upwards, starting from the origin (since at \\( I = 0 \\), \\( P = 0 \\)).\n\nNow let’s examine the options:\n\n- **A**: A curve that starts at the origin and increases rapidly — this matches \\( P \\propto I^2 \\).\n- **B**: A straight line decreasing to zero — this would imply \\( P \\propto -I \\), not quadratic.\n- **C**: A straight line through the origin — this implies \\( P \\propto I \\), linear relationship.\n- **D**: A hyperbolic curve — this suggests \\( P \\propto 1/I \\), which is not correct.\n\nTherefore, only option **A** correctly represents \\( P \\propto I^2 \\) for an ohmic component.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Physics_18",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Physics_19",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The maximum kinetic energy (K) of photoelectrons emitted from a material when illuminated by light is given by the photoelectric equation:\n\n**K_max = hν - φ**\n\nwhere:\n- **h** is Planck’s constant,\n- **ν** is the frequency of the incident light,\n- **φ** is the work function of the material (a constant for a given material).\n\nThis equation shows that K_max is **linearly proportional to the frequency ν**, with a **positive slope** and an **intercept at ν = 0** equal to **-φ** (which is negative). However, since K_max cannot be negative (it's the maximum kinetic energy), the graph starts from a **minimum frequency (threshold frequency ν₀)** where K_max = 0, and then increases linearly with increasing frequency.\n\nTherefore, the correct graph should show a straight line starting from the x-axis (at some positive frequency ν₀ > 0), with a positive slope. This matches **graph (A)**.\n\nLet’s briefly eliminate the others:\n- **(B)**: Shows decreasing K with increasing frequency — incorrect.\n- **(C)**: Shows K increasing faster than linear — not consistent with the linear relation.\n- **(D)**: Shows K decreasing with frequency — incorrect.\n\nThus, only **(A)** correctly represents K_max as a function of frequency ν.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Physics_20",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Physics_21",
+    "subject": "Physics",
+    "is_mcq": false,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Point A shows the repulsive nature of the strong nuclear force.\n\nAt point A, which is at very small separation (close to zero), the force is positive and large — indicating repulsion. This is characteristic of the strong nuclear force at very short distances, where it becomes repulsive for nucleons that are too close together.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Physics_22",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the Bohr model of the hydrogen atom, when an electron transitions from a higher energy level to a lower one, it emits a photon whose energy corresponds to the difference in energy between the two levels.\n\nThe energy of a photon is given by:\n\nE = hν = hc/λ\n\nwhere:\n- E is the energy of the photon,\n- h is Planck’s constant,\n- ν is the frequency,\n- c is the speed of light,\n- λ is the wavelength.\n\nThe energy difference between two levels in the hydrogen atom is given by:\n\nΔE = E_initial - E_final = (-13.6 eV) × (1/n₁² - 1/n₂²)\n\nwhere n₁ and n₂ are the initial and final principal quantum numbers, respectively.\n\nNow, compare the transition from n=3 to n=2 versus n=3 to n=1:\n\n- For n=3 → n=2:  \n  ΔE₁ = -13.6 × (1/4 - 1/9) = -13.6 × (5/36) ≈ -1.89 eV\n\n- For n=3 → n=1:  \n  ΔE₂ = -13.6 × (1/1 - 1/9) = -13.6 × (8/9) ≈ -12.09 eV\n\nClearly, ΔE₂ > ΔE₁ (in magnitude, since energy is released). So, the photon emitted in the n=3→n=1 transition has **more energy** than the one from n=3→n=2.\n\nSince E = hν, higher energy means higher frequency (ν).\n\nAlso, since E = hc/λ, higher energy means shorter wavelength (λ).\n\nNow let’s evaluate the options:\n\nA. Lower frequency — Incorrect. Higher energy → higher frequency.\n\nB. Longer wavelength — Incorrect. Higher energy → shorter wavelength.\n\nC. Greater speed — Incorrect. The speed of light (c) is constant in vacuum and does not change with the photon's energy or wavelength.\n\nD. Greater momentum — Momentum p = E/c for photons (since E = pc for photons). Since E is greater for n=3→n=1, momentum is also greater.\n\nSo, the correct answer is D. greater momentum.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Physics_23",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a square loop of wire with side length 0.5 m, resistance \\( R = 10^{-2} \\, \\Omega \\), and it is in a uniform magnetic field of magnitude 0.4 T directed **out of the page** (represented by dots). The field is decreased to zero at a constant rate over 2 seconds.\n\nWe need to find the magnitude and direction of the induced current in the loop as the field decreases.\n\n---\n\n### Step 1: Use Faraday’s Law\n\nFaraday’s Law states that the induced EMF \\( \\mathcal{E} \\) in a loop is:\n\n\\[\n\\mathcal{E} = -\\frac{d\\Phi_B}{dt}\n\\]\n\nwhere \\( \\Phi_B = \\vec{B} \\cdot \\vec{A} = B A \\cos\\theta \\).\n\nSince the field is perpendicular to the plane of the loop (out of the page), \\( \\theta = 0^\\circ \\), so \\( \\cos\\theta = 1 \\), and:\n\n\\[\n\\Phi_B = B A\n\\]\n\nThe area \\( A = (0.5)^2 = 0.25 \\, \\text{m}^2 \\)\n\nThe field decreases from 0.4 T to 0 T in 2 seconds, so the rate of change of flux is:\n\n\\[\n\\frac{d\\Phi_B}{dt} = \\frac{\\Delta \\Phi_B}{\\Delta t} = \\frac{0 - (0.4 \\times 0.25)}{2} = \\frac{-0.1}{2} = -0.05 \\, \\text{Wb/s}\n\\]\n\nSo the magnitude of the induced EMF is:\n\n\\[\n|\\mathcal{E}| = \\left| -\\frac{d\\Phi_B}{dt} \\right| = 0.05 \\, \\text{V}\n\\]\n\n---\n\n### Step 2: Find the Induced Current\n\nUsing Ohm’s Law:\n\n\\[\nI = \\frac{\\mathcal{E}}{R} = \\frac{0.05}{0.01} = 5 \\, \\text{A}\n\\]\n\nSo the magnitude is 5 A.\n\n---\n\n### Step 3: Determine Direction Using Lenz’s Law\n\nLenz’s Law: The induced current will flow in such a direction as to oppose the change in magnetic"
+  },
+  {
+    "id": "validation_Physics_24",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given the nuclear reaction:\n\n⁶Li₃ + ? → ⁷Li₃\n\nThis is a nuclear reaction, so we must conserve both mass number (superscript) and atomic number (subscript).\n\nOn the left side:\n- Mass number: 6 + ?_mass = 7 → So ?_mass = 1\n- Atomic number: 3 + ?_atomic = 3 → So ?_atomic = 0\n\nNow, let’s look at the options:\n\nA. Alpha particle: that’s ⁴He₂ → mass number 4, atomic number 2 → doesn’t match.\n\nB. Electron: that’s ⁰e₋₁ → mass number 0, atomic number -1 → doesn’t match (we need atomic number 0).\n\nC. Neutron: that’s ¹n₀ → mass number 1, atomic number 0 → matches perfectly!\n\nD. Proton: that’s ¹H₁ → mass number 1, atomic number 1 → atomic number is 1, but we need 0 → doesn’t match.\n\nTherefore, the missing particle is a neutron.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Physics_25",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given that an object is placed at a distance of 1.5f from a converging (convex) lens, where f is the focal length.\n\nThe object is located between the focal point (f) and twice the focal length (2f). Specifically, 1.5f is between f and 2f.\n\nFor a converging lens:\n\n- When the object is placed **between f and 2f**, the image formed is:\n  - **Real** (because light rays actually converge on the other side of the lens),\n  - **Inverted** (relative to the object),\n  - **Magnified** (larger than the object).\n\nThis is a standard result from lens optics: for object distances between f and 2f, the image is real, inverted, and larger than the object.\n\nTherefore, the correct answer is: Real / Larger.\n\nLooking at the options:\n\nA. Virtual/Larger → Incorrect (image is real, not virtual)\n\nB. Virtual/Same size → Incorrect\n\nC. Real/Smaller → Incorrect (image is larger, not smaller)\n\nD. Real/Larger → Correct\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Physics_26",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The graph shows velocity versus time. Forward motion is indicated by positive velocity (since the duck is flying south, we assume velocity is positive in that direction). The duck stops its forward motion when its velocity becomes zero.\n\nLooking at the graph:\n- At point A, velocity is increasing.\n- At point B, velocity reaches a peak.\n- At point C, velocity is constant (flat line), meaning the duck is moving at a steady speed.\n- At point D, the velocity drops to zero — this is when the duck stops moving.\n\nTherefore, the duck stops its forward motion at point D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Physics_27",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a circuit with two parallel branches, each containing three resistors of equal resistance. The bottom branch is connected to a battery (represented by the dashed line with two terminals). Points T and P are at the ends of the bottom branch, and W and U are at the ends of the top branch. Points S and Q are junctions inside the bottom branch, and W and U are junctions inside the top branch.\n\nThe voltmeter has very high resistance, so it will measure the potential difference between two points without drawing significant current. We need to find two points where the potential difference is zero — that is, they are at the same electric potential.\n\nLet’s label the resistors for clarity: let each resistor have resistance R.\n\nSince the circuit is symmetric and the resistors are identical, we can analyze the voltage distribution.\n\nConsider the entire circuit: the battery is connected across the two parallel branches. Since both branches are identical (each has three resistors in series), the voltage drop across each branch is the same, and the current through each branch is the same.\n\nNow, let's look at the options:\n\n---\n\n**Option A: Q and U**\n\n- Point Q is in the bottom branch, between the second and third resistor.\n- Point U is in the top branch, between the second and third resistor.\n\nIs the potential at Q and U the same?\n\nIn the bottom branch, if we go from T to S to Q to P, the voltage drops across each resistor are equal. So, if we assume the battery voltage is V, then the voltage at point Q relative to T is (2/3)V (since two resistors from T to Q).\n\nSimilarly, in the top branch, from W to U to the end, the voltage at U relative to W is (2/3) of the voltage across the top branch.\n\nBut since the top and bottom branches are connected across the same battery voltage, the potential at U relative to W is (2/3)V, and at Q relative to T is (2/3)V. However, we must consider the reference points.\n\nActually, since the two branches are connected in parallel across the battery, the voltage across the entire branch is the same. But the points Q and U are not directly connected; they are in different branches.\n\nWait — let's think differently.\n\nIf we consider the entire circuit, the battery is connected between the two outermost points — which are T and P? Actually, looking at the diagram, the battery is connected on"
+  },
+  {
+    "id": "validation_Physics_28",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a picture P hanging by two strings, each with tension T, and each string makes an angle θ with the horizontal (as shown in the diagram).\n\nThe question asks for the **total upward pull** of the strings on the picture.\n\nSince each string is at an angle θ to the horizontal, the vertical component of the tension in each string is:\n\n> T sin(θ)\n\nWhy? Because if you draw a right triangle from the point where the string attaches to the picture, with the hypotenuse being the string (length T), and the angle θ between the string and the horizontal, then the vertical component (opposite side) is T sin(θ).\n\nThere are two such strings, so the total upward force is:\n\n> 2 × (T sin(θ)) = 2T sin(θ)\n\nThis must balance the weight W of the picture (assuming equilibrium).\n\nTherefore, the correct answer is:\n\n**D. 2T sin θ**\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Physics_29",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D. 6 Ω\n\nThe ammeter reads zero, which means there is no current flowing through it. For that to happen, the potential difference across its terminals must be zero — i.e., the voltage at the top node (where the 1Ω and 3Ω resistors connect) must equal the voltage at the bottom node (where the 2Ω and R resistors connect). This implies that the two branches containing the 1Ω and 3Ω resistors are in parallel with the two branches containing the 2Ω and R resistors, and for no current to flow through the ammeter, the voltages across those two parallel branches must be equal.\n\nThis condition is satisfied if the two branches are balanced — meaning the product of resistance and current in each branch is equal. Since the ammeter is ideal (zero resistance), the only way for no current to flow through it is if the voltage drop across the 1Ω resistor equals the voltage drop across the 2Ω resistor, and the voltage drop across the 3Ω resistor equals the voltage drop across R.\n\nBut more directly: for the ammeter to read zero, the two paths from the top to the bottom must have the same voltage drop. That happens when the ratio of resistances in the two branches is such that the current splits equally or the voltage drops balance.\n\nActually, think of it as a Wheatstone bridge setup: the ammeter is in the middle, connecting two nodes. For no current to flow through it, the circuit must be balanced — i.e., the ratio of resistances in one leg equals the ratio in the other leg.\n\nSo, we have:\n\nTop left: 1Ω, Top right: 3Ω, Bottom left: 2Ω, Bottom right: R\n\nFor balance (no current through ammeter):\n\n(1Ω / 2Ω) = (3Ω / R)\n\nCross-multiplying:\n\n1 * R = 2 * 3 → R = 6 Ω\n\nTherefore, R = 6 Ω.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Physics_30",
+    "subject": "Physics",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a standing wave pattern on a string fixed at both ends, with a total length of 6 m. The diagram shows three \"humps\" and two \"troughs\", which indicates that there are **three half-wavelengths** in the entire length of the string.\n\nIn a standing wave, the distance between two consecutive nodes (or between two consecutive antinodes) is λ/2.\n\nLooking at the diagram:\n\n- The string is fixed at both ends → these are **nodes**.\n- The number of loops (or “humps”) between the two fixed ends is 3.\n- Each loop corresponds to **half a wavelength**, so 3 loops = 3 × (λ/2)\n\nTherefore, the total length L = 3 × (λ/2)\n\nGiven L = 6 m:\n\n6 = 3 × (λ/2)\n\nSolve for λ:\n\n6 = (3λ)/2  \nMultiply both sides by 2:  \n12 = 3λ  \nDivide by 3:  \nλ = 4 m\n\nThus, the wavelength of one of the component traveling waves is **4 m**.\n\nNote: In standing waves, the traveling waves have the same wavelength as the standing wave pattern.\n\nAnswer: E"
+  }
+]

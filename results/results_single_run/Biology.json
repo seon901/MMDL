@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Biology_1",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows a cross-section of the lower leg (likely the anterior or lateral compartment), with numbered labels pointing to specific structures.\n\nLabel 170 points to a structure located in the anterior compartment, near the top of the diagram. In the anterior compartment of the leg, the primary muscles are the tibialis anterior, extensor digitorum longus, and dorsi flexors. The tibialis anterior is typically the most superficial muscle in this compartment and is often shown at the top of such diagrams.\n\nLooking at the options:\n\n- A. Tibialis anterior — This is a likely candidate as it’s the most superficial and prominent muscle in the anterior compartment.\n- B. Tibialis posterior — This is located in the posterior compartment, not the anterior.\n- C. Flexor hallucis longus — Also in the posterior compartment.\n- D. Peroneus longus — Located in the lateral compartment, not anterior.\n\nSince label 170 points to the uppermost structure in the anterior compartment, and given standard anatomical diagrams, this corresponds to the **tibialis anterior**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Biology_2",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Looking at the image, we have a scale bar labeled \"5µm\" which represents 5 micrometers. The vacuole is indicated by an arrow and appears as a dark circular structure within a larger cell.\n\nTo estimate the diameter of the vacuole, we can visually compare its size to the 5µm scale bar. The vacuole appears to be approximately half the length of the scale bar. Since the scale bar is 5µm, half of that would be about 2.5µm. However, looking more closely at the image, the vacuole seems to span slightly more than half the scale bar — perhaps around 70-80% of it.\n\nLet’s estimate: 80% of 5µm = 4µm. But this doesn’t match any options exactly. Let’s look again — the vacuole appears to be roughly 1.5 times the width of the scale bar? No, that would be too large.\n\nWait — actually, if you look carefully, the vacuole is not quite half the scale bar. It appears to be about 1.5 to 2 times the width of the scale bar? No, that would be 7.5µm or 10µm — but let’s count.\n\nActually, from visual inspection, the vacuole spans approximately 1.5 to 2 times the scale bar? No — the scale bar is 5µm. If the vacuole is about 1.5 times that, it would be 7.5µm. That matches option C.\n\nAlternatively, if you measure the vacuole’s diameter in pixels (assuming the image is digital), and compare with the scale bar, you’ll find that the vacuole is about 1.5 times the length of the 5µm bar — so 7.5µm.\n\nOption D is 5.2µm — which might be close if the vacuole were about 1.04 times the scale bar, but visually, it’s clearly larger than half the scale bar — more like 1.5 times.\n\nBut wait — let me re-express. The scale bar is 5µm. The vacuole appears to be about 1.5 times that, so 7.5µm. This is option C.\n\nLooking at the image again: the vacuole is clearly larger than the scale bar? No —"
+  },
+  {
+    "id": "validation_Biology_3",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows the plasma membrane with transport proteins facilitating the movement of ions (Na⁺) and glucose. However, it does not show any amino acids being transported, nor does it indicate any dependence on pH for transport.\n\nThat said, in biological systems, many transporters — especially those involved in nutrient uptake like amino acid transporters — are often proton (H⁺) coupled or pH-sensitive. For example, some amino acid transporters use the electrochemical gradient of H⁺ to drive transport, and changes in pH can affect transporter conformation or activity.\n\nIf the extracellular pH decreases (i.e., becomes more acidic), this would likely alter the ion environment and potentially reduce the efficiency of proton-coupled transporters. In many cases, decreased extracellular pH can inhibit or reduce the rate of amino acid uptake because proton gradients are disrupted or the transporter’s binding sites become less effective.\n\nTherefore, if the pH outside the cell decreases, you would expect the amount of amino acids transported into the cell to decrease.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Biology_4",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the most likely mode of inheritance, let’s analyze the pedigree:\n\n1. **First generation**: A affected female (black circle) and unaffected male (white square) have children. All their children are affected — this suggests the trait is **dominant**, since an unaffected parent would not pass on a dominant allele unless it were autosomal or X-linked with specific patterns.\n\n2. **Look at the pattern of males and females**:\n   - Affected males and females are present.\n   - The trait appears in both sexes equally (no clear skew toward one sex).\n   - There are affected females who have unaffected sons and daughters — for example, the affected female in generation 2 (middle) has an unaffected son and daughter — which rules out X-linked recessive (XR), because in XR, an affected female would typically pass the trait to all her sons (who would be affected) and possibly some daughters (carriers). But here, she has unaffected sons — so XR is unlikely.\n\n3. **Check for skipping generations**:\n   - There is no clear skipping of generations — every affected individual seems to have at least one affected parent. This supports **dominant** inheritance (since recessive traits often skip generations).\n\n4. **Check for vertical transmission**:\n   - The trait appears in multiple generations, starting from the top (affected female), and passed down — consistent with dominant inheritance.\n\n5. **Is it autosomal?**\n   - Since both males and females are affected equally, and there’s no evidence that the trait is sex-linked (e.g., more males affected, or females only affected when males are unaffected), we can rule out X-linked.\n\n6. **Check for X-linked dominance**:\n   - In X-linked dominant inheritance, an affected female would pass the trait to 50% of her sons (who would be affected) and 50% of her daughters (who would be affected or carriers). But look at the pedigree: \n     - The first affected female (top) has sons and daughters — one son is affected (black square), but another son is unaffected (white square). Also, her daughters include affected and unaffected individuals — which is consistent with X-linked dominant? Wait — actually, if the trait were X-linked dominant, then an affected female should have affected sons — but in the pedigree, the first affected female has an unaffected son (white square). That contradicts X-linked dominant inheritance, because if she’s affected (X^A X^a), her sons would"
+  },
+  {
+    "id": "validation_Biology_5",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the given figure, part B is located inside the capsid (part A) and represents the genetic material of the virus — the viral genome. This is the DNA or RNA that directs the replication of the virus within a host cell.\n\nLet’s evaluate the options:\n\nA. Sheath — This refers to the hollow tube-like structure surrounding the tail core in some bacteriophages, which is not labeled as B.\n\nB. Viral genome — Correct. Part B is the genetic material enclosed within the capsid.\n\nC. Capsid — This is part A, the protein shell surrounding the genome.\n\nD. Tail Fibers — These are the structures extending from the tail, labeled as D in the diagram.\n\nTherefore, part B is the viral genome.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Biology_6",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the most recent common ancestor of organisms 1 and 3, we need to trace the lineage back to the point where their paths diverge.\n\n- Organism 1 is on line 1, which branches off at point A.\n- Organism 3 is on line 3, which branches off at point B (since line 3 connects to the main branch at B).\n\nOrganism 1 and organism 3 are both descendants of the node at A — because organism 1 is directly connected to A, and organism 3 is connected to the branch that originates from A (via B). So, A is the most recent common ancestor of 1 and 3.\n\nLet’s verify:\n- The common ancestor must be the most recent node shared by both lineages.\n- Lineage 1: A → 1\n- Lineage 3: A → B → 3\n- Therefore, they share the node A as their most recent common ancestor.\n\nOrganism B is the ancestor of organism 3, but not of organism 1. Organism C and D are further down the tree and not ancestors of either 1 or 3.\n\nThus, the correct answer is **A. Organism A**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Biology_7",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "I",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows a ribosome during translation. The large ribosomal unit is the larger, oval-shaped structure that contains the A (aminoacyl) site, P (peptidyl) site, and E (exit) site, as well as the tRNA binding sites. In the diagram, this large ribosomal subunit is labeled with arrow **C**.\n\nArrow C points to the large ribosomal subunit (the larger of the two ribosomal subunits, which together with the small subunit forms the complete ribosome).\n\nOther arrows point to specific components:\n- A: mRNA strand\n- B: Small ribosomal subunit\n- D: tRNA anticodon\n- E: tRNA (likely the A-site)\n- F: direction of translation\n- G: mRNA codon\n- H: tRNA in the P-site\n- I: nascent polypeptide chain\n\nTherefore, the correct answer is **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Biology_8",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which flight path the Northwestern crow would use most often when eating whelks, we need to consider the behavior of crows in the wild. Crows are known for their intelligence and adaptability. When they retrieve a whelk (a type of mollusk) from a location that is not easily accessible, such as from a tree or cliff, they often fly down to drop it on the ground — but not necessarily straight down.\n\nIn this case, the two paths shown are:\n\n- **Flight Path A**: A direct, steep downward dive.\n- **Flight Path B**: A curved, arc-shaped descent.\n\nThe key behavioral insight here is that crows, like many intelligent birds, will use a curved descent (Path B) to “throw” the whelk with more force and accuracy — especially if the whelk is heavy or if there’s a risk of it being stolen by another bird. By flying in an arc, the crow can control the trajectory and ensure the whelk lands in a safe spot, possibly even away from competitors.\n\nMoreover, the curved path allows the crow to maintain better visual control over where the whelk lands — crucial for minimizing the chance of theft or damage. This aligns with option D: “Flight Path B: the crow can see where the whelk lands.”\n\nOption A suggests Path A is used for wider visibility — but a straight dive doesn’t offer much visual advantage compared to a curved path, especially since the crow is already focused on the whelk. Option B and C imply maximizing height or adding force — which might be useful in some contexts, but not necessarily the most common strategy.\n\nAlso, note that in real-world studies of crows, they often use a curved descent to drop prey, allowing them to land safely and observe the outcome. This is supported by research on crow behavior, including studies on how they manipulate objects to get food.\n\nTherefore, Flight Path B is more likely to be used most often because it allows for better control and observation of the landing point.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Biology_9",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the likely amino acid sequence for a transmembrane domain of a channel-forming protein, we must consider the structural and functional requirements of alpha-helical transmembrane domains.\n\nKey features:\n- Alpha helices are stabilized by hydrophobic interactions. Therefore, the transmembrane region should be rich in **hydrophobic amino acids**.\n- Channel-forming proteins often have **hydrophobic segments** that span the membrane, with **charged or polar residues** positioned at the intracellular or extracellular ends to facilitate ion conduction.\n- The sequence should contain **hydrophobic residues** (e.g., Leu, Ile, Val, Phe, Met, Ala, Pro) to form the hydrophobic core of the helix.\n- Charged residues (e.g., Lys, Arg, Asp, Glu) are typically found at the N- and C-termini of the helix or in the pore-lining regions to interact with ions or water.\n\nLet’s analyze each option:\n\nA. ALILALMWWLLF\n- A: Alanine — hydrophobic\n- L: Leucine — hydrophobic\n- I: Isoleucine — hydrophobic\n- A: Alanine — hydrophobic\n- L: Leucine — hydrophobic\n- A: Alanine — hydrophobic\n- M: Methionine — hydrophobic\n- W: Tryptophan — hydrophobic\n- W: Tryptophan — hydrophobic\n- L: Leucine — hydrophobic\n- L: Leucine — hydrophobic\n- F: Phenylalanine — hydrophobic\n\n→ This sequence is **highly hydrophobic**, which is typical for a transmembrane alpha-helix. It contains no charged residues, which is acceptable for the core of the helix. The presence of aromatic residues (W, F) may help stabilize the helix or interact with lipid tails. This looks like a strong candidate.\n\nB. LMQKPMDSLPDY\n- L: Leucine — hydrophobic\n- M: Methionine — hydrophobic\n- Q: Glutamine — polar/neutral\n- K: Lysine — positively charged\n- P: Proline — can disrupt helices\n- M: Methionine — hydrophobic\n- D: Aspartic acid — negatively charged\n- S:"
+  },
+  {
+    "id": "validation_Biology_10",
+    "subject": "Biology",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "1/64",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are told that individual #1 is a heterozygote for a rare autosomal recessive (AR) disease. That means #1 has genotype Aa (where a is the disease allele, A is normal).\n\nSince it’s AR, affected individuals must be homozygous recessive (aa), and carriers are heterozygous (Aa).\n\nWe are told that #2 and the spouses of #3 and #4 are not carriers — meaning they are homozygous dominant (AA).\n\n---\n\nLet’s trace the pedigree:\n\n- #1 (Aa) × #2 (AA) → children: 50% Aa, 50% AA → so #3 and #4 are both unaffected, but their genotypes are unknown except we know they are not carriers? Wait — no, we are told the spouses of #3 and #4 are not carriers, but not necessarily that #3 and #4 themselves are not carriers.\n\nActually, let's read carefully: “Assume that #2 and the spouses of #3 and #4 are not carriers.” So #2 is AA (as above). Spouses of #3 and #4 are AA. But #3 and #4 themselves could be carriers or not.\n\nBut since #1 is Aa and #2 is AA, their children (#3 and #4) have 50% chance of being Aa (carriers) and 50% chance of being AA.\n\nSo:\n\n- P(#3 is Aa) = 0.5\n- P(#3 is AA) = 0.5\n\nSimilarly for #4.\n\nNow, #3 and #4 are married to AA individuals (spouses not carriers), so:\n\n- If #3 is Aa, then child #5 (from #3 and spouse) has 50% chance of being Aa (carrier) and 50% chance of being AA.\n- If #3 is AA, then #5 is AA.\n\nSame for #4 and #6.\n\nNow, #5 and #6 are married, and they have child #7.\n\nWe want P(#7 is affected) = P(#7 is aa).\n\nFor #7 to be affected, both parents must be carriers (Aa), because AR disease requires two recessive alleles.\n\nSo, first, what is the probability that #5 is a carrier?\n\n#5’s parent is #3 (who is Aa with 50% probability) and spouse ("
+  },
+  {
+    "id": "validation_Biology_11",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In SDS-PAGE (sodium dodecyl sulfate-polyacrylamide gel electrophoresis), the gel is typically set up with the anode at the top and the cathode at the bottom. The buffer solution surrounds the gel, and the direction of current flow is from the anode (positive electrode) to the cathode (negative electrode).\n\nLooking at the diagram:\n\n- Label A points to the top of the gel apparatus, where samples are loaded.\n- Label B points to the bottom of the gel apparatus.\n\nIn electrophoresis, the sample is loaded into the wells at the top (A), and the gel runs toward the bottom (B). Since the anode is the positive electrode and the current flows toward it, the anode must be at the top — because the molecules migrate toward the negative electrode (cathode) at the bottom.\n\nTherefore, the anode is indicated by **A**.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Biology_12",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To evaluate the usefulness of the yellow-leaved phenotype as a variation subject to natural selection, we must consider how this phenotype responds to light conditions and whether it has an adaptive advantage or disadvantage in different environments.\n\nLet’s analyze the data:\n\n**Dish A (covered — no light for first 7 days, then uncovered):**\n- Day 7: Germinated seeds = 12 (covered), Green-leaved = 0, Yellow-leaved = 12\n- Day 14: Germinated seeds = 20 (uncovered), Green-leaved = 14, Yellow-leaved = 6\n\n**Dish B (uncovered — exposed to light from start):**\n- Day 7: Germinated seeds = 20, Green-leaved = 15, Yellow-leaved = 5\n- Day 14: Germinated seeds = 20, Green-leaved = 15, Yellow-leaved = 5\n\nKey observations:\n- In Dish A (no light initially), yellow-leaved seeds germinate well (12 out of 20 on day 7), while green-leaved do not germinate at all. This suggests that **yellow-leaved seeds can germinate in the absence of light**, which may be advantageous in shaded or dark environments.\n- When light is introduced at day 7 in Dish A, yellow-leaved seedlings decrease (from 12 to 6) while green-leaved increase (0 to 14). This indicates that **light promotes green-leaved development**, and yellow-leaved seedlings are less able to develop under light.\n- In Dish B (always exposed to light), yellow-leaved seedlings are very few (only 5 on day 7 and 5 on day 14), while green-leaved are abundant (15 on both days).\n\nSo, the yellow-leaved phenotype germinates well in the dark but does not thrive under light — suggesting it may be adapted to low-light or shade environments where light is limited. Therefore, it could be a useful variation in natural selection if such environments exist — e.g., under forest canopies or in shaded areas — where the ability to germinate without light gives it a reproductive advantage.\n\nNow let’s evaluate the options:\n\nA. The yellow-leaved phenotype can germinate in environments without light.  \n→ Supported by data: In Dish A (covered, no light), yellow-leaved seeds germinated (12/20)"
+  },
+  {
+    "id": "validation_Biology_13",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let’s analyze the graph and each statement carefully.\n\nThe graph shows blood glucose levels over 5 hours. The y-axis is blood glucose level in mg/mL, and the x-axis is time in hours.\n\n- **Point A** is at 1.0 mg/mL — this is the baseline or resting level.\n- **Point B** is a peak (around 1.6–1.8 mg/mL) — likely after a meal.\n- **Point C** is a trough after the first peak — glucose is falling.\n- **Point D** is a low point — much lower than baseline (~0.8 mg/mL), suggesting a drop due to insulin action or fasting.\n- **Point E** is another peak — possibly after another meal or intake.\n\nNow evaluate each statement:\n\n---\n\n**I. Normal homeostatic mechanisms maintain a glucose concentration of approximately 1 mg/ml.**\n\nThis is **true**. The normal fasting blood glucose level is around 70–100 mg/dL (which is 7–10 mg/mL). But here, the graph starts at 1.0 mg/mL and fluctuates around that. However, 1.0 mg/mL is actually **too low** for normal fasting glucose. Normal fasting glucose is typically **70–100 mg/dL**, which is **0.7–1.0 mg/mL** — so 1.0 mg/mL is on the upper end of normal fasting range, but often considered acceptable as a reference point. In many physiology contexts, 1.0 mg/mL is used as a baseline for glucose regulation, especially since the graph starts there and fluctuations occur around it. Also, the trough at D is ~0.8 mg/mL, which is still within the normal range. So while 1.0 mg/mL is not *exactly* normal fasting, it's commonly used as a reference point for such graphs. This statement is generally accepted as appropriate.\n\n---\n\n**II. Glucagon is released at points A and C.**\n\nGlucagon increases blood glucose by promoting glycogenolysis and gluconeogenesis. It is released when blood glucose is low.\n\n- At **A**: glucose level is 1.0 mg/mL — normal fasting level. Glucagon is not typically released at fasting levels; it’s released when glucose is low.\n- At **C**: glucose is falling — this is likely after a meal, so insulin is being released, not glucagon. Glucagon would be released"
+  },
+  {
+    "id": "validation_Biology_14",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "E",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B. 1/4\n\nExplanation:\nWe are told that the mahogany/red locus is autosomal, and the phenotype depends on sex:\n\n- Homozygous mahogany (MM) → mahogany in both sexes.\n- Homozygous red (rr) → red in both sexes.\n- Heterozygous (Mr) → mahogany if male, red if female.\n\nIn the pedigree:\n\n- Elsie (open circle) is mahogany → genotype could be MM or Mr (but since she’s not red, she can’t be rr).\n- Elmer (open square) is mahogany → same logic: MM or Mr.\n\nTheir daughter Elinor (filled circle) is red → so she must be rr (since only rr is red, regardless of sex).\n\nSince Elinor is rr, she inherited one r allele from each parent. Therefore, both Elsie and Elmer must be heterozygous (Mr), because they each contributed an r allele to Elinor.\n\nSo: Elsie = Mr, Elmer = Mr.\n\nThen their son Ernest (filled square) is red → he must be rr (consistent with being red).\n\nTheir daughter Elmira (filled circle) is also red → so she must be rr.\n\nTherefore, Elmira is rr.\n\nNow, Farmer MacDonald uses Elmer’s semen (which is Mr, since Elmer is a heterozygote) to inseminate Elmira (who is rr).\n\nThe cross is: Mr (Elmer) × rr (Elmira)\n\nOffspring genotypes:\n\n- 50% Mr (from Elmer) + r (from Elmira) → Mr\n- 50% m (from Elmer) + r (from Elmira) → mr (wait — actually, we should use standard notation: let M = mahogany allele, m = red allele? But the problem says “mahogany/red”, and heterozygote is mahogany in males and red in females. So we’ll denote the alleles as M (mahogany) and R (red). But to avoid confusion, let’s use:\n\nLet M = mahogany allele, m = red allele.\n\nBut the problem says: homozygotes MM = mahogany, mm = red; heterozygote Mm = mahogany if male, red if female.\n\nSo Elmer is Mm (heterozygous, mahogany phenotype).\n\nElmira is mm (red phenotype).\n\nCross: Mm ×"
+  },
+  {
+    "id": "validation_Biology_15",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a vast, open landscape with low vegetation (green grass in the foreground) and snow-covered mountains in the background. The terrain is relatively flat to gently rolling, with no signs of dense forests or tropical vegetation. This environment, particularly with its high latitudes or altitudes, sparse tree cover, and permafrost-like conditions (implied by snow persistence), is characteristic of a tundra biome.\n\n- Taiga (A) is dominated by coniferous forests — not present here.\n- Rain forest (C) has dense, tall trees and high biodiversity — not seen.\n- Desert (D) typically has arid conditions and sparse vegetation — this is not the case.\n- Tundra (B) matches: cold, treeless, with mosses and lichens, and snow cover on high elevations or in winter.\n\nThus, the biome shown is tundra.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Biology_16",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Ionic bonds typically form between metals (which tend to lose electrons) and nonmetals (which tend to gain electrons). Group 1 elements (alkali metals) are highly reactive metals that readily lose one electron to form +1 cations. Group 17 elements (halogens) are nonmetals that readily gain one electron to form -1 anions. The electrostatic attraction between these oppositely charged ions forms a strong ionic bond.\n\nGroup 14 elements (like carbon, silicon) have four valence electrons and can form covalent bonds or share electrons, not typically ionic bonds. Group 18 elements (noble gases) are inert and rarely form bonds at all.\n\nTherefore, the two groups that will form a strong ionic bond are Group 1 and Group 17.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Biology_17",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows a lateral view of the base of the skull. Label 204 is pointing to the area near the posterior part of the skull, adjacent to the foramen lacerum and the internal carotid canal region.\n\nLet’s analyze the options:\n\nA. Lateral pterygoid plate — This is part of the sphenoid bone, located more medially and inferiorly, not typically marked at this position.\n\nB. Articular fossa — This refers to the fossa in the temporal bone that articulates with the mandible; it’s located near the temporomandibular joint, which is not where 204 points.\n\nC. Carotid canal — This is the canal through which the internal carotid artery passes, located in the petrous part of the temporal bone, posterior to the foramen lacerum. The label 204 points to the region just above the foramen lacerum, which is consistent with the location of the carotid canal.\n\nD. Foramen lacerum — This is a large opening in the base of the skull, located between the sphenoid and temporal bones, and is typically labeled as a separate structure. In many diagrams, it is shown anterior to the carotid canal. Since 204 is positioned superior to what would be the foramen lacerum (or possibly adjacent to it), it is more likely to represent the carotid canal rather than the foramen lacerum itself.\n\nTherefore, based on standard anatomical diagrams and the position of label 204, it most accurately represents the **Carotid canal**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Biology_18",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks in which process the proteins encoded by the target genes of E2F are most likely to function.\n\nFrom the diagram and description:\n- E2F is a transcription factor.\n- In its active state (when pRB is phosphorylated and inactivated), E2F binds to DNA and activates the transcription of genes necessary for the G1 to S phase transition.\n- These target genes include those involved in DNA replication, cell cycle progression, and other S-phase events.\n\nTherefore, since E2F functions as a transcription factor that regulates gene expression, the proteins it controls are synthesized during transcription. The proteins themselves will then perform their functions (e.g., enzymes for DNA replication) — but the *encoding* of these proteins occurs via transcription.\n\nThus, the correct answer is **D. Transcription**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Biology_19",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In the provided diagram, stage C shows the phage DNA replicating inside the host bacterial cell. This is the phase where the phage takes over the host’s machinery to produce copies of its own genetic material and structural components. This process is known as biosynthesis.\n\n- Attachment (B) is when the phage binds to the host.\n- Penetration (D) involves injection of phage DNA into the host.\n- Maturation (E) is when new phages are assembled.\n- Lysis (E) is the bursting of the host cell to release new phages.\n\nStage C specifically represents the biosynthesis phase.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Biology_20",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: E"
+  },
+  {
+    "id": "validation_Biology_21",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The part labeled 'B' in the diagram is pointing to the **nucleus**, which is the membrane-bound organelle containing the cell's genetic material. The nucleus is typically shown as a large, prominent structure in the center of the cell, and the label 'B' is directed toward its inner region, which includes the nucleolus and chromatin.\n\nLooking at the options:\n\nA. Flagellum — This is the long, whip-like structure labeled 'H' or 'G', not 'B'.\nB. Plasma membrane — This is the outer boundary of the cell, labeled 'F' in some contexts, but not 'B'.\nC. Nucleus — Correct; 'B' points to the nucleus.\nD. Cell wall — Not present in this diagram (it’s an animal cell).\nE. Cytoplasm — The fluid-filled space inside the cell, but not specifically labeled 'B'.\nF. Mitochondria — These are the oval-shaped organelles with cristae, labeled elsewhere.\nG. Centrioles — These are small cylindrical structures near the nucleus, often labeled 'A' or other letters, not 'B'.\n\nThus, the correct answer is C. Nucleus.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Biology_22",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the coefficient of relatedness between individuals A and B, we need to trace the shared ancestry.\n\nIn this pedigree:\n\n- Individual A is a **male** (square) — let’s call him Male 1.\n- Individual B is a **female** (circle) — Female 1.\n- They are connected by a vertical line from their parents. But note: they are not directly siblings; they are connected through a **common ancestor** — specifically, they share a **grandparent**.\n\nLet’s reconstruct the relationships:\n\n1. The top square (Male 1) is the father of two children: one female (left circle) and one male (right square). So, the right square (Male 2) is the son of Male 1.\n\n2. The right square (Male 2) is married to the circle below him (Female 2), and they have a child — that’s individual B (the bottom circle).\n\n3. Individual A (top square) is also connected to the same parent as Male 2 — so Male 1 is the **father of both Male 2 and the left female child**.\n\n4. Therefore, **A and B share a common grandfather**: Male 1.\n\n5. The path from A to B:\n   - A → Male 1 (father) → Male 2 (son) → Male 2 and Female 2 → B (child of Male 2 and Female 2)\n\n6. The coefficient of relatedness (r) between two individuals is calculated based on the probability that a randomly chosen allele at a locus in one individual is the same as in the other due to shared ancestry.\n\n7. Since A and B share only one grandparent (Male 1), and the path from A to B goes through two generations (A → Grandparent → Child → B), we can calculate it as follows:\n\n   - From A to grandparent: 1/2 (since each child inherits 1/2 from the parent).\n   - From grandparent to Male 2: 1/2.\n   - From Male 2 to B: 1/2 (since B is the child of Male 2 and his partner, so 1/2 chance that the allele comes from Male 2).\n\n   BUT — wait! The coefficient of relatedness for full siblings is 1/2. For cousins (who share a grandparent), it's 1/8? No — let's be precise.\n\nActually, the correct way"
+  },
+  {
+    "id": "validation_Biology_23",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the provided diagram of posterior abdominal structures, label 112 points to the structure that is located posterior to the stomach and anterior to the pancreas. This is the **duodenum**, which is the first part of the small intestine and typically lies in the upper abdomen, curving around the head of the pancreas.\n\nLet’s evaluate the options:\n\nA. Oesophagus — This runs posterior to the heart and passes through the diaphragm into the stomach; it is not located posterior to the stomach in the way labeled 112 is shown.\n\nB. Suprarenal gland — These are adrenal glands located atop the kidneys, not near the stomach or duodenum in this context.\n\nC. Hepatic flexure of colon — This is a bend in the large intestine, located in the right lower quadrant, not adjacent to the stomach or duodenum as labeled 112.\n\nD. Duodenum — Correct. The duodenum is the initial segment of the small intestine, positioned posterior to the stomach and anterior to the pancreas, fitting the location indicated by 112.\n\nTherefore, the correct answer is D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Biology_24",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Fluorescent microscopy is a technique that uses fluorescent dyes or proteins to label specific structures within cells, allowing for high-contrast visualization under a microscope. In the context of human heart muscle (myocardium), fluorescent microscopy is often used to visualize cellular components such as sarcomeres, mitochondria, or specific proteins like actin or myosin.\n\nWithout seeing the actual images, we must infer based on typical scientific imaging conventions:\n\n- Image 1: If it shows a bright-field or light microscopy image of heart tissue with no fluorescent markers, it’s unlikely to be fluorescent.\n- Image 2: If it displays a color-coded or glowing structure (e.g., green or red fluorescence) indicating labeled proteins or organelles, this is likely fluorescent microscopy.\n- Image 3: If it appears as a standard histological section stained with hematoxylin and eosin (H&E), it’s not fluorescent.\n\nGiven that fluorescent microscopy typically produces images with distinct colored fluorescence signals (often green, red, blue), the most probable candidate is the one showing such labeling.\n\nTherefore, assuming Image 2 is the only one with fluorescent staining or labeling, it is the correct choice.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Biology_25",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine which species are found below 500m altitude, we need to examine the graph and see which species' abundance curves (black lines) are above zero at altitudes less than 500m.\n\n- The x-axis represents altitude in meters.\n- The right y-axis shows abundance (number per km²), and the black curves represent the abundance of each species.\n- The left y-axis shows average temperature (°C).\n\nLet’s look at the three species:\n\n1. **Species 1**: The blue curve (which represents average temperature) is not the abundance curve — the abundance curves are the black ones. Wait — correction: the labels “Species 1”, “Species 2”, “Species 3” are pointing to the black curves (abundance), not the blue one. The blue line is labeled “Average temperature” and is on the left y-axis.\n\nSo:\n- **Species 1** (black curve): Starts near 0 at 0m, rises sharply to a peak around 500m, then declines. So it is present below 500m? At 0m, its abundance is near 0, but it starts increasing from 0m. Since it peaks at ~500m, it must be present *below* 500m as well — the curve is above zero from 0m to about 500m. So yes, Species 1 is found below 500m.\n\n- **Species 2** (black curve): Starts at 0 at 0m, rises to a peak around 1000m, and is zero below 1000m? Actually, looking closely: at 0m, its abundance is 0; it rises to peak around 1000m. So it is NOT present below 500m — its abundance is zero until ~1000m.\n\n- **Species 3** (black curve): Starts at 0 at 0m, rises to peak around 1750m, and is zero below that. So it is NOT present below 500m.\n\nTherefore, only **Species 1** is found below 500m.\n\nWait — let me double-check: Is Species 1’s abundance curve actually above zero from 0m to 500m?\n\nYes — the black curve for Species 1 starts at 0 at 0m, increases"
+  },
+  {
+    "id": "validation_Biology_26",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The plasmid pET28a is a circular, supercoiled DNA molecule. When you digest it with a restriction enzyme like HindIII, which cuts at a specific site, you will produce a linear DNA fragment if the cut occurs within the circle — because one restriction site per plasmid (or multiple, but in this case, the diagram shows only one HindIII site, labeled at the top).\n\nIn a supercoiled plasmid, cutting once with a restriction enzyme results in a linear molecule. The supercoiling is relieved upon cutting, and the molecule becomes linear.\n\nTherefore, the form of DNA changes from **supercoiled to linear**.\n\nLet’s evaluate the options:\n\nA. Linear to supercoiled — Incorrect. We start with supercoiled, not linear.\n\nB. Nicked to linear — Incorrect. The plasmid is not nicked; it’s supercoiled.\n\nC. Nicked to supercoiled — Incorrect. No nicks are present initially.\n\nD. Supercoiled to nicked — Incorrect. A single cut produces a linear fragment, not a nicked one (unless there's a double-strand break, which isn't implied here).\n\nE. Supercoiled to linear — Correct. This matches what happens when a restriction enzyme cuts a supercoiled plasmid once.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Biology_27",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are told that the pedigree shows a human disease associated with mutations in Gene A, and that individuals marrying into the family do not have the disease-associated allele unless shaded. The pedigree is completely penetrant.\n\nFirst, note the shading: shaded individuals (filled or darkened) are those who have the disease-associated allele. Unshaded individuals (white) do not have the disease-associated allele — unless they are marrying into the family, but the note says that marrying into the family does NOT have the allele unless shaded. So, we can assume that only shaded individuals carry the disease-associated allele.\n\nNow, look at Individual 9. Individual 9 is unshaded (white circle). Therefore, according to the note, Individual 9 does NOT have the disease-associated allele.\n\nBut wait — the question is asking for the genotype of Individual 9. We must consider whether this is an autosomal or X-linked trait.\n\nLooking at the pedigree:\n\n- Individuals 1 and 2 are the top generation; both are unshaded.\n- Their children include 3, 4, 5, 6, 7.\n- Individual 3 is shaded (has the disease), and individual 4 is unshaded.\n- Individual 4 has children: 9, 10, 11, 12.\n- Individual 11 is shaded, Individual 12 is shaded.\n- Individual 3 is shaded, so if the trait is autosomal, then Individual 3 must be heterozygous (Aa) or homozygous recessive (aa) — but since it’s a disease associated with mutations in Gene A, and assuming it’s a recessive disorder (as common in pedigrees like this unless stated otherwise), then shaded individuals are likely homozygous recessive (aa).\n\nWait — let’s think carefully.\n\nThe note says: “the mode of inheritance of a human disease that is associated with mutations in Gene A.” It doesn’t specify dominant or recessive. But in pedigrees, if shaded individuals are affected and the trait appears in multiple generations, and if unaffected parents have affected children, it often implies recessive inheritance.\n\nBut let’s look at the pattern.\n\nIndividual 3 is shaded — so has the disease-associated allele.\n\nIndividual 4 is unshaded — so does NOT have the disease-associated allele — unless it’s X-linked.\n\nBut here’s the key: Individual 3 is shaded, and is married to Individual 4 (unshaded). They have"
+  },
+  {
+    "id": "validation_Biology_28",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In the provided diagram of a knee joint cross-section, structure 164 is located on the lateral side of the joint, adjacent to the lateral condyle of the femur and extending toward the lateral aspect of the tibia. This corresponds anatomically to the **fibular collateral ligament** (also known as the lateral collateral ligament or LCL), which runs along the outer side of the knee to stabilize it.\n\nLet’s briefly evaluate the other options:\n\n- A. Ligamentum patellae — This is the patellar ligament, connecting the patella to the tibia; it is not shown in this position.\n- B. Fibular collateral ligament — Correct; it runs along the lateral side of the knee.\n- C. Tibial collateral ligament — This is the medial collateral ligament (MCL), located on the medial side of the knee, not lateral.\n- D. Anterior cruciate ligament — Located centrally within the knee, crossing anteriorly from femur to tibia, not at the lateral margin.\n\nThus, 164 is correctly identified as the fibular collateral ligament.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Biology_29",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Starch is a polysaccharide composed of glucose units linked by α-1,4-glycosidic bonds (and sometimes α-1,6 bonds at branch points). During digestion, enzymes such as amylase break down starch into smaller oligosaccharides and eventually into monosaccharides.\n\nThe primary disaccharide digestion product of starch is **maltose**. Maltose consists of two glucose molecules linked by an α-1,4-glycosidic bond.\n\nWithout seeing the images, we can infer that one of the options must represent maltose — a disaccharide made of two glucose units.\n\nTypically, in multiple-choice questions like this, the correct image would show:\n\n- Two glucose units connected via an α-1,4 linkage.\n\nSince the question asks for the “primary disaccharide digestion product,” and maltose is the main product formed from starch digestion (especially in the small intestine), we select the option representing maltose.\n\nAssuming the images are labeled or described, and based on standard biochemical knowledge:\n\n→ Option A likely represents maltose (two glucose units).\n\nBut since I don’t have actual image content, I must rely on context.\n\nIn many standardized tests, option A often corresponds to maltose.\n\nTherefore, the best answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Biology_30",
+    "subject": "Biology",
+    "is_mcq": true,
+    "predicted": "I",
+    "answer": "F",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a developing embryo with distinct, repeating patterns of color — purple, green, and orange — arranged in stripes. These stripes suggest the formation of body segments, which is characteristic of segmentation in embryonic development (e.g., in annelids or vertebrates). The embryo also appears to be elongated and oriented in a way that suggests a head-tail axis is established — this is evident from the overall shape and the pattern of segmentation, which typically begins along the anterior-posterior axis.\n\nHowever, limb placement is not visible in this image; limbs are typically developed later and are not yet apparent at this stage. Symmetry (radial vs. bilateral) is also present — the embryo clearly exhibits bilateral symmetry, but this is a fundamental feature established very early in development, often before segmentation even begins. So while symmetry is established, it’s not “visible” as a new feature here — it’s inherent to the organism’s plan.\n\nTherefore, the features that are *already established* at this stage — meaning they are discernible in the image — are segmentation (the striped pattern) and head-tail orientation (the elongated, directional form).\n\nOption I: segmentation and head-tail orientation — matches this reasoning.\n\nAnswer: I"
+  }
+]

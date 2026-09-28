@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Manage_1",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which option is **not** a concept of dual association as suggested by Berk (2013). To answer this, we must recall what dual association entails in the context of creativity and cognitive models.\n\nArthur Koestler’s “Bi-sociation” model (1964) describes how two unrelated concepts are combined to generate new ideas — a process often visualized as a split brain with two distinct domains connecting via a spark or lightning bolt. This is foundational for creativity models like those developed by Berk (2013), who builds on this idea.\n\nBerk’s (2013) model of dual association typically includes:\n\n- **Listing attributes** of each unrelated concept independently (Option B)\n- **Evaluating combinations** of properties from these two concepts (Option C)\n- **Looking for areas** where these attributes can be forced-fit together to create novel opportunities (Option D)\n\nThese steps reflect the process of combining disparate elements to generate creative insights — central to dual association.\n\nHowever, **Option A — “Defining the criteria for creativity”** — is not part of the *dual association* process itself. It’s more about evaluating or measuring creativity, which may come after the generation of ideas, but it does not constitute an active step in the dual association mechanism.\n\nTherefore, Option A is not a concept of dual association as suggested by Berk (2013).\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Manage_2",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The Balanced Scorecard (BSC) model includes four perspectives: Financial, Customer, Internal Business Processes, and Learning & Growth. Each perspective has associated Key Performance Indicators (KPIs) that measure performance from those specific angles.\n\nLet’s analyze the options:\n\nA. Human Resource Management — This falls under “Learning & Growth” perspective. KPIs like employee satisfaction, training effectiveness, or turnover rates are relevant here.\n\nB. Technology — While technology can be part of “Internal Business Processes,” it is not a standalone or primary perspective in BSC. It may be measured as part of operational efficiency or innovation, but it is not one of the core four perspectives.\n\nC. Marketing — This aligns with the “Customer” perspective. Metrics like customer acquisition, retention, market share, etc., are typical here.\n\nD. Operations — This fits under “Internal Business Processes.” Operational efficiency, cycle time, defect rates, etc., are measured here.\n\nTherefore, “technology” is the most likely to be excluded as a core perspective in the BSC model, even though it may be used in internal processes.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_3",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "242110.62",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the budgeted total cash receipts for November, we need to consider:\n\n1. **Cash sales in November** — $120,000 (given)\n\n2. **Collections from credit sales in November**:\n   - Credit sales in November = $150,000\n   - Uncollectible = 5% → $150,000 × 5% = $7,500\n   - Collectible = $150,000 - $7,500 = $142,500\n\n   Collections from November credit sales:\n   - 60% collected in month of sale → 60% of $142,500 = $85,500\n   - 40% collected in next month (December) → 40% of $142,500 = $57,000\n\n   Also, note: **Customers are granted a 1.5% discount for payment within 10 days**, and **75% take advantage**.\n\n   However, **this discount affects the amount collected**, not the timing. But since we are calculating **cash receipts**, we must adjust for the discount.\n\n   The discount is taken by 75% of collectible credit sales, so:\n\n   - Discount amount = 75% of $142,500 × 1.5% = 0.75 × $142,500 × 0.015 = $15,937.50\n   - Therefore, net cash received from November credit sales after discount = $142,500 - $15,937.50 = $126,562.50\n\n   BUT — this is misleading. The discount is applied to the *amount paid*, which means that the customer pays 98.5% of the invoice amount (since 1.5% discount reduces the amount paid). So:\n\n   - Amount paid by customers taking discount = 75% × $142,500 × 0.985 = 0.75 × 142,500 × 0.985 = $105,571.875\n   - Amount paid by customers NOT taking discount = 25"
+  },
+  {
+    "id": "validation_Manage_4",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D"
+  },
+  {
+    "id": "validation_Manage_5",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks what critics complain about regarding the divergence-convergence process, particularly noting that many divergent ideas end up going nowhere.\n\nIn the context of creativity and innovation, critics often point out that the generation of many divergent ideas — while necessary for exploration — can be seen as wasteful if not properly managed. The inefficiency or lack of direction in many divergent paths leads to criticism that brainstorming or idea generation is unproductive or self-indulgent when it doesn’t lead to meaningful outcomes.\n\nOption B — “Disagreement is wasteful and self-indulgent” — aligns with this critique. In many creative or organizational settings, critics argue that excessive debate or unfocused brainstorming (which can be a part of divergence) can become self-indulgent and wasteful, especially if no clear convergence path exists.\n\nOther options:\n- A: “No need to diverge” — contradicts the process; divergence is essential.\n- C: “Convergence proceeds too slowly” — not directly related to the criticism about divergent ideas going nowhere.\n- D: “The process... is of little significance” — too extreme and not supported by the context.\n\nThus, the most appropriate answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_6",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image depicts the classic fable of “The Hare and the Tortoise,” where the hare, known for its speed and impatience, races against the tortoise, which moves slowly but steadily. The story is often used to illustrate the value of perseverance over speed or talent.\n\nHowever, the question asks about the difference between the brains of rabbits (hares) and tortoises — specifically, what distinguishes them in terms of cognitive function. While the cartoon emphasizes speed versus slowness, it does not provide scientific data on brain structure or function. But based on biological knowledge:\n\n- Rabbits (and hares) are prey animals with highly developed senses and reflexes; their brains are adapted for quick decision-making and evasion.\n- Tortoises are slow-moving, long-lived reptiles with brains optimized for survival through endurance, patience, and environmental awareness — not speed or complex problem-solving.\n\nIn cognitive science, “analytical” thinking involves breaking down problems into parts and reasoning logically — a trait more commonly associated with mammals like rabbits that must react quickly to threats. Tortoises, by contrast, rely on instinctual behaviors and long-term planning, which may be less analytical.\n\nTherefore, the most appropriate answer from the given options is:\n\nB. analytical\n\nThis implies that rabbits have brains better suited for analytical thinking (quick reactions), while tortoises do not — aligning with the fable’s moral: slow and steady wins the race, implying a different cognitive strategy.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_7",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram illustrates the difference between sustaining and disruptive innovation. Sustaining innovation improves existing products to meet the needs of the current market, typically moving along a line that represents incremental progress toward higher performance demanded by the high-end market. Disruptive innovation, on the other hand, starts at the low end of the market and offers simpler, more affordable solutions that eventually improve to meet the demands of the mainstream market.\n\nWhen innovation adds more functions (i.e., features or capabilities), it generally:\n\n- A. Achieves performance levels required by the market — This is true for sustaining innovation as it progresses to meet higher performance demands.\n- B. This product has ongoing sales value — True; sustaining innovation keeps the product relevant and profitable in the market.\n- D. Customers receive additional value — Also true; adding functions usually enhances customer value.\n\nHowever, **C. Customers are overserved** — This is not a typical result of innovation adding more functions. Overserving implies that customers are receiving more than they need or want, which can lead to dissatisfaction, increased costs, or reduced value perception. Innovation should ideally enhance value, not over-satisfy or burden customers.\n\nTherefore, the option that is NOT a result of innovation adding more functions is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Manage_8",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine when the difference between the number of unemployed high school graduates and those without a high school diploma was smallest, we need to compare the values for these two groups across the months.\n\nFrom the graph:\n\n- “Less than a high school diploma” (top line):  \n  June: ~12.5  \n  July: ~12.8  \n  August: ~12.2  \n  September: ~11.5  \n  October: ~12.3  \n\n- “High school diploma, no college” (middle line):  \n  June: ~8.2  \n  July: ~8.5  \n  August: ~8.7  \n  September: ~8.4  \n  October: ~8.3  \n\nNow compute the differences:\n\n- June: 12.5 - 8.2 = 4.3\n- July: 12.8 - 8.5 = 4.3\n- August: 12.2 - 8.7 = 3.5\n- September: 11.5 - 8.4 = 3.1\n- October: 12.3 - 8.3 = 4.0\n\nThe smallest difference is in **September** at 3.1 thousand.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Manage_9",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To evaluate the statement, we need to:\n\n1. Identify the store with the **fewest average daily sales in May**.\n2. Identify the store with the **most average daily sales in May**.\n3. Compare their **total sales amounts in May** (in thousands of dollars).\n\n---\n\n### Step 1: Find the store with the fewest average daily sales in May.\n\nLook at the \"Average number of daily sales\" column under \"May\":\n\n- Ashford: 123\n- Bennington: 80\n- Carlisle: 52\n- Depot: 112\n- Eddington: 118\n- Farpoint: 95\n- Greenville: 151\n- Harrington: 100\n- Iverton: 66\n- Jackson: 143\n- Kiplinger: 110\n- Landfield: 115\n- Midville: 70\n- Northfield: 78\n- Overtone: 103\n- Princeville: 92\n- Queensland: 118\n- Riverton: 131\n- Southland: 115\n- Tuxedo: 128\n\nThe **lowest** value is **52** → **Carlisle**\n\n---\n\n### Step 2: Find the store with the most average daily sales in May.\n\nThe highest value is **151** → **Greenville**\n\n---\n\n### Step 3: Compare their total sales in May.\n\nFrom the \"Total sales amount (in thousands)\" column for May:\n\n- **Carlisle**: $465\n- **Greenville**: $508\n\nSo, Carlisle had **$465K**, Greenville had **$508K**.\n\n→ Carlisle had **lower** total sales than Greenville.\n\n---\n\n### Statement: \n\n> The store that averaged the fewest sales in May had higher total dollar sales that month than the store that averaged the most sales in May.\n\nThis is saying: Carlisle (fewest daily sales) > Greenville (most daily sales) in total sales.\n\nBut Carlisle = $465K, Greenville = $508K → Carlisle < Greenville.\n\nSo the statement is **false**.\n\n---\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_10",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question refers to Jesse James Garrett’s 2002 model of website user experience, which outlines five interdependent “planes”:\n\n1. **Strategy** – the highest level, defining the business goals and user needs.\n2. **Scope** – defines what functionality and content are included.\n3. **Structure** – the organization of information and navigation.\n4. **Skeleton** – the layout and wireframes.\n5. **Surface** – the visual design and final UI.\n\nLooking at the options:\n\n- **B. scope** → Part of the model.\n- **C. Structure** → Part of the model.\n- **D. Strategy** → Part of the model.\n- **A. cooperate** → Not a term in Garrett’s model. It is not one of the five planes.\n\nTherefore, the correct answer is **A. cooperate**, as it is not part of the model definition.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Manage_11",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which of the following is **not** considered a benefit to stakeholders, according to critics of stakeholder theory.\n\nStakeholder theory emphasizes that organizations should consider the interests of all stakeholders — employees, customers, suppliers, communities, etc. Critics often point out that this model can be:\n\n- Vague (because stakeholders are not always clearly defined),\n- Elusive (because their interests may be hard to identify or measure),\n- Multidimensional (because stakeholders have complex and overlapping interests).\n\nHowever, “extra” is not typically used in this context as a benefit. In fact, critics often argue that stakeholder theory can lead to **overcomplication**, **confusion**, or even **unrealistic expectations**, making “extra” an odd descriptor for a *benefit*. The term “extra” doesn’t align with any standard critique or benefit listed in stakeholder theory literature.\n\nThus, among the options, “extra” is the one that is **not** considered a benefit — it’s either misleading or irrelevant in this context.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_12",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The statement claims that E.A.S.Y. Manufacturing supported candidates whose policy positions did not appeal to ethnic minorities.\n\nHowever, the emails provide no evidence for this claim. In fact, Email #2 states that “our one successful demographic is the one whose share is declining,” which refers to non-Hispanic whites — not ethnic minorities. The emails also note that E.A.S.Y. supported candidates who lost in other demographics (African-American, Hispanic, and Other), but they do not say anything about the *policy positions* of those candidates being unappealing to ethnic minorities. The emails focus on demographic voting patterns and future population trends, not on policy alignment or appeal.\n\nTherefore, the inference that policy positions were unappealing to ethnic minorities is unsupported by the information provided.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_13",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nTo allocate joint costs using the net realizable value (NRV) method, we first compute the NRV for each product. NRV = Final Sales Value - Separable Costs.\n\nFor Product M: $160,000 - $10,000 = $150,000  \nFor Product N: $140,000 - $10,000 = $130,000  \nFor Product T: $25,000 - $5,000 = $20,000  \n\nTotal NRV = $150,000 + $130,000 + $20,000 = $300,000\n\nNow allocate the $120,000 joint cost proportionally:\n\nM: ($150,000 / $300,000) × $120,000 = 0.5 × $120,000 = $60,000? Wait — that’s not matching any option. Let me double-check.\n\nWait — looking at options, none have M as $60,000. But option A has M: $57,000. That suggests I might be misreading or there’s a trick.\n\nWait — perhaps the question is asking for allocation based on **net realizable value** — but maybe I need to consider something else?\n\nLet me recalculate NRVs again:\n\nM: $160,000 - $10,000 = $150,000  \nN: $140,000 - $10,000 = $130,000  \nT: $25,000 - $5,000 = $20,000  \nTotal NRV = $300,000\n\nAllocation:\n\nM: (150,000 / 300,000) * 120,000 = 0.5 * 120,000 = $60,000  \nN: (130,000 / 300,000) * 120,000 = (13/"
+  },
+  {
+    "id": "validation_Manage_14",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which of the listed directions is wrong when clustering Belbin’s team roles.\n\nBelbin’s model organizes team roles into three primary clusters:\n\n- **Action-Oriented Roles** (e.g., Implementer, Shaper, Team Worker)\n- **Thinking Roles** (e.g., Monitor-Evaluator, Plant, Specialist)\n- **Socially Oriented Roles** (e.g., Coordinator, Resource Investigator, Completer-Finisher)\n\nThese are clearly defined in the diagram provided — each sector of the wheel corresponds to one of these three categories.\n\nNow, looking at the options:\n\nA. action oriented role → Correct (matches Belbin’s model)  \nB. thought role → Correct (matches “Thinking Roles”)  \nC. socially oriented role → Correct (matches “Social-Oriented Roles”)  \nD. catering to customer personas → This is **not** one of Belbin’s categories. It’s a modern marketing or UX concept and does not appear in Belbin’s original model.\n\nTherefore, option D is incorrect and represents a direction that is wrong when clustering Belbin’s team roles.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Manage_15",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The diagram shows an information-oriented maturity model with three core capabilities:\n\n1. Information technology practices capability\n2. Information management practices capability\n3. Information behaviours and values capability\n\nThese three are the foundational functions from which the 15 capabilities (such as IT for management support, sensing, proactiveness, etc.) derive.\n\nNow, let’s evaluate the options:\n\nA. **Information collection and integration** — This is implied in “Collecting” under “Information management practices capability,” and “Processing” is also part of that. So this is included.\n\nB. **IT practices** — This directly corresponds to “Information technology practices capability.” Included.\n\nC. **Information management** — Directly corresponds to “Information management practices capability.” Included.\n\nD. **Information Behavior and Values** — Directly corresponds to “Information behaviours and values capability.” Included.\n\nWait — all four options seem to be covered? But the question asks: “Which ability is not included in the following options?” implying one is missing.\n\nLet’s re-read the question carefully: “The  shows the information-oriented maturity model, in which its 15 capabilities come from three information functions. Which ability is not included in the following options?”\n\nIt seems the options are presented as A, B, C, D — but perhaps there's a trick.\n\nLooking again — the three main functions are:\n\n- Information technology practices capability → relates to IT practices (B)\n- Information management practices capability → relates to information management (C)\n- Information behaviours and values capability → relates to information behavior and values (D)\n\nSo all options A, B, C, D are *covered* by the three main functions.\n\nBut option A — “Information collection and integration” — is not explicitly listed as a standalone capability in the diagram. However, “Collecting” is part of “Information management practices capability,” and “Processing” is also part of it — so “collection and integration” is implicitly covered.\n\nWait — perhaps the question is misworded or the trick is that “information collection and integration” is not one of the three main functions — it’s a sub-capability under “Information management.”\n\nBut the question says: “Which ability is not included in the following options?” — meaning, among these four options, which one does NOT correspond to one of the three main functions?\n\nActually, **all four options do correspond to aspects of the three main functions**:\n\n- A. Information collection and integration → part of “Collecting” under Information Management\n- B. IT"
+  },
+  {
+    "id": "validation_Manage_16",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The statement in question is: “The idea of 'American' oil companies is archaic because major oil companies are now operating in global industries.”\n\nLet’s evaluate the three emails:\n\n- Email #1: The marketing manager is asking about domestic production, consumption, and imports — implying a desire to position ABC Oil as an American energy company.\n- Email #2: The researcher points out that while U.S. production may exceed imports, it still falls short of consumption, meaning U.S. production alone cannot meet demand. This implies reliance on foreign sources.\n- Email #3: The researcher explicitly states that ABC Oil and XYZ Oil source crude from 21 countries, including unstable ones, and argues that “an ‘American’ company just means where the company pays taxes, not necessarily where it produces.” They also note that the product is an international mix.\n\nTogether, these emails support the inference that the notion of “American” oil companies is outdated or archaic — because their operations span global sourcing, even if headquartered in the U.S. The research staff are countering the marketing manager’s assumption that being American means producing domestically, which is not the case.\n\nTherefore, the information in the three sources does support the inference.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Manage_17",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": "65",
+    "answer": "65",
+    "correct": true,
+    "retried": false,
+    "raw_output": "First, calculate the total purchase amount:\n\n50 shares × $146 1/8 per share = 50 × (146 + 1/8) = 50 × 146.125 = $7,306.25\n\nSince $7,306.25 is above $2,500, we use the commission rate for “$2,500 and above”: **.9% plus $20 up to $65**\n\nNow compute the commission:\n\n- 0.9% of $7,306.25 = 0.009 × 7306.25 = $65.75625\n- Add the flat fee: $20\n\nTotal commission = $65.75625 + $20 = $85.75625\n\nBut note: the table says “up to $65” — meaning the flat fee is capped at $65. So even if the percentage part exceeds $65, the total commission cannot exceed $65.\n\nWait — let’s re-read: “.9% plus $20 up to $65”\n\nThis means: The commission is calculated as (0.9% of purchase amount) + $20, but the total is capped at $65.\n\nSo we must check whether the sum exceeds $65.\n\nWe have: 0.9% of $7,306.25 = $65.75625 → which is greater than $65.\n\nTherefore, the commission is capped at $65.\n\nThus, the commission on the sale is $65.\n\nNote: The question asks for the commission on the **sale**, not the purchase. But the brokerage rates given are for purchase. However, the odd-lot differential mentioned is for the sale, and typically, brokerage rates for purchase and sale are similar or identical for odd lots. Since no different rates are given for sale, we assume the same commission structure applies.\n\nAlso, the problem says “calculate the Commission on the sale,” and the table is labeled “Brokerage Rates on Odd Lots,” which is for purchase. But in practice, sales commissions are often the same as purchase commissions for odd lots. We proceed with the purchase commission rate since that's what's provided.\n\nFinal answer: $65\n\nAnswer: 65"
+  },
+  {
+    "id": "validation_Manage_18",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image is a cartoon illustrating Mintzberg’s metaphor of the Battle of Passchendale. It shows a military officer presenting a “designed strategy” on a board — with arrows, labels like “MARTIAL HUBBLE” (likely a mishearing or misprint for “MARTIAL HUBBLE” or perhaps “MARTIAL HUBBLE” should be “MARTIAL HUBBLE” — but likely meant to be “MARTIAL HUBBLE” or “MARTIAL HUBBLE” — actually, it’s probably “MARTIAL HUBBLE” — no, looking at context, it’s likely “MARTIAL HUBBLE” is a misprint or misrendering — but in context, it’s probably meant to be “MARTIAL HUBBLE” — wait, the text says “MARTIAL HUBBLE” — that doesn’t make sense — actually, in the original Mintzberg metaphor, it’s often called “the battle of Passchendaele” and the cartoon depicts a plan drawn up in abstraction (“DESIGNED STRATEGY”) which is then applied to a battlefield that is chaotic and messy (“THE PIT OF WAR”). The arrow points from the plan to the battlefield, suggesting the plan was intended to guide the battle — but the reality is that the plan does not match the terrain or conditions — hence, a mismatch between abstract strategy and actual combat.\n\nThe cartoon highlights this disconnect: the plan is drawn up in an idealized, schematic way — with arrows and labeled steps — while the battlefield is depicted as a muddy, chaotic, and deadly mess — with soldiers struggling through mud and trenches. The officer is confidently presenting his plan, even though it leads to disaster.\n\nSo, what is the mismatch? It’s between the abstract, theoretical, and idealized planning (the diagram) and the messy, real-world conditions (the battlefield). This is best captured by:\n\nB. A catastrophic mismatch between abstract thinking and actual terrain\n\nThis option directly addresses the core of the metaphor: the plan (abstract thinking) is ill-suited to the physical reality of the battlefield (actual terrain).\n\nOption A is too vague — “Plans and actual combat do not match” — but misses the specific metaphorical point about the *terrain*.\n\nOption C and D are close, but they don’t emphasize the *terrain* as a key factor — the metaphor specifically uses the battlefield as the setting where the plan fails.\n\nTherefore, B is the most precise.\n\nAnswer"
+  },
+  {
+    "id": "validation_Manage_19",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The Product/Market Growth Matrix, also known as the Ansoff Matrix, is a strategic tool that helps companies decide how to grow by expanding into new markets and/or developing new products. It outlines four strategies:\n\n1. Market Penetration (Existing Markets + Existing Products)\n2. Market Development (New Markets + Existing Products)\n3. Product Development (Existing Markets + New Products)\n4. Diversification (New Markets + New Products)\n\nAnsoff’s key ideas revolved around aligning products with markets, leveraging core competencies, and building competitive advantage through innovation and market expansion. However, among the options provided:\n\nA. “Have a clear concept of product and market alignment” — This is central to Ansoff’s matrix.\nB. “Develop competitive advantage” — Ansoff emphasized this as a goal of his strategies.\nC. “Create synergy” — While synergy can be a result of successful strategy implementation, it is not one of the four core strategies Ansoff explicitly identified or developed in his model.\nD. “Focus on product innovation” — This is directly tied to Product Development, one of Ansoff’s four strategies.\n\nTherefore, “Create synergy” is not one of the four strategies Ansoff developed; it is more of a general outcome or management principle.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Manage_20",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "2960",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To find the **variance of price** (also known as the **price variance** or **material price variance**), we need to compare the actual cost of materials used with the standard cost of materials, based on the actual quantity used.\n\n---\n\n### Step 1: Understand the data\n\nFrom the table:\n\n- **Standard cost per net for direct materials**:  \n  15 pounds @ $3.15 per pound → This is the **standard cost per net**.  \n  But note: The **actual materials used** are 296,000 pounds at 22¢ per pound.\n\n- **Actual total materials cost**:  \n  296,000 pounds × $0.22 = **$65,120**\n\n- **Standard materials cost for actual production**:  \n  First, find how many pounds should have been used for 19,500 nets:  \n  19,500 nets × 15 pounds/net = **292,500 pounds**\n\n  Standard cost per pound = $3.15 → so standard cost for 292,500 pounds =  \n  292,500 × $3.15 = **$920,625**\n\n  But wait — this is not correct. We must be careful: the standard cost given is **per net**, and it’s **$3.15 per net**, which is for 15 pounds. So the **standard cost per pound** is $3.15 / 15 = **$0.21 per pound**.\n\n  So, **standard cost for actual quantity (292,500 pounds)** = 292,500 × $0.21 = **$61,425**\n\n---\n\n### Step 2: Calculate material price variance\n\nMaterial price variance = (Actual price - Standard price) × Actual quantity\n\nActual price = 22¢ = $0.22 per pound  \nStandard price = $0.21 per pound  \nActual quantity = 296,000 pounds\n\nSo,\n\nPrice Variance = ($0.22 - $0.21) × 296,000  \n= $0.01 × 296,000  \n= **$2,960 Unfavorable**\n\n---\n\n###"
+  },
+  {
+    "id": "validation_Manage_21",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": "$8.60",
+    "answer": "9.20",
+    "correct": false,
+    "retried": false,
+    "raw_output": "First, identify the weight range: 34 pounds falls in the \"26 to 50 pounds\" row.\n\nNext, identify the distance range: 295 miles falls in the \"201 to 300\" column.\n\nNow, find the intersection of that row and column: $8.60.\n\nThe minimum charge is $6.75, but since $8.60 is greater than that, it’s acceptable.\n\nAnswer: $8.60"
+  },
+  {
+    "id": "validation_Manage_22",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The HRM Roles model by David Ulrich (1997) identifies four key strategic roles for HR professionals: Strategic Partner, Change Agent, Employee Champion, and Administration Expert. These roles are designed to help HR remain relevant in a dynamic business environment.\n\nAccording to Ulrich, HR professionals must evolve beyond traditional administrative tasks and become strategic contributors. The model emphasizes that HR should:\n\n- Be a **Strategic Partner** (linking HR to organizational strategy),\n- Act as a **Change Agent** (driving transformation),\n- Serve as an **Employee Champion** (optimizing employee value),\n- And maintain the role of **Administration Expert** (managing operational processes).\n\nHowever, while managing human resources operations and infrastructure is part of the Administration Expert role — which is still essential — it is not the *most* critical or *strategic* function in the modern context. In fact, Ulrich’s model suggests that HR should move *beyond* mere operational management to focus on strategic, people-centric, and change-driven functions.\n\nTherefore, **“Manage human resources operations and infrastructure”** is not something HR professionals must learn *in addition* to their strategic roles — rather, it’s a foundational operational role that is already implied in the Administration Expert role. But more importantly, Ulrich’s model implies that the *primary* focus should be on the strategic roles, not merely operational ones.\n\nThus, among the options, **A** is the one that represents a role that is *not* something HR professionals must learn to become strategically relevant — because operational management is seen as the baseline, not the strategic leap.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Manage_23",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "1464",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To estimate sales for 1970, we analyze the trend in units sold from 1950 to 1965:\n\n- From 1950 to 1955: +100 units (1000 → 1100)\n- From 1955 to 1960: +110 units (1100 → 1210)\n- From 1960 to 1965: +121 units (1210 → 1331)\n\nThe increases are not constant, but let’s look at the growth rates:\n\n- 1950–1955: 10% increase (100/1000)\n- 1955–1960: ~9.1% increase (110/1100)\n- 1960–1965: ~10.0% increase (121/1210)\n\nAlternatively, note that the increases themselves are increasing: 100, 110, 121 — which is approximately linear with a slight acceleration.\n\nAssuming the pattern continues, the next increase might be around 133 units (since 121 → 133 is an increase of 12, and the increments are growing by roughly 10 each time? Wait, let's check differences in increments:\n\nFrom 100 to 110: +10  \nFrom 110 to 121: +11  \nSo next increment might be +12 → 1210 + 133 = 1343? But wait, 1210 + 133 = 1343? No, 1210 + 133 = 1343? Actually, 1210 + 133 = 1343? Let me recalculate: 1210 + 133 = 1343? 1210 + 100 = 1310, +33 = 1343. Yes.\n\nBut wait, the last increase was 121 (from 1210 to 1331). So the increase was 121"
+  },
+  {
+    "id": "validation_Manage_24",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Manage_25",
+    "subject": "Manage",
+    "is_mcq": false,
+    "predicted": "0.96",
+    "answer": "0.963",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given the project activities and their time estimates (a, m, b) for the path B-D.\n\nFirst, we need to compute the expected time (μ) and standard deviation (σ) for the path B-D.\n\nThe expected time for an activity is:\nμ = (a + 4m + b) / 6\n\nStandard deviation for an activity is:\nσ = (b - a) / 6\n\n---\n\n**Activity B:**\na = 4, m = 10, b = 16\nμ_B = (4 + 4*10 + 16) / 6 = (4 + 40 + 16) / 6 = 60 / 6 = 10 weeks\nσ_B = (16 - 4) / 6 = 12 / 6 = 2 weeks\n\n**Activity D:**\na = 5, m = 8, b = 11\nμ_D = (5 + 4*8 + 11) / 6 = (5 + 32 + 11) / 6 = 48 / 6 = 8 weeks\nσ_D = (11 - 5) / 6 = 6 / 6 = 1 week\n\n---\n\nSince activities B and D are on the same path and times are independent, the total expected time for path B-D is:\n\nμ_total = μ_B + μ_D = 10 + 8 = 18 weeks\n\nThe standard deviation for the total time is:\n\nσ_total = √(σ_B² + σ_D²) = √(2² + 1²) = √(4 + 1) = √5 ≈ 2.236 weeks\n\n---\n\nWe want the probability that the path is finished in 22 weeks or less.\n\nLet X ~ Normal(μ=18, σ=√5)\n\nWe compute Z-score for 22 weeks:\n\nZ = (22 - 18) / √5 = 4 / √5 ≈ 4 / 2.236 ≈ 1.7889\n\nNow, find P(Z ≤ 1.7889)\n\nUsing standard normal table or calculator:\n\nP(Z ≤ 1.7889) ≈ 0.9633\n\n---\n\nAnswer: 0.96"
+  },
+  {
+    "id": "validation_Manage_26",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the project completion date, we need to perform a forward and backward pass in the Critical Path Method (CPM) to find the critical path and the total project duration.\n\nFirst, let’s build the network diagram based on predecessors:\n\n- A has no predecessor → starts first.\n- B has no predecessor → starts first.\n- C has no predecessor → starts first.\n- D depends on A.\n- E depends on B.\n- F depends on C.\n- G depends on D and E.\n\nSo, activities A, B, C are in parallel. Then D follows A, E follows B, F follows C, and G follows both D and E.\n\nWe will compute earliest start (ES), earliest finish (EF), latest start (LS), latest finish (LF), and slack for each activity.\n\n---\n\n**Step 1: Forward Pass (ES, EF)**\n\nStart with ES = 0 for all activities with no predecessors.\n\n- A: ES = 0, EF = 0 + 3 = 3\n- B: ES = 0, EF = 0 + 2 = 2\n- C: ES = 0, EF = 0 + 1 = 1\n\nD depends on A → ES = EF of A = 3 → EF = 3 + 7 = 10  \nE depends on B → ES = EF of B = 2 → EF = 2 + 6 = 8  \nF depends on C → ES = EF of C = 1 → EF = 1 + 2 = 3  \nG depends on D and E → ES = max(EF of D, EF of E) = max(10, 8) = 10 → EF = 10 + 4 = 14\n\nSo, project completion date = EF of G = **14 weeks**\n\n---\n\n**Step 2: Backward Pass (LF, LS)**\n\nLF of G = 14 (since it’s the end)\n\nG depends on D and E → LF of D = LF of G - duration of G = 14 - 4 = 10  \nLF of E = 14 - 4 = 10\n\nE has no successors other than G, so LF of E = 10  \n→ LS of E = LF of E - duration of E = 10 - 6 = 4  \n→ LS of D = LF of D - duration of D = "
+  },
+  {
+    "id": "validation_Manage_27",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks which of the listed options is NOT included in Aristotle’s model of persuasion — Logos, Ethos, and Pathos.\n\nAristotle’s rhetorical triangle includes:\n\n- **Logos**: Reason or logic\n- **Ethos**: Credibility or ethical appeal\n- **Pathos**: Emotional appeal\n\nNow, examining the options:\n\nA. Spirit — This is not one of Aristotle’s three categories. “Spirit” is not a recognized term in his rhetorical theory.\n\nB. Pathos — This IS included (emotional appeal).\n\nC. Emotional — This is synonymous with Pathos, so it IS included.\n\nD. Reason — This is synonymous with Logos, so it IS included.\n\nTherefore, the only option that is NOT part of Aristotle’s model is “Spirit.”\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Manage_28",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks what sustainability does *not* mean to humans, based on the provided image. The image emphasizes the complexity of creating sustainable industries — it highlights scientific measurement, innovation, stakeholder engagement, human potential development, and bridging diversity — all aimed at delighting customers and pleasing markets while ensuring long-term viability.\n\nNone of the options A, B, C, or D are explicitly stated as *not* part of sustainability in the diagram. However, the question implies that one of them is not aligned with the core meaning of sustainability as presented.\n\nLet’s analyze:\n\n- A. Environmental — Sustainability inherently includes environmental stewardship.\n- B. Personal consumption — This could be misinterpreted as unsustainable if excessive, but the diagram focuses on *sustainable* consumption that delights customers and creates wealth — so personal consumption can be part of sustainability.\n- C. Social dimensions — The diagram emphasizes bridging diversity among players and involving stakeholders — clearly social dimensions.\n- D. Responsible resource management — Directly mentioned in the diagram: “scientifically benchmarked and measured” and “resource all seven elements.”\n\nBut note: the question is phrased as “what does not sustainability mean to humans?” — implying a contrast. The diagram is about creating sustainable industries through multiple interconnected elements — not just one dimension.\n\nLooking more closely: the diagram doesn’t focus on *personal consumption* as an isolated or standalone element — rather, it ties consumption to customer delight and market pleasure, which suggests it’s embedded in a systemic, industry-wide approach.\n\nHowever, the most likely answer here is **B. personal consumption** — because sustainability, at its core, is not *about* personal consumption per se — it’s about systems, industries, and responsible stewardship. The diagram’s emphasis is on *industries*, *stakeholders*, *strategies*, and *wealth creation* — not individual consumer behavior. While personal consumption can be sustainable, the diagram doesn’t define sustainability around it — in fact, it implies that sustainability must serve broader systemic goals, including economic and social structures.\n\nTherefore, among the options, **personal consumption** is the least directly aligned with the core message of the diagram — which is about industrial and systemic sustainability, not individual consumption habits.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_29",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The statement claims that the legislative consultant will actively lobby Asian-American legislators because E.A.S.Y. Manufacturing’s supported candidates were more successful with Asian-Americans than with other minority groups.\n\nLooking at the bar chart and the emails:\n\n- The chart shows that for “Our candidates,” the highest support (i.e., the most successful election outcome) was among White voters — who are now declining in share.\n- For “Opponents,” the highest percentage of opposition came from White voters, but the success rate for “Our candidates” was highest among White voters — meaning they were the only group where E.A.S.Y. Manufacturing won.\n- The email from the Staff Researcher notes that Asian-Americans are growing (from 5% to 9%) and that non-Hispanic whites are declining (from 63% to <50% by 2050). However, it does not say that E.A.S.Y. Manufacturing’s candidates were successful with Asian-Americans; rather, it says they were successful with White voters — the only demographic they won in.\n\nFurthermore, the emails do not indicate any intention to lobby Asian-American legislators — in fact, the Staff Researcher’s email suggests that the consultants are analyzing demographic trends to determine where to invest, not to target specific groups for lobbying. The key point is: the consultants’ analysis focuses on *where* they lost — which is among minorities (Hispanic, African-American, and Other), and where they won — which is among Whites. They are not saying that Asian-Americans were the group where they succeeded — rather, they are saying they succeeded with Whites, and that Whites are declining.\n\nThus, the inference that the consultant will lobby Asian-American legislators because their candidates were more successful with them is unsupported.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Manage_30",
+    "subject": "Manage",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine where the least-squares regression line is least successful at predicting the number of injury and illness reports, we need to understand that the regression line minimizes the vertical distance (residuals) between the actual data points and the fitted line. The prediction error is largest when the actual point is farthest from the regression line — typically at the ends of the range or where the data point is most deviant from the trend.\n\nIn this graph:\n\n- The solid line is the least-squares regression line.\n- The dotted line connects 2003 and 2011, representing the average rate of change over the entire period.\n\nThe question asks for the year where the regression line is *least successful* — meaning the actual data point is farthest from the regression line, or the residual is largest.\n\nLooking at the graph:\n\n- In 2003, the actual point is very close to the regression line (it’s the first point, and the regression line starts there).\n- In 2011, the actual point is also close to the regression line (it’s the last point, and the regression line ends there).\n- In 2005, the point is fairly close to the regression line.\n- In 2007, the point is still reasonably close.\n- In 2009, the point is noticeably farther from the regression line than in earlier years — it appears to be a deviation from the linear trend.\n- In 2010, the point is very close to the regression line.\n\nThe point in **2009** appears to be the most deviant from the regression line — it’s below the line and not aligned with the steep downward slope. This suggests the regression line is least successful at predicting the value for 2009.\n\nTherefore, the correct answer is **D. 2009**.\n\nAnswer: D"
+  }
+]

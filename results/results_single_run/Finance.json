@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Finance_1",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given the income statement and balance sheet for Eagle Sport Supply, and we need to calculate the **required external funds** for 2020, assuming:\n\n- A **dividend payout ratio of 50%**\n- A **growth rate of 15% in 2020**\n- Assets are proportional to sales\n\n---\n\n### Step 1: Calculate 2020 Sales (Projected)\n\nCurrent sales = $950  \nGrowth rate = 15%\n\n→ **Projected Sales 2020 = 950 × 1.15 = $1,092.5**\n\n---\n\n### Step 2: Calculate Projected Costs\n\nAssume costs are proportional to sales. In 2019, Costs = $250, Sales = $950.\n\n→ **Costs Ratio = 250 / 950 ≈ 0.26315789**\n\n→ **Projected Costs = 1,092.5 × 0.26315789 ≈ $288.75**\n\n---\n\n### Step 3: Calculate Projected Pretax Income\n\nPretax Income = Sales - Costs = 950 - 250 = 700 in 2019\n\n→ **Projected Pretax Income = 1,092.5 - 288.75 = $803.75**\n\n---\n\n### Step 4: Calculate Projected Taxes\n\nTax rate = 28.6%\n\n→ **Taxes = 803.75 × 0.286 ≈ $229.75**\n\n---\n\n### Step 5: Calculate Projected Net Income\n\nNet Income = Pretax Income - Taxes = 803.75 - 229.75 = **$574**\n\n---\n\n### Step 6: Calculate Dividends Paid\n\nDividend Payout Ratio = 50%\n\n→ **Dividends = 50% × 574 = $287**\n\n---\n\n### Step 7: Calculate Retained Earnings\n\nRetained Earnings = Net Income - Dividends = 574 - 287 = **$287**\n\n---\n\n### Step 8: Calculate Required Assets (Proportional to Sales)\n\nIn 2019, Net Assets"
+  },
+  {
+    "id": "validation_Finance_2",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In an APT (Arbitrage Pricing Theory) model, the expected return on a stock is given by:\n\n**E(R) = R_f + β₁ × Risk Premium₁ + β₂ × Risk Premium₂ + β₃ × Risk Premium₃**\n\nWhere:\n- **R_f** is the risk-free rate\n- **β_i** are the factor sensitivities (betas)\n- **Risk Premium_i** are the risk premiums for each factor\n\nThe problem states: “A stock whose return is uncorrelated with all three factors.” This means that the stock has **zero sensitivity to all three factors**, i.e., β₁ = β₂ = β₃ = 0.\n\nTherefore, the expected return is simply the risk-free rate, since there are no additional risk premiums contributed by the factors.\n\nGiven:\n- Risk-free rate = 7%\n\nSo, E(R) = 7% + 0 + 0 + 0 = **7%**\n\nThus, the correct answer is **B. 7%**\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Finance_3",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the future value of an ordinary annuity, we use the formula:\n\n\\[\nFV = P \\times \\frac{(1 + r)^n - 1}{r}\n\\]\n\nWhere:\n- \\(P\\) = periodic payment (annuity amount)\n- \\(r\\) = interest rate per period\n- \\(n\\) = number of periods\n\nFor **Case A**:\n- \\(P = 2500\\)\n- \\(r = 8\\% = 0.08\\)\n- \\(n = 10\\)\n\nPlug into the formula:\n\n\\[\nFV = 2500 \\times \\frac{(1 + 0.08)^{10} - 1}{0.08}\n\\]\n\nFirst, calculate \\((1.08)^{10}\\):\n\n\\[\n(1.08)^{10} \\approx 2.158925\n\\]\n\nThen:\n\n\\[\n\\frac{2.158925 - 1}{0.08} = \\frac{1.158925}{0.08} \\approx 14.4865625\n\\]\n\nNow multiply by 2500:\n\n\\[\nFV = 2500 \\times 14.4865625 \\approx 36,216.405\n\\]\n\nRounded to the nearest dollar: **$36,216**\n\nThis matches option **C**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_4",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Sales = $40,000,000\n- Operating profit margin = 35%\n\nOperating profit margin is defined as:\n\n**Operating Profit Margin = Operating Profit / Sales**\n\nSo,\n\n**Operating Profit = Sales × Operating Profit Margin**\n\n= $40,000,000 × 35%  \n= $40,000,000 × 0.35  \n= **$14,000,000**\n\nThus, the operating profits are $14,000,000.\n\nCorrect answer: **A. $14,000,000**\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Finance_5",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nTo determine the cost of the stock offer, we need to calculate the total value of Denham Inc. using the Gordon Growth Model (also known as the Dividend Discount Model for constant growth):\n\nP₀ = D₁ / (r - g)\n\nWhere:\n- P₀ = current stock price (which we can use to find the required rate of return r)\n- D₁ = next year’s dividend\n- r = required rate of return\n- g = expected growth rate\n\nBut note: The question asks what the cost of the share offer would be if the expected growth rate was NOT changed by the merger — meaning we keep it at 6%, not 8%.\n\nFirst, let’s compute the required rate of return for Denham using its current stock price and dividend:\n\nCurrent dividend per share = $0.80  \nExpected growth rate = 6% → g = 0.06  \nCurrent stock price = $20\n\nSo,\n\n20 = 0.80 * (1 + 0.06) / (r - 0.06)  \n20 = 0.848 / (r - 0.06)\n\nSolving for r:\n\n(r - 0.06) = 0.848 / 20 = 0.0424  \nr = 0.06 + 0.0424 = 0.1024 or 10.24%\n\nNow, if Denham’s earnings and dividends grow at 6% (unchanged), then the value of Denham is calculated using the same r = 10.24% and g = 6%.\n\nBut wait — we are being asked for the cost of the share offer. That means we need to know how many shares Corton must issue to acquire Denham. Since Denham has 600,000 shares outstanding, and the acquisition is likely via a stock offer, we need to know the value per share of Denham under the 6% growth assumption.\n\nActually, we can directly compute the value of Denham’s entire company using the Gordon model with the same r and g:\n\nValue per share = D₁ / (r - g) = 0.80 * (1 + 0.06) / (0.1024 - 0.06) = 0.848 / 0.04"
+  },
+  {
+    "id": "validation_Finance_6",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given that Clare has $5,000 to invest, and she is considering Investment B, which returns **$15,900** after **15 years**. We are to calculate the **rate of return** (i.e., the internal rate of return or IRR) on this investment, assuming it's a single lump-sum payment at the end of 15 years.\n\nThis is a compound interest problem. The formula for future value is:\n\n**FV = PV × (1 + r)^n**\n\nWhere:\n- FV = Future Value = $15,900\n- PV = Present Value = $5,000\n- r = annual rate of return (what we’re solving for)\n- n = number of years = 15\n\nSo,\n\n**15,900 = 5,000 × (1 + r)^15**\n\nDivide both sides by 5,000:\n\n**3.18 = (1 + r)^15**\n\nNow take the 15th root of both sides, or equivalently, take the natural log or use logarithms:\n\nTake the natural log of both sides:\n\nln(3.18) = 15 × ln(1 + r)\n\nCalculate ln(3.18):\n\nln(3.18) ≈ 1.157\n\nSo:\n\n1.157 = 15 × ln(1 + r)\n\nDivide both sides by 15:\n\nln(1 + r) ≈ 1.157 / 15 ≈ 0.07713\n\nNow exponentiate both sides:\n\n1 + r ≈ e^0.07713 ≈ 1.0799\n\nSo, r ≈ 1.0799 - 1 = 0.0799 or **7.99%**\n\nRounded to the nearest 1%, that’s **8%**.\n\nAlternatively, you can use trial and error with common percentages:\n\nTry 8%:\n\n(1.08)^15 = ?\n\nWe know:\n\n1.08^15 ≈ 3.172 (using calculator or known values)\n\nWhich is very close to 3.18.\n\nTry 8.1%:\n\n1.081^15 ≈ ?\n\nUsing calculator: 1.0"
+  },
+  {
+    "id": "validation_Finance_7",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Finance_8",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "360",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given:\n\n- 2010 Sales = $1,000\n- Forecasted 2011 Sales = $2,000 → **Sales increase by 100%**\n- Fixed assets were used at only 50% capacity in 2010 → so they need to be increased to meet 100% capacity for 2011.\n- All assets except fixed assets must increase at the same rate as sales (i.e., 100%).\n- Fixed assets would also have to increase at the same rate if no excess capacity existed → so we must increase fixed assets to 100% of current level (since 50% was used).\n- After-tax profit margin = 5% → so net income = 5% × $2,000 = $100\n- Payout ratio = 60% → so dividends = 60% × $100 = $60 → retained earnings = $40\n\n---\n\n**Step 1: Calculate AFN using the formula:**\n\nAFN = (A*/S₀) × ΔS - (L*/S₀) × ΔS - (PM × S₁ × (1 - payout)) \n\nWhere:\n- A* = total assets that vary with sales (current assets excluding fixed assets)\n- S₀ = 2010 sales = $1,000\n- ΔS = $2,000 - $1,000 = $1,000\n- L* = liabilities that vary with sales (accounts payable + accruals)\n- PM = profit margin = 5% = 0.05\n- payout = 60% = 0.6\n\n---\n\n**Step 2: Identify components**\n\nFrom the balance sheet:\n\n**Current Assets (excluding fixed assets):**\n- Cash = $100\n- Accounts receivable = $200\n- Inventories = $200\n→ Total current assets = $500\n\nThese must increase at the same rate as sales → 100% → so increase from $500 to $1,000.\n\n**Fixed assets:**\n- Net fixed assets = $500, but only 50% capacity → so to reach 100% capacity, we need to increase them to $1,000 (double).\n\n"
+  },
+  {
+    "id": "validation_Finance_9",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B. $5 million\n\nReasoning: The income available to common shareholders is determined by the net income after all dividends have been paid to preferred shareholders, which is unaffected by the recapitalization plan. The reorganization exchanges preferred stock for new preferred stock and debentures, but it does not change the company’s operating income or net income. The $6 preferred stock dividends are replaced by the new $2.40 preferred stock (which pays a dividend of $2.40 per share) and the 8% debenture (which pays 8% of $75 = $6 per share). However, the total dividend payout to preferred shareholders under the new structure is:\n\n- New $2.40 preferred: 1,200,000 shares × $2.40 = $2,880,000\n- Debenture interest: 1,200,000 shares × $6 = $7,200,000\n- Total preferred payment = $2,880,000 + $7,200,000 = $10,080,000\n\nBut wait — this is incorrect because the original $6 preferred stock was paying $6 per share, totaling $7,200,000 in dividends. Under the new plan, the $2.40 preferred stock pays $2.40 per share, and the debenture pays $6 per share, so total per share is $8.40. That would be more than the original $6 — which suggests an error.\n\nActually, let's reassess: The problem says “each share of the $6 preferred will be exchanged for one share of $2.40 preferred with a par value of $37.50 plus one 8% subordinated income debenture with a par value of $75.” So for each old $6 preferred share, we get:\n\n- One new $2.40 preferred share → pays $2.40 per share\n- One 8% debenture → pays 8% of $75 = $6 per year\n\nTotal annual payment per old preferred share = $2.40 + $6 = $8.40\n\nBut originally, the $6 preferred stock paid $6 per share. So the new plan requires higher payments? That doesn’t make sense"
+  },
+  {
+    "id": "validation_Finance_10",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": "3305000",
+    "answer": "2000000",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The firm is purchasing two batches of watches:\n\n1. **First batch (today)**: 1 million francs at the **spot rate**.\n   - Spot rate: 1.6590 USD per Franc → 1,000,000 × 1.6590 = **1,659,000 USD**\n\n2. **Second batch (in 90 days)**: 1 million francs at the **90-day forward rate**.\n   - 90-day forward rate: 1.6460 USD per Franc → 1,000,000 × 1.6460 = **1,646,000 USD**\n\nTotal payment in USD = 1,659,000 + 1,646,000 = **3,305,000 USD**\n\nNote: The question mentions “exchange rate for the Swiss franc is 0.50 to $1 in 90 days” — this is inconsistent with the table provided (which shows 0.6075 Francs per USD or 1.6460 USD per Franc). We must use the forward rate given in the table for 90-day forward (1.6460 USD/Franc) as it is the only consistent rate provided in the context.\n\nAnswer: 3305000"
+  },
+  {
+    "id": "validation_Finance_11",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the **range of the rates of return** for each project, we look at the **lowest possible return (pessimistic)** and the **highest possible return (optimistic)** for each expansion.\n\nFrom the table:\n\n- **Expansion A**:\n  - Pessimistic: 16%\n  - Optimistic: 24%\n  → Range: **16% to 24%**\n\n- **Expansion B**:\n  - Pessimistic: 10%\n  - Optimistic: 30%\n  → Range: **10% to 30%**\n\nNow, matching this with the options:\n\nA. Expansion A: 20% to 24%; Expansion B: 10% to 30% → Incorrect (A’s range is wrong)\n\nB. Expansion A: 16% to 24%; Expansion B: 10% to 30% → **Correct**\n\nC. Expansion A: 16% to 24%; Expansion B: 20% to 30% → Incorrect (B’s range is wrong)\n\nD. Expansion A: 20% to 24%; Expansion B: 20% to 30% → Incorrect (both ranges are wrong)\n\nTherefore, the correct answer is **B**.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Finance_12",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the rate of return for the second period (from $ t=1 $ to $ t=2 $), we need to consider the **total return** for each stock, including any **stock splits**.\n\n---\n\n### Important: Stock C splits two for one in the last period (t=1 to t=2).\n\nA **two-for-one split** means that for every 1 share you own, you now have 2 shares. The **price per share is halved**, but the **total value of your investment remains the same** (if you hold the same number of shares before and after). However, when calculating **rate of return**, we must adjust for the split to get a fair comparison.\n\nIn this problem, since the split occurs at time $ t=1 $ to $ t=2 $, we must **adjust the price at $ t=2 $** for Stock C to reflect the post-split price.\n\n---\n\n### Step 1: Calculate the rate of return for each stock from $ t=1 $ to $ t=2 $\n\nThe formula for total return over a period is:\n\n$$\n\\text{Return} = \\frac{P_2 - P_1 + \\text{Dividends}}{P_1}\n$$\n\nBut here, there are no dividends mentioned, so we ignore them.\n\nHowever, for **Stock C**, we must account for the **split**.\n\n---\n\n### For Stock C:\n\n- $ P_1 = 110 $\n- $ Q_1 = 200 $\n- $ P_2 = 55 $\n- $ Q_2 = 400 $\n\nSince it’s a **two-for-one split**, the number of shares doubles, and the price halves. So, the **post-split price** should be adjusted to reflect what the price would have been *before* the split if we were comparing apples to apples.\n\nBut note: the question gives us $ P_2 = 55 $, which is already the post-split price. So, to compute return correctly, we must **adjust the price at $ t=2 $** to reflect the pre-split value — or equivalently, adjust the price at $ t=1 $ to reflect the post-split value? Actually, standard practice is to **adjust the price for the split** so that we can compare returns fairly.\n\nAlternatively, we can think: the **value** of the investment should remain consistent. Since the split doubles shares, the price is"
+  },
+  {
+    "id": "validation_Finance_13",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: C\nThe increase in stockholders’ equity from $2,370,000 to $9,080,000 is primarily due to the issuance of new common stock and additional paid-in capital. The company issued 600,000 new shares (1,200,000 - 600,000) in 2015. The total increase in paid-in capital in excess of par is $5,500,000 - $250,000 = $5,250,000. This amount represents the premium received over the par value ($1.00) for the new shares. Therefore, the average price per share above par is $5,250,000 / 600,000 shares = $8.75 per share. Adding the par value of $1.00 gives an average price per share of $9.75. Note that dividends paid ($240,000) reduce retained earnings but do not affect the total stockholders’ equity directly — they are already accounted for in the retained earnings change ($2,380,000 - $1,520,000 = $860,000 net increase in retained earnings, which is less than the total equity increase due to new shares). So the average price per share of new stock sold is $9.75.\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_14",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Economic Value Added (EVA) is calculated as:\n\n**EVA = Net Operating Profit After Taxes (NOPAT) – (Weighted Average Cost of Capital × Invested Capital)**\n\n---\n\n### Step 1: Calculate NOPAT\n\nNOPAT = EBIT × (1 – Tax Rate)\n\nFrom the Income Statement:\n\n- Fiscal 2017 EBIT = $20,437 million\n- Tax rate = 35% = 0.35\n\n→ NOPAT = 20,437 × (1 - 0.35) = 20,437 × 0.65 = **$13,283.5 million**\n\n---\n\n### Step 2: Calculate Invested Capital\n\nInvested Capital = Total Assets – Current Liabilities – Non-Operating Assets?  \nActually, standard formula for invested capital in EVA is:\n\n> **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities?**  \nWait — more accurately, **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? No.\n\nActually, **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? Not quite.\n\nStandard definition:\n\n> **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? Actually, no.\n\nBetter approach:  \n\n**Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? Let’s check.\n\nActually, the correct formula for invested capital (in EVA context) is:\n\n> **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? Wait — that’s not right.\n\nActually, **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? No.\n\nCorrect formula:\n\n> **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? Actually, no — we need to subtract *non-operating* liabilities and *non-operating* assets? But here we are using balance sheet data.\n\nIn many cases, **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? That doesn’t make sense because total assets include non-current assets.\n\nActually, **Invested Capital = Total Assets – Current Liabilities – Other Long-Term Liabilities**? No — that would be incorrect.\n\nLet me recall: In"
+  },
+  {
+    "id": "validation_Finance_15",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the Internal Rate of Return (IRR) for each project, we need to find the discount rate that makes the Net Present Value (NPV) equal to zero.\n\n---\n\n**Project A:**\n\nCash flows:  \n- C₀ = -$200  \n- C₁ = $80  \n- C₂ = $80  \n- C₃ = $80  \n- C₄ = $80  \n\nThe NPV equation is:\n\nNPV = -200 + 80/(1+r) + 80/(1+r)² + 80/(1+r)³ + 80/(1+r)⁴ = 0\n\nThis is a standard annuity with 4 payments of $80 starting at time 1, and initial outflow of $200.\n\nWe can solve this using financial calculator or Excel, but let’s approximate or use formula.\n\nAlternatively, we can recognize that this is an annuity due? No — it’s ordinary annuity (payments at end of periods).\n\nLet’s try r = 18%:\n\nNPV = -200 + 80/(1.18) + 80/(1.18)² + 80/(1.18)³ + 80/(1.18)⁴\n\nCalculate each term:\n\n1. 80 / 1.18 ≈ 67.7975  \n2. 80 / (1.18)² = 80 / 1.3924 ≈ 57.45  \n3. 80 / (1.18)³ = 80 / 1.643032 ≈ 48.69  \n4. 80 / (1.18)⁴ = 80 / 1.938774 ≈ 41.27\n\nSum = 67.7975 + 57.45 + 48.69 + 41.27 ≈ 215.21\n\nNPV = -200 + 215.21 = **+15.21** → too high (positive)\n\nTry r = 20%:\n\n1. 80 / 1.20 = 66.6667  \n2"
+  },
+  {
+    "id": "validation_Finance_16",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A\nThe nominal interest rate can be found using the Fisher equation:  \nNominal rate = Real rate + Expected inflation rate.  \n\nFor the 3-month Treasury bill, the expected inflation rate is given as 5%. The real rate is 2.5%.  \n\nSo, Nominal rate = 2.5% + 5% = 7.5%.  \n\nThus, the correct answer is A. 7.5%."
+  },
+  {
+    "id": "validation_Finance_17",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": "1000",
+    "answer": "1000",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the value of Bond B, we use the present value formula for a bond that pays interest semiannually:\n\nThe bond has:\n- Par value (FV) = $1,000\n- Coupon rate = 12% annually → semiannual coupon payment = 12% / 2 = 6% of $1,000 = $60\n- Years to maturity = 20 → number of periods (n) = 20 × 2 = 40\n- Required annual return = 12% → semiannual required return (r) = 12% / 2 = 6% = 0.06\n\nPresent Value of Bond B = Present Value of Coupons + Present Value of Par Value\n\nPV of coupons = C × [1 - (1 + r)^(-n)] / r  \n= 60 × [1 - (1.06)^(-40)] / 0.06\n\nFirst, compute (1.06)^(-40):\n(1.06)^(-40) ≈ 0.09722\n\nThen:\n[1 - 0.09722] / 0.06 = 0.90278 / 0.06 ≈ 15.0463\n\nSo PV of coupons = 60 × 15.0463 ≈ 902.78\n\nPV of par value = FV / (1 + r)^n = 1000 / (1.06)^40  \n(1.06)^40 ≈ 10.2857  \nSo PV = 1000 / 10.2857 ≈ 97.22\n\nTotal bond value = 902.78 + 97.22 = $1,000.00\n\nAnswer: 1000"
+  },
+  {
+    "id": "validation_Finance_18",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a three-factor APT model and asked to calculate the expected rate of return on a stock with average exposure (b = 1 for each factor). The risk-free rate is 7%.\n\nIn the APT model, the expected return is:\n\n**E(R) = Rf + b1 * RiskPremium1 + b2 * RiskPremium2 + b3 * RiskPremium3**\n\nGiven:\n- Rf = 7%\n- b1 = 1 (for GNP change)\n- b2 = 1 (for energy prices)\n- b3 = 1 (for long-term interest rates)\n\nRisk premiums:\n- GNP: +5%\n- Energy prices: -1%\n- Long-term interest rates: +2%\n\nPlug into the formula:\n\nE(R) = 7% + (1)(+5%) + (1)(-1%) + (1)(+2%)\n\n= 7% + 5% - 1% + 2%\n\n= 13%\n\nTherefore, the expected rate of return is 13%.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_19",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a discrete probability distribution for the random variable q:\n\n| Value of q | Probability |\n|------------|-------------|\n| 0          | 0.25        |\n| 1          | 0.25        |\n| 2          | 0.50        |\n\nWe need to compute the **standard deviation** of q.\n\n---\n\n### Step 1: Compute the expected value (mean) E[q]\n\nE[q] = Σ (q * P(q))\n\n= (0 * 0.25) + (1 * 0.25) + (2 * 0.50)\n\n= 0 + 0.25 + 1.00\n\n= **1.25**\n\n---\n\n### Step 2: Compute E[q²]\n\nE[q²] = Σ (q² * P(q))\n\n= (0² * 0.25) + (1² * 0.25) + (2² * 0.50)\n\n= 0 + 0.25 + (4 * 0.50)\n\n= 0.25 + 2.00\n\n= **2.25**\n\n---\n\n### Step 3: Compute the variance\n\nVariance = E[q²] - (E[q])²\n\n= 2.25 - (1.25)²\n\n= 2.25 - 1.5625\n\n= **0.6875**\n\n---\n\n### Step 4: Compute the standard deviation\n\nStandard deviation = √(Variance) = √0.6875\n\nLet’s calculate that:\n\n√0.6875 ≈ ?\n\nNote: 0.6875 = 6875/10000 = 11/16 (since 6875 ÷ 625 = 11, 10000 ÷ 625 = 16)\n\nSo √(11/16) = √11 / 4\n\n√11 ≈ 3.3166\n\nSo √11 / 4 ≈ 3.3166 / 4 ≈ **0.82915**\n\nWhich is approximately **0.8292**\n\n---\n\n### Final Answer:\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_20",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "7243000",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In a discriminatory auction (also known as a sealed-bid auction or a Dutch auction where the price is set by the highest bidder and then allocated to bidders in descending order of price), the company will sell shares at the highest price possible, but only up to the total number of shares being sold.\n\nThe key is to allocate shares from highest price to lowest, until 100,000 shares are sold.\n\nLet’s sort the bids by price in descending order:\n\n- 20,000 shares @ $80 → total = 20,000\n- 15,000 shares @ $73 → total = 35,000\n- 25,000 shares @ $70 → total = 60,000\n- 10,000 shares @ $69 → total = 70,000\n- 14,000 shares @ $66 → total = 84,000\n- 15,000 shares @ $65 → total = 99,000\n- 8,000 shares @ $67 → wait, this should be sorted properly.\n\nActually, let’s list all bids with prices and sort them correctly.\n\nBids:\n- 20,000 @ $80\n- 10,000 @ $78\n- 15,000 @ $73\n- 25,000 @ $70\n- 10,000 @ $69\n- 8,000 @ $67\n- 14,000 @ $66\n- 15,000 @ $65\n- 30,000 @ $61\n\nSort by price descending:\n\n1. $80: 20,000 shares → total shares sold = 20,000\n2. $78: 10,000 shares → total = 30,000\n3. $73: 15,000 shares → total = 45,000\n4. $70: 25,000 shares → total = 70,000\n5. $69: 10,"
+  },
+  {
+    "id": "validation_Finance_21",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C\nTo calculate net working capital (NWC), we need to subtract total current liabilities from total liquid assets.\n\nLiquid assets are those that can be quickly converted to cash — typically cash, checking, savings, and money market funds. We exclude non-liquid assets like real estate, jewelry, automobiles, etc., as well as long-term liabilities like mortgage and personal loan.\n\nFrom the list:\n- Cash = $300\n- Checking = $3,000\n- Savings = $1,200\n- Money market funds = $1,200\n\nTotal liquid assets = 300 + 3,000 + 1,200 + 1,200 = $5,700\n\nCurrent liabilities are obligations due within one year:\n- Auto loan = $8,000\n- Medical bills payable = $250\n- Utility bills payable = $150\n- Credit card balance = $2,000\n\nTotal current liabilities = 8,000 + 250 + 150 + 2,000 = $10,400\n\nWait — this gives NWC = 5,700 - 10,400 = -$4,700, which is not among the options. That suggests we may have misclassified something.\n\nLet’s re-examine. The hint says “NWC is the difference between total liquid assets and total current liabilities.” But in standard accounting, NWC = Current Assets - Current Liabilities.\n\nWe must check if “liquid assets” here means “current assets” — which is likely, since the hint says “liquid assets,” but in financial context, “current assets” often includes all assets expected to be converted to cash within a year, including inventory, accounts receivable, etc. — but here, only cash, checking, savings, and money market funds are listed as liquid. The “2014 Sebring” and “2010 Jeep” are vehicles — not liquid. “Jewelry and artwork” and “Household furnishings” are fixed assets. “Real estate” is long-term. “Mortgage” and “Personal loan” are long-term liabilities.\n\nBut wait — the “Auto loan” is a liability, but is it current? Typically, auto loans are short-term (often 3–7 years) — but if it's for a car"
+  },
+  {
+    "id": "validation_Finance_22",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the **real return** on the stock market in 1932, we use the **Fisher equation** approximation:\n\n> **Real Return ≈ Nominal Return - Inflation**\n\nFrom the table:\n- Stock Market Return (Nominal) in 1932 = **-9.9%**\n- Inflation in 1932 = **-10.3%**\n\nSo,\n\n> Real Return = -9.9% - (-10.3%) = -9.9% + 10.3% = **0.4%**\n\nThis matches option **C. 0.45%** very closely — but let’s check if we need a more precise calculation.\n\nActually, the exact formula is:\n\n> **(1 + Real Return) = (1 + Nominal Return) / (1 + Inflation)**\n\nPlugging in:\n\n> (1 + Real Return) = (1 - 0.099) / (1 - 0.103) = (0.901) / (0.897) ≈ 1.00446\n\nThen,\n\n> Real Return ≈ 1.00446 - 1 = **0.00446 or 0.446%**, which rounds to **0.45%**\n\nTherefore, the correct answer is **C. 0.45%**\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_23",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": "500.17",
+    "answer": "527.89",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the current value of operations, we need to discount the free cash flows for years 1, 2, and 3, and then add the present value of the terminal value (the value of all future cash flows beyond year 3, growing at 7% forever).\n\n### Step 1: Calculate the terminal value at the end of Year 3\nThe terminal value (TV) is calculated using the Gordon Growth Model:\n\nTV = FCF₃ × (1 + g) / (WACC - g)\n\nWhere:\n- FCF₃ = $40 million\n- g = 7% = 0.07\n- WACC = 13% = 0.13\n\nTV = 40 × 1.07 / (0.13 - 0.07) = 42.8 / 0.06 ≈ $713.33 million\n\n### Step 2: Discount each cash flow and the terminal value back to today (Year 0)\n\nPV of Year 1 FCF = -20 / (1.13)¹ = -20 / 1.13 ≈ -$17.699 million\n\nPV of Year 2 FCF = 30 / (1.13)² = 30 / 1.2769 ≈ $23.51 million\n\nPV of Terminal Value = 713.33 / (1.13)³ = 713.33 / 1.442897 ≈ $494.36 million\n\n### Step 3: Sum the present values\n\nValue of Operations = PV Year 1 + PV Year 2 + PV Terminal Value  \n= -17.699 + 23.51 + 494.36  \n≈ $500.17 million\n\nAnswer: 500.17"
+  },
+  {
+    "id": "validation_Finance_24",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": "5.0",
+    "answer": "30.0",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To compute the price-to-earnings (P₀/E₁) ratio for the industry, we use the **Gordon Growth Model** approach, which relates the stock price to earnings based on the **dividend growth rate**, **required return**, and **retention rate**.\n\nThe formula is:\n\n> P₀/E₁ = (ROE × b) / (r - g)\n\nWhere:\n- ROE = Return on Equity = 25% = 0.25\n- b = Retention Rate = 40% = 0.40\n- g = Dividend Growth Rate = ROE × b = 0.25 × 0.40 = 0.10 (or 10%)\n- r = Required Return = Risk-free rate + Beta × Equity risk premium\n\nRisk-free rate = 6%\nBeta = 1.2\nEquity risk premium = 5%\n\nSo,\n\n> r = 6% + 1.2 × 5% = 6% + 6% = 12% = 0.12\n\nNow plug into the formula:\n\n> P₀/E₁ = (0.25 × 0.40) / (0.12 - 0.10) = 0.10 / 0.02 = 5.0\n\nAnswer: 5.0"
+  },
+  {
+    "id": "validation_Finance_25",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "0.286",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate FCFE per share for 2011, we use the formula:\n\n**FCFE = Net Income + Depreciation - Changes in Working Capital - Capital Expenditures - Change in Net Operating Working Capital**\n\nBut note: In the given data, **“Other operating costs”** are listed, and **“Depreciation”** is also listed. The standard FCFE formula is:\n\n> FCFE = Net Income + Depreciation - Change in Net Working Capital - Capital Expenditures + (Change in Net Operating Working Capital) — wait, let’s be precise.\n\nActually, the correct formula is:\n\n> **FCFE = Net Income + Depreciation - Change in Net Working Capital - Capital Expenditures**\n\nBut we need to compute **Change in Net Working Capital**.\n\nFrom the balance sheet:\n\n- **Current assets** increased from $201M to $326M → Δ = $125M\n- **Current liabilities** increased from $57M to $141M → Δ = $84M\n\nSo, **Δ in Net Working Capital = Current Assets - Current Liabilities**:\n→ 2010: $201 - $57 = $144M\n→ 2011: $326 - $141 = $185M\n→ ΔNWC = $185M - $144M = **$41M**\n\nNow, **Capital expenditures** = $38M (given)\n\n**Net income** = $80M (2011)\n\n**Depreciation** = $23M (2011)\n\nTherefore:\n\n**FCFE = 80 + 23 - 41 - 38 = $24 million**\n\nNow, to get **FCFE per share**, divide by number of common shares outstanding:\n\n→ $24 million / 84 million shares = **$0.2857 per share**\n\nRounded appropriately, it’s **$0.286 per share**.\n\nBut wait — the question asks for FCFE per share for 2011, and we have:\n\n> Dividend per share = $0.286\n\nThat suggests FCFE might be slightly more than dividends, which is normal (since FCFE = Dividends + Repurchases + Shareholder return). But here, we computed"
+  },
+  {
+    "id": "validation_Finance_26",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the interest rate and present value of perpetuity C, we refer to the table:\n\n- Perpetuity C has an **annual amount** of $3,000 and a **discount rate** of 6%.\n\nThe formula for the present value (PV) of a perpetuity is:\n\n> **PV = Annual Amount / Discount Rate**\n\nSo for Perpetuity C:\n\n> PV = $3,000 / 0.06 = $50,000\n\nAnd the discount rate is given as 6.0%.\n\nThus, the correct option is:\n\n> **D. interest rate = 6.0%; present value = $50,000**\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Finance_27",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the nominal rate of interest on a 5-year U.S. Treasury bond, we use the **Fisher equation**, which relates the nominal interest rate (r), the real interest rate (i), and the expected inflation rate (π):\n\n**Nominal Rate = Real Rate + Expected Inflation Rate**\n\nWe are given:\n- Real rate of interest (i) = 2.5%\n- Expected average annual inflation rate over 5 years = 8% (from the table)\n\nSo,\n\nNominal rate = 2.5% + 8% = **10.5%**\n\nThis is the correct nominal rate for the 5-year bond.\n\n---\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Finance_28",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given:\n\n- Spot exchange rate: 15 nanos = $1 → so, 1 dollar = 15 nanos.\n- Forward rate for 1 year: 15.6 nanos per dollar → meaning, in one year, 1 dollar will buy 15.6 nanos.\n- Nano interest rate (annually compounded) for 1 year: 9.8%\n- Dollar interest rate (annually compounded) for 1 month: 4.0%, for 3 months: 4.5%\n\nWe are to find the **dollar interest rate for 1 year**.\n\n---\n\nThis is an arbitrage problem using the **interest rate parity (IRP)** formula:\n\n> Forward Rate = Spot Rate × (1 + r_d) / (1 + r_f)\n\nWhere:\n- r_d = domestic (dollar) interest rate\n- r_f = foreign (nano) interest rate\n\nBut note: In IRP, we usually express it as:\n\n> F = S × (1 + i_d) / (1 + i_f)\n\nBut here, the forward rate is given in terms of “nanos per dollar”, and spot is also in nanos per dollar.\n\nSo, let’s define:\n\n- Spot rate: S = 15 nanos per dollar\n- Forward rate: F = 15.6 nanos per dollar (for 1 year)\n- Domestic interest rate (dollar): i_d = ? (what we want to find for 1 year)\n- Foreign interest rate (nano): i_f = 9.8% = 0.098\n\nUsing IRP:\n\nF = S × (1 + i_d) / (1 + i_f)\n\nPlug in values:\n\n15.6 = 15 × (1 + i_d) / (1 + 0.098)\n\nSolve:\n\n15.6 = 15 × (1 + i_d) / 1.098\n\nDivide both sides by 15:\n\n15.6 / 15 = (1 + i_d) / 1.098\n\n→ 1.04 = (1 + i_d) / 1.098\n\nMultiply both sides by 1.098:\n\n1.04 × 1.098 = 1 + i_d\n\n→ 1.13992 = 1 +"
+  },
+  {
+    "id": "validation_Finance_29",
+    "subject": "Finance",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the **discounted payback period**, we must discount each cash flow to present value (PV) using a discount rate. However, **no discount rate is provided** in the question.\n\nIn standard finance problems like this, if no discount rate is given, it is often assumed that we are to use a **default rate**, such as **10%**, or sometimes **0%** — but **0% discounting would make discounted payback identical to regular payback**, which is not what is typically intended here.\n\nBut note: **Discounted payback requires a discount rate**. Since none is given, we cannot compute a numerical answer without making an assumption.\n\nHowever, looking at the options, they all give specific years (like 3 years, or “does not exist”), suggesting that perhaps the problem expects us to **assume a discount rate of 10%** — which is common in textbook problems when not specified.\n\nLet’s proceed with **r = 10%** (i.e., 0.10) for calculation purposes, since otherwise the problem is unsolvable.\n\n---\n\n### Project A:\nCash flows:\n- C₀ = -1000\n- C₁ = +1000\n- C₂ = 0\n- C₃ = 0\n- C₄ = 0\n- C₅ = 0\n\nDiscounted cash flows at 10%:\n\n- Year 0: -1000\n- Year 1: 1000 / (1.10)^1 = 909.09\n- Years 2–5: 0\n\nCumulative discounted cash flow:\n- End of Year 0: -1000\n- End of Year 1: -1000 + 909.09 = -90.91\n\n→ We need to recover $90.91 more. But there are no further positive cash flows. So, **discounted payback does not exist**.\n\n✅ **Project A: does not exist**\n\n---\n\n### Project B:\nCash flows:\n- C₀ = -2000\n- C₁ = +1000\n- C₂ = +1000\n- C₃ = +4000\n- C₄ = +1000\n- C₅ = +1000\n\nDiscounted cash flows at 10"
+  },
+  {
+    "id": "validation_Finance_30",
+    "subject": "Finance",
+    "is_mcq": false,
+    "predicted": "1249.24",
+    "answer": "1249",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To calculate the value of Bond D, we use the present value formula for a bond that pays interest semiannually:\n\nThe bond has:\n- Par value (FV) = $1,000\n- Coupon rate = 14% annually → semiannual coupon payment = 14% / 2 = 7% of $1,000 = $70 per period\n- Years to maturity = 10 → number of periods = 10 × 2 = 20\n- Required annual return = 10% → semiannual required return = 10% / 2 = 5% = 0.05\n\nPresent Value of Bond D = Present Value of Coupons + Present Value of Par Value\n\nPV of Coupons = C × [1 - (1 + r)^(-n)] / r  \nWhere C = $70, r = 0.05, n = 20\n\nPV of Coupons = 70 × [1 - (1.05)^(-20)] / 0.05  \n= 70 × [1 - 0.37689] / 0.05  \n= 70 × 0.62311 / 0.05  \n= 70 × 12.4622  \n= 872.354\n\nPV of Par Value = FV / (1 + r)^n  \n= 1000 / (1.05)^20  \n= 1000 / 2.6532977  \n≈ 376.89\n\nTotal Bond Value = 872.354 + 376.89 ≈ 1249.24\n\nAnswer: 1249.24"
+  }
+]

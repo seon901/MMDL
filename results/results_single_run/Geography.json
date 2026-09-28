@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Geography_1",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D\nThe torque at section 1-1 is the sum of all torques to the left of that section. The fixed end applies a torque of 5 kN·m (clockwise, which we take as positive). Then, moving rightward from the fixed end, we encounter a 1 kN·m clockwise torque (positive) and then a 2 kN·m counterclockwise torque (negative). So, total torque at 1-1 = 5 - 1 - 2 = 2 kN·m? Wait — but let's think again.\n\nActually, for a fixed end, the internal torque at section 1-1 must balance the external torques to the left of it. The fixed end applies a torque of 5 kN·m clockwise (positive), and there are no other external torques to the left of section 1-1. But wait — the diagram shows the torque values on the shaft, and the arrow direction indicates the sign convention.\n\nLooking carefully: the diagram shows:\n- At the free end (rightmost), the torque is 5 kN·m, with an arrow indicating direction (likely clockwise).\n- At section 2-2, the torque is labeled 2 kN·m, with an arrow pointing downward (which typically means counterclockwise if we follow standard sign convention in torsion diagrams where clockwise is positive).\n- At section 1-1, the torque is labeled 1 kN·m, with an arrow pointing downward (counterclockwise).\n\nBut to find the internal torque at section 1-1, we must consider the equilibrium of the left segment (from fixed end to section 1-1). The fixed end applies a torque, say T_fixed, which must be equal and opposite to the internal torque at section 1-1, because the segment is in equilibrium.\n\nStandard approach: Use the principle of superposition or equilibrium. Let’s define clockwise as positive.\n\nThe entire shaft is subjected to external torques. The fixed end provides a reaction torque. We can use the fact that the torque diagram is continuous and the value at any section is the algebraic sum of all torques to the left of that section.\n\nWait — the diagram shows the torque values as if they are applied along the shaft. Actually, looking at the diagram, the labels \"1kN·m\" and \"2kN·m\" are likely the torques applied at those sections, but the"
+  },
+  {
+    "id": "validation_Geography_2",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In a joint rose diagram, the radial direction from the center of the semicircle typically represents the **strike** of the joints. The length of the straight line segment extending radially from the center indicates the **relative frequency or density** of joints with that particular strike direction.\n\nThe dip angle is usually represented by the angular position (angle from the horizontal) of the line segment, not its radial length. Joint tendency refers to the direction of joint orientation, which is also related to strike and dip, but in standard rose diagrams, the radial length corresponds to the number or frequency of joints at that strike direction.\n\nTherefore, the length of the straight line segment projecting from the center of the semicircle in the radial direction represents the **joint strike** (the direction along which the joint plane strikes).\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_3",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In structural analysis, when drawing the influence line of any quantity (such as reaction, shear, moment, etc.), we assume that the load is a **unit moving load** — typically a single point load of magnitude 1 — that moves along the structure. The direction of this load is assumed to be unchanged (i.e., it’s a unit load moving in one direction, often from left to right or vice versa, depending on convention). This is a standard assumption for influence line diagrams.\n\nLet’s evaluate the options:\n\nA. **unit moving load with unchanged direction** — This is correct. Influence lines are derived by moving a unit load (often denoted as “1”) across the structure, and its direction is fixed (e.g., from left to right) to maintain consistency.\n\nB. moving load — Too vague; doesn’t specify unit load or direction.\n\nC. dynamic load — Incorrect; influence lines are for static analysis, not dynamic.\n\nD. movable load — Also too vague; doesn’t specify unit load or direction.\n\nTherefore, the most precise and correct answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Geography_4",
+    "subject": "Geography",
+    "is_mcq": false,
+    "predicted": "Map of Tampa area locations",
+    "answer": "['Tampa', 'Florida']",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The place described is a map showing various locations including Clearwater Beach, St. Pete, West Village, Downtown, Ybor, and McDill AFB, with Dale Mabry Hwy as a major road and a Bay nearby.\n\nAnswer: Map of Tampa area locations"
+  },
+  {
+    "id": "validation_Geography_5",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a circuit diagram with several current sources and resistors, and we need to find the values of currents labeled as \\( I_1 \\) and \\( I_2 \\).\n\nLet’s analyze the circuit step by step.\n\n---\n\n**Step 1: Understand the circuit structure**\n\nThe circuit has:\n\n- A **-2A current source** on the left.\n- A **resistor** connected in series with this -2A source.\n- A **branch with a current source (labeled 1A)** and a resistor in parallel.\n- A **current of 0.5A flowing downward** through a resistor on the left side (this is likely a branch current).\n- A **current of 1.5A flowing to the right** at the top right.\n- A **current \\( I_2 \\)** labeled going upward through a resistor on the right side.\n- We are to find \\( I_1 \\) and \\( I_2 \\).\n\n---\n\n**Step 2: Apply Kirchhoff’s Current Law (KCL)**\n\nWe’ll look at key nodes.\n\n---\n\n**Node at the top center (where 1A source and resistor are connected):**\n\nCurrents entering and leaving:\n\n- The **1A current source** is shown as an arrow pointing **left**, so it is supplying 1A into the node.\n- There is a **resistor branch** with current \\( I_1 \\) flowing **downward** (as labeled).\n- So, at this node, incoming current = outgoing current.\n\nThus:\n> Incoming = 1A  \n> Outgoing = \\( I_1 \\)  \n> Therefore, \\( I_1 = 1A \\)\n\nThis matches option B and D.\n\n---\n\n**Now, let’s find \\( I_2 \\).**\n\nLook at the **rightmost vertical branch**:\n\n- There is a **current source** (not labeled numerically, but direction is not specified — however, we can infer from context).\n- A resistor is connected in series with it.\n- The total current flowing **to the right** at the top is 1.5A.\n- This 1.5A must split or combine depending on the configuration.\n\nBut note: the **current labeled \\( I_2 \\)** is shown going **upward** through the rightmost resistor.\n\nAlso, there is a **current of 0.5A flowing downward** on the left side (through a resistor), and a **-2A source"
+  },
+  {
+    "id": "validation_Geography_6",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the bending moment \\( M_{DA} \\) at section DA, we must analyze the beam structure shown. The diagram depicts a rectangular beam with:\n\n- Two vertical supports at D and C, with upward reaction forces \\( T_D \\) and \\( T_C \\).\n- A downward load \\( Q \\) acting at point O (center of the beam).\n- A pin support at E at the bottom, which implies a vertical reaction force \\( R_E \\) at E.\n- The beam has four circular holes on the bottom face — likely for weight or aesthetic purposes, but they do not affect the statics unless specified otherwise.\n\nSince the diagram is not labeled with numerical values for \\( Q \\), \\( T_D \\), \\( T_C \\), or the span lengths, we must assume that the problem is based on a standard textbook figure or that the values are implied by the options.\n\nHowever, looking at the options: 12, 15, 18, 24 — these are all multiples of 3 or 6, suggesting the problem might be from a standard problem set where, for example, \\( Q = 6 \\text{ kN} \\), and the span is 2 m or similar.\n\nBut wait — there's no numerical data in the diagram! This suggests that perhaps this is a **multiple-choice question** where the answer can be deduced from typical textbook problems.\n\nAlternatively, perhaps the diagram is schematic and the values are implied. Let me consider common problems.\n\nIn many such problems, if the beam is simply supported at D and C, and a central load Q acts at O, and E is a pin support at the bottom, then the beam is **not** simply supported — it’s a **cantilever or overhanging beam?**\n\nWait — looking again: There is a support at E (pin), and supports at D and C (likely rollers or pins). But the notation \\( T_D \\) and \\( T_C \\) suggest upward reactions, so D and C are **supports**, and E is also a support.\n\nActually, the diagram shows:\n\n- Point D and C have upward arrows labeled \\( T_D \\) and \\( T_C \\) — these are **reaction forces**.\n- Point E has a downward arrow from a pin support — meaning E is a **support**, and it’s providing an upward reaction force.\n\nSo the beam is supported at D, C, and E.\n\nBut the question asks for \\( M_{DA} \\"
+  },
+  {
+    "id": "validation_Geography_7",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "This map is known as the “World Map by GDP” or “World Map by Economic Size,” often created using data from sources like the World Bank or IMF. The countries are colored and sized according to their economic output — typically Gross Domestic Product (GDP) — to show relative wealth or economic size.\n\nLooking at the map, we see large countries like China and India in pink/red, while smaller countries like those in Europe or North America are shaded differently, indicating varying levels of economic size. This matches with GDP-based sizing, not CO₂ emissions, military spending, or education level.\n\nThus, the correct answer is:\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Geography_8",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Geography_9",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The graph is a population pyramid showing age and sex distribution for the years 1911 to 2021. The shape is wide at the bottom and narrows toward the top, indicating a high birth rate and relatively low life expectancy — typical of a developing country with a young population.\n\nLet’s evaluate the options:\n\nA. Kenya — A developing country with a large youth population; historically had high birth rates and is consistent with this pyramid shape.\n\nB. Kiribati — Also a small island nation with a young population, but its demographic profile is more similar to Pacific Island nations, which often have very high fertility rates and are in transition. Still, it may fit.\n\nC. Kuwait — A wealthy, developed country with low birth rates and an aging population — does not match the pyramid shape.\n\nD. Kyrgyzstan — A Central Asian country that has experienced significant demographic transition, with declining birth rates and an aging population — also does not match.\n\nAmong these, **Kenya** is most commonly associated with such a classic “expansive” population pyramid — particularly before the 2000s when it was still experiencing high fertility rates. The graph appears to show data from the early 20th century through 2021, which aligns with historical trends in Kenya’s population growth.\n\nTherefore, the best answer is Kenya.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Geography_10",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Geography_11",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The arrows in the image point to two distinct ridges or elevated features that are formed where glacial valleys converge or diverge. These features are characteristic of hanging valleys — smaller valleys that originate from tributary glaciers and are higher in elevation than the main valley, often appearing as a \"hanging\" ridge above the main glacier’s valley floor.\n\nThe arrow on the left points to a ridge that appears to be a smaller, elevated spur extending from a larger mountain slope — consistent with a hanging valley feature. The arrow on the right points to a similar ridge-like structure on the opposite side, also indicating a hanging valley morphology.\n\nTherefore, the correct answer is:\n\nC. a hanging valley\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_12",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The pumice raft, which formed after the eruption of Hunga Tonga-Hunga Ha'apai, is a floating mass of volcanic rock fragments. Its movement across the ocean surface between 8 and 14 August — as shown in the map with color-coded rafts — is primarily driven by ocean currents. These currents are large-scale, persistent flows of seawater that transport material over vast distances. While wind and waves can influence movement to some extent, ocean currents are the dominant force responsible for the long-term displacement of such rafts.\n\nThe map legend indicates “Pumice raft (8 Aug)” through “Pumice raft (14 Aug)”, showing progressive movement consistent with current flow patterns. Additionally, the satellite imagery and field photos suggest the raft’s trajectory aligns with known oceanic circulation patterns in the Pacific.\n\nTherefore, the direct cause of the pumice raft changing position during this period is ocean currents.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Geography_13",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D"
+  },
+  {
+    "id": "validation_Geography_14",
+    "subject": "Geography",
+    "is_mcq": false,
+    "predicted": null,
+    "answer": "8200",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To calculate the punching shear bearing capacity $ F_L $ of the square five-pile cap, we use the formula for punching shear resistance in reinforced concrete:\n\n$$\nF_L = 0.7 \\cdot \\beta \\cdot f_t \\cdot b \\cdot d\n$$\n\nwhere:\n- $ f_t $ is the tensile strength design value of concrete (given as 1.27 MPa = 1.27 N/mm²),\n- $ b $ is the critical section width (usually the perimeter of the column or pile group),\n- $ d $ is the effective depth (given as 1050 mm),\n- $ \\beta $ is a coefficient depending on the geometry and reinforcement, often taken as 1.0 for simple cases unless otherwise specified.\n\nHowever, for punching shear around pile caps, the standard formula used is:\n\n$$\nF_L = 0.7 \\cdot f_t \\cdot s \\cdot d\n$$\n\nwhere $ s $ is the perimeter of the critical section.\n\nBut more accurately, for a **square five-pile cap**, the critical section is typically taken at a distance $ d $ from the face of the piles (or the edge of the cap), and the perimeter is determined based on the arrangement.\n\nFrom the diagram, we see that the cap has 5 piles arranged in a square pattern with one in the center and four at the corners. The distance from the center to any pile is given by the geometry: total dimension of cap is $ b $, with 400 mm at each side, and 1500 mm between the outermost piles.\n\nThe critical section for punching shear is usually taken at the level of the pile base, and the perimeter is calculated based on the distance from the center of the cap to the edge of the pile.\n\nGiven:\n- Cap thickness = 1.2 m → but effective height $ h_0 = 1050 $ mm = 105 cm,\n- Pile size = 400 mm × 400 mm,\n- Column size = 600 mm × 600 mm.\n\nBut the key is to find the critical section perimeter.\n\nIn the diagram, the total length of the cap is shown as:\n\nTop: 400 + 1500 + 400 = 2300 mm\n\nSimilarly, side: 400 + 1500 + 400 = 23"
+  },
+  {
+    "id": "validation_Geography_15",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Let’s evaluate each option based on geological knowledge:\n\nA. **Siltstone is cemented silt particles** — This is correct. Siltstone is a clastic sedimentary rock composed of silt-sized particles (0.004–0.063 mm) that are cemented together by minerals like calcite or silica.\n\nB. **Shale is Clay, breaking easily into flat flakes and plates** — This is also correct. Shale is a fine-grained clastic rock made of clay-sized particles (less than 0.004 mm). It often breaks along planes of weakness into thin, flat sheets or plates.\n\nC. **Chert is Silica, a microcrystalline form of quartz** — This is accurate. Chert is a chemical sedimentary rock composed primarily of microcrystalline quartz (SiO₂), often formed in deep marine environments or from the precipitation of silica.\n\nD. **None** — This would imply that all the above statements are correct. Since A, B, and C are all factually correct, this option is valid.\n\nTherefore, there is no incorrect statement among the options — so the answer to “which is NOT correct” is not applicable, but since we must choose the *exception*, and all are correct, then “None” is the best choice because it implies no error exists.\n\nHowever, note: The question asks for the statement that is **EXCEPT** correct — meaning the one that is **not** correct. But since all three (A, B, C) are correct, and D says “None,” which means none of the above are incorrect — this is actually consistent with the situation.\n\nBut wait — perhaps there’s a trick? Let’s double-check.\n\nIs there any misstatement?\n\n- A: Siltstone = cemented silt → Correct.\n- B: Shale = clay, breaks into flakes → Correct.\n- C: Chert = silica, microcrystalline quartz → Correct.\n\nAll are accurate.\n\nSo if we’re forced to pick an option that is “not correct,” but none are wrong, then D (“None”) is the correct choice — because it means there is no exception.\n\nActually, let me re-read the question: “The following statements of the rocks in  are all correct EXCEPT”\n\nIt says “are all correct EXCEPT” — implying that one is incorrect. But in reality, all three are correct. So perhaps the question is flawed? Or maybe"
+  },
+  {
+    "id": "validation_Geography_16",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks where the photographer most likely takes the photo, but no images labeled <image 2>, <image 3>, or <image 4> are provided. Therefore, there is no basis to compare or identify which “forests marked” correspond to the scene shown.\n\nSince the image depicts a snowy, boreal forest landscape with evergreen trees and patches of autumn-colored deciduous trees — likely in a northern region such as Alaska, Canada, or Scandinavia — and since no specific “marked forests” are referenced, we cannot logically select any of the options A, B, or C based on the given information.\n\nHowever, if forced to choose among the options due to a possible misalignment in the prompt (e.g., if one of the images were meant to represent the scene), none of the options can be verified.\n\nAnswer: Cannot be determined"
+  },
+  {
+    "id": "validation_Geography_17",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In precast concrete pile foundations, the center-to-center distance between piles is typically specified to ensure adequate spacing for soil displacement, pile interaction, and to avoid excessive stress concentration. According to standard geotechnical design guidelines (such as those from ACI or Eurocode), the minimum center-to-center distance between piles should generally be **not less than 3.0D**, where D is the diameter of the pile.\n\nThis ensures proper load distribution and minimizes negative effects such as soil squeezing or reduced bearing capacity due to pile interference.\n\nTherefore, the correct answer is:\n\nC. 3.0D\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_18",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The international standard for temperature is the Celsius scale, which is defined by the International System of Units (SI). The bottom thermometer is labeled with degrees Celsius (°C), and it has 0°C marked near the center, which aligns with the internationally accepted reference point. The top thermometer uses Fahrenheit (°F), which is not the international standard.\n\nTherefore, the bottom thermometer represents the international standard.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Geography_19",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which of the following is **not** included in the hazard assessment of geological hazards.\n\nLet’s analyze each option:\n\n- **A. Land subsidence** — This is a well-known geological hazard, often caused by groundwater withdrawal or mining activities. It is commonly assessed in geological hazard evaluations.\n\n- **B. Ground collapse** — Also known as ground voiding or cave-in, this is a geological hazard, especially in areas with underground cavities or unstable rock formations. It is part of geological hazard assessments.\n\n- **C. Ground fissures** — These are cracks in the ground surface, often caused by tectonic activity or subsurface fluid movement. They are included in geological hazard assessments.\n\n- **D. Earthquake** — While earthquakes are indeed geological hazards, they are typically categorized under **seismic hazards**, which may be assessed separately from other geological hazards like subsidence, collapse, or fissures. However, in many contexts, earthquakes are still considered part of broader geological hazard assessments.\n\nBut here's the key: **Earthquake** is not a *geological hazard* in the same sense as land subsidence, ground collapse, or ground fissures — it is a **seismic event** that can trigger or be associated with other geological hazards, but it is not always classified as a “geological hazard” in the same category as the others. Some frameworks distinguish between seismic hazards and other geological hazards.\n\nHowever, strictly speaking, earthquakes are a **type of geological hazard** (as per many geohazard classification systems). But the question might be implying a more specific context — perhaps in civil engineering or geotechnical hazard assessments — where **earthquake** is often treated separately due to its dynamic nature and different assessment methods (e.g., seismic design codes).\n\nBut wait — let’s reconsider: In standard geological hazard assessment frameworks (like those used in China or internationally), **earthquakes are included** as one of the major types of geological hazards. So why would the question imply that one is *not* included?\n\nActually, there’s a more nuanced point: The term “geological hazard” usually refers to hazards arising from **geological processes** such as erosion, landslides, subsidence, etc. **Earthquakes**, while geological in origin, are often treated as **seismic hazards** — a separate category, sometimes even outside the scope of traditional “geological hazard” assessments, especially in engineering contexts.\n\nIn many official guidelines, **earthquake hazard** is assessed separately from"
+  },
+  {
+    "id": "validation_Geography_20",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given:\n\n- Natural water content, $ w = 60\\% = 0.60 $\n- The soil is **fully saturated**, so the degree of saturation $ S = 100\\% = 1.0 $\n\nWe need to find the **natural pore ratio**, $ e $.\n\n---\n\n### Step 1: Use the formula for saturated soil\n\nFor a fully saturated soil, the water content is related to the pore ratio by:\n\n$$\nw = \\frac{e \\cdot S}{1 + e}\n$$\n\nSince $ S = 1 $, this simplifies to:\n\n$$\nw = \\frac{e}{1 + e}\n$$\n\n---\n\n### Step 2: Plug in $ w = 0.60 $\n\n$$\n0.60 = \\frac{e}{1 + e}\n$$\n\nMultiply both sides by $ 1 + e $:\n\n$$\n0.60(1 + e) = e\n$$\n\n$$\n0.60 + 0.60e = e\n$$\n\nBring terms together:\n\n$$\n0.60 = e - 0.60e = 0.40e\n$$\n\n$$\ne = \\frac{0.60}{0.40} = 1.5\n$$\n\n---\n\n### Step 3: Compare with options\n\nThe calculated pore ratio is **1.5**.\n\nLooking at the options:\n\nA. 1.0  \nB. 1.3  \nC. 1.6  \nD. 1.9  \n\nThe closest is **C. 1.6**\n\n(Note: 1.5 is closer to 1.6 than to 1.3 or 1.9 — difference of 0.1 vs 0.4 and 0.4 respectively.)\n\n---\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_21",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks about the dangers degree represented by yellow, blue, and orange in the bar chart. However, the chart itself does not provide any labels or keys to explain what each color represents — the legend is intentionally obscured (with yellowed-out text). Without additional context or a provided key, we cannot definitively determine which color corresponds to which danger level.\n\nBut since this is a multiple-choice question and the options are fixed, we can infer based on common conservation terminology used in such charts:\n\n- Typically, in conservation biology charts, “Critical” is the most severe, “Endangered” is moderate, and “Vulnerable” is less severe.\n- In many standardized tests or educational materials, the colors are often assigned as:\n  - Orange: Critical\n  - Blue: Endangered\n  - Yellow: Vulnerable\n\nThis assignment is consistent with the structure of such charts and aligns with the order of severity from most to least critical.\n\nTherefore, the correct mapping would be:\n- Orange → Critical\n- Blue → Endangered\n- Yellow → Vulnerable\n\nWhich matches option C: Critical, Vulnerable, Endangered — wait, no! Option C says: \"Critical, Vulnerable, Endangered\" — that’s not matching our mapping.\n\nWait — let's re-express the options:\n\nA. Vulnerable, Endangered, Critical  \nB. Endangered, Critical, Vulnerable  \nC. Critical, Vulnerable, Endangered  \n\nIf orange = Critical, blue = Endangered, yellow = Vulnerable, then the sequence for the colors is: **Yellow (Vulnerable), Blue (Endangered), Orange (Critical)** — so that would be **Vulnerable, Endangered, Critical** — which is **Option A**.\n\nBut hold on — the question asks: “What are the dangers degree represented by yellow, blue, and orange in ?”\n\nSo it’s asking for the meaning of **yellow, blue, orange** — i.e., in that specific order.\n\nIf yellow = Vulnerable, blue = Endangered, orange = Critical, then the order is: Vulnerable, Endangered, Critical — which is **Option A**.\n\nAlternatively, if the chart uses different conventions, but without the legend, we must rely on standard conventions.\n\nIn many IUCN Red List charts, the color coding is:\n\n- Red: Critically Endangered\n- Orange: Endangered\n- Yellow: Vulnerable\n\nBut here we have three colors: yellow, blue, orange — and they are not red."
+  },
+  {
+    "id": "validation_Geography_22",
+    "subject": "Geography",
+    "is_mcq": false,
+    "predicted": "2",
+    "answer": "3",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Two arcs connect at node 12: one from node 11 to node 12, and one from node 12 to node 2.\n\nAnswer: 2"
+  },
+  {
+    "id": "validation_Geography_23",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: D\nThe cross-section that produces combined deformation of oblique bending and torsion is the equilateral angle steel. In this case, the force P acts at an angle to the principal axes of the section, causing both bending about an inclined axis and torsional moment simultaneously. The other sections (rectangle, channel steel, I-beam) typically experience bending in their principal planes or symmetrically aligned forces without significant torsion or oblique bending components under the given loading conditions shown in the figure."
+  },
+  {
+    "id": "validation_Geography_24",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks for the appropriate testing method to evaluate the uniformity and compactness of crushed stone fill. Among the options:\n\n- **Static penetration test** – typically used for soft soils or cohesive materials, not ideal for granular materials like crushed stone.\n- **Light power penetration** – usually refers to light compaction tests, which are insufficient for evaluating compactness in coarse-grained materials like crushed stone.\n- **Heavy power penetration** – often refers to heavy compaction methods, but this is not a standardized test name.\n- **Standard penetration test (SPT)** – widely used for soils to assess density and compactness. However, SPT is primarily for cohesionless soils (like sand and gravel), and while it can be applied to crushed stone, it’s not the most direct or commonly recommended method for evaluating *uniformity and compactness* of *crushed stone fill*.\n\nActually, for **crushed stone fill**, the standard method to evaluate uniformity and compactness is the **compaction test**, often performed using **light or heavy compaction equipment** as per ASTM standards. But among the given choices, **“Heavy power penetration”** is likely referring to heavy compaction testing — though not a formal test name — and may be intended to mean heavy compaction testing, which is suitable for coarse-grained materials like crushed stone.\n\nHowever, if we interpret the options literally:\n\n- **Standard penetration test (D)** is the most recognized test for soil compaction and density, and while it’s not the *best* for crushed stone, it’s still the most standard method available in the options for evaluating compaction.\n\nBut wait — let’s reconsider: In geotechnical engineering, **the Standard Penetration Test (SPT)** is used for **soils**, not typically for **aggregate fills** like crushed stone. For **crushed stone fill**, the correct test is usually the **Compaction Test** (e.g., Proctor test) or **Density Test** (such as the Sand Replacement Method). But since those aren’t listed, and “Heavy power penetration” might refer to heavy compaction testing, which is sometimes called “heavy penetration” in informal contexts, that could be the best fit.\n\nLooking at the options again:\n\n- A. Static penetration test — too weak for coarse material\n- B. Light power penetration — too weak; not sufficient for crushed stone\n- C. Heavy power penetration — likely refers to heavy compaction testing, suitable for coarse-grained materials\n- D."
+  },
+  {
+    "id": "validation_Geography_25",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The correct method for constructing the waterproofing layer of the basement exterior wall with coiled materials involves laying the roll waterproof layer on the **upstream surface** (i.e., the side facing the water) of the external wall. This ensures that the waterproofing material is exposed to the water pressure and can effectively resist seepage from the outside.\n\nOption A correctly describes this practice.\n\nOption B (back surface) would be incorrect because the back surface is not exposed to water pressure and would not provide adequate protection.\n\nOption C (empty laying method) is not a standard or recommended method for roll waterproofing; it may refer to a different technique, but not the standard for coiled materials on basement walls.\n\nOption D (double layers perpendicular) is not typically required unless specified by design; generally, layers are laid in parallel for better continuity and adhesion.\n\nTherefore, the correct answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Geography_26",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which rock mass structure types do NOT belong to the \"Code for Geological Investigation of Water Resources and Hydropower Engineering\" (GB 50287-99).\n\nLet’s analyze each option in the context of GB 50287-99:\n\n- **Option A: Overall, block, and sub block structures** — These are standard classifications in GB 50287-99 under “Rock Mass Structure” as defined in Section 3.1.1. They are explicitly listed.\n\n- **Option B: Giant thick layered, thick layered, medium thick layered, interbedded, and thin layered structures** — These are also included in GB 50287-99 under “Layered Structures” (Section 3.1.2). The code recognizes these gradations.\n\n- **Option C: Weathering unloading structure and weathering fragment structure** — These are **not** classified under the main rock mass structure types in GB 50287-99. Instead, they fall under “Weathering Structures” or “Weathering Features,” which are discussed separately (e.g., in Section 4.2), but not as primary rock mass structure types like block, layered, or fragmented. The code primarily classifies rock masses based on jointing, layering, fragmentation, etc., and weathering effects are considered secondary or associated features, not structural types per se.\n\n- **Option D: Inlaid fragmented structure and fragmented structure** — These are indeed recognized in GB 50287-99 as “Fragmented Structures” (Section 3.1.3). “Inlaid fragmented” may be a more specific subtype, but both are included.\n\nTherefore, the correct answer is **C**, because “Weathering unloading structure and weathering fragment structure” are not among the primary rock mass structure types defined in GB 50287-99.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_27",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question involves interpreting the cone penetration test (CPT) result for a cohesive soil sample, specifically the depth of penetration (6 mm) using a 76g liquid limit instrument. This is a standard method in soil mechanics to determine the plasticity state of cohesive soils.\n\nIn the context of the **liquid limit** test, the **cone penetration depth** (in mm) is directly correlated with the **liquidity index (LI)** or the **plasticity index (PI)** and helps classify the soil’s state:\n\n- **Liquid Limit (LL)**: The water content at which the soil begins to flow.\n- **Plastic Limit (PL)**: The water content at which the soil changes from a plastic to a semi-solid state.\n- **Plasticity Index (PI)** = LL - PL\n\nHowever, in this case, the question refers to the **cone settlement** — specifically, the depth to which the 76g cone sinks into the soil — which is used to estimate the **liquid limit** or **plastic state**.\n\nFrom standard soil classification tables and cone penetration test (CPT) correlations:\n\n- A **depth of 6 mm** corresponds to a **highly plastic state**, typically classified as **“Flow Plastic”** or **“Flowing”** — meaning the soil is so saturated and plastic that it can flow like a liquid under slight shear.\n\nBut let’s cross-check with standard classifications based on cone penetration depth for cohesive soils:\n\nCommon reference:\n- **< 5 mm**: Very stiff\n- **5–10 mm**: Stiff\n- **10–20 mm**: Plastic\n- **> 20 mm**: Soft plastic / Flowing\n\nWait — actually, **the 76g cone test** is often associated with the **liquid limit determination** via the **cone penetrometer**. The depth of penetration is inversely related to the water content.\n\nStandard correlation for 76g cone test (often called the “cone index”) for cohesive soils:\n\n- Depth < 5 mm → Very stiff\n- Depth 5–10 mm → Stiff\n- Depth 10–20 mm → Plastic\n- Depth > 20 mm → Soft plastic\n- Depth > 30 mm → Flowing\n\nBut note: **6 mm** falls within the **5–10 mm range**, which corresponds to **stiff** or **hard plastic**? Actually, let's clarify:\n\nIn many engineering"
+  },
+  {
+    "id": "validation_Geography_28",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The question asks which type of water is located on the surfaces of individual soil particles and is largely unavailable to plants because it is held firmly by molecular attractions.\n\nLooking at the diagram:\n\n- **Gravitational water** (1) is the water that flows downward under gravity after rain — it’s not on particle surfaces, but in the pores.\n- **Capillary water** (2) is held around soil grains by capillary tension — this water is available to plants.\n- **Hygroscopic water** (3) is held by adhesion to soil particles — it’s on the surfaces of individual soil particles and is not available to plants because it’s held by strong molecular attractions (like hydrogen bonding), which are not broken by plants or evaporation.\n\nThis matches the description in the question perfectly.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Geography_29",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Looking at the table provided, we can compare the hardness values of the listed minerals:\n\n- Feldspar: 6–6.5\n- Fluorite: 4\n- Galena: 2.5–2.75\n- Quartz: 7\n\nThe highest hardness value is 7, which corresponds to Quartz.\n\nTherefore, Quartz is the hardest mineral among the options listed.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Geography_30",
+    "subject": "Geography",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: D\nThe time difference between the arrival of the first wave and the second wave (t1 to t3) corresponds to twice the travel time for the wave to go from the source to the top of the pile and back. The wave velocity is given as 3555.6 m/s. The time interval from t1 to t3 is approximately 4 ms (since the first peak is at t1, the next significant peak is at t3, and there's a clear gap of about 4 ms between them — visually estimated from the graph). So, total travel time = 4 ms = 0.004 s.\n\nDistance traveled by wave in that time = velocity × time = 3555.6 × 0.004 = 14.2224 m. This is the round-trip distance (to the bottom and back), so one-way distance (pile length) = 14.2224 / 2 = 7.1112 m. But this does not match any options.\n\nWait — let’s re-examine the figure. The graph shows three key points: t1 (first arrival), t2 (a local minimum or reflection point), and t3 (second arrival). The time from t1 to t3 is the time for the wave to go to the bottom and back — so it’s 2L/v.\n\nLooking at the x-axis, the spacing between t1 and t3 appears to be about 8 ms (not 4 ms — visually, from the first peak to the second peak is roughly 8 ms apart). Let’s assume that’s accurate. Then:\n\nTime for round trip = 8 ms = 0.008 s\n\nLength L = (v × t) / 2 = (3555.6 × 0.008) / 2 = (28.4448) / 2 = 14.2224 m.\n\nStill not matching options.\n\nAlternatively, perhaps the time between t1 and t2 is 4 ms, and between t2 and t3 is also 4 ms? That would make t1 to t3 = 8 ms. But if we look at the graph more carefully, the first peak is at t1, then there’s a trough at t2, then a peak at t3. The time from t1 to t3 is clearly longer than "
+  }
+]

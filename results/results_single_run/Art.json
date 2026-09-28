@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Art_1",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The portrait in question is of a woman named Cimone, as indicated by the inscription “CIMONE” visible on the artifact. This name is famously associated with Hermione Granger from the Harry Potter series, though that connection is not literal — it’s a playful or symbolic association often made by fans due to the similarity in spelling (Cimone vs. Hermione) and the fact that both are names of strong, intelligent female characters.\n\nHowever, upon closer inspection, there is no direct historical or literary link between “Cimone” and any of the options listed except perhaps a whimsical one. But in reality, **Cimone** is a real historical name — it was used in Roman times, and the mummy portrait is known as the “Cimone Portrait.” The name “Cimone” does not correspond to any major fictional character in the options provided.\n\nBut wait — let’s reconsider: There is a famous fictional character named **Matilda** (as in Matilda Wormwood from *Matilda* by Roald Dahl), and **Hermione Granger** from *Harry Potter*. Neither is linked to “Cimone.”\n\nActually, **there is no direct connection** between “Cimone” and any of these fictional characters.\n\nHowever, if we consider that this is a trick question or a riddle, the most plausible answer might be **C. Hermione**, because:\n\n- The name “Cimone” sounds similar to “Cimone” and “Hermione” is sometimes jokingly associated with “Cimone” in fan circles or educational contexts.\n- But strictly speaking, none of the options are correct.\n\nWait — let me check again.\n\nActually, I recall that the portrait of Cimone is sometimes humorously linked to Hermione Granger because of the way her name is pronounced and how she is portrayed — but this is not factual.\n\nAlternatively, maybe the question is referring to the fact that **Cimone** is a name that appears in some modern interpretations or games — but again, not accurate.\n\nUpon deeper research, I find that the portrait is indeed called the “Cimone Mummy Portrait,” and it is not directly associated with any fictional character in the options. However, in popular culture, the name “Cimone” has been loosely associated with Hermione Granger for comedic effect, especially in online discussions.\n\nGiven that, and since the question asks which well-known fictional character she shares her name with, and given the available options, the only"
+  },
+  {
+    "id": "validation_Art_2",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a painting in the Pointillist style, characterized by small, distinct dots of color. This technique is famously associated with Georges Seurat, who pioneered this method in the 19th century. The subject is a nude female figure standing in a room, which matches known works by Seurat, such as “A Sunday Afternoon on the Island of La Grande Jatte” or other nudes from his period.\n\nOption A, Serge Vinogradov, was a Russian painter and sculptor, not known for Pointillism.\nOption C, Vincent van Gogh, used expressive brushstrokes and bold colors, not dotting techniques.\nOption D, Paul Gauguin, worked in Post-Impressionism and used symbolic and stylized forms.\n\nTherefore, the correct answer is Georges Seurat.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_3",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a poster by the artist **Henri de Toulouse-Lautrec**, featuring the dancer Jane Avril. The signature on the right side reads “H. Stern, Paris,” which is likely the name of the publisher or printer, not the artist. However, the style — with its bold lines, stylized figure, and Art Nouveau influence — is characteristic of Toulouse-Lautrec’s work, especially his posters for dancers and cabarets.\n\nToulouse-Lautrec was known for his posters advertising dancers and theaters in Paris, including Jane Avril, whom he portrayed in several works.\n\nTherefore, the correct answer is:\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Art_4",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Editing programs can correct issues such as overexposure (too bright) or underexposure (too dark) after a photo has been shot. While some blurs or aperture problems may be fixable in certain cases, over and underexposure are most commonly corrected during post-processing using tools like exposure adjustment, shadows/highlights recovery, or HDR techniques.\n\nTherefore, the best answer is:\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_5",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is “The Bathing Beauties” (or “Nude with a Straw Hat”) by Pierre-Auguste Renoir, a French Impressionist painter. The signature in the lower right corner of the image reads “Renoir,” confirming the artist.\n\nOption A, Paul Signac, was an Impressionist and Neo-Impressionist painter known for Pointillism.\nOption B, Henri Matisse, was a Fauvist painter known for bold colors and simplified forms.\nOption C, John Singer Sargent, was a Victorian-era portrait painter known for his elegant and detailed portraits.\nOption D, Pierre-Auguste Renoir, fits perfectly with the style and subject matter of this painting.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_6",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is a well-known work by Claude Monet, depicting a woman holding a green parasol and walking through a field of flowers under a bright sky. The title of this painting is “Woman with a Parasol” (or “Woman with a Parasol in the Meadow”), completed in 1875.\n\nThis artwork is one of Monet’s most iconic pieces and exemplifies Impressionist style, capturing light and atmosphere rather than detailed realism.\n\nLet’s evaluate the options:\n\nA. Lady with an Ermine — This is a famous painting by Caravaggio, not related to Monet or this image.\n\nB. First Steps — This is a painting by Edgar Degas, depicting children learning to walk, not this scene.\n\nC. Nude Descending a Staircase, No. 2 — This is a groundbreaking work by Marcel Duchamp, part of early modern art, unrelated.\n\nD. Woman with a parasol — This matches perfectly with the subject and artist of the painting.\n\nTherefore, the correct answer is D.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_7",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image shows a fresco depicting the prophet Isaiah, seated and holding a book, with cherubs above and inscribed with the name \"ESAIAS\" below. This is part of Michelangelo’s famous Sistine Chapel ceiling paintings, specifically the section featuring the prophets. Michelangelo painted the prophets, including Isaiah, between 1508 and 1512.\n\nTherefore, the statement is true.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_8",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The sculpture \"A Conversation with the Sea\" is located in Aldeburgh, Suffolk. It was created by artist Sarah Lucas and installed on the beach in 2013 as part of a larger project exploring the relationship between humans and the sea. The sculpture features a large, rusted metal shell with inscriptions and is situated on the shingle beach near the town’s famous pier.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Art_9",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Frederic Leighton’s early paintings were indeed inspired by Giorgio Vasari’s *The Lives of the Artists*. One of his most famous works, *The Death of Cimabue*, directly draws from Vasari’s account of the death of the Italian painter Cimabue. This painting depicts Cimabue lying on a stone slab, surrounded by mourners and a dog, set against a backdrop of Renaissance architecture — a direct homage to Vasari’s narrative.\n\nWhile Leighton painted several works based on Vasari’s biographies, including those of Donatello, Giotto, and Brunelleschi, *The Death of Cimabue* is particularly well-known and aligns with the theme of depicting the death of a great artist as described in Vasari’s text.\n\nTherefore, the correct answer is:\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_10",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is “The Night Café” or possibly “Café Terrace at Night,” both of which are iconic works by Vincent van Gogh. The swirling stars, bold colors, and expressive brushwork are hallmarks of his style.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_11",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image is a pointillist painting of a coastal scene, featuring cliffs, sea, and distant sailboats. This style is characteristic of the Neo-Impressionist movement, which was pioneered by artists like Georges Seurat and Paul Signac.\n\nLooking at the options:\n- A. Arkhip Kuinii — Russian painter, known for his realistic depictions of nature and people, not associated with pointillism.\n- B. Paul Signac — A key figure in Pointillism; he often painted landscapes and seascapes, similar to this one.\n- C. Georges Seurat — Another major pointillist artist, famous for “A Sunday Afternoon on the Island of La Grande Jatte,” but less commonly known for coastal scenes like this.\n- D. Valentin Serov — Russian portrait painter, not associated with pointillism or coastal scenes.\n\nWhile both Seurat and Signac are pointillists, the painting shown here is very likely by Paul Signac, as he frequently painted seaside views and cliffs, particularly in Normandy. The texture and composition match Signac’s style more closely than Seurat’s.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_12",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The painting shown is “The Luncheon of the Boating Party” (or sometimes referred to as “The Luncheon on the Grass” or similar titles) — but more accurately, this is likely a reference to **Edvard Munch’s** “The Scream,” which is famously associated with Expressionism and dark, swirling skies. However, the image presented here is actually **not** “The Scream.” The composition — with figures gathered around a table in a dimly lit, emotionally charged setting — strongly resembles **Edvard Munch’s “The Scream”** or possibly another expressionist work, but looking closely at the brushwork and color palette, it’s also reminiscent of **Edgar Degas’** style — particularly his depictions of people at leisure or in social settings.\n\nBut wait — let’s examine the image more carefully. The painting features a group of figures seated around a table, with dramatic lighting, thick impasto, and emotional intensity — characteristics that align with **Edvard Munch**, especially his later works like “The Scream” or “Madonna” series, but the overall composition is not quite matching. Alternatively, if we consider **Paul Cézanne**, his style is more geometric and structured, while this is highly expressive and chaotic.\n\nActually, this painting is **not** by any of these artists — it appears to be **a work by Edvard Munch** — specifically, it's often misattributed or confused with other works. But upon closer inspection, the most likely candidate based on the style — especially the dark, moody atmosphere and expressive figures — is **Edvard Munch**.\n\nHowever, I must correct: this image is actually **“The Luncheon of the Boating Party”** by **Edgar Degas** — but that’s not right either, because Degas’ version is more realistic and less chaotic.\n\nWait — no. This is actually **“The Luncheon of the Boating Party”** by **Édouard Manet** — but again, that’s not the case.\n\nActually, the painting shown here is **“The Luncheon of the Boating Party”** by **Édouard Manet** — but Manet’s version is much more naturalistic.\n\nI think I’m overcomplicating. Let me look at the options:\n\nA. Paul Cézanne — known for structured, geometric forms — doesn’t match.\n\nB. Edvard Munch — known for expressionist, emotional,"
+  },
+  {
+    "id": "validation_Art_13",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting depicts a dramatic scene with classical figures, architectural elements, and a strong sense of order, balance, and idealized form — all hallmarks of Neoclassicism. The subject matter draws from ancient Greek and Roman mythology or history, and the style emphasizes clarity, moral seriousness, and rational composition. This is characteristic of the Neoclassical movement, which flourished in the 18th and early 19th centuries, particularly in France and Italy.\n\nWhile Baroque art often features dynamic movement and emotional intensity, this painting’s calm, structured composition and emphasis on classical ideals point away from Baroque. Renaissance art, though also classical in inspiration, typically predates this period and lacks the formal, academic rigor and political messaging seen here. Rococo is known for its lightness, ornamentation, and frivolity — not suitable for this solemn, dramatic scene.\n\nTherefore, the correct answer is Neoclassical.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_14",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The painting shown is “Portrait of a Man in a Hat” (1910), which depicts **Spencer Gore**, a British painter and art critic, painted by **Malcolm Drummond**. The portrait is notable for its expressive brushwork and the subject’s confident pose.\n\n- Harold Gilman was a painter and writer, often associated with the Camden Town Group.\n- Charles Ginner was a British artist known for his portraits and landscapes.\n- William Ratcliffe was an English painter and illustrator, active in the late 19th and early 20th centuries.\n\nGiven this, the correct answer is A. Spencer Gore.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_15",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The painting depicted is “The Temptation of St. Anthony” by Lucas Cranach the Elder, created around 1530–1532. It portrays the saint being surrounded and attacked by various demonic creatures, a common subject in Northern Renaissance art. Cranach was a prominent German painter and printmaker associated with the Reformation.\n\nWhile other artists listed are significant, they do not match this specific work:\n\n- Antonello da Messina: Italian painter known for early Renaissance works like “The Annunciation.”\n- Michelangelo Buonarroti: Italian Renaissance master, primarily known for sculpture and architecture (e.g., David, Sistine Chapel).\n- Pieter Bruegel the Elder: Flemish painter known for scenes of peasant life and landscapes; his work differs in style and subject matter.\n- Lucas Cranach the Elder: Correct — he painted this iconic depiction of St. Anthony’s temptation.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_16",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a pipe with the French text “Ceci n’est pas une pipe.” which translates to “This is not a pipe.” This is one of the most famous paintings by the Belgian surrealist artist René Magritte, created in 1966. The work is a classic example of his use of paradox and visual deception.\n\nTherefore, the statement is accurate.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_17",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The Mayan chacmool sculptures, known for their reclining, serpentine forms and symbolic representation of offerings or ritual functions, have been influential in the development of modern sculpture. Among twentieth-century sculptors, **Henry Moore** was particularly inspired by ancient Near Eastern and Mesoamerican art, including the chacmool. His works often feature organic, reclining forms that echo the fluidity and monumental presence of such ancient statues.\n\nWhile other sculptors like Louise Bourgeois, Barbara Hepworth, and Constantin Brancusi also drew from diverse artistic traditions, Moore’s work is most directly associated with the influence of ancient Mesoamerican art, including the chacmool.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_18",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting in question is a 15th-century tempera on panel depicting a female saint holding a tower, which is a key attribute of Saint Barbara. Saint Barbara is often portrayed with a tower, symbolizing her martyrdom and the tower she was imprisoned in. The halo with floral decoration and her green and red garments are consistent with iconographic representations from this period.\n\nAmong the options:\n- A. Barbara — correct, as she is associated with the tower.\n- B. Apollonia — typically depicted with a stylized head or in scenes of martyrdom, not with a tower.\n- C. Philomena — usually shown with a lamb or as a young girl, not a tower.\n- D. Hilda — associated with monastic life and a cross, not a tower.\n\nThus, the correct answer is Saint Barbara.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_19",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which image features a strong use of negative space, we must understand what negative space is: the empty or unoccupied areas in a composition that surround or contrast with the main subject.\n\n- Photo 1: Shows three silhouetted figures walking up stone steps. The background is mostly empty — open sky and steps — which creates a sense of negative space around the figures. The contrast between the dark figures and the lighter steps/sky emphasizes this effect.\n\n- Photo 2: Features hanging pendant lights with perforated cylindrical shades. The background is dark, which makes the lights stand out, but the negative space is less prominent because the lights are arranged in a way that fills much of the frame with their glowing forms.\n\n- Photo 3: Displays two large, conical structures made of wooden bricks against a clear blue sky. The sky acts as a vast expanse of negative space, contrasting sharply with the textured, geometric forms of the structures. This is a classic example of using negative space to frame and emphasize the architecture.\n\nComparing all three:\n\n- Photo 1 uses negative space effectively through the silhouette and the open staircase area.\n- Photo 3 uses negative space most dramatically — the sky provides a large, clean background that contrasts with the structures.\n- Photo 2 has minimal negative space; it’s more about light and texture.\n\nWhile Photo 1 also uses negative space, Photo 3 arguably uses it most strongly due to the scale of the sky and the stark contrast.\n\nTherefore, the best answer is Photo 3.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_20",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The portrait of William Hunter, founder of the Hunterian Museum, was painted by George Romney. Romney was a prominent British portrait painter of the 18th century, known for his naturalistic style and depictions of intellectuals and gentlemen. The painting in question is a well-known work attributed to him.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Art_21",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "This painting is “Judith Slaying Holofernes,” a powerful and dramatic depiction of the biblical scene. The artwork is attributed to Artemisia Gentileschi, who was a prominent Baroque painter and one of the few female artists of her time to achieve significant acclaim. She painted this piece between 1612 and 1613.\n\nWhile Caravaggio also painted scenes from the Judith narrative (e.g., “Judith Beheading Holofernes” around 1598–1600), the version shown here — with its intense emotional expression, chiaroscuro lighting, and dynamic composition — is characteristic of Artemisia’s style and period.\n\nThus, the correct answer is C.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Art_22",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Evelyn De Morgan was known for drawing inspiration from literary and mythological sources, particularly those with allegorical or symbolic depth. Her painting “The Five Mermaids” (1895) is a direct reference to the mermaids in *The Water Babies* by Charles Kingsley (1863), which features a group of mermaids as part of its fantastical and moralistic narrative.\n\nWhile Hans Christian Andersen’s *The Little Mermaid* (1836) is famous for its single, tragic mermaid, De Morgan’s work depicts five mermaids in a more complex, perhaps allegorical, grouping — consistent with the tone and themes of Kingsley’s novel, which includes multiple sea creatures and spiritual allegories.\n\nDe Morgan’s style and subject matter align more closely with the Victorian-era literary tradition that *The Water Babies* represents, rather than the more individualistic or fairy-tale nature of Andersen’s tale.\n\nJules Verne and Herman Melville do not feature mermaids prominently in their works, so options C and D are incorrect.\n\nTherefore, the most plausible literary source inspiring De Morgan’s painting is *The Water Babies*.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_23",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Margaret Gere was an English painter known for her work in the late 19th and early 20th centuries. Her paintings, including the one depicted here, are typically rendered in oil paint. The image shows a detailed, richly textured scene with visible brushwork and layered colors — hallmarks of oil painting. While tempera and watercolor were used by other artists of the period, Margaret Gere’s style and subject matter align with oil painting techniques.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_24",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The passage describes Elizabeth Catlett’s sculpture as “a story” and notes that it “speaks volumes.” This is a key indicator of personification — attributing human qualities (like the ability to speak or tell stories) to a nonhuman subject (the sculpture). The phrase “the sculpture speaks” directly attributes a human action (speaking) to the sculpture, which is the essence of personification.\n\nLet’s evaluate the options:\n\nA. “The bond between mother and child is described as unbreakable.” — This is a description of the emotional content, not personification.\n\nB. “A sculpture is described as speaking.” — Yes, this matches the personification: giving human speech to a nonhuman object.\n\nC. “The artist is described as a storyteller.” — This is a metaphorical comparison, but not personification of the sculpture.\n\nD. “A sculpture is without frills.” — This is a descriptive statement, not personification.\n\nThus, option B best captures the personification in the passage.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_25",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The image features a stylized portrait of a man wearing sunglasses, overlaid with the text “i think everybody should like everybody.” and a signature in the bottom right corner that reads “Andy Warhol.” This is a well-known work by Andy Warhol, who was an American artist known for his pop art style. He often created portraits and quotes from popular culture.\n\nTherefore, the artist who painted (or created) this piece is Andy Warhol.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Art_26",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The painting depicts a minaret rising above a cluster of buildings under a dark, starry sky. The architectural style, particularly the minaret with its conical top and the surrounding urban landscape, is characteristic of North African cities, especially those in the Maghreb region.\n\nLeighton, known for his travels and studies abroad, often painted scenes from the Middle East and North Africa. The specific composition — including the minaret’s design and the surrounding architecture — aligns closely with the city of Algiers, Algeria. The minaret shown is likely that of the Mosque of Al-Qarawiyyin or another prominent mosque in Algiers, which features such a distinctive silhouette.\n\nWhile Damascus, Cairo, and Granada also have notable minarets, the particular style and atmospheric lighting in this painting are more consistent with Algiers, especially during the late 19th century when Leighton was active.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Art_27",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Henrietta Moraes, a British sculptor and model, was indeed sat for both Francis Bacon and Lucian Freud. She also sat for the artist Maggi Hambling, who is known for her figurative works and often drew from the same sources as Bacon and Freud.\n\nMaggi Hambling is a contemporary British artist whose work often explores the human form and psychological depth — themes that resonate with the models she chose, including Henrietta Moraes.\n\nThe other options:\n- Elisabeth Frink: A sculptor known for her figurative and abstract works, but not known to have used Moraes as a model.\n- Barbara Hepworth: A sculptor who focused on abstract forms and was not associated with Moraes as a model.\n- Georgia O'Keeffe: An American modernist painter, primarily known for her floral and landscape works; no known association with Moraes.\n\nThus, the correct answer is Maggi Hambling.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Art_28",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "When lines meet to form an enclosed area, that enclosed area is called a \"Shape.\" In art, a shape is a two-dimensional area defined by the outline or boundary, created by lines or curves. This is distinct from \"Form,\" which is three-dimensional, and \"Space,\" which refers to the area around or between objects.\n\nTherefore, the correct answer is B. Shape.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_29",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting in question is a well-known portrait of Pope Innocent X, painted by the Spanish Baroque master Diego Velázquez. The work, completed around 1650, is celebrated for its psychological depth and the use of light and shadow to convey the pope’s stern expression and authority.\n\nVelázquez was a leading artist of the Spanish Golden Age, known for his mastery of realism and portraiture. He was also a court painter to King Philip IV of Spain.\n\nPablo Picasso, Rembrandt, and El Greco are other notable artists, but they did not paint this specific portrait.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Art_30",
+    "subject": "Art",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The painting shown is “The Adoration of the Shepherds” by Titian, created around 1560. It depicts the Virgin Mary holding the infant Jesus, with Joseph seated beside them, and a shepherd kneeling in adoration. The style, use of color, and composition are characteristic of Titian’s mature period.\n\nAnswer: B"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Mechanical_Engineering_1",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the correct A-A section, we need to analyze the given object and how it would appear when cut along the A-A plane.\n\nThe object is a rectangular block with:\n- A rounded end (like a curved profile on one side),\n- A hole in the center of the top face,\n- The cutting plane A-A is perpendicular to the length of the object and passes through the center of the hole.\n\nLooking at the cross-sections:\n\n- **Option A**: Shows two vertical lines (solid) dividing the circle into three parts. This suggests the cut goes through the hole and the rounded end, but the representation doesn’t match the actual geometry — the rounded end should show a curve, not straight lines.\n\n- **Option B**: Shows a horizontal dashed line (which typically represents a hidden feature) and a solid line, but the shape is not consistent with the object’s profile. The hole appears as a semicircle, which is incorrect — the hole should be fully circular in cross-section if cut through its center.\n\n- **Option C**: Shows a vertical dashed line (indicating a hidden feature), but the object’s cross-section should show the hole as a circle, not just a line. Also, the rounded end is not properly represented.\n\n- **Option D**: Shows a circle with a horizontal line across the middle. This correctly represents the cross-section of the hole (a circle) and the rounded end (the outer contour is a circle). The horizontal line indicates the cut through the hole, which matches the position of the hole in the object.\n\nIn standard mechanical drawing conventions, the A-A section should show the hole as a circle (since it's a through-hole) and the rounded end as a circular arc or full circle depending on the view. Option D correctly shows the hole as a circle and the rounded end as a circle, with the cut line indicating the section plane.\n\nTherefore, the correct answer is **D**.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_2",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The given figure is a sectional view of a bent pipe or channel, with a diagonal line indicating the section plane. The section plane appears to cut through the bend, revealing the internal structure.\n\nLooking at the options:\n\n- A, B, C, D all show the same basic shape: a circular hole centered within a curved outer boundary (like a flange or cover), with a horizontal and vertical centerline.\n- The key difference lies in the **shape of the cut edge** at the bottom — which corresponds to the cross-section of the pipe/channel after being cut by the section plane.\n\nIn the original object, the pipe is bent at an angle (likely 90 degrees). The section plane cuts through this bend. The correct representation should show the **internal profile** of the bend.\n\nSince the pipe is bent, the section plane would intersect the pipe along its length, and the resulting cut edge should reflect the **actual geometry of the bend**.\n\nLooking at the options:\n- A and B show a simple wavy line, suggesting a cut through a flat surface.\n- C shows a straight vertical line on the right side — which might suggest a cut perpendicular to the bend.\n- D shows a **curved cut edge**, which matches the actual contour of the bent pipe.\n\nActually, let’s reconsider: the original object has a **right-angle bend**. When you section it with a plane that cuts through the bend, the cross-section will show the **inner surface** of the bend. Since the bend is 90 degrees, the cross-section should be a **rectangle** (if the pipe is rectangular) or a **circular arc** if it's round.\n\nBut looking at the diagrams — they are all showing a circular hole with a curved outer boundary. This suggests we are looking at a **cross-sectional view of the pipe**, not the external shape.\n\nWait — the question says “select the correct view”. But the diagram on the left is a **sectional view** of a bent pipe. The options A–D are likely **views of the cross-section** of the bend — specifically, the shape of the cut surface.\n\nIn standard engineering drawing conventions, when you have a bent pipe, and you make a section cut through the bend, the cross-section should show the **true shape of the cut** — which for a 90-degree bend would be a **rectangle** if it’s a rectangular pipe, or a **circular arc** if it’s a round pipe.\n\nHowever, the options do"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_3",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_4",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a simply supported beam of length $L = 4$ m, subjected to a linearly varying distributed load $q(x) = \\frac{x}{L} q_0$, with maximum intensity $q_0$ at point B (where $x = L$).\n\nThe cross-section is rectangular: width $b = 200$ mm = 0.2 m, height $h = 300$ mm = 0.3 m.\n\nAllowable normal stress: $\\sigma_{\\text{allow}} = 120$ MPa = $120 \\times 10^6$ Pa.\n\nWe need to find the **maximum permissible value** of $q_0$ such that the **maximum bending stress** in the beam does not exceed 120 MPa.\n\n---\n\n### Step 1: Find the reactions at supports A and B\n\nThe total load is the area under the triangular load distribution:\n\n$$\nW = \\frac{1}{2} \\cdot L \\cdot q_0 = \\frac{1}{2} \\cdot 4 \\cdot q_0 = 2 q_0 \\quad \\text{(kN if } q_0 \\text{ in kN/m)}\n$$\n\nSince the beam is simply supported and symmetrically loaded? Wait — the load is triangular, starting from zero at A and peaking at B. So the centroid of the triangular load is at $x = \\frac{L}{3}$ from A.\n\nFor a simply supported beam with triangular load, the reactions are:\n\n- Reaction at A: $R_A = \\frac{1}{3} W = \\frac{1}{3} \\cdot 2 q_0 = \\frac{2}{3} q_0$\n- Reaction at B: $R_B = W - R_A = 2 q_0 - \\frac{2}{3} q_0 = \\frac{4}{3} q_0$\n\nWait — let me double-check this.\n\nActually, for a triangular load from 0 at A to $q_0$ at B, the resultant force acts at distance $L/3$ from A. So moment equilibrium about A:\n\n$$\n\\sum M_A = 0 \\Rightarrow R_B \\cdot L - \\left( \\frac{1}{2} q_0 L \\right) \\cdot \\frac{L}{3} = 0\n$$\n\nWait —"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_5",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B\nThe system has a feedback loop with a forward path transfer function G(s) = K(s+1)/[s(s+2)(s+3)] and a feedback path H(s) = (s+5)/(s+7). The closed-loop characteristic equation is 1 + G(s)H(s) = 0.\n\nCompute the closed-loop transfer function:\n\n1 + [K(s+1)/[s(s+2)(s+3)] * (s+5)/(s+7)] = 0\n\n=> [s(s+2)(s+3)(s+7) + K(s+1)(s+5)] = 0\n\nExpand the polynomial:\n\ns(s+2)(s+3)(s+7) = s[(s^2+5s+6)(s+7)] = s[s^3+12s^2+41s+42] = s^4 + 12s^3 + 41s^2 + 42s\n\nK(s+1)(s+5) = K(s^2 + 6s + 5)\n\nSo total characteristic equation:\n\ns^4 + 12s^3 + 41s^2 + 42s + K(s^2 + 6s + 5) = 0\n\n= s^4 + 12s^3 + (41+K)s^2 + (42+6K)s + 5K = 0\n\nNow, form the Routh array:\n\nRow 1 (s^4): 1    41+K  \nRow 2 (s^3): 12   42+6K  \nRow 3 (s^2): (12*(41+K) - 1*(42+6K))/12 = (492 + 12K - 42 - 6K)/12 = (450 + 6K)/12 = 37.5 + 0.5K  \nRow 4 (s^1): ( (37.5+0.5K)*(42+6K) - 12*(41+K) ) / (37.5+0.5K)  \n\nBut we only need to check for sign changes in the first column.\n\nFirst column: 1, 12, (3"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_6",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": true,
+    "raw_output": "We are given the acceleration of the car when coasting:\n\na = -C₁ - C₂ v²\n\nSince acceleration is the derivative of velocity with respect to time, we can write:\n\ndv/dt = -C₁ - C₂ v²\n\nThis is a separable differential equation. We can rearrange it as:\n\ndv / (C₁ + C₂ v²) = -dt\n\nTo integrate both sides, we note that this is similar to the form for arctangent or logarithmic integrals. Let’s integrate from initial velocity v₀ to 0 (since the car stops), and from t=0 to t=T (but we don’t need to integrate time explicitly — we want distance).\n\nBut we want distance D. Recall that acceleration a = dv/dt = v dv/dx (by chain rule: dv/dt = (dv/dx)(dx/dt) = v dv/dx). So we can write:\n\na = v dv/dx = -C₁ - C₂ v²\n\nSo:\n\nv dv/dx = -C₁ - C₂ v²\n\nRearranging:\n\ndv / (C₁ + C₂ v²) = -dx\n\nNow integrate both sides from x=0 to x=D, and v=v₀ to v=0:\n\n∫_{v₀}^{0} dv / (C₁ + C₂ v²) = - ∫_{0}^{D} dx = -D\n\nSo:\n\n-D = ∫_{v₀}^{0} dv / (C₁ + C₂ v²)\n\nWhich implies:\n\nD = ∫_{0}^{v₀} dv / (C₁ + C₂ v²)\n\nLet’s compute this integral.\n\nFactor out C₁ from the denominator:\n\nD = ∫_{0}^{v₀} dv / [C₁ (1 + (C₂/C₁) v²)] = (1/C₁) ∫_{0}^{v₀} dv / (1 + (C₂/C₁) v²)\n\nLet k² = C₂ / C₁, so:\n\nD = (1/C₁) ∫_{0}^{v₀} dv / (1 + k² v²)\n\nThis is a standard integral:\n\n∫ dv / (1 + k² v²) = (1/k) arctan(k v) + C\n\nSo:\n\nD = (1/C₁) * [ (1/k) arctan(k v) ]"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_7",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A\nThe power transmission capacity of a worm gear reducer is limited by both bending and surface fatigue of the worm and gear. The key parameters given are:\n- Worm speed: 1200 rpm\n- Worm gear ratio: N_w = 3 (so gear speed = 1200 / 3 = 400 rpm)\n- Gear teeth: N_g = 45\n- Pressure angle: φ_u = 20°\n- Worm pitch diameter: p = 0.5 in.\n- Friction factor: f = 0.029\n- Center distance: c = 4.5 in.\n- Worm width: b = 1.0 in.\n\nWe can estimate the power using standard formulas for worm gear drives. The input power is determined by the motor speed and torque, but since torque isn’t given, we use the formula for power based on the limiting factors (bending or surface fatigue).\n\nTypical values for bending stress limit in worm gears are around 15–20 ksi for hardened steel, and surface fatigue (contact) limits are higher (e.g., 30–50 ksi). However, without detailed material properties or safety factors, we rely on standard design tables or empirical estimates.\n\nFrom standard worm gear design references (like those used in textbooks such as “Machine Design” by Shigley), for a worm drive with these parameters, the estimated power ratings are often in the range of 3.5–4.5 hp input, with output around 2.0–2.5 hp, depending on efficiency and load.\n\nGiven that this is a chill-cast bronze gear and hardened steel worm, and considering the high reduction ratio (3:1), the output power will be less than input due to inefficiencies. The friction factor f=0.029 suggests moderate efficiency (~70–80%).\n\nLooking at the options:\n- Option A: 3.8-hp input, 2.3-hp output → reasonable for a 3:1 reduction with moderate efficiency.\n- Option B: 4.8-hp input, 4.3-hp output → unrealistic; output cannot exceed input, and 4:1 ratio would imply output > input if no losses, which is impossible.\n- Option C: 3.8-hp input, 2.3-hp output → same as A; but option A is listed first and matches known design values.\n-"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_8",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a diagram showing the Sun, Earth, and a spacecraft S located at a height h above the Earth’s surface, such that the horizontal distance from the Sun to the point directly below S is equal to the distance from the Sun to Earth (which is approximately 1 AU, or about 150 million km). The spacecraft is also shown to be 200,000 km away from Earth's center (since Earth’s radius is ~6371 km, this is a bit over 200,000 km from the surface — but in the diagram, it’s labeled as “200 000 km” from Earth, so we’ll take that as the distance from Earth’s center to S).\n\nActually, looking at the diagram: there is a dashed line from the Sun to Earth, and then a perpendicular line from Earth up to S. The distance from Earth to S is labeled as h (vertical), and the horizontal distance from Sun to Earth is not labeled numerically, but we can infer it’s the astronomical unit (AU), which is approximately 149.6 million km.\n\nWait — let me re-read the diagram carefully.\n\nThe diagram shows:\n\n- The Sun on the left.\n- Earth on the right, with a label “Earth” and a plus sign indicating it has positive charge.\n- A spacecraft S marked with a red X, located above Earth, at a vertical distance h from Earth’s surface.\n- A horizontal dashed line from Sun to Earth (so Sun-Earth distance is the base of the triangle).\n- A vertical dashed line from Earth to S, labeled h.\n- A horizontal arrow labeled “200 000 km” pointing from Earth to the spacecraft — but wait, that’s labeled as an arrow going *from* Earth to S? Actually, the diagram shows two arrows: one horizontal from Earth to S (labeled 200 000 km) and one vertical from Earth to S (labeled h). But that would imply the spacecraft is 200,000 km horizontally from Earth? That doesn’t make sense because if S is directly above Earth, the horizontal distance should be zero.\n\nLooking again: the diagram shows a curved arrow labeled “200 000 km” pointing from Earth to S, but the arrow is drawn along the horizontal axis, suggesting that the spacecraft is located at a horizontal distance of 200,000 km"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_9",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a feedback control system and asked to find the values of K₁ and K₂ such that the closed-loop step response has:\n\n- Peak time, Tₚ = 1 second\n- Settling time, Tₛ = 2 seconds\n\n---\n\n### Step 1: Understand the System Structure\n\nThe system is a **negative feedback** system with:\n\n- Forward path: `K₁` → `50 / [s(s+1)]`\n- Feedback path: `K₂s`\n- The error signal is formed at the first summing junction (with R(s) and -C(s)), then after K₁, another summing junction with + from the forward path and - from the feedback path.\n\nSo, the closed-loop transfer function can be derived as follows.\n\nLet’s denote:\n\n- G(s) = K₁ * 50 / [s(s+1)]\n- H(s) = K₂s\n\nThis is a standard negative feedback configuration:\n\n```\nR(s) → [summing junction] → K₁ * 50/[s(s+1)] → [summing junction] → C(s)\n               |                  |                 |\n               |                  |                 |\n              -C(s)             -H(s) = -K₂s       -C(s) goes back to first summing junction\n```\n\nActually, looking at the diagram:\n\n- The first summing junction has input R(s) and feedback -C(s), so the error signal E₁(s) = R(s) - C(s)\n- Then E₁(s) goes through K₁ → becomes K₁[R(s) - C(s)]\n- Then this goes to a second summing junction, where it is summed with + from the forward path (which is the output of the block 50/[s(s+1)]), and - from the feedback path (which is K₂s * C(s))\n\nWait — actually, the diagram shows:\n\nAfter K₁, there's a summing junction with:\n\n- Input: K₁ * [R(s) - C(s)]   ← from first summing junction\n- Plus: + signal from the block 50/[s(s+1)] → but wait, the diagram shows an arrow going into the summing junction from the 50/[s(s+1)] block, and also from K₂s? No.\n\nActually, let me reconstruct carefully.\n\nFrom the diagram:\n\n- R(s) enters a summing junction with minus sign for"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_10",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a bimetallic bar composed of two materials: steel and aluminum, stacked together. The bar is subjected to axial loading along the x-axis (length direction), and we are to find the equivalent spring constant for axial motion.\n\nThe bar has:\n- Length L = 0.5 m\n- Cross-sectional dimensions: 2 cm (width) × 0.5 cm (thickness) — but note that thickness is split into two layers: 0.5 cm each? Wait, looking at the diagram:\n\nActually, the cross-section is shown with two layers: one steel and one aluminum. The total thickness is 0.5 cm + 0.5 cm = 1 cm? But wait — the diagram shows two arrows labeled 0.5 cm, pointing to the two layers. So the total thickness is 1 cm, and each layer is 0.5 cm thick.\n\nBut the width is 2 cm. So the cross-sectional area is 2 cm × 1 cm = 2 cm², but since it’s composite, we must consider the individual areas.\n\nLet’s denote:\n- For steel: thickness t_s = 0.5 cm = 0.005 m, E_s = 207 × 10⁹ Pa\n- For aluminum: thickness t_a = 0.5 cm = 0.005 m, E_a = 83 × 10⁹ Pa\n- Width w = 2 cm = 0.02 m\n\nSo the cross-sectional area for each material is:\n- A_s = w × t_s = 0.02 m × 0.005 m = 1 × 10⁻⁴ m²\n- A_a = w × t_a = 0.02 m × 0.005 m = 1 × 10⁻⁴ m²\n\nSince the materials are in series (they are stacked and deform axially together under the same load), the equivalent spring constant for axial motion is calculated by combining them in series:\n\nFor two springs in series: \n1/k_eq = 1/k₁ + 1/k₂\n\nBut first, recall that for a single bar, k = (E * A) / L\n\nSo for steel: k_s = (E_s * A_s) / L = (207e9 * 1e-4) / 0.5\n"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_11",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To find the maximum stress at the hole and the notch, we need to analyze the given cross-section under axial loading.\n\nThe applied force is 65000 N on each side, so the total axial load is 65000 N + 65000 N = 130000 N. But since it's a symmetric section with forces pulling in opposite directions, we consider the net axial force as 65000 N (acting on one side) — but actually, for stress calculation, we consider the force per unit area. The key is that the cross-section is subjected to uniaxial tension.\n\nLet’s first calculate the **average stress** over the cross-sectional area:\n\n- The width of the cross-section is 200 mm.\n- The thickness is 25 mm (given by the dimension on the right).\n\nSo, the cross-sectional area A = 200 mm × 25 mm = 5000 mm² = 5 × 10⁻³ m².\n\nAverage axial stress σ_avg = F / A = 65000 N / (5000 × 10⁻⁶ m²) = 65000 / 0.005 = 13,000,000 Pa = **13 MPa**.\n\nBut this is not the maximum stress — we have a hole and a notch, which concentrate stress.\n\n---\n\n### 1. Stress at the hole\n\nThe hole has a diameter of 30 mm, so radius r = 15 mm.\n\nThe stress concentration factor Kt for a circular hole under uniaxial tension is approximately **3.0** for a hole in an infinite plate, but for finite plates, it can be slightly less, but often taken as 3.0 for simplicity unless specified otherwise.\n\nHowever, let’s check if there’s a better way — sometimes problems expect us to use the formula for stress concentration.\n\nAlternatively, we can calculate the stress concentration using the formula:\n\nσ_max = Kt × σ_avg\n\nFor a circular hole under uniaxial tension, Kt ≈ 3.0.\n\nSo, σ_hole = 3.0 × 13 MPa = **39 MPa**\n\nBut wait — let’s check the options: none have 39 MPa. The closest are 41.7 or 31."
+  },
+  {
+    "id": "validation_Mechanical_Engineering_12",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_13",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine the correct left view, we analyze the given top view and compare it with the options (a), (b), (c), and (d).\n\nThe top view shows a symmetrical object with:\n- A central rectangular block.\n- Two protruding rectangular blocks on the left and right sides, each with a circular hole (indicated by the small circles).\n- The central block has a rectangular cutout or recess in its center (shown as a dashed line, indicating an internal feature not visible from the top).\n- The overall shape is symmetric about the vertical centerline.\n\nIn a left view (or profile view), we look from the left side of the object. The key features to consider are:\n1. The two circular holes — they should appear as circles on the left view, since they are perpendicular to the viewing plane.\n2. The central rectangular block — in the left view, it will appear as a rectangle with a rectangular cutout inside (since the cutout is also perpendicular to the viewing direction).\n3. The protrusions on the left and right — since we’re looking from the left, the left protrusion will be on the far left, and the right protrusion will be on the right side of the view (as seen from the left).\n\nNow, let’s examine the options:\n\n(a) Shows two circles on the left and right, with a central circle (representing the central block) and a rectangular cutout inside it. This matches the expected appearance.\n\n(b) Shows a rectangular cutout that appears to be on the left side — but in the top view, the cutout is centered, so this would be incorrect.\n\n(c) Shows a rectangular cutout that appears to be on the right side — again, inconsistent with the top view.\n\n(d) Shows the cutout as a solid rectangle, which is wrong — in the top view, the cutout is indicated by a dashed line, meaning it is internal and should be shown as a hollowed-out area in the left view.\n\nTherefore, option (a) correctly represents the left view: the two circular holes on the ends, the central rectangular block with a rectangular cutout inside, and symmetry.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_14",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "A",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a system where a 1000-kg mass is being lowered at a uniform speed of 4 m/s by a drum. The drum has a diameter of 550 mm (so radius = 275 mm = 0.275 m), weighs 2.5 kN (i.e., 2500 N), and has a radius of gyration of 250 mm = 0.25 m.\n\n---\n\n**Part (a): Kinetic Energy in the System**\n\nThe kinetic energy of the system consists of:\n\n1. **Translational KE of the mass**: Since it’s moving at constant velocity, KE = (1/2)mv²\n\n2. **Rotational KE of the drum**: The drum is rotating as the cable unwinds. The angular velocity ω is related to linear velocity v by ω = v / r, where r is the radius of the drum (0.275 m).\n\nSo,\n\nKE_mass = (1/2) * 1000 kg * (4 m/s)² = 500 * 16 = 8000 J\n\nω = v / r = 4 / 0.275 ≈ 14.545 rad/s\n\nMoment of inertia of drum: I = m_drum * k²\n\nm_drum = weight / g = 2500 N / 9.81 m/s² ≈ 254.84 kg\n\nk = 0.25 m → I = 254.84 * (0.25)² = 254.84 * 0.0625 ≈ 15.9275 kg·m²\n\nKE_drum = (1/2) * I * ω² = (1/2) * 15.9275 * (14.545)²\n\nFirst, compute ω²: (14.545)² ≈ 211.57\n\nThen, KE_drum = 0.5 * 15.9275 * 211.57 ≈ 7.96375 * 211.57 ≈ 1685.7 J\n\nTotal KE = KE_mass + KE_drum"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_15",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given two 2D shapes in the top row, and four options (a), (b), (c), (d) below. The question asks to select the correct **left view**.\n\nHowever, the term “left view” typically refers to a perspective or projection from the left side of a 3D object. But here, we have only 2D shapes — one is a trapezoid-like shape with a horizontal line inside it, and the other is an L-shape.\n\nThis seems to be a puzzle where we need to combine or project these two shapes to form a composite figure that matches one of the options.\n\nLet’s analyze:\n\nTop-left shape: A trapezoid divided horizontally into two parts — the bottom part is a rectangle, the top part is a triangle? Or perhaps it's a trapezoid with a horizontal line drawn across it — maybe indicating a cut or separation? Actually, looking at the drawing: it’s a trapezoid with a horizontal line segment connecting the two non-parallel sides — so it’s divided into two parts: a lower rectangle and an upper trapezoid? Or perhaps it’s just a single trapezoid with a horizontal line drawn inside, but not necessarily dividing it.\n\nActually, looking more carefully: the top-left shape is a trapezoid with a horizontal line drawn across it — possibly indicating that it’s composed of two parts: a lower rectangle and an upper trapezoid? But that doesn’t seem right. Alternatively, it might be a single trapezoid with a horizontal line drawn through its middle — which could imply a cross-section or a cut.\n\nBut then we have the top-right shape: an L-shape — like a corner, made of two rectangles.\n\nPerhaps this is about assembling them? Or projecting?\n\nWait — the question says “Select the correct left view”. This suggests that these two shapes are views from different directions — perhaps front and side — and we need to find the “left view” (side view) corresponding to the arrangement.\n\nAlternatively, perhaps the two top shapes are the front and side views of a 3D object, and we need to find what the left view would look like.\n\nBut without knowing the 3D structure, it’s ambiguous.\n\nAnother possibility: this is a classic “which option is the correct combination” puzzle — where you must combine the two given shapes to form a larger shape, and see which of the options matches.\n\nLet me try combining them"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_16",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: B"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_17",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the correct cross-section for the A-A section, we need to analyze the given 3D object and understand what the A-A cut would reveal.\n\nThe top view (or front view) shows:\n- A rectangular block with a central oval-shaped hole.\n- On the left end, there is a curved feature that looks like a semicircular or rounded notch, extending inward from the edge.\n- The A-A line is drawn vertically through the center of the object, cutting through the central hole and the left-end feature.\n\nNow, looking at the options:\n\nA. Shows a circle with a \"C\"-shaped cut on the right side — this doesn't match the left-side notch.\n\nB. Shows a circle with a \"U\"-shaped cut on the left side — this matches the shape of the notch on the left end of the object.\n\nC. Shows a circle with a rectangular cut on the right side — this is not matching the curved notch.\n\nD. Shows a circle with a U-shaped cut on the top — this is not aligned with the vertical A-A cut.\n\nThe key is that the notch is on the **left** side of the object, and since the A-A cut is vertical and centered, it should show the notch on the **left** side of the circular cross-section.\n\nOption B correctly shows a U-shaped cut on the left side, which corresponds to the curved notch on the left end of the object.\n\nTherefore, the correct answer is B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_18",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a system where:\n\n- A disk rotates with constant angular velocity **p** about its own **z-axis** (which is the axis of the disk).\n- The yoke A (which holds the disk) rotates with constant angular velocity **ω₂** about its own shaft (which is along the direction of the rod connecting to the base).\n- The entire assembly (including the yoke and disk) rotates with constant angular velocity **ω₁** about the fixed **X-axis**.\n\nWe are to find the **angular acceleration** of the disk at the instant when the yoke brings it into the vertical plane, as shown in the diagram. Since all angular velocities are constant, the angular acceleration vector will be non-zero due to the changing orientation of the rotating frame — specifically, because the disk’s rotation axis (its z-axis) is not fixed relative to the inertial frame.\n\n---\n\n### Step 1: Understand the motion\n\nThe angular velocity of the disk has two components:\n\n1. The disk’s own spin: **p k** (since it rotates about its own z-axis).\n\n2. The disk’s motion is also affected by the rotation of the yoke and the whole assembly.\n\nBut note: the disk is mounted on the yoke, which is rotating with angular velocity **ω₂** about its own shaft (which is perpendicular to the X-Z plane in the diagram). Also, the entire structure is rotating with **ω₁** about the fixed X-axis.\n\nSo, we must express the total angular velocity of the disk in the inertial frame, then take its time derivative (since angular acceleration = dω/dt).\n\nBut since **ω₁**, **ω₂**, and **p** are all constant, the angular acceleration will be due to the change in the direction of the angular velocity vector due to the changing orientation of the coordinate system.\n\n---\n\n### Step 2: Express the angular velocity of the disk\n\nLet’s define the angular velocity of the disk in the inertial frame.\n\nThe disk’s angular velocity vector **ω_disk** can be broken down as follows:\n\n- Due to the rotation of the entire assembly about X-axis: **ω₁ i**\n\n- Due to the rotation of the yoke about its shaft: this shaft is aligned with the direction from the base to the disk (in the diagram, this is along the line connecting the base to the center of the disk — which is perpendicular to the XZ-plane in the diagram? Actually, looking at the diagram, the yoke is"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_19",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: C"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_20",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "D",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given two points a and b with their stress states, and we are to find the test load at which initial yielding occurs according to the **maximum-normal-stress theory**.\n\n---\n\n### Step 1: Understand Maximum-Normal-Stress Theory\n\nThe maximum-normal-stress theory (also called the \"Rankine\" or \"Tresca\" for shear, but here it's specifically normal stress) states that yielding occurs when the **maximum principal stress** reaches the yield strength in tension (or compressive if negative).\n\nFor a material with yield strength $ S_y $, yielding occurs when:\n\n$$\n|\\sigma_{\\text{max}}| \\geq S_y\n$$\n\nBut note: this theory is often applied as:\n\n> Yielding occurs when the largest absolute value of principal stress reaches the yield strength.\n\nHowever, in many engineering contexts (especially for ductile materials), the maximum-normal-stress theory may be interpreted as:\n\n> Yielding occurs when the maximum principal stress (in tension) reaches $ S_y $, and the minimum principal stress (in compression) reaches $ -S_y $ — but since steel is ductile, we often use the **maximum principal stress criterion**, which is:\n\n$$\n\\sigma_{\\text{max}} = S_y \\quad \\text{(for tension)}\n$$\n\nBut wait — **maximum-normal-stress theory** is sometimes defined as:\n\n> Yielding occurs when the maximum principal stress reaches $ S_y $, regardless of sign. However, for **compression**, it’s not typically considered unless specified.\n\nActually, let’s clarify: The **maximum-normal-stress theory** (also known as the **Rankine criterion**) says:\n\n> Yielding occurs when the **largest absolute value** of the principal stresses reaches the yield strength.\n\nThat is:\n\n$$\n\\max(|\\sigma_1|, |\\sigma_2|, ..., |\\sigma_n|) \\geq S_y\n$$\n\nBut for 2D, it’s:\n\n$$\n\\max(|\\sigma_1|, |\\sigma_2|) \\geq S_y\n$$\n\nWait — actually, **no**. In Rankine criterion, it’s the **maximum absolute principal stress** that causes failure:\n\n$$\n\\max(|\\sigma_1|, |\\sigma_2|) \\geq S_y\n$$\n\nBut in many textbooks, especially for brittle materials, it’s just the maximum principal stress (tensile) that matters. But for ductile"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_21",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_22",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given a bolted joint with fluctuating load between 0 and 8000 lb. The clamped plates have stiffness kc = 6 kb, and the bolt is made of cold-drawn steel (so we can assume it's ductile and we’re dealing with fatigue or safety considerations).\n\nWe need to find:\n(a) Minimum required initial preload to prevent loss of compression of the plates.\n(b) Minimum force in the plates when preload is 8500 lb.\n\n---\n\n### Part (a): Minimum initial preload to prevent loss of compression\n\nThe condition for preventing loss of compression is that the total force in the bolt must never go below zero. That is, the bolt must not become loose under any load.\n\nThe load is shared between the bolt and the clamped plates. The stiffness ratio is:\n\nk_c = 6 k_b\n\nLet’s denote:\n\n- F_e = external load (fluctuates from 0 to 8000 lb)\n- F_b = force in bolt\n- F_c = force in clamped plates\n\nThe total force balance: F_e = F_b + F_c\n\nAlso, since the system is linear and springs are in parallel, the force distribution depends on stiffness:\n\nF_b / F_c = k_b / k_c = k_b / (6 k_b) = 1/6\n\nSo F_b = (1/7) F_e   [because total stiffness = k_b + k_c = 7 k_b]\n\nWait — let’s be precise.\n\nActually, the force in the bolt and plates are proportional to their stiffnesses:\n\nF_b = (k_b / (k_b + k_c)) * F_e = (k_b / (7 k_b)) * F_e = F_e / 7\n\nF_c = (k_c / (k_b + k_c)) * F_e = (6 k_b / 7 k_b) * F_e = 6 F_e / 7\n\nBut this is only the *external* load portion. We also have the **initial preload** F_i.\n\nWhen the external load is applied, the bolt experiences an additional load F_e, but the direction depends on whether the load is compressive or tensile.\n\nIn bolted joints, when external load is applied, it tends to stretch the bolt (if it’s in tension), or compress the plates.\n\nActually, in this case, the external load F_e is pushing the plates apart — so it’s trying to separate them"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_23",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": null,
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "We are given:\n\n- Material: Steel plates with yield strength Sy = 50 ksi\n- Weld type: Parallel-loaded fillet welds, 3/8 in. leg size (since the weld is specified as \"3/8-in.\" and the diagram shows a 3 in. length)\n- Number of welds: Two (as noted: “There are two 3 in. welds”)\n- Safety factor (SF) = 3\n- E60 series welding rods → This implies an electrode efficiency (for design purposes), but typically for E60, the allowable stress is taken as 0.6 × Sy (or sometimes 0.7 × Sy, depending on code). However, **in most structural welding design codes (like AISC or AWS)**, for E60 electrodes, the **allowable stress** for fillet welds is often taken as **0.6 × Sy**, where Sy is the base material yield strength.\n\nBut wait — let’s check the standard practice.\n\nActually, per AWS D1.1, for E60 electrodes, the **allowable stress for fillet welds** is typically:\n\n> Allowable stress = 0.6 × Sy\n\nWhere Sy is the **base metal yield strength**.\n\nSo here, Sy = 50 ksi → Allowable stress for weld = 0.6 × 50 = 30 ksi.\n\nNow, we need to compute the **maximum tensile load** that can be applied.\n\n---\n\n### Step 1: Compute weld throat thickness\n\nFor a fillet weld with leg size `a`, the throat thickness `t` is:\n\n> t = a × sin(45°) = a × (√2 / 2) ≈ a × 0.7071\n\nGiven leg size = 3/8 in. = 0.375 in.\n\n→ Throat thickness = 0.375 × 0.7071 ≈ 0.2651 in.\n\n---\n\n### Step 2: Compute weld area\n\nEach weld is 3 in. long.\n\n→ Area per weld = throat thickness × length = 0.2651 in × 3 in ≈ 0.7953 in²\n\nSince there are two welds, total weld area = 2 × 0.7953 = 1.5906 in²\n\n---\n\n### Step 3"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_24",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a beam fixed at both ends (immoveable supports), and the temperature is uniformly increased by ΔT = 20°F. Because the beam cannot expand freely, thermal stress will develop.\n\nThe formula for thermal stress in a restrained bar is:\n\n\\[\n\\sigma_T = E \\cdot \\alpha \\cdot \\Delta T\n\\]\n\nWhere:\n- \\( E \\) = modulus of elasticity = 29,000 ksi\n- \\( \\alpha \\) = coefficient of thermal expansion = \\( 6.5 \\times 10^{-6} /^\\circ F \\)\n- \\( \\Delta T \\) = temperature change = 20°F\n\nNote: Since the beam is restrained, it cannot expand, so the stress is compressive (negative). The formula gives magnitude; we must assign the correct sign.\n\nLet’s compute:\n\n\\[\n\\sigma_T = 29,000 \\times (6.5 \\times 10^{-6}) \\times 20\n\\]\n\nFirst, multiply 29,000 × 6.5 × 10⁻⁶:\n\n\\[\n29,000 \\times 6.5 \\times 10^{-6} = (29,000 \\times 6.5) \\times 10^{-6}\n\\]\n\n\\[\n29,000 \\times 6.5 = 188,500\n\\]\n\nSo,\n\n\\[\n188,500 \\times 10^{-6} = 0.1885\n\\]\n\nNow multiply by 20:\n\n\\[\n0.1885 \\times 20 = 3.77\n\\]\n\nSo the magnitude of the thermal stress is 3.77 ksi. Since the beam is restrained from expanding, the stress is **compressive**, hence negative.\n\nTherefore, \\( \\sigma_T = -3.77 \\) ksi.\n\nThis matches option B.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_25",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a flat aluminum alloy bar fixed at both ends, with a tapered segment AB and a uniform segment BC. The bar is heated uniformly by ΔT = 20°F, and we are to find the reactions at A and C.\n\nSince the bar is fixed at both ends, it cannot expand freely. Therefore, thermal expansion will induce compressive stresses (because the bar is constrained), and the reactions at A and C will be equal in magnitude and opposite in direction (by symmetry of the problem — the bar is symmetric about the centerline, and the heating is uniform).\n\n---\n\n**Step 1: Thermal strain if unconstrained**\n\nThe thermal strain without constraint would be:\n\n\\[\n\\varepsilon_{\\text{thermal}} = \\alpha \\Delta T\n\\]\n\nBut since the bar is fixed, this strain is prevented, and the bar develops a **compressive stress**.\n\n---\n\n**Step 2: Compute the total thermal expansion if unconstrained**\n\nThe bar has two segments: AB (tapered) and BC (uniform). We need to compute the total free expansion.\n\nFor a tapered bar, the cross-sectional area varies linearly. The average area for thermal expansion can be used for simplicity, or we can integrate.\n\nBut note: For a bar with varying cross-section, the total thermal expansion is:\n\n\\[\n\\delta_{\\text{thermal}} = \\int_0^L \\varepsilon_{\\text{thermal}} \\cdot dA(x) \\cdot \\frac{dx}{A(x)} \\quad \\text{(not correct approach)}\n\\]\n\nActually, the correct way is to realize that for a bar with variable cross-section under uniform temperature change, the **free expansion** is not simply the average area times length times αΔT, because the axial deformation is not uniform across the cross-section.\n\nHowever, in structural mechanics, for a bar with variable cross-section under uniform temperature change, the **total free expansion** is computed as:\n\n\\[\n\\delta_{\\text{free}} = \\int_0^L \\alpha \\Delta T \\cdot dx\n\\]\n\nWait — no! That’s incorrect. The thermal expansion of a bar with varying cross-section is still governed by the same formula as for a uniform bar, but the key point is: **the thermal expansion is proportional to the length**, regardless of cross-section, because the strain is uniform along the length (if the material is homogeneous and isotropic, and the temperature change is uniform).\n\nActually, **yes!"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_26",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "To determine which thread labeling method is incorrect, we need to understand standard engineering drawing conventions for threaded parts.\n\nIn mechanical engineering drawings, the **thread label** (often indicating thread type, size, and direction) is typically placed **on the dimension line** that defines the thread’s engagement or location. The arrowheads on the dimension line point toward the **end of the thread**, indicating the extent of the feature being measured.\n\nLet’s analyze each option:\n\n---\n\n**a)** The dimension line has arrows pointing **toward the thread ends**, which is correct for indicating the length of engagement or the extent of the thread. The hatching inside indicates the thread region. This is a valid representation.\n\n**b)** The dimension line is centered on the thread, with arrows pointing **away from the thread**, which is **incorrect**. In standard practice, arrows should point **toward** the feature being measured — here, the thread — not away. This misrepresents the dimensioning convention.\n\n**c)** The dimension line is correctly oriented, with arrows pointing **toward** the thread. It appears to be measuring the depth or engagement length appropriately. This is acceptable.\n\n**d)** The dimension line has arrows pointing **toward the thread**, consistent with standard practice. The hatching and placement are also appropriate. This is correct.\n\n---\n\nTherefore, **option B** is the only one that violates the standard dimensioning convention for threads: arrows should point **toward** the feature being measured, not away.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_27",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "We are given a quarter-circular gate AB, hinged at B, with radius r = 8 ft, and width into the page of 10 ft. The gate weighs 3000 lbf. Water is on one side, and we need to find the force F applied at A (downward) just sufficient to keep the gate from opening.\n\n---\n\n**Step 1: Understand the setup**\n\n- Gate is a quarter circle, so angle at center is 90°.\n- Hinged at B — so the moment arm for forces about B is important.\n- Force F is applied downward at A.\n- Gate weight = 3000 lbf — acts at its centroid.\n- We must compute the hydrostatic force on the gate and then balance moments about B.\n\n---\n\n**Step 2: Hydrostatic force on curved surface**\n\nFor a curved surface, the hydrostatic force can be resolved into horizontal and vertical components.\n\nBut note: since the gate is a quarter-circle and submerged in water, and we are to find the force F that balances the gate, we should compute the resultant hydrostatic force and then take moments about B.\n\nHowever, for curved surfaces, the hydrostatic force is not simply a point force — it’s a vector. But because the gate is symmetric and we’re dealing with a quarter-circle, we can use the fact that the **horizontal component** of the hydrostatic force equals the force on the vertical projection of the gate (a rectangle), and the **vertical component** equals the weight of the water above the curved surface (i.e., the volume of water between the curve and the free surface).\n\nWait — actually, for a curved surface, the total hydrostatic force is the vector sum of the horizontal and vertical components.\n\nBut in this case, since the gate is hinged at B and the water is on the left, and the gate is curved upward, the hydrostatic force will have a horizontal component pushing to the right (toward the water) and a vertical component acting upward (since the gate curves up, the pressure distribution pushes upward).\n\nActually, let's think carefully:\n\nThe gate is submerged in water, and the water is on the left side of the gate. The gate is curved upward from A to B. So the water exerts pressure on the gate from the left. Since the gate is curved, the pressure varies radially.\n\nBut here’s the key: for a curved surface, the **horizontal component** of the hydrostatic force equals the force"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_28",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "We are given a block diagram with a forward path and a feedback path, and we are to find the steady-state error for a step input of 50u(t).\n\n---\n\n### Step 1: Identify the system structure\n\nThe system has:\n\n- Forward transfer function:  \n  \\( G(s) = \\frac{5}{s(s+1)(s+2)} \\)\n\n- Feedback transfer function:  \n  \\( H(s) = (s + 3) \\)\n\nNote: The feedback is taken from the output C(s) and fed back to the summing junction with a negative sign. So this is a **negative feedback** system.\n\n---\n\n### Step 2: Write the closed-loop transfer function\n\nThe closed-loop transfer function is:\n\n\\[\nT(s) = \\frac{G(s)}{1 + G(s)H(s)}\n= \\frac{\\frac{5}{s(s+1)(s+2)}}{1 + \\frac{5}{s(s+1)(s+2)} \\cdot (s+3)}\n\\]\n\nSimplify the denominator:\n\n\\[\n1 + \\frac{5(s+3)}{s(s+1)(s+2)}\n= \\frac{s(s+1)(s+2) + 5(s+3)}{s(s+1)(s+2)}\n\\]\n\nSo,\n\n\\[\nT(s) = \\frac{5}{s(s+1)(s+2) + 5(s+3)}\n\\]\n\nLet’s expand the denominator:\n\nFirst, compute \\( s(s+1)(s+2) \\):\n\n\\[\ns(s+1)(s+2) = s(s^2 + 3s + 2) = s^3 + 3s^2 + 2s\n\\]\n\nThen add \\( 5(s+3) = 5s + 15 \\):\n\nDenominator becomes:\n\n\\[\ns^3 + 3s^2 + 2s + 5s + 15 = s^3 + 3s^2 + 7s + 15\n\\]\n\nThus,\n\n\\[\nT(s) = \\frac{5}{s^3 + 3s^2 + 7s + 15}\n\\]\n\n---\n\n### Step 3: Steady-state error for a step input\n\nFor a step input \\( R(s) = \\frac{50}{s} \\), the steady-state error is given by:\n\n\\[\n"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_29",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": true,
+    "raw_output": "Answer: A"
+  },
+  {
+    "id": "validation_Mechanical_Engineering_30",
+    "subject": "Mechanical_Engineering",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "To determine the correct left view, we need to analyze the given front view and the bottom view, and then deduce what the left view should look like.\n\nThe front view (top row, leftmost) shows:\n- A rectangle with a square hole in the center.\n- The square hole has a circle inside it — meaning there is a circular feature (like a hole or bore) centered within the square hole.\n- There are dashed lines on the left and right sides of the front view — these typically indicate hidden features or symmetry planes.\n\nThe bottom view (bottom row, leftmost) shows:\n- A shape that looks like a rectangle with a semicircular cutout on the left side.\n- Inside this semicircular cutout, there is a circle — indicating that the circular feature from the front view is also present in the bottom view.\n- Dashed lines on the bottom view suggest hidden edges or symmetry.\n\nNow, the question asks for the **left view**. In orthographic projection, the left view is obtained by projecting the object from the left side.\n\nLet’s consider what the left view should show:\n\n1. From the front view, we see a square hole with a circle inside — this suggests a cylindrical or conical hole centered in the square.\n2. From the bottom view, we see a semicircular cutout on the left — this implies that the object has a curved surface or cutout on its left side, which would be visible in the left view.\n\nIn the left view, we should expect:\n- The vertical symmetry line (dashed) will still be present.\n- The circular feature (from the front view) will appear as a circle in the left view, since it's centered.\n- The semicircular cutout from the bottom view will appear as a curved edge on the left side of the left view.\n\nLooking at the options:\n\na) Shows two symmetrical “notches” or “flanges” on the left and right — not matching the semicircular cutout.\nb) Shows a symmetric pattern of “wavy” or “sawtooth” shapes — doesn’t match the circular feature.\nc) Shows a “T” shaped or “notch” pattern — again, not matching the semicircular cutout.\nd) Shows a rectangular shape with a semicircular cutout on the left — this matches the bottom view’s feature.\n\nBut wait — the bottom view shows a semicircular cutout on the left, which means when viewed from the"
+  }
+]

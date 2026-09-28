@@ -1,0 +1,302 @@
+[
+  {
+    "id": "validation_Agriculture_1",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The unusual formations on the Mountain papaya tree — such as the clusters of small, green, bulbous growths and some brown, shriveled masses — are likely the result of biological processes. These could include fruiting abnormalities, infections, or infestations by pests or pathogens, which are all biotic factors.\n\nAbiotic factors (like weather or soil) would not typically cause such specific, clustered, and irregular growths. “Confused” and “Normal” are not scientific categories for causes of these formations.\n\nTherefore, the most accurate classification is biotic.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_2",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a leaf with distinct, raised, and crinkled vein patterns, which are characteristic of certain fungal infections — particularly those caused by fungi like *Phytophthora* or *Cercospora*, which can cause leaf curling or crinkling. However, the presence of small brownish specks or lesions near the veins may suggest a fungal infection.\n\nBut crucially, the crinkling pattern described — with a wavy, ridged appearance along the midrib and lateral veins — is very typical of **fungal pathogens** such as those causing “leaf curl” diseases in plants (e.g., *Phytophthora infestans* in potatoes or *Cercospora* spp. in various crops). While bacterial pathogens can also cause leaf distortion, they typically present with more water-soaked areas or necrosis rather than this specific crinkling texture.\n\nOomycetes (like *Phytophthora*) often cause more extensive rotting or water-soaked lesions, not necessarily the fine, raised veining seen here. Physiological conditions might cause some curling, but the structured, patterned crinkling suggests pathogen involvement.\n\nGiven the visual evidence and common plant pathology knowledge, the most likely cause is a **fungal pathogen**.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_3",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The leaves in the image show a patchy, yellowish-green coating that appears powdery or dusty in texture. This is characteristic of powdery mildew, a common fungal disease that affects many plants, especially in warm, humid conditions. It typically presents as a white or grayish powdery substance on the upper and sometimes lower surfaces of leaves.\n\n- Algae would appear as green, slimy patches, not powdery.\n- Downy mildew usually shows a fuzzy, downy growth on the underside of leaves, often with leaf spots — not matching here.\n- Sooty mould appears as a black, sooty coating, not yellowish-green.\n- “Don’t know” is not appropriate since the visual cues are clear.\n\nTherefore, the most likely substance is powdery mildew.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_4",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a young citrus tree with a well-developed root system, including a main root and many fine roots. The roots appear healthy and not constricted or tangled — which would be indicative of pot-bound conditions. There are no visible signs of disease, pests, or nutrient deficiency (like yellowing leaves or stunted growth). The plant is placed on paper on a wooden surface, suggesting it may have been recently transplanted or is being prepared for planting. Since there’s no visible damage or distress, and the root system looks intact and functional, there doesn’t appear to be an obvious problem.\n\nTherefore, the most appropriate answer is that there is no apparent issue.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_5",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The product shown is “Garden Safe Neem Oil Extract,” which is labeled as an “Organic Gardening” product and contains botanical extracts. While neem oil is a natural compound derived from the neem tree, its use in pest and disease control is classified under organic gardening practices because it aligns with organic standards — meaning it’s derived from natural sources and avoids synthetic chemicals.\n\nIn horticultural terminology, “organic” refers to methods that avoid synthetic pesticides and fertilizers, and botanical extracts like neem oil are commonly used in organic pest control. Although it may have chemical properties, its classification for use in pest and disease control within organic systems is “Organic.”\n\nTherefore, the correct classification is:\n\nD. Organic\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_6",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The organism shown in the image is an earthworm, which is a well-known soil-dwelling creature. Earthworms are classified as part of the **macro-fauna** because they are relatively large (compared to other soil organisms), typically over 1 cm in length, and are visible to the naked eye. They play a crucial role in soil aeration and nutrient cycling.\n\n- **Macro-fauna**: Large soil animals like earthworms, ants, beetles, etc.\n- **Meso-fauna**: Medium-sized organisms such as springtails, mites, nematodes — usually less than 1 cm.\n- **Micro-fauna**: Very small organisms like protozoa, microarthropods — often microscopic or very small.\n- **Micro-flora**: Not applicable; flora refers to plants, not animals.\n\nThus, the correct classification for the earthworm is macro-fauna.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_7",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a leaf with a characteristic white, powdery coating on the underside, along with dark, necrotic areas. This is a classic symptom of powdery mildew, which is a fungal disease that affects many crops, including potatoes. While downy mildew and late blight also affect potatoes, their symptoms are distinct — downy mildew has a fuzzy, grayish growth on the underside, and late blight has water-soaked lesions that turn brown or black.\n\nPowdery mildew appears as a white, powdery substance (conidia) and often causes leaf distortion and reduced photosynthesis. The presence of this coating on the leaf surface, especially in conjunction with necrotic areas, strongly points to powdery mildew.\n\nTherefore, the root cause is powdery mildew.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_8",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The blemish on the leaf — showing yellowing and brown discoloration, possibly with a slightly necrotic or drying appearance — is consistent with common foliar issues in artichoke plants. Artichokes are susceptible to various pathogens, but among the options provided, fungal infections are particularly common in Mediterranean and South American growing regions where artichokes are cultivated. Fungal pathogens such as *Botrytis* or *Phytophthora* can cause leaf spots, chlorosis, and necrosis, especially under humid conditions.\n\nWater moulds (A) typically affect roots or stems and often show water-soaked lesions; bacterial infections (B) might cause bacterial blight or cankers, which usually present differently; nutrient deficiencies (E) tend to show uniform patterns across leaves rather than localized blemishes. Since the question specifies “probable reason” and the visual evidence suggests a localized lesion with possible fungal characteristics, fungal infection is the most plausible answer.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_9",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Downy mildew, caused by the fungus-like pathogen *Plasmopara viticola*, typically infects grapevines when spores (called sporangia) land on the upper surface of the leaf. The infection requires a moist environment for the spores to germinate and penetrate the leaf tissue. Once inside, the pathogen produces a characteristic \"downy\" growth — often described as a fuzzy, grayish-white mass — on the underside of the leaf. This occurs because the pathogen's hyphae grow downward, and the development of this growth is favored by high relative humidity and cool temperatures.\n\nThe key trigger for the downy growth appearing on the underside is the presence of free water or high humidity that allows the spores to germinate and infect the leaf. While the initial infection starts on the top surface, the visible downy growth appears on the underside due to the pathogen’s developmental process.\n\nOption B — “When free water has splashed up onto the underside of the leaf” — is misleading because the initial infection is on the top surface. However, if water splashes from the top to the underside, it can facilitate spore dispersal and infection, but the downy growth itself develops after infection has occurred internally. But in many cases, the downy growth is more directly associated with high humidity and moisture conditions rather than direct splash.\n\nOption D — “High relative humidity” — is correct because it is the primary environmental condition that enables the development of the downy mildew growth. High humidity prevents evaporation, allowing the pathogen to thrive and produce the characteristic downy growth on the underside.\n\nTherefore, while splash may help spread spores, the actual appearance of the downy growth is primarily driven by high humidity.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_10",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The yellow spheres connected to the roots of the potato in the image are most likely **sclerotia**. Sclerotia are compact masses of hyphae (fungal threads) that form in response to stress or environmental conditions, and they can be found associated with plant roots, especially in cases of fungal infections such as those caused by *Phytophthora* or other soil-borne pathogens. In some contexts, they may appear as small, round, yellowish structures on roots.\n\nOther options:\n- **Cysts** are typically associated with root-knot nematodes, which cause galls, not yellow spheres.\n- **Eggs** would imply a reproductive context, but these are not eggs — they are not laid by animals or insects in this context.\n- **Galls** are abnormal growths induced by insects or mites, not typically yellow spheres on roots.\n- “I don’t know and I don’t want to guess” is an option, but based on agricultural pathology knowledge, sclerotia is the best match.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_11",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question seems to be asking whether a native willow produces more unusual growth and abundant branches from its trunk — which is a biological phenomenon, tied to the organism’s internal processes (like genetics and metabolism), rather than external environmental factors.\n\n“Biotic” refers to living organisms or biological processes. The growth patterns described — unusual growth and abundant branching — are biologically driven and thus fall under biotic factors.\n\n“Abiotic” refers to non-living components of the environment, which does not apply here.\n\n“Confused” is not a valid scientific category in this context.\n\nTherefore, the correct answer is A. Biotic.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_12",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "A",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The question asks about the circular rings of muscle at the entrance and exit of the stomach. These are known as **sphincters**, which control the passage of food and other materials through the digestive tract. However, none of the options listed — Cholera, Emulsification, Anthrax, or Peristalsis — directly refer to sphincters.\n\nBut let’s examine the options:\n\n- **A. Cholera** — a disease caused by the bacterium *Vibrio cholerae*; not related to muscle rings.\n- **B. Emulsification** — the process of breaking down fats with bile; not related to muscle rings.\n- **C. Anthrax** — a bacterial infection caused by *Bacillus anthracis*; unrelated.\n- **D. Peristalsis** — refers to the wave-like muscular contractions that move food through the digestive tract. While peristalsis involves muscles, it is not specifically the “circular rings” at the entrance and exit — those are sphincters, which are part of peristaltic function but not synonymous with peristalsis itself.\n\nGiven that none of the options perfectly match “sphincters,” and since peristalsis is the most relevant term in the context of muscular contractions in the GI tract (including the stomach’s entry/exit), **peristalsis** is the best available answer among the choices — even though it’s not the exact term for the rings themselves.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_13",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "C",
+    "correct": false,
+    "retried": false,
+    "raw_output": "In agricultural and horticultural contexts, diseases affecting weeds are generally considered pests because they can reduce the competitiveness of desirable plants or spread pathogens to crops. While \"natural enemies\" typically refer to predators or parasitoids that control pest insects, plant pathogens (like fungi, bacteria, or viruses) that infect weeds are also managed similarly — as threats to crop health.\n\nWhen weeds are infected by disease, the decision to remove them depends on several factors:\n- The potential for the disease to spread to nearby crops.\n- The severity of the infection.\n- Whether the weed is a known host for pathogens that affect the crop.\n- The economic impact if the disease spreads.\n\nTherefore, the most appropriate management approach is not to leave infected weeds unattended (as this may spread disease), nor to indiscriminately remove all weeds (which might be unnecessary or disruptive). Instead, removal should be targeted based on risk assessment — specifically whether the disease poses a threat to the crop.\n\nOption D correctly reflects this nuanced, risk-based approach.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_14",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Pod bugs, also known as true bugs in the family Miridae, are insects that undergo incomplete metamorphosis (hemimetabolism). This means their life cycle includes egg, nymph, and adult stages. The nymphs resemble the adult but are smaller and typically lack fully developed wings and reproductive organs. They also have fewer segments and are often more slender or less robust than adults.\n\nAmong the given options:\n- A. “Similar to the adult, but shorter and without wings” — This is accurate for nymphs of pod bugs.\n- B. Grub — No, grubs are larvae of beetles and look very different.\n- C. Maggot — These are maggots of flies, not related to pod bugs.\n- D. Caterpillar — These are larvae of butterflies and moths, which are entirely different.\n- E. Don't know and don't want to guess — Not applicable since we can reasonably infer from entomological knowledge.\n\nTherefore, the correct answer is A.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_15",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The image shows a maize plant with a dense, grassy-like clump of foliage emerging from the base or near the ear, which is not typical for healthy maize. This appearance is characteristic of a viral infection, particularly one known as “maize mosaic virus” or similar viral infections that cause stunting, leaf distortion, and abnormal growth patterns. Viral infections often lead to such malformed, bushy growths.\n\nOption A (Lack of nutrients) would typically cause general yellowing or stunted growth, not a specific grassy clump.\n\nOption B (Downy mildew) is a fungal disease (oomycete) that usually causes leaf spots and wilting, not this type of clump.\n\nOption E (Phytoplasma) can cause unusual symptoms like stunting or witches’ broom, but the presentation here is more consistent with a viral infection.\n\nOption C is not appropriate since we can reasonably infer the cause.\n\nTherefore, the most likely reason is a viral infection.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_16",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "In plant pathology, the yellow or light-colored area that surrounds the site of an infection (such as a fungal or bacterial lesion) is commonly referred to as a \"halo.\" This term is used to describe the zone of discoloration or tissue degradation that radiates outward from the primary infection site. It's a well-known diagnostic feature in many plant diseases.\n\nThus, the correct answer is D. Halo.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_17",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The red or purplish discoloration on the upper and lower surfaces of peach leaves, often accompanied by leaf spots, holes, and sometimes a powdery or sooty appearance, is commonly associated with fungal infections. The most likely culprit in such cases is a fungal pathogen like *Diplocarpon rosae* (which can affect stone fruits) or other leaf spot fungi. While powdery mildew (option E) typically presents as a white, powdery coating, the described symptoms — reddish-brown lesions and tissue breakdown — are more characteristic of fungal infections that cause necrosis and discoloration.\n\nAmong the given options, “Unidentified fungal infection” (C) is the most accurate because the specific fungus cannot be definitively identified without further diagnostic tools, and the symptoms match those of known fungal pathogens affecting peach trees.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_18",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The substance present on the top surface of these citrus leaves appears to be small, glistening droplets that are consistent with dew or morning moisture. However, given the context and the appearance — especially if this is a common issue in citrus trees — it could also be honeydew, which is a sugary excretion produced by sap-sucking insects like aphids or scale insects.\n\nIn many cases, when citrus leaves are covered with a fine, powdery or sticky substance, especially after rain or dew, it’s often honeydew left behind by insect infestations. The presence of tiny droplets may indicate recent condensation, but the overall texture and distribution suggest an insect-related secretion.\n\nAlgae (A) would typically appear as greenish patches, not droplets. Gummosis-produced resin (D) usually appears as a sticky, amber-colored resinous material, not uniformly distributed droplets. Bacterial ooze (E) is typically slimy and not commonly seen in such a pattern.\n\nGiven the most plausible interpretation based on common citrus pest issues, the answer is likely C. Honey dew.\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_19",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The black areas in the chive disease characterized by orange and black pustules, where the orange pustules contain uredinia spores, are typically indicative of a different stage or type of spore produced by the same fungus. In fungal diseases like those caused by *Puccinia allii* (chive rust), the orange pustules contain uredinia (sporangia that produce infectious spores), while the black areas often represent teliospores — a dormant, thick-walled spore stage that forms after the uredinia stage and is typically associated with overwintering.\n\nThis is not a separate disease, nor are they scale insects or parasites. The black areas are part of the same fungal life cycle — specifically, the teliospores, which are a different spore type from the uredinia.\n\nTherefore, the correct answer is:\n\nD. Another spore type of the same fungus\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_20",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "E",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The tree in the image is an ash tree, and its branches are showing signs of decline. Ash trees across Europe have been severely affected by a fungal disease known as ash dieback (Hymenoscyphus fraxineus), which causes branch dieback, leaf loss, and eventual tree death. This disease has become widespread and is a major threat to ash populations.\n\nWhile abiotic factors such as soil compaction or root damage from tractors can affect trees, the most significant and well-documented cause of widespread ash tree mortality in recent decades is fungal infection — particularly ash dieback. The presence of a large, mature tree with visible dieback in a rural area near a road suggests it may be affected by this disease, especially if it’s part of a regional pattern.\n\nAlthough some abiotic stressors may contribute, the primary driver of the observed dieback in ash trees is fungal infection. Therefore, the best answer is:\n\nC. Fungal dieback ('ash dieback')\n\nAnswer: C"
+  },
+  {
+    "id": "validation_Agriculture_21",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "B",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The broad bean pods shown in the image exhibit symptoms such as darkening, discoloration, and possibly rotting — which are typical signs of disease caused by living pathogens (e.g., fungi, bacteria, or viruses). These are not caused by non-living environmental factors like temperature or drought (which would be abiotic), but rather by biological agents.\n\nTherefore, the condition is biotic.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Agriculture_22",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "B",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The corky outgrowths on the trunk of a young ash tree are characteristic of a fungal disease known as ash dieback, caused by the pathogen Hymenoscyphus fraxineus (formerly Chalara fraxinea). This disease is particularly prevalent in areas like Littondale, Yorkshire, where ash trees are commonly found along roadsides and in woodlands. The lesions appear as dark, corky, or woody growths, often at branch junctions or on the trunk, and can lead to bark loss and eventual tree death.\n\nWhile insect feeding can cause damage, it typically does not result in such distinct corky outgrowths. Bacterial diseases are less likely to produce this specific symptom. Genetic abnormalities would not usually manifest as localized corky growths tied to environmental exposure. Therefore, the most plausible explanation is fungal infection.\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_23",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "B",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "The contrast between the sickly, yellowed leaves on the left and the healthy, green foliage on the right — especially when both are from the same tree — suggests a localized physiological or pathological issue rather than a systemic disease affecting the entire crown. The fact that symptoms are not evenly spread implies a non-uniform cause, possibly related to environmental stress, nutrient deficiency, or localized infection.\n\nAmong the options:\n\n- A. Virus infection: Viruses often cause systemic symptoms, but they can sometimes show patchy or uneven distribution depending on the virus strain and plant susceptibility. However, viral infections typically do not cause sudden yellowing in one area without broader symptoms.\n- B. Herbicide damage: Herbicides can cause localized leaf discoloration and necrosis, especially if applied to specific branches or areas of the tree. This can explain the uneven pattern — perhaps the herbicide was applied to one section or the plant absorbed it unevenly through root or foliar uptake.\n- C. Fungus disease: Fungal infections usually present with more uniform symptoms (e.g., spots, lesions) and may lead to dieback, but they rarely cause such a stark contrast between healthy and diseased areas unless there is a localized fungal attack.\n- D. Phytoplasma: Phytoplasmas cause systemic diseases that often affect the entire plant, leading to uniform symptoms like stunting or leaf discoloration — again, not typically patchy.\n- E. Don't know, not sure: This is tempting if we lack context, but given the visual evidence and typical plant pathology knowledge, we can make an informed inference.\n\nGiven the localized nature of the yellowing and the presence of adjacent healthy growth, herbicide damage is a plausible explanation — particularly if the plant was exposed to drift, runoff, or direct application to certain branches.\n\nAnswer: B"
+  },
+  {
+    "id": "validation_Agriculture_24",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "A",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Adult hoverflies are often considered beneficial to gardeners because they feed on nectar and pollen, which supports their energy needs. While they are sometimes mistaken for wasps or bees, adult hoverflies do not typically prey on insects like caterpillars, aphids, or mealybugs — those are usually the diet of their larvae, which are predatory. Adult hoverflies are primarily nectarivorous and pollen-feeding, and they do not hunt for prey.\n\nThus, the correct answer is:\n\nA. Nectar pollen and honeydew\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_25",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The white pine weevil (Pissodes strobi) is a beetle that undergoes complete metamorphosis, with distinct life stages: egg, larva, pupa, and adult. The juvenile stage before the pupal stage is called the larval stage. However, among the given options, “grub” is often used colloquially to refer to the larval stage of beetles or other insects, especially those that are worm-like and live underground or in wood.\n\nIn forestry entomology, the larval stage of the white pine weevil is sometimes referred to as a grub when describing its appearance and behavior — it is a C-shaped, elongated, worm-like creature feeding on the inner bark of trees.\n\n“Worm” and “maggot” are less precise: “worm” is too general; “maggot” typically refers to the larval form of flies, not beetles. “Pupa” is the transitional stage, not juvenile. So “grub” is the best fit among the options.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Agriculture_26",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The symptoms described — a growth habit in blackberry plants that is near-identical to “little leaf” symptoms after glyphosate treatment — are commonly caused by phytoplasmas. Phytoplasmas are bacterial-like pathogens (though not true bacteria) that infect plants and can cause stunting, leaf distortion, and other symptoms that mimic herbicide damage or natural regrowth.\n\nThese pathogens are often mistaken for regrowth following glyphosate application because they produce similar visual symptoms: small, distorted leaves, reduced vigor, and abnormal branching — all of which can resemble the plant’s recovery or regrowth after chemical treatment.\n\nPhytoplasmas are known to infect a wide range of plants, including blackberries, and are frequently associated with such symptoms in agricultural settings.\n\nTherefore, the correct answer is:\n\nD. Phytoplasmas\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_27",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "A",
+    "answer": "D",
+    "correct": false,
+    "retried": false,
+    "raw_output": "Sooty mould is not a single fungal species but rather a collective term for various types of fungi, primarily belonging to the order Capnodiales (e.g., species like Capnodium, Mycosphaerella, and others) that grow on the honeydew secreted by insects such as scale insects or aphids. These fungi are often difficult to culture in pure form because they require specific environmental conditions and substrates — especially the presence of honeydew — which is a key nutrient source.\n\nWhile some sooty mould fungi can be isolated and grown in laboratory culture under controlled conditions, many cannot be cultivated easily or at all. This is partly due to their complex ecological niche and dependence on insect excretions for growth. Hence, it’s not universally possible to cultivate all sooty mould fungi in lab settings.\n\nTherefore, the most accurate answer among the options is:\n\nA. Some of the fungi can be grown in culture but not all\n\nAnswer: A"
+  },
+  {
+    "id": "validation_Agriculture_28",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "E",
+    "answer": "E",
+    "correct": true,
+    "retried": false,
+    "raw_output": "Mistletoe is a parasitic plant that attaches itself to host trees and draws water and nutrients from them. While it can provide some benefits, such as shade for the tree or attracting birds (which may help with seed dispersal), its primary impact is parasitic. It often causes stress to the host tree, reduces growth, and can lead to localized damage around the infection sites. In severe cases, it can weaken the tree significantly.\n\nLooking at the options:\n\nA. Incorrect — Mistletoe does not grow down into roots; it’s attached to branches.\n\nB. Partially true in some contexts, but misleading — while mistletoe might have minor benefits, it is not generally considered beneficial overall due to its parasitic nature.\n\nC. Incorrect — it does damage the tree by siphoning resources.\n\nD. Not appropriate — we can infer based on biological knowledge.\n\nE. Correct — it has a damaging impact, especially localized to the infected areas.\n\nThus, the most accurate answer is E.\n\nAnswer: E"
+  },
+  {
+    "id": "validation_Agriculture_29",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "D",
+    "answer": "D",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The symptom depicted in the image is characterized by plants that are drooping and appear wilted, with leaves hanging downward and stems losing rigidity. This is a classic sign of water stress or disease affecting plant hydration. While “drooped” and “collapsed” might describe the appearance, the most appropriate and scientifically accurate term for this condition — especially when referring to plants — is “wilt.” Wilt refers to the loss of turgor pressure in plant cells, causing them to lose rigidity and droop.\n\n“Flaccid” is also a possible descriptor, but it is more commonly used for soft, limp tissues (e.g., in animals or non-plant contexts), and not typically the standard term for plant symptoms in agricultural contexts. “Collapsed” is too vague and less precise. “Drooped” is descriptive but not technical enough.\n\nThus, “wilt” is the most appropriate terminology in this context.\n\nAnswer: D"
+  },
+  {
+    "id": "validation_Agriculture_30",
+    "subject": "Agriculture",
+    "is_mcq": true,
+    "predicted": "C",
+    "answer": "C",
+    "correct": true,
+    "retried": false,
+    "raw_output": "The absence of visible fungal fruiting bodies (such as spores, conidia, or basidia) in the affected area does not necessarily rule out a fungal infection. Many fungal pathogens cause disease without producing visible fruiting structures, especially in early stages or in cases where the pathogen is saprophytic or parasitic and its reproductive structures are not easily observable under standard microscopy.\n\nFungal pathogens can also be present in the form of hyphae or mycelium that do not produce fruiting bodies, or they may be latent or in a non-reproductive phase. In some cases, especially with plant pathogens, fruiting bodies may not develop if environmental conditions are unfavorable or if the host is already compromised.\n\nTherefore, the lack of visible fruiting bodies does not definitively indicate that the cause is not fungal — it could still be a fungal pathogen.\n\nAnswer: C"
+  }
+]
