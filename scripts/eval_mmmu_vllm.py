@@ -59,13 +59,6 @@ SUBJECTS = [
 OUT_DIR = ARGS.out_dir
 os.makedirs(OUT_DIR, exist_ok=True)
 
-
-# ---------- 프롬프트 ----------
-# 1차 실행: 답을 마지막 줄에 쓰게 하는 프롬프트 (MCQ, 개방형 공통).
-# 재시도: 1차에서 MCQ 답을 추출하지 못한 문제에 한해 답을 먼저 쓰게 하는 프롬프트를 사용한다.
-#   1차 결과를 검토하니 파싱 실패의 원인은 모델이 답을 몰라서가 아니라, 풀이를 길게 쓰다가
-#   MAX_NEW_TOKENS 안에 최종 답까지 도달하지 못한 것이었기 때문이다.
-
 def build_prompt_and_images(sample, answer_first=False):
     question_text = sample["question"]
     images_in_order = []
@@ -113,9 +106,6 @@ def build_prompt_and_images(sample, answer_first=False):
         )
     return prompt_text, images_in_order, letters, is_mcq
 
-
-# ---------- 답 추출 ----------
-
 def extract_mcq_answer(text, letters):
     if not letters:
         return None
@@ -133,9 +123,6 @@ def extract_open_answer(text):
     if matches:
         return matches[-1].strip().rstrip(".")
     return None
-
-
-# ---------- 개방형 채점 (MMMU 공식 eval_open 방식을 단순화하여 구현) ----------
 
 def normalize_str(s):
     s = str(s).strip()
@@ -172,9 +159,6 @@ def grade_open(gold, pred_text):
         if str(g).strip().lower() and str(g).strip().lower() in pred_text.strip().lower():
             return True
     return False
-
-
-# ---------- 데이터 로딩 / vLLM 입력 ----------
 
 def load_subject(subject):
     if os.path.isdir(ARGS.data_root):
@@ -245,7 +229,6 @@ def run_subject(subject, llm, processor, sampling_params):
         })
 
     # ----- 재시도: 답을 추출하지 못한 MCQ만 답-우선 프롬프트로 다시 실행 -----
-    # 정답(gold)은 보지 않는다. 재시도 대상은 오직 답 추출 실패(predicted is None) 여부로 정한다.
     retry_idx = [i for i, r in enumerate(records) if r["is_mcq"] and r["predicted"] is None]
     if retry_idx:
         retry_inputs = []
