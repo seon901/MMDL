@@ -1,6 +1,0 @@
-transformers @ git+https://github.com/huggingface/transformers
-accelerate
-datasets
-qwen-vl-utils
-pillow
-torch
