@@ -506,8 +506,9 @@
     "new per-item evaluation outputs"
   ],
   "server_supplement_needed": [
-    "/shared_dir/mmdl/checkpoints/expanded_lr_20261116_223345_306888/evaluate_expanded_dev.py",
-    "initial data preparation and selected training provenance/code not yet found in this PC collection"
+    "Initial candidate/group/pilot/ratio/text-replay dataset preparation scripts were not located as standalone source files in this archive.",
+    "Prepared data, images, provenance and fixed input manifests must be provided separately."
   ],
-  "prepared_before_remote_push": true
+  "prepared_before_remote_push": true,
+  "server_supplement_manifest": "results/server_source_manifest.json"
 }
