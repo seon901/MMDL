@@ -1,0 +1,269 @@
+{
+  "evaluation": "MMMU full Test",
+  "total": 10500,
+  "dataset_revision": "98e6ac0cb9b7b2cd2c991b85a50762edc4aedc68",
+  "models": {
+    "base": {
+      "correct": 5313,
+      "total": 10500,
+      "accuracy": 0.506,
+      "subject_macro_accuracy": 0.5337679325091403,
+      "subjects": {
+        "Accounting": {
+          "correct": 219,
+          "total": 380
+        },
+        "Agriculture": {
+          "correct": 142,
+          "total": 287
+        },
+        "Architecture_and_Engineering": {
+          "correct": 164,
+          "total": 551
+        },
+        "Art": {
+          "correct": 158,
+          "total": 231
+        },
+        "Art_Theory": {
+          "correct": 308,
+          "total": 429
+        },
+        "Basic_Medical_Science": {
+          "correct": 214,
+          "total": 326
+        },
+        "Biology": {
+          "correct": 165,
+          "total": 345
+        },
+        "Chemistry": {
+          "correct": 238,
+          "total": 603
+        },
+        "Clinical_Medicine": {
+          "correct": 175,
+          "total": 325
+        },
+        "Computer_Science": {
+          "correct": 197,
+          "total": 371
+        },
+        "Design": {
+          "correct": 127,
+          "total": 169
+        },
+        "Diagnostics_and_Laboratory_Medicine": {
+          "correct": 64,
+          "total": 162
+        },
+        "Economics": {
+          "correct": 179,
+          "total": 267
+        },
+        "Electronics": {
+          "correct": 55,
+          "total": 256
+        },
+        "Energy_and_Power": {
+          "correct": 170,
+          "total": 432
+        },
+        "Finance": {
+          "correct": 178,
+          "total": 355
+        },
+        "Geography": {
+          "correct": 252,
+          "total": 565
+        },
+        "History": {
+          "correct": 208,
+          "total": 278
+        },
+        "Literature": {
+          "correct": 93,
+          "total": 112
+        },
+        "Manage": {
+          "correct": 134,
+          "total": 245
+        },
+        "Marketing": {
+          "correct": 126,
+          "total": 181
+        },
+        "Materials": {
+          "correct": 138,
+          "total": 458
+        },
+        "Math": {
+          "correct": 194,
+          "total": 505
+        },
+        "Mechanical_Engineering": {
+          "correct": 127,
+          "total": 429
+        },
+        "Music": {
+          "correct": 106,
+          "total": 334
+        },
+        "Pharmacy": {
+          "correct": 259,
+          "total": 430
+        },
+        "Physics": {
+          "correct": 241,
+          "total": 408
+        },
+        "Psychology": {
+          "correct": 203,
+          "total": 305
+        },
+        "Public_Health": {
+          "correct": 304,
+          "total": 509
+        },
+        "Sociology": {
+          "correct": 175,
+          "total": 252
+        }
+      }
+    },
+    "R20": {
+      "correct": 5428,
+      "total": 10500,
+      "accuracy": 0.5169523809523809,
+      "subject_macro_accuracy": 0.5431146761552089,
+      "subjects": {
+        "Accounting": {
+          "correct": 240,
+          "total": 380
+        },
+        "Agriculture": {
+          "correct": 143,
+          "total": 287
+        },
+        "Architecture_and_Engineering": {
+          "correct": 164,
+          "total": 551
+        },
+        "Art": {
+          "correct": 167,
+          "total": 231
+        },
+        "Art_Theory": {
+          "correct": 292,
+          "total": 429
+        },
+        "Basic_Medical_Science": {
+          "correct": 204,
+          "total": 326
+        },
+        "Biology": {
+          "correct": 156,
+          "total": 345
+        },
+        "Chemistry": {
+          "correct": 249,
+          "total": 603
+        },
+        "Clinical_Medicine": {
+          "correct": 174,
+          "total": 325
+        },
+        "Computer_Science": {
+          "correct": 192,
+          "total": 371
+        },
+        "Design": {
+          "correct": 127,
+          "total": 169
+        },
+        "Diagnostics_and_Laboratory_Medicine": {
+          "correct": 66,
+          "total": 162
+        },
+        "Economics": {
+          "correct": 180,
+          "total": 267
+        },
+        "Electronics": {
+          "correct": 69,
+          "total": 256
+        },
+        "Energy_and_Power": {
+          "correct": 170,
+          "total": 432
+        },
+        "Finance": {
+          "correct": 176,
+          "total": 355
+        },
+        "Geography": {
+          "correct": 245,
+          "total": 565
+        },
+        "History": {
+          "correct": 210,
+          "total": 278
+        },
+        "Literature": {
+          "correct": 93,
+          "total": 112
+        },
+        "Manage": {
+          "correct": 129,
+          "total": 245
+        },
+        "Marketing": {
+          "correct": 122,
+          "total": 181
+        },
+        "Materials": {
+          "correct": 165,
+          "total": 458
+        },
+        "Math": {
+          "correct": 213,
+          "total": 505
+        },
+        "Mechanical_Engineering": {
+          "correct": 177,
+          "total": 429
+        },
+        "Music": {
+          "correct": 123,
+          "total": 334
+        },
+        "Pharmacy": {
+          "correct": 259,
+          "total": 430
+        },
+        "Physics": {
+          "correct": 246,
+          "total": 408
+        },
+        "Psychology": {
+          "correct": 210,
+          "total": 305
+        },
+        "Public_Health": {
+          "correct": 301,
+          "total": 509
+        },
+        "Sociology": {
+          "correct": 166,
+          "total": 252
+        }
+      }
+    }
+  },
+  "limitations": "Custom fixed MMMU grading, not an official leaderboard score. Full Test includes previously observed IDs. Remaining IDs have not undergone a complete image/text training overlap audit. Multiple candidates and a single training seed limit superiority claims. No probability-ensemble tuning uses these results.",
+  "known_image_input_omission": {
+    "affected_questions": 366,
+    "no_images_supplied": 271,
+    "corrected_reevaluation_in_this_archive": false
+  }
+}
