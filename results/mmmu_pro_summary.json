@@ -1,0 +1,2445 @@
+{
+  "결과": {
+    "standard": {
+      "base": {
+        "total": 1730,
+        "correct": 624,
+        "accuracy": 0.3606936416184971,
+        "parse_failures": 3,
+        "length_limit": 1,
+        "subjects": {
+          "History": {
+            "correct": 26,
+            "total": 56,
+            "accuracy": 0.4642857142857143
+          },
+          "Art": {
+            "correct": 31,
+            "total": 53,
+            "accuracy": 0.5849056603773585
+          },
+          "Design": {
+            "correct": 39,
+            "total": 60,
+            "accuracy": 0.65
+          },
+          "Literature": {
+            "correct": 33,
+            "total": 52,
+            "accuracy": 0.6346153846153846
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Sociology": {
+            "correct": 25,
+            "total": 54,
+            "accuracy": 0.46296296296296297
+          },
+          "Accounting": {
+            "correct": 15,
+            "total": 58,
+            "accuracy": 0.25862068965517243
+          },
+          "Energy_and_Power": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Pharmacy": {
+            "correct": 24,
+            "total": 57,
+            "accuracy": 0.42105263157894735
+          },
+          "Architecture_and_Engineering": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Clinical_Medicine": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Public_Health": {
+            "correct": 14,
+            "total": 58,
+            "accuracy": 0.2413793103448276
+          },
+          "Physics": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Art_Theory": {
+            "correct": 38,
+            "total": 55,
+            "accuracy": 0.6909090909090909
+          },
+          "Electronics": {
+            "correct": 27,
+            "total": 60,
+            "accuracy": 0.45
+          },
+          "Psychology": {
+            "correct": 26,
+            "total": 60,
+            "accuracy": 0.43333333333333335
+          },
+          "Biology": {
+            "correct": 24,
+            "total": 59,
+            "accuracy": 0.4067796610169492
+          },
+          "Manage": {
+            "correct": 11,
+            "total": 50,
+            "accuracy": 0.22
+          },
+          "Economics": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Mechanical_Engineering": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Basic_Medical_Science": {
+            "correct": 24,
+            "total": 52,
+            "accuracy": 0.46153846153846156
+          },
+          "Computer_Science": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Math": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Music": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Materials": {
+            "correct": 10,
+            "total": 60,
+            "accuracy": 0.16666666666666666
+          },
+          "Marketing": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Chemistry": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Geography": {
+            "correct": 25,
+            "total": 52,
+            "accuracy": 0.4807692307692308
+          }
+        },
+        "순정 대비": {
+          "회복": 0,
+          "퇴보": 0,
+          "순증가": 0,
+          "McNemar exact p": 1
+        },
+        "R20 대비": {
+          "회복": 86,
+          "퇴보": 104,
+          "순증가": -18,
+          "McNemar exact p": 0.2173561879393427
+        }
+      },
+      "A": {
+        "total": 1730,
+        "correct": 649,
+        "accuracy": 0.37514450867052024,
+        "parse_failures": 1,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 26,
+            "total": 56,
+            "accuracy": 0.4642857142857143
+          },
+          "Art": {
+            "correct": 31,
+            "total": 53,
+            "accuracy": 0.5849056603773585
+          },
+          "Design": {
+            "correct": 36,
+            "total": 60,
+            "accuracy": 0.6
+          },
+          "Literature": {
+            "correct": 37,
+            "total": 52,
+            "accuracy": 0.7115384615384616
+          },
+          "Agriculture": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Finance": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Sociology": {
+            "correct": 27,
+            "total": 54,
+            "accuracy": 0.5
+          },
+          "Accounting": {
+            "correct": 14,
+            "total": 58,
+            "accuracy": 0.2413793103448276
+          },
+          "Energy_and_Power": {
+            "correct": 12,
+            "total": 58,
+            "accuracy": 0.20689655172413793
+          },
+          "Pharmacy": {
+            "correct": 24,
+            "total": 57,
+            "accuracy": 0.42105263157894735
+          },
+          "Architecture_and_Engineering": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Clinical_Medicine": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Public_Health": {
+            "correct": 16,
+            "total": 58,
+            "accuracy": 0.27586206896551724
+          },
+          "Physics": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Art_Theory": {
+            "correct": 37,
+            "total": 55,
+            "accuracy": 0.6727272727272727
+          },
+          "Electronics": {
+            "correct": 34,
+            "total": 60,
+            "accuracy": 0.5666666666666667
+          },
+          "Psychology": {
+            "correct": 25,
+            "total": 60,
+            "accuracy": 0.4166666666666667
+          },
+          "Biology": {
+            "correct": 24,
+            "total": 59,
+            "accuracy": 0.4067796610169492
+          },
+          "Manage": {
+            "correct": 14,
+            "total": 50,
+            "accuracy": 0.28
+          },
+          "Economics": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Mechanical_Engineering": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Basic_Medical_Science": {
+            "correct": 24,
+            "total": 52,
+            "accuracy": 0.46153846153846156
+          },
+          "Computer_Science": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Math": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Music": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Materials": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Marketing": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Chemistry": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Geography": {
+            "correct": 27,
+            "total": 52,
+            "accuracy": 0.5192307692307693
+          }
+        },
+        "순정 대비": {
+          "회복": 116,
+          "퇴보": 91,
+          "순증가": 25,
+          "McNemar exact p": 0.09505503368014931
+        },
+        "R20 대비": {
+          "회복": 52,
+          "퇴보": 45,
+          "순증가": 7,
+          "McNemar exact p": 0.5426101580458746
+        }
+      },
+      "R20": {
+        "total": 1730,
+        "correct": 642,
+        "accuracy": 0.37109826589595374,
+        "parse_failures": 1,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 26,
+            "total": 56,
+            "accuracy": 0.4642857142857143
+          },
+          "Art": {
+            "correct": 30,
+            "total": 53,
+            "accuracy": 0.5660377358490566
+          },
+          "Design": {
+            "correct": 36,
+            "total": 60,
+            "accuracy": 0.6
+          },
+          "Literature": {
+            "correct": 36,
+            "total": 52,
+            "accuracy": 0.6923076923076923
+          },
+          "Agriculture": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Finance": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Sociology": {
+            "correct": 26,
+            "total": 54,
+            "accuracy": 0.48148148148148145
+          },
+          "Accounting": {
+            "correct": 14,
+            "total": 58,
+            "accuracy": 0.2413793103448276
+          },
+          "Energy_and_Power": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Pharmacy": {
+            "correct": 29,
+            "total": 57,
+            "accuracy": 0.5087719298245614
+          },
+          "Architecture_and_Engineering": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Clinical_Medicine": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Public_Health": {
+            "correct": 18,
+            "total": 58,
+            "accuracy": 0.3103448275862069
+          },
+          "Physics": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Art_Theory": {
+            "correct": 35,
+            "total": 55,
+            "accuracy": 0.6363636363636364
+          },
+          "Electronics": {
+            "correct": 35,
+            "total": 60,
+            "accuracy": 0.5833333333333334
+          },
+          "Psychology": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Biology": {
+            "correct": 22,
+            "total": 59,
+            "accuracy": 0.3728813559322034
+          },
+          "Manage": {
+            "correct": 11,
+            "total": 50,
+            "accuracy": 0.22
+          },
+          "Economics": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Mechanical_Engineering": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Basic_Medical_Science": {
+            "correct": 23,
+            "total": 52,
+            "accuracy": 0.4423076923076923
+          },
+          "Computer_Science": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Math": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Music": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Materials": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Marketing": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Chemistry": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Geography": {
+            "correct": 29,
+            "total": 52,
+            "accuracy": 0.5576923076923077
+          }
+        },
+        "순정 대비": {
+          "회복": 104,
+          "퇴보": 86,
+          "순증가": 18,
+          "McNemar exact p": 0.2173561879393427
+        },
+        "R20 대비": {
+          "회복": 0,
+          "퇴보": 0,
+          "순증가": 0,
+          "McNemar exact p": 1
+        }
+      },
+      "hard_answer": {
+        "total": 1730,
+        "correct": 637,
+        "accuracy": 0.36820809248554914,
+        "parse_failures": 3,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 24,
+            "total": 56,
+            "accuracy": 0.42857142857142855
+          },
+          "Art": {
+            "correct": 31,
+            "total": 53,
+            "accuracy": 0.5849056603773585
+          },
+          "Design": {
+            "correct": 37,
+            "total": 60,
+            "accuracy": 0.6166666666666667
+          },
+          "Literature": {
+            "correct": 36,
+            "total": 52,
+            "accuracy": 0.6923076923076923
+          },
+          "Agriculture": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Finance": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Sociology": {
+            "correct": 29,
+            "total": 54,
+            "accuracy": 0.5370370370370371
+          },
+          "Accounting": {
+            "correct": 13,
+            "total": 58,
+            "accuracy": 0.22413793103448276
+          },
+          "Energy_and_Power": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Pharmacy": {
+            "correct": 27,
+            "total": 57,
+            "accuracy": 0.47368421052631576
+          },
+          "Architecture_and_Engineering": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Clinical_Medicine": {
+            "correct": 15,
+            "total": 59,
+            "accuracy": 0.2542372881355932
+          },
+          "Public_Health": {
+            "correct": 14,
+            "total": 58,
+            "accuracy": 0.2413793103448276
+          },
+          "Physics": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Art_Theory": {
+            "correct": 35,
+            "total": 55,
+            "accuracy": 0.6363636363636364
+          },
+          "Electronics": {
+            "correct": 33,
+            "total": 60,
+            "accuracy": 0.55
+          },
+          "Psychology": {
+            "correct": 24,
+            "total": 60,
+            "accuracy": 0.4
+          },
+          "Biology": {
+            "correct": 23,
+            "total": 59,
+            "accuracy": 0.3898305084745763
+          },
+          "Manage": {
+            "correct": 10,
+            "total": 50,
+            "accuracy": 0.2
+          },
+          "Economics": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Mechanical_Engineering": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 24,
+            "total": 60,
+            "accuracy": 0.4
+          },
+          "Basic_Medical_Science": {
+            "correct": 24,
+            "total": 52,
+            "accuracy": 0.46153846153846156
+          },
+          "Computer_Science": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Math": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Music": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Materials": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Marketing": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Chemistry": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Geography": {
+            "correct": 27,
+            "total": 52,
+            "accuracy": 0.5192307692307693
+          }
+        },
+        "순정 대비": {
+          "회복": 110,
+          "퇴보": 97,
+          "순증가": 13,
+          "McNemar exact p": 0.4043073746901146
+        },
+        "R20 대비": {
+          "회복": 35,
+          "퇴보": 40,
+          "순증가": -5,
+          "McNemar exact p": 0.644463913894226
+        }
+      },
+      "hard_reasoning": {
+        "total": 1730,
+        "correct": 646,
+        "accuracy": 0.37341040462427744,
+        "parse_failures": 1,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 28,
+            "total": 56,
+            "accuracy": 0.5
+          },
+          "Art": {
+            "correct": 30,
+            "total": 53,
+            "accuracy": 0.5660377358490566
+          },
+          "Design": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333
+          },
+          "Literature": {
+            "correct": 36,
+            "total": 52,
+            "accuracy": 0.6923076923076923
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Sociology": {
+            "correct": 28,
+            "total": 54,
+            "accuracy": 0.5185185185185185
+          },
+          "Accounting": {
+            "correct": 13,
+            "total": 58,
+            "accuracy": 0.22413793103448276
+          },
+          "Energy_and_Power": {
+            "correct": 10,
+            "total": 58,
+            "accuracy": 0.1724137931034483
+          },
+          "Pharmacy": {
+            "correct": 28,
+            "total": 57,
+            "accuracy": 0.49122807017543857
+          },
+          "Architecture_and_Engineering": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Clinical_Medicine": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Public_Health": {
+            "correct": 19,
+            "total": 58,
+            "accuracy": 0.3275862068965517
+          },
+          "Physics": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Art_Theory": {
+            "correct": 36,
+            "total": 55,
+            "accuracy": 0.6545454545454545
+          },
+          "Electronics": {
+            "correct": 34,
+            "total": 60,
+            "accuracy": 0.5666666666666667
+          },
+          "Psychology": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Biology": {
+            "correct": 23,
+            "total": 59,
+            "accuracy": 0.3898305084745763
+          },
+          "Manage": {
+            "correct": 11,
+            "total": 50,
+            "accuracy": 0.22
+          },
+          "Economics": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Mechanical_Engineering": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Basic_Medical_Science": {
+            "correct": 24,
+            "total": 52,
+            "accuracy": 0.46153846153846156
+          },
+          "Computer_Science": {
+            "correct": 21,
+            "total": 60,
+            "accuracy": 0.35
+          },
+          "Math": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Music": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Materials": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Marketing": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Chemistry": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Geography": {
+            "correct": 27,
+            "total": 52,
+            "accuracy": 0.5192307692307693
+          }
+        },
+        "순정 대비": {
+          "회복": 113,
+          "퇴보": 91,
+          "순증가": 22,
+          "McNemar exact p": 0.1412935279054496
+        },
+        "R20 대비": {
+          "회복": 31,
+          "퇴보": 27,
+          "순증가": 4,
+          "McNemar exact p": 0.6940040940761316
+        }
+      },
+      "three_models": {
+        "total": 1730,
+        "correct": 652,
+        "accuracy": 0.376878612716763,
+        "parse_failures": 1,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 26,
+            "total": 56,
+            "accuracy": 0.4642857142857143
+          },
+          "Art": {
+            "correct": 31,
+            "total": 53,
+            "accuracy": 0.5849056603773585
+          },
+          "Design": {
+            "correct": 38,
+            "total": 60,
+            "accuracy": 0.6333333333333333
+          },
+          "Literature": {
+            "correct": 36,
+            "total": 52,
+            "accuracy": 0.6923076923076923
+          },
+          "Agriculture": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Finance": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Sociology": {
+            "correct": 27,
+            "total": 54,
+            "accuracy": 0.5
+          },
+          "Accounting": {
+            "correct": 15,
+            "total": 58,
+            "accuracy": 0.25862068965517243
+          },
+          "Energy_and_Power": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Pharmacy": {
+            "correct": 27,
+            "total": 57,
+            "accuracy": 0.47368421052631576
+          },
+          "Architecture_and_Engineering": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Clinical_Medicine": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Public_Health": {
+            "correct": 17,
+            "total": 58,
+            "accuracy": 0.29310344827586204
+          },
+          "Physics": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Art_Theory": {
+            "correct": 37,
+            "total": 55,
+            "accuracy": 0.6727272727272727
+          },
+          "Electronics": {
+            "correct": 34,
+            "total": 60,
+            "accuracy": 0.5666666666666667
+          },
+          "Psychology": {
+            "correct": 25,
+            "total": 60,
+            "accuracy": 0.4166666666666667
+          },
+          "Biology": {
+            "correct": 24,
+            "total": 59,
+            "accuracy": 0.4067796610169492
+          },
+          "Manage": {
+            "correct": 12,
+            "total": 50,
+            "accuracy": 0.24
+          },
+          "Economics": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Mechanical_Engineering": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Basic_Medical_Science": {
+            "correct": 23,
+            "total": 52,
+            "accuracy": 0.4423076923076923
+          },
+          "Computer_Science": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Math": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Music": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Materials": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Marketing": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Chemistry": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Geography": {
+            "correct": 29,
+            "total": 52,
+            "accuracy": 0.5576923076923077
+          }
+        },
+        "순정 대비": {
+          "회복": 95,
+          "퇴보": 67,
+          "순증가": 28,
+          "McNemar exact p": 0.0335722521201641
+        },
+        "R20 대비": {
+          "회복": 19,
+          "퇴보": 9,
+          "순증가": 10,
+          "McNemar exact p": 0.08715855330228806
+        }
+      },
+      "five_models": {
+        "total": 1730,
+        "correct": 648,
+        "accuracy": 0.3745664739884393,
+        "parse_failures": 1,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 26,
+            "total": 56,
+            "accuracy": 0.4642857142857143
+          },
+          "Art": {
+            "correct": 31,
+            "total": 53,
+            "accuracy": 0.5849056603773585
+          },
+          "Design": {
+            "correct": 37,
+            "total": 60,
+            "accuracy": 0.6166666666666667
+          },
+          "Literature": {
+            "correct": 36,
+            "total": 52,
+            "accuracy": 0.6923076923076923
+          },
+          "Agriculture": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Finance": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Sociology": {
+            "correct": 27,
+            "total": 54,
+            "accuracy": 0.5
+          },
+          "Accounting": {
+            "correct": 15,
+            "total": 58,
+            "accuracy": 0.25862068965517243
+          },
+          "Energy_and_Power": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Pharmacy": {
+            "correct": 29,
+            "total": 57,
+            "accuracy": 0.5087719298245614
+          },
+          "Architecture_and_Engineering": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Clinical_Medicine": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Public_Health": {
+            "correct": 17,
+            "total": 58,
+            "accuracy": 0.29310344827586204
+          },
+          "Physics": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Art_Theory": {
+            "correct": 35,
+            "total": 55,
+            "accuracy": 0.6363636363636364
+          },
+          "Electronics": {
+            "correct": 34,
+            "total": 60,
+            "accuracy": 0.5666666666666667
+          },
+          "Psychology": {
+            "correct": 24,
+            "total": 60,
+            "accuracy": 0.4
+          },
+          "Biology": {
+            "correct": 22,
+            "total": 59,
+            "accuracy": 0.3728813559322034
+          },
+          "Manage": {
+            "correct": 11,
+            "total": 50,
+            "accuracy": 0.22
+          },
+          "Economics": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Mechanical_Engineering": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Basic_Medical_Science": {
+            "correct": 23,
+            "total": 52,
+            "accuracy": 0.4423076923076923
+          },
+          "Computer_Science": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Math": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Music": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Materials": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Marketing": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Chemistry": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Geography": {
+            "correct": 28,
+            "total": 52,
+            "accuracy": 0.5384615384615384
+          }
+        },
+        "순정 대비": {
+          "회복": 101,
+          "퇴보": 77,
+          "순증가": 24,
+          "McNemar exact p": 0.084433962478974
+        },
+        "R20 대비": {
+          "회복": 14,
+          "퇴보": 8,
+          "순증가": 6,
+          "McNemar exact p": 0.28627872467041016
+        }
+      }
+    },
+    "vision": {
+      "base": {
+        "total": 1730,
+        "correct": 496,
+        "accuracy": 0.28670520231213875,
+        "parse_failures": 8,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 19,
+            "total": 56,
+            "accuracy": 0.3392857142857143
+          },
+          "Art": {
+            "correct": 25,
+            "total": 53,
+            "accuracy": 0.4716981132075472
+          },
+          "Design": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 8,
+            "total": 60,
+            "accuracy": 0.13333333333333333
+          },
+          "Sociology": {
+            "correct": 24,
+            "total": 54,
+            "accuracy": 0.4444444444444444
+          },
+          "Accounting": {
+            "correct": 8,
+            "total": 58,
+            "accuracy": 0.13793103448275862
+          },
+          "Energy_and_Power": {
+            "correct": 9,
+            "total": 58,
+            "accuracy": 0.15517241379310345
+          },
+          "Pharmacy": {
+            "correct": 25,
+            "total": 57,
+            "accuracy": 0.43859649122807015
+          },
+          "Architecture_and_Engineering": {
+            "correct": 10,
+            "total": 60,
+            "accuracy": 0.16666666666666666
+          },
+          "Clinical_Medicine": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Public_Health": {
+            "correct": 13,
+            "total": 58,
+            "accuracy": 0.22413793103448276
+          },
+          "Physics": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Art_Theory": {
+            "correct": 27,
+            "total": 55,
+            "accuracy": 0.4909090909090909
+          },
+          "Electronics": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Psychology": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Biology": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Manage": {
+            "correct": 14,
+            "total": 50,
+            "accuracy": 0.28
+          },
+          "Economics": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Mechanical_Engineering": {
+            "correct": 8,
+            "total": 59,
+            "accuracy": 0.13559322033898305
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Basic_Medical_Science": {
+            "correct": 18,
+            "total": 52,
+            "accuracy": 0.34615384615384615
+          },
+          "Computer_Science": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Math": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Music": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Materials": {
+            "correct": 10,
+            "total": 60,
+            "accuracy": 0.16666666666666666
+          },
+          "Marketing": {
+            "correct": 15,
+            "total": 59,
+            "accuracy": 0.2542372881355932
+          },
+          "Chemistry": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Geography": {
+            "correct": 16,
+            "total": 52,
+            "accuracy": 0.3076923076923077
+          }
+        },
+        "순정 대비": {
+          "회복": 0,
+          "퇴보": 0,
+          "순증가": 0,
+          "McNemar exact p": 1
+        },
+        "R20 대비": {
+          "회복": 82,
+          "퇴보": 100,
+          "순증가": -18,
+          "McNemar exact p": 0.2075033970186372
+        }
+      },
+      "A": {
+        "total": 1730,
+        "correct": 542,
+        "accuracy": 0.3132947976878613,
+        "parse_failures": 5,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 22,
+            "total": 56,
+            "accuracy": 0.39285714285714285
+          },
+          "Art": {
+            "correct": 23,
+            "total": 53,
+            "accuracy": 0.4339622641509434
+          },
+          "Design": {
+            "correct": 26,
+            "total": 60,
+            "accuracy": 0.43333333333333335
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Sociology": {
+            "correct": 24,
+            "total": 54,
+            "accuracy": 0.4444444444444444
+          },
+          "Accounting": {
+            "correct": 10,
+            "total": 58,
+            "accuracy": 0.1724137931034483
+          },
+          "Energy_and_Power": {
+            "correct": 8,
+            "total": 58,
+            "accuracy": 0.13793103448275862
+          },
+          "Pharmacy": {
+            "correct": 21,
+            "total": 57,
+            "accuracy": 0.3684210526315789
+          },
+          "Architecture_and_Engineering": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Clinical_Medicine": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Public_Health": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Physics": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Art_Theory": {
+            "correct": 30,
+            "total": 55,
+            "accuracy": 0.5454545454545454
+          },
+          "Electronics": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Psychology": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Biology": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Manage": {
+            "correct": 13,
+            "total": 50,
+            "accuracy": 0.26
+          },
+          "Economics": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Mechanical_Engineering": {
+            "correct": 13,
+            "total": 59,
+            "accuracy": 0.22033898305084745
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Basic_Medical_Science": {
+            "correct": 21,
+            "total": 52,
+            "accuracy": 0.40384615384615385
+          },
+          "Computer_Science": {
+            "correct": 24,
+            "total": 60,
+            "accuracy": 0.4
+          },
+          "Math": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Music": {
+            "correct": 10,
+            "total": 60,
+            "accuracy": 0.16666666666666666
+          },
+          "Materials": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Marketing": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Chemistry": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Geography": {
+            "correct": 17,
+            "total": 52,
+            "accuracy": 0.3269230769230769
+          }
+        },
+        "순정 대비": {
+          "회복": 117,
+          "퇴보": 71,
+          "순증가": 46,
+          "McNemar exact p": 0.0009790560536514462
+        },
+        "R20 대비": {
+          "회복": 85,
+          "퇴보": 57,
+          "순증가": 28,
+          "McNemar exact p": 0.023125726989789184
+        }
+      },
+      "R20": {
+        "total": 1730,
+        "correct": 514,
+        "accuracy": 0.2971098265895954,
+        "parse_failures": 5,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 20,
+            "total": 56,
+            "accuracy": 0.35714285714285715
+          },
+          "Art": {
+            "correct": 22,
+            "total": 53,
+            "accuracy": 0.41509433962264153
+          },
+          "Design": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Finance": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Sociology": {
+            "correct": 24,
+            "total": 54,
+            "accuracy": 0.4444444444444444
+          },
+          "Accounting": {
+            "correct": 9,
+            "total": 58,
+            "accuracy": 0.15517241379310345
+          },
+          "Energy_and_Power": {
+            "correct": 7,
+            "total": 58,
+            "accuracy": 0.1206896551724138
+          },
+          "Pharmacy": {
+            "correct": 22,
+            "total": 57,
+            "accuracy": 0.38596491228070173
+          },
+          "Architecture_and_Engineering": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Clinical_Medicine": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Public_Health": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Physics": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Art_Theory": {
+            "correct": 29,
+            "total": 55,
+            "accuracy": 0.5272727272727272
+          },
+          "Electronics": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Psychology": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Biology": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Manage": {
+            "correct": 14,
+            "total": 50,
+            "accuracy": 0.28
+          },
+          "Economics": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Mechanical_Engineering": {
+            "correct": 12,
+            "total": 59,
+            "accuracy": 0.2033898305084746
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Basic_Medical_Science": {
+            "correct": 19,
+            "total": 52,
+            "accuracy": 0.36538461538461536
+          },
+          "Computer_Science": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Math": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Music": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Materials": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Marketing": {
+            "correct": 15,
+            "total": 59,
+            "accuracy": 0.2542372881355932
+          },
+          "Chemistry": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Geography": {
+            "correct": 15,
+            "total": 52,
+            "accuracy": 0.28846153846153844
+          }
+        },
+        "순정 대비": {
+          "회복": 100,
+          "퇴보": 82,
+          "순증가": 18,
+          "McNemar exact p": 0.2075033970186372
+        },
+        "R20 대비": {
+          "회복": 0,
+          "퇴보": 0,
+          "순증가": 0,
+          "McNemar exact p": 1
+        }
+      },
+      "hard_answer": {
+        "total": 1730,
+        "correct": 520,
+        "accuracy": 0.30057803468208094,
+        "parse_failures": 12,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 21,
+            "total": 56,
+            "accuracy": 0.375
+          },
+          "Art": {
+            "correct": 24,
+            "total": 53,
+            "accuracy": 0.4528301886792453
+          },
+          "Design": {
+            "correct": 21,
+            "total": 60,
+            "accuracy": 0.35
+          },
+          "Literature": {
+            "correct": 35,
+            "total": 52,
+            "accuracy": 0.6730769230769231
+          },
+          "Agriculture": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Finance": {
+            "correct": 10,
+            "total": 60,
+            "accuracy": 0.16666666666666666
+          },
+          "Sociology": {
+            "correct": 23,
+            "total": 54,
+            "accuracy": 0.42592592592592593
+          },
+          "Accounting": {
+            "correct": 9,
+            "total": 58,
+            "accuracy": 0.15517241379310345
+          },
+          "Energy_and_Power": {
+            "correct": 7,
+            "total": 58,
+            "accuracy": 0.1206896551724138
+          },
+          "Pharmacy": {
+            "correct": 23,
+            "total": 57,
+            "accuracy": 0.40350877192982454
+          },
+          "Architecture_and_Engineering": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Clinical_Medicine": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Public_Health": {
+            "correct": 13,
+            "total": 58,
+            "accuracy": 0.22413793103448276
+          },
+          "Physics": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Art_Theory": {
+            "correct": 30,
+            "total": 55,
+            "accuracy": 0.5454545454545454
+          },
+          "Electronics": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Psychology": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Biology": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Manage": {
+            "correct": 11,
+            "total": 50,
+            "accuracy": 0.22
+          },
+          "Economics": {
+            "correct": 15,
+            "total": 59,
+            "accuracy": 0.2542372881355932
+          },
+          "Mechanical_Engineering": {
+            "correct": 12,
+            "total": 59,
+            "accuracy": 0.2033898305084746
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 21,
+            "total": 60,
+            "accuracy": 0.35
+          },
+          "Basic_Medical_Science": {
+            "correct": 20,
+            "total": 52,
+            "accuracy": 0.38461538461538464
+          },
+          "Computer_Science": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Math": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Music": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Materials": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Marketing": {
+            "correct": 15,
+            "total": 59,
+            "accuracy": 0.2542372881355932
+          },
+          "Chemistry": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Geography": {
+            "correct": 15,
+            "total": 52,
+            "accuracy": 0.28846153846153844
+          }
+        },
+        "순정 대비": {
+          "회복": 106,
+          "퇴보": 82,
+          "순증가": 24,
+          "McNemar exact p": 0.09319121392242548
+        },
+        "R20 대비": {
+          "회복": 54,
+          "퇴보": 48,
+          "순증가": 6,
+          "McNemar exact p": 0.6207676687971156
+        }
+      },
+      "hard_reasoning": {
+        "total": 1730,
+        "correct": 537,
+        "accuracy": 0.31040462427745663,
+        "parse_failures": 11,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 20,
+            "total": 56,
+            "accuracy": 0.35714285714285715
+          },
+          "Art": {
+            "correct": 23,
+            "total": 53,
+            "accuracy": 0.4339622641509434
+          },
+          "Design": {
+            "correct": 23,
+            "total": 60,
+            "accuracy": 0.38333333333333336
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Sociology": {
+            "correct": 26,
+            "total": 54,
+            "accuracy": 0.48148148148148145
+          },
+          "Accounting": {
+            "correct": 9,
+            "total": 58,
+            "accuracy": 0.15517241379310345
+          },
+          "Energy_and_Power": {
+            "correct": 8,
+            "total": 58,
+            "accuracy": 0.13793103448275862
+          },
+          "Pharmacy": {
+            "correct": 21,
+            "total": 57,
+            "accuracy": 0.3684210526315789
+          },
+          "Architecture_and_Engineering": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Clinical_Medicine": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Public_Health": {
+            "correct": 13,
+            "total": 58,
+            "accuracy": 0.22413793103448276
+          },
+          "Physics": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Art_Theory": {
+            "correct": 30,
+            "total": 55,
+            "accuracy": 0.5454545454545454
+          },
+          "Electronics": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Psychology": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Biology": {
+            "correct": 21,
+            "total": 59,
+            "accuracy": 0.3559322033898305
+          },
+          "Manage": {
+            "correct": 13,
+            "total": 50,
+            "accuracy": 0.26
+          },
+          "Economics": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Mechanical_Engineering": {
+            "correct": 12,
+            "total": 59,
+            "accuracy": 0.2033898305084746
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Basic_Medical_Science": {
+            "correct": 18,
+            "total": 52,
+            "accuracy": 0.34615384615384615
+          },
+          "Computer_Science": {
+            "correct": 25,
+            "total": 60,
+            "accuracy": 0.4166666666666667
+          },
+          "Math": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Music": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Materials": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Marketing": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Chemistry": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Geography": {
+            "correct": 17,
+            "total": 52,
+            "accuracy": 0.3269230769230769
+          }
+        },
+        "순정 대비": {
+          "회복": 133,
+          "퇴보": 92,
+          "순증가": 41,
+          "McNemar exact p": 0.0075227959921351124
+        },
+        "R20 대비": {
+          "회복": 53,
+          "퇴보": 30,
+          "순증가": 23,
+          "McNemar exact p": 0.015232201861994659
+        }
+      },
+      "three_models": {
+        "total": 1730,
+        "correct": 518,
+        "accuracy": 0.2994219653179191,
+        "parse_failures": 5,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 20,
+            "total": 56,
+            "accuracy": 0.35714285714285715
+          },
+          "Art": {
+            "correct": 23,
+            "total": 53,
+            "accuracy": 0.4339622641509434
+          },
+          "Design": {
+            "correct": 22,
+            "total": 60,
+            "accuracy": 0.36666666666666664
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Finance": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Sociology": {
+            "correct": 24,
+            "total": 54,
+            "accuracy": 0.4444444444444444
+          },
+          "Accounting": {
+            "correct": 8,
+            "total": 58,
+            "accuracy": 0.13793103448275862
+          },
+          "Energy_and_Power": {
+            "correct": 7,
+            "total": 58,
+            "accuracy": 0.1206896551724138
+          },
+          "Pharmacy": {
+            "correct": 23,
+            "total": 57,
+            "accuracy": 0.40350877192982454
+          },
+          "Architecture_and_Engineering": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Clinical_Medicine": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Public_Health": {
+            "correct": 11,
+            "total": 58,
+            "accuracy": 0.1896551724137931
+          },
+          "Physics": {
+            "correct": 15,
+            "total": 60,
+            "accuracy": 0.25
+          },
+          "Art_Theory": {
+            "correct": 29,
+            "total": 55,
+            "accuracy": 0.5272727272727272
+          },
+          "Electronics": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Psychology": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Biology": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Manage": {
+            "correct": 13,
+            "total": 50,
+            "accuracy": 0.26
+          },
+          "Economics": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Mechanical_Engineering": {
+            "correct": 12,
+            "total": 59,
+            "accuracy": 0.2033898305084746
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Basic_Medical_Science": {
+            "correct": 19,
+            "total": 52,
+            "accuracy": 0.36538461538461536
+          },
+          "Computer_Science": {
+            "correct": 24,
+            "total": 60,
+            "accuracy": 0.4
+          },
+          "Math": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Music": {
+            "correct": 9,
+            "total": 60,
+            "accuracy": 0.15
+          },
+          "Materials": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Marketing": {
+            "correct": 16,
+            "total": 59,
+            "accuracy": 0.2711864406779661
+          },
+          "Chemistry": {
+            "correct": 19,
+            "total": 60,
+            "accuracy": 0.31666666666666665
+          },
+          "Geography": {
+            "correct": 15,
+            "total": 52,
+            "accuracy": 0.28846153846153844
+          }
+        },
+        "순정 대비": {
+          "회복": 74,
+          "퇴보": 52,
+          "순증가": 22,
+          "McNemar exact p": 0.06093825261566013
+        },
+        "R20 대비": {
+          "회복": 30,
+          "퇴보": 26,
+          "순증가": 4,
+          "McNemar exact p": 0.6888797607233396
+        }
+      },
+      "five_models": {
+        "total": 1730,
+        "correct": 522,
+        "accuracy": 0.3017341040462428,
+        "parse_failures": 5,
+        "length_limit": 0,
+        "subjects": {
+          "History": {
+            "correct": 20,
+            "total": 56,
+            "accuracy": 0.35714285714285715
+          },
+          "Art": {
+            "correct": 24,
+            "total": 53,
+            "accuracy": 0.4528301886792453
+          },
+          "Design": {
+            "correct": 21,
+            "total": 60,
+            "accuracy": 0.35
+          },
+          "Literature": {
+            "correct": 34,
+            "total": 52,
+            "accuracy": 0.6538461538461539
+          },
+          "Agriculture": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Finance": {
+            "correct": 11,
+            "total": 60,
+            "accuracy": 0.18333333333333332
+          },
+          "Sociology": {
+            "correct": 24,
+            "total": 54,
+            "accuracy": 0.4444444444444444
+          },
+          "Accounting": {
+            "correct": 8,
+            "total": 58,
+            "accuracy": 0.13793103448275862
+          },
+          "Energy_and_Power": {
+            "correct": 7,
+            "total": 58,
+            "accuracy": 0.1206896551724138
+          },
+          "Pharmacy": {
+            "correct": 22,
+            "total": 57,
+            "accuracy": 0.38596491228070173
+          },
+          "Architecture_and_Engineering": {
+            "correct": 12,
+            "total": 60,
+            "accuracy": 0.2
+          },
+          "Clinical_Medicine": {
+            "correct": 19,
+            "total": 59,
+            "accuracy": 0.3220338983050847
+          },
+          "Public_Health": {
+            "correct": 12,
+            "total": 58,
+            "accuracy": 0.20689655172413793
+          },
+          "Physics": {
+            "correct": 13,
+            "total": 60,
+            "accuracy": 0.21666666666666667
+          },
+          "Art_Theory": {
+            "correct": 30,
+            "total": 55,
+            "accuracy": 0.5454545454545454
+          },
+          "Electronics": {
+            "correct": 17,
+            "total": 60,
+            "accuracy": 0.2833333333333333
+          },
+          "Psychology": {
+            "correct": 20,
+            "total": 60,
+            "accuracy": 0.3333333333333333
+          },
+          "Biology": {
+            "correct": 20,
+            "total": 59,
+            "accuracy": 0.3389830508474576
+          },
+          "Manage": {
+            "correct": 13,
+            "total": 50,
+            "accuracy": 0.26
+          },
+          "Economics": {
+            "correct": 18,
+            "total": 59,
+            "accuracy": 0.3050847457627119
+          },
+          "Mechanical_Engineering": {
+            "correct": 10,
+            "total": 59,
+            "accuracy": 0.1694915254237288
+          },
+          "Diagnostics_and_Laboratory_Medicine": {
+            "correct": 18,
+            "total": 60,
+            "accuracy": 0.3
+          },
+          "Basic_Medical_Science": {
+            "correct": 19,
+            "total": 52,
+            "accuracy": 0.36538461538461536
+          },
+          "Computer_Science": {
+            "correct": 25,
+            "total": 60,
+            "accuracy": 0.4166666666666667
+          },
+          "Math": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Music": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Materials": {
+            "correct": 14,
+            "total": 60,
+            "accuracy": 0.23333333333333334
+          },
+          "Marketing": {
+            "correct": 17,
+            "total": 59,
+            "accuracy": 0.288135593220339
+          },
+          "Chemistry": {
+            "correct": 16,
+            "total": 60,
+            "accuracy": 0.26666666666666666
+          },
+          "Geography": {
+            "correct": 16,
+            "total": 52,
+            "accuracy": 0.3076923076923077
+          }
+        },
+        "순정 대비": {
+          "회복": 98,
+          "퇴보": 72,
+          "순증가": 26,
+          "McNemar exact p": 0.05486518238547418
+        },
+        "R20 대비": {
+          "회복": 24,
+          "퇴보": 16,
+          "순증가": 8,
+          "McNemar exact p": 0.26818725105476915
+        }
+      }
+    }
+  },
+  "protocol": {
+    "name": "MMMU-Pro local direct evaluation v1",
+    "revision": "0d7426df4ccb3d8704a992fe6850abee7c262127",
+    "settings": {
+      "standard": "standard (10 options)",
+      "vision": "vision"
+    },
+    "expected_rows_each": 1730,
+    "instruction": "Choose the correct option. Respond with only one line: Answer: X, replacing X with its option letter.",
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 3407,
+    "min_pixels": 200704,
+    "max_pixels": 802816,
+    "max_model_len": 16384,
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 2048,
+    "standard_images": "Each referenced image is shown once with a Figure label. Question and option references use the same labels.",
+    "vision_input": "Screenshot and shared instruction only. Option text and gold answers are never included separately in the model input.",
+    "grading": "Uniform audited letter parser: last explicit Answer line, or a response-leading valid letter with optional option text. No search for arbitrary letters in free explanation, no random fallback and no retry. Same parser for all five models; saved base/R20 outputs are reparsed without regeneration.",
+    "limitations": "Separate local protocol, not an official leaderboard score. Training overlap with the full MMMU-Pro set has not been exhaustively excluded. No selection of models or prompts using these scores.",
+    "grading_source_sha256": "9a28a7759f339cef2ee077d5926de99538c6b879ce1668d433c1ea1c058038e4",
+    "original_validation_evaluator_sha256": "0089184bc12014333652abf69abb766fceeb1f6a11e4f1792cb7826bcb2479b8",
+    "reference_runner_sha256": "210fec63eca8e36ddab0de980368e6832d0ff9f9e5aeeeee4533b7f3ed888d8c",
+    "voting_code_sha256": "d46c67918648558e038038f976777df69cdcd46e0c850d65f1ba449fd606cd22",
+    "reuse": "Original base and R20 raw generation outputs are reused. Only A, hard_answer and hard_reasoning require new inference.",
+    "interpretation": "Supplementary comparison on already observed MMMU-Pro. This is separate from the independent-900 result, not another untouched holdout.",
+    "evaluator_sha256": "9a28a7759f339cef2ee077d5926de99538c6b879ce1668d433c1ea1c058038e4",
+    "reference_manifest_sha256": "ce4760f94839c6ba9798e9f972904a039e4a7aa967100d99bd22ab2e346c1f18",
+    "model_paths": {
+      "base": "/home/user/.cache/huggingface/hub/models--Qwen--Qwen3-VL-4B-Instruct/snapshots/ebb281ec70b05090aa6165b016eac8ec08e71b17",
+      "A": "/mnt/c/Users/K/Desktop/MMDL/merged_models/recipe_a_lr_2e-4_step500_20261116_232956_544892",
+      "R20": "/mnt/c/Users/K/Desktop/MMDL/merged_models/mmmu_candidates_20261120_004215_155629/R20",
+      "hard_answer": "/mnt/c/Users/K/Desktop/MMDL/merged_models/mmmu_hard_20261121_043545_392882/hard_answer",
+      "hard_reasoning": "/mnt/c/Users/K/Desktop/MMDL/merged_models/mmmu_hard_20261121_043545_392882/hard_reasoning"
+    },
+    "R20_merge_record_sha256": "5dda3c1c442e7d2e8f0c9d5ca0ecddb7da50a3d3071365e58a238bbeba112d2c"
+  },
+  "주의": "기존 Pro 출력은 보존했습니다. 전 모델에 같은 답 추출 규칙을 적용한 추가 비교입니다. 독립 900문항과 구분하며 전체 MMMU Test 점수로 표시하지 않습니다."
+}

@@ -1,3 +1,5 @@
+> 과제 1 당시의 기록입니다. 현재 코드 경로와 실행 안내는 루트 README.md를 따릅니다.
+
 # MMMU-val Baseline Evaluation Report — Qwen3-VL-4B-Instruct
 
 - **팀명**: 3조(밥메이트)
